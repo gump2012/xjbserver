@@ -3,7 +3,6 @@
  */
 
 function start(response,request){
-    console.log("Request handler 'start' was called.");
 
     response.writeHead(200,{"Content-Type":"text/html"});
     response.write("hello");
