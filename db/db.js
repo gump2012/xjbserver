@@ -10,15 +10,18 @@ function start(){
 
     db.on('error',console.error.bind(console,'connection erro:'));
     db.once('open',function callback(){
-        console.log('db open success!');
+        console.log('db is open success!');
 
         var userSchema = new mongoose.Schema({
             mail:String
             ,ps :String
         });
 
-        var user = mongoose.model('user',userSchema);
+        var bookuser = mongoose.model('user',userSchema);
 
+        db.exports = {
+            bookuser:bookuser
+        }
     });
 };
 

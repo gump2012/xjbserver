@@ -1,6 +1,9 @@
 /**
  * Created by gump on 2/20/14.
  */
+
+var bookuser = require("../../db/db").bookuser;
+
 function bookLogin(response,request){
     console.log("Request handler 'book Login' was called.");
 

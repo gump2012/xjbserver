@@ -14,5 +14,5 @@ handle["/start"] = requestHandlers.start;
 handle["/book/login"] = bookLoginHandlers.bookLogin;
 handle["/book/register"] = bookLoginHandlers.bookRegister;
 
-server.start(router.route,handle);
 db.start();
+server.start(router.route,handle);
