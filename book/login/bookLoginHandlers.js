@@ -23,8 +23,29 @@ function bookRegister(response,request){
 
     request.addListener('end', function() {
         var datajson = JSON.parse(requestData);
-        postData = requestData;
         console.log(datajson.mail,datajson.ps);
+
+        bookuser.find({mail:datajson.mail},function(err,buser){
+            if(buser.length > 0)
+            {
+                postData = JSON.stringify({register:'0'});
+            }
+            else
+            {
+                var newuser = new buser( {mail:datajson.mail},{ ps : datajson.ps} );
+
+                //保存实例
+                newuser.save( function( err, silence ) {
+                    if( err )
+                    {
+                        console.log(err);
+                    }
+                });
+
+                postData = JSON.stringify({register:'1'});
+            }
+        });
+
     });
 
 

@@ -2,7 +2,7 @@
  * Created by lishiming on 3/3/14.
  */
 var mongoose = require('mongoose');
-
+var bookuser;
 function start(){
     var mongodb = mongoose.connect('mongodb://localhost:27017');
 
@@ -17,12 +17,9 @@ function start(){
             ,ps :String
         });
 
-        var bookuser = mongoose.model('user',userSchema);
-
-        db.exports = {
-            bookuser:bookuser
-        }
+        bookuser = mongoose.model('user',userSchema);
     });
 };
 
 exports.start = start;
+exports.bookuser = bookuser;
