@@ -33,15 +33,15 @@ function bookRegister(response,request){
             }
             else
             {
-//                var newuser = new buser( {mail:datajson.mail},{ ps : datajson.ps} );
-//
-//                //保存实例
-//                newuser.save( function( err, silence ) {
-//                    if( err )
-//                    {
-//                        console.log(err);
-//                    }
-//                });
+                var newuser = new bookuser( {mail:datajson.mail},{ ps : datajson.ps} );
+
+                //保存实例
+                newuser.save( function( err, silence ) {
+                    if( err )
+                    {
+                        console.log(err);
+                    }
+                });
 
                 postData = JSON.stringify({register:'1'});
             }

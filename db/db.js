@@ -10,10 +10,9 @@ function start(){
     db.on('error',console.error.bind(console,'connection erro:'));
     db.once('open',function callback(){
         console.log('db is open success!');
-
         var userSchema = new mongoose.Schema({
-            mail:String
-            ,ps :String
+            mail :String
+            ,ps   :String
         });
 
         mongoose.model('user',userSchema);
