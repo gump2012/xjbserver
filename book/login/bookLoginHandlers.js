@@ -5,10 +5,43 @@
 var mongoose = require('mongoose');
 
 function bookLogin(response,request){
+    request.setEncoding('utf8');
 
-    response.writeHead(200,{"Content-Type":"text/html"});
-    response.write("book Login");
-    response.end();
+    var requestData = '';
+    request.addListener('data', function(postDataChunk) {
+        requestData += postDataChunk;
+    });
+
+    request.addListener('end', function() {
+        var datajson = JSON.parse(requestData);
+        console.log(datajson.mail,datajson.ps);
+        var postData = '';
+        var bookuser = mongoose.model('user');
+        bookuser.find({mail:datajson.mail},function(err,buser){
+            if(buser.length > 0)
+            {
+                var dbuser = buser[0];
+                if(dbuser.ps == datajson.ps)
+                {
+                    postData = JSON.stringify({register:'1'});
+                }
+                else
+                {
+                    postData = JSON.stringify({register:'2'});
+                }
+
+            }
+            else
+            {
+                postData = JSON.stringify({register:'0'});
+            }
+
+            response.writeHead(200,{"Content-Type":"text/html"});
+            response.write(postData);
+            console.log(postData);
+            response.end();
+        });
+    });
 }
 
 function bookRegister(response,request){
