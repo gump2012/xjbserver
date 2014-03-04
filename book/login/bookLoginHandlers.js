@@ -23,17 +23,17 @@ function bookLogin(response,request){
                 var dbuser = buser[0];
                 if(dbuser.ps == datajson.ps)
                 {
-                    postData = JSON.stringify({register:'1'});
+                    postData = JSON.stringify({booklogin:'1'});
                 }
                 else
                 {
-                    postData = JSON.stringify({register:'2'});
+                    postData = JSON.stringify({booklogin:'2'});
                 }
 
             }
             else
             {
-                postData = JSON.stringify({register:'0'});
+                postData = JSON.stringify({booklogin:'0'});
             }
 
             response.writeHead(200,{"Content-Type":"text/html"});
