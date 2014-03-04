@@ -19,8 +19,6 @@ function bookRegister(response,request){
         requestData += postDataChunk;
     });
 
-
-
     request.addListener('end', function() {
         var datajson = JSON.parse(requestData);
         console.log(datajson.mail,datajson.ps);
@@ -33,7 +31,7 @@ function bookRegister(response,request){
             }
             else
             {
-                var newuser = new bookuser( {mail:datajson.mail},{ ps : datajson.ps} );
+                var newuser = new bookuser({mail:datajson.mail, ps:datajson.ps});
 
                 //保存实例
                 newuser.save( function( err, silence ) {
@@ -51,11 +49,7 @@ function bookRegister(response,request){
             console.log(postData);
             response.end();
         });
-
     });
-
-
-
 }
 
 exports.bookLogin = bookLogin;
