@@ -2,9 +2,7 @@
  * Created by gump on 2/20/14.
  */
 
-var postData = '';
-
-var bookuser = require("../../db/db").bookuser;
+var mongoose = require('mongoose');
 
 function bookLogin(response,request){
 
@@ -21,10 +19,13 @@ function bookRegister(response,request){
         requestData += postDataChunk;
     });
 
+
+
     request.addListener('end', function() {
         var datajson = JSON.parse(requestData);
         console.log(datajson.mail,datajson.ps);
-
+        var postData = '';
+        var bookuser = mongoose.model('user');
         bookuser.find({mail:datajson.mail},function(err,buser){
             if(buser.length > 0)
             {
@@ -32,26 +33,29 @@ function bookRegister(response,request){
             }
             else
             {
-                var newuser = new buser( {mail:datajson.mail},{ ps : datajson.ps} );
-
-                //保存实例
-                newuser.save( function( err, silence ) {
-                    if( err )
-                    {
-                        console.log(err);
-                    }
-                });
+//                var newuser = new buser( {mail:datajson.mail},{ ps : datajson.ps} );
+//
+//                //保存实例
+//                newuser.save( function( err, silence ) {
+//                    if( err )
+//                    {
+//                        console.log(err);
+//                    }
+//                });
 
                 postData = JSON.stringify({register:'1'});
             }
+
+            response.writeHead(200,{"Content-Type":"text/html"});
+            response.write(postData);
+            console.log(postData);
+            response.end();
         });
 
     });
 
 
-    response.writeHead(200,{"Content-Type":"text/html"});
-    response.write(postData);
-    response.end();
+
 }
 
 exports.bookLogin = bookLogin;
