@@ -1525,7 +1525,70 @@ recentvolume	:	547
 		
 response_status	:	success
 		
+msg	:
+
+2.02 得到分类列表
+
+get
+
+url
+
+http://xjb.ushengsheng.com/shop.php?m=Shop&a=getCategories&platform=iphone&v=5.1.0&place=appstore&token=ec5333687e2d82596a2fd2f49a3db8b1&alias=xjb&appcode=1&width=640&height=960&network=2	
+
+request
+
+m	Shop
+a	getCategories
+platform	iphone
+v	5.1.0
+place	appstore
+token	ec5333687e2d82596a2fd2f49a3db8b1
+alias	xjb
+appcode	1
+width	640
+height	960
+network	2
+
+response
+
+{"info":{"extra":{"list2g":"_120x120.jpg","list3g":"_160x160.jpg","listwifi":""},"data":[{"cid":"4","cname":"\u60c5\u8da3\u5185\u8863","info":"\u857e\u4e1d \u4e09\u70b9 \u5236\u670d \u8c79\u7eb9 \u4e01\u88e4 \u7f51\u889c","pic_url":"http:\/\/xingjiabi.b0.upaiyun.com\/images\/shop\/cate\/52a58aa70945c.png"},{"cid":"6","cname":"\u8c03\u60c5\u52a9\u5174","info":"\u5ef6\u65f6\u50ac\u60c5 \u6da6\u6ed1 SM \u6d88\u6bd2 \u53e6\u7c7b","pic_url":"http:\/\/xingjiabi.b0.upaiyun.com\/images\/shop\/cate\/52ca4327a4ae7.png"},{"cid":"2","cname":"\u7537\u7528\u5668\u5177","info":"\u9634\u81c0\u5012\u6a21 \u98de\u673a\u676f \u540d\u5668 \u524d\u5217\u817a\u6309\u6469","pic_url":"http:\/\/xingjiabi.b0.upaiyun.com\/images\/shop\/cate\/52ca22a30e1f6.png"},{"cid":"3","cname":"\u5973\u7528\u5668\u5177","info":"\u8df3\u86cb AV\u68d2 \u4eff\u771f\u9633\u5177 \u540e\u5ead \u4e30\u4e73\u6311\u9017","pic_url":"http:\/\/xingjiabi.b0.upaiyun.com\/images\/shop\/cate\/52ca22a93bfcc.png"},{"cid":"1","cname":"\u5957\u5957\u5929\u5802","info":"\u8d85\u8584 \u6301\u4e45 \u5927\u9897\u7c92 \u87ba\u7eb9 \u51b0\u706b \u6c34\u6eb6 \u5f02\u5f62","pic_url":"http:\/\/xingjiabi.b0.upaiyun.com\/images\/shop\/cate\/52a58e8dc21d4.png"}]},"response_status":"success","msg":""}
+
+object		{3}
+		
+	info		{2}
+		
+	extra		{3}
+		
+list2g	:	_120x120.jpg
+		
+list3g	:	_160x160.jpg
+		
+listwifi	:	
+		
+	data		[5]
+		
+	0		{4}
+		
+cid	:	4
+		
+cname	:	情趣内衣
+		
+info	:	蕾丝 三点 制服 豹纹 丁裤 网袜
+		
+pic_url	:	http://xingjiabi.b0.upaiyun.com/images/shop/cate/52a58aa70945c.png
+		
+	1		{4}
+		
+	2		{4}
+		
+	3		{4}
+		
+	4		{4}
+		
+response_status	:	success
+		
 msg	:	
+
 
 3交流区
 
