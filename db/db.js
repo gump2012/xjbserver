@@ -1,6 +1,8 @@
 /**
  * Created by lishiming on 3/3/14.
  */
+var categoryGetListdb = require("./today/category/categoryGetListdb");
+
 var mongoose = require('mongoose');
 function start(){
     var mongodb = mongoose.connect('mongodb://localhost:27017');
@@ -16,6 +18,7 @@ function start(){
         });
 
         mongoose.model('user',userSchema);
+        categoryGetListdb.createdb(mongoose);
     });
 };
 
