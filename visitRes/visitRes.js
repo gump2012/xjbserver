@@ -8,7 +8,6 @@ var url  = require("url"),
 
 function visitRes(resquest,response){
     var pathname=__dirname+url.parse(resquest.url).pathname;
-    console.log(pathname,__dirname);
 
     if (path.extname(pathname)=="") {
         pathname=__dirname + "/";
