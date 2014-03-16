@@ -3,7 +3,7 @@
  */
 var getAssistantValue = require("../todayPublic/getAssistantValue");
 var route = require("../../router");
-var categoryGetClist = require("./categoryGetClist");
+var categoryGetClist = require("./categoryGetCList");
 
 var categoryHandle = {}
 categoryHandle["getCategories"] = categoryGetClist.getCategoryList;
