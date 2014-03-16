@@ -8,14 +8,16 @@ var url  = require("url"),
 
 function visitRes(resquest,response){
     var pathname=__dirname+url.parse(resquest.url).pathname;
+    console.log(pathname,__dirname);
+
     if (path.extname(pathname)=="") {
-        pathname+="/";
+        pathname=__dirname + "/";
     }
     if (pathname.charAt(pathname.length-1)=="/"){
         pathname+="index.html";
     }
 
-    path.exists(pathname,function(exists){
+    fs.exists(pathname,function(exists){
         if(exists){
             switch(path.extname(pathname)){
                 case ".html":
@@ -39,7 +41,7 @@ function visitRes(resquest,response){
                 default:
                     response.writeHead(200, {"Content-Type": "application/octet-stream"});
             }
-
+            console.log(pathname);
             fs.readFile(pathname,function (err,data){
                 response.end(data);
             });

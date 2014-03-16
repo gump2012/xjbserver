@@ -8,7 +8,7 @@ var visitRes = require("./visitRes/visitRes");
 function start(route,handle){
     function onRequest(request,response){
         var pathname = url.parse(request.url).pathname;
-        if(pathname.indexOf("/res/")){
+        if(pathname.indexOf("/res/") != -1){
             visitRes.visitRes(request,response);
         }
         else{
