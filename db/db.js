@@ -2,6 +2,9 @@
  * Created by lishiming on 3/3/14.
  */
 var categoryGetListdb = require("./today/category/categoryGetListdb");
+var productAttributedb = require("./today/product/productAttributedb");
+var productdb = require("./today/product/productdb");
+var productPicturedb = require("./today/product/productPicturedb");
 
 var mongoose = require('mongoose');
 function start(){
@@ -22,6 +25,10 @@ function start(){
 
         mongoose.model('user',userSchema);
         categoryGetListdb.createdb(mongoose);
+
+        productAttributedb.createdb(mongoose);
+        productdb.createdb(mongoose);
+        productPicturedb.createdb(mongoose);
     });
 };
 
