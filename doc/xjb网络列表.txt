@@ -1337,7 +1337,6 @@ get
 
 url
 
-http://xjb.ushengsheng.com/shop.php?m=Shop&a=getProductsByCategory&cid=4&orderby=sortasc&page=1&limit=10&platform=iphone&v=5.1.0&place=appstore&token=f48efe7c5683558f210394fb18845a3a&alias=xjb&appcode=1&width=640&height=960&network=2
 
 request
 
