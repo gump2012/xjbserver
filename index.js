@@ -9,6 +9,7 @@ var db = require("./db/db.js");
 var bookLoginHandlers = require("./book/login/bookLoginHandlers");
 
 var categoryHandle = require("./todaylead/category/categoryHandle");
+var productHandles = require("./todaylead/product/productHandles")
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -17,6 +18,7 @@ handle["/book/login"] = bookLoginHandlers.bookLogin;
 handle["/book/register"] = bookLoginHandlers.bookRegister;
 
 handle["/category"] = categoryHandle.category;
+handle["/product"] = productHandles.product;
 
 db.start();
 server.start(router.route,handle);
