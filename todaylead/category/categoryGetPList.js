@@ -7,7 +7,7 @@ var url = require("url");
 var querystring = require("querystring");
 
 function getCategoryProducts(response,request){
-
+    console.log('caonima')
     var categorymodle = mongoose.model('todayProduct');
     var arg = url.parse(request.url).query;
     var cid = querystring.parse(arg).cid;

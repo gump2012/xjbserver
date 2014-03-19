@@ -14,7 +14,6 @@ function createdb(mongoose){
     var todayCategory = mongoose.model('todayCategoryList');
 
     todayCategory.remove({}, function(err) {
-        console.log('todayCategory removed')
     });
 
     var newCategory = new todayCategory({cid:1

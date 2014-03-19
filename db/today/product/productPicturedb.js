@@ -13,7 +13,6 @@ function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProductPic');
 
     todayCategory.remove({}, function(err) {
-        console.log('todayProductPic removed')
     });
 
     var newCategory = new todayCategory({pid:1

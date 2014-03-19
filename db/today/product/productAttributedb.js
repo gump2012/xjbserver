@@ -18,7 +18,6 @@ function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProductAttr');
 
     todayCategory.remove({}, function(err) {
-        console.log('todayProductAttr removed')
     });
 
     var newCategory = new todayCategory({pid:1
