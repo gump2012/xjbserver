@@ -31,7 +31,7 @@ function getCategoryList(response,request){
         }
 
         var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html"});
+        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
         response.write(postData);
         response.end();
     });

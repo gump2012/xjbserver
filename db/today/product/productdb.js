@@ -42,6 +42,96 @@ function creatdb(mongoose){
             console.log(err);
         }
     });
+
+    newCategory = new todayCategory({pid:1
+        ,cid:1
+        ,title:'套'
+        ,volume:3
+        ,recentvolume:1
+        ,org_price:10.00
+        ,price:9.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:''
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:1
+        ,cid:1
+        ,title:'套'
+        ,volume:3
+        ,recentvolume:1
+        ,org_price:10.00
+        ,price:9.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:''
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:1
+        ,cid:1
+        ,title:'套'
+        ,volume:3
+        ,recentvolume:1
+        ,org_price:10.00
+        ,price:9.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:''
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:1
+        ,cid:1
+        ,title:'套'
+        ,volume:3
+        ,recentvolume:1
+        ,org_price:10.00
+        ,price:9.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:''
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:1
+        ,cid:1
+        ,title:'套'
+        ,volume:3
+        ,recentvolume:1
+        ,org_price:10.00
+        ,price:9.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:''
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
 
 exports.createdb = creatdb;
