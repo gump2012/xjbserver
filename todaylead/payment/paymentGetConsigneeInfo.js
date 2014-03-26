@@ -11,27 +11,36 @@ function getInfo(response,request){
     var arg = url.parse(request.url).query;
     var token = querystring.parse(arg).token;
 
-    var categorymodle = mongoose.model('todayPaymentList');
+    var categorymodle = mongoose.model('todayConsigneeInfo');
 
     categorymodle.findOne({token:token},function(err,doc){
 
         var responsevalue = {
             info:{
                 extra:'',
-                data:[]
+                data:{
+                    consignee:''
+                    ,address:''
+                    ,mobile:''
+                    ,baseaddr:''
+                }
             },
             response_status:'',
             msg:''
         }
 
-        for(var i in doc){
-            var item = {
-                payment_way_id : doc[i].payment_way_id,
-                payment_way_name : doc[i].payment_way_name,
-                payment_way_desp :doc[i].payment_way_desp
-            }
+        if(doc)
+        {
+            responsevalue.data.consignee = doc.consignee;
+            responsevalue.data.address = doc.address;
+            responsevalue.data.mobile = doc.mobile;
+            responsevalue.data.baseaddr = doc.baseaddr;
 
-            responsevalue.info.data.push(item);
+            findGallery(pid,responsevalue,response);
+        }
+        else
+        {
+            responsevalue.msg = 'not find product';
         }
 
         var postData = JSON.stringify(responsevalue);

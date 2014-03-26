@@ -6,10 +6,12 @@ var route = require("../../router");
 
 var paymentGetList = require("./paymentGetList");
 var paymentGetConsigneeInfo = require("./paymentGetConsigneeInfo");
+var paymentGetPromotion = require("./paymentgetPromotion");
 
 var paymentHandle = {}
 paymentHandle["getPaymentList"] = paymentGetList.getList;
 paymentHandle["getPaymentConsignee"] = paymentGetConsigneeInfo.getInfo;
+paymentHandle["getPromotionDetail"] = paymentGetPromotion.getPromotionDetail;
 
 function payment(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

@@ -6,6 +6,7 @@ var productAttributedb = require("./today/product/productAttributedb");
 var productdb = require("./today/product/productdb");
 var productPicturedb = require("./today/product/productPicturedb");
 var paymentListdb = require("./today/payment/paymentListdb");
+var consigneeInfodb = require("./today/payment/consigneeInfodb");
 
 var mongoose = require('mongoose');
 function start(){
@@ -32,6 +33,7 @@ function start(){
         productPicturedb.createdb(mongoose);
 
         paymentListdb.createdb(mongoose);
+        consigneeInfodb.createdb(mongoose);
     });
 };
 
