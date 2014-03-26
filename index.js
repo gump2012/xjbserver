@@ -9,7 +9,8 @@ var db = require("./db/db.js");
 var bookLoginHandlers = require("./book/login/bookLoginHandlers");
 
 var categoryHandle = require("./todaylead/category/categoryHandle");
-var productHandles = require("./todaylead/product/productHandles")
+var productHandles = require("./todaylead/product/productHandles");
+var paymentHandles = require("./todaylead/payment/paymentHandles");
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -19,6 +20,8 @@ handle["/book/register"] = bookLoginHandlers.bookRegister;
 
 handle["/category"] = categoryHandle.category;
 handle["/product"] = productHandles.product;
+
+handle["/payment"] = paymentHandles.payment;
 
 db.start();
 server.start(router.route,handle);
