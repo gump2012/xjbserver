@@ -11,6 +11,7 @@ var bookLoginHandlers = require("./book/login/bookLoginHandlers");
 var categoryHandle = require("./todaylead/category/categoryHandle");
 var productHandles = require("./todaylead/product/productHandles");
 var paymentHandles = require("./todaylead/payment/paymentHandles");
+var orderHandles = require("./todaylead/order/orderHandles");
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -22,6 +23,7 @@ handle["/category"] = categoryHandle.category;
 handle["/product"] = productHandles.product;
 
 handle["/payment"] = paymentHandles.payment;
+handle["/order"] = orderHandles.order;
 
 db.start();
 server.start(router.route,handle);
