@@ -10,15 +10,13 @@ var consigneeInfodb = require("./today/payment/consigneeInfodb");
 
 var mongoose = require('mongoose');
 function start(){
-    var mongodb = mongoose.connect('mongodb://localhost:27017');
+    var mongodb = mongoose.connect('mongodb://localhost:27017/todaylead');
 
     var db = mongodb.connection;
 
     db.on('error',console.error.bind(console,'connection erro:'));
     db.once('open',function callback(){
         console.log('db is open success!');
-
-
 
         var userSchema = new mongoose.Schema({
             mail :String
