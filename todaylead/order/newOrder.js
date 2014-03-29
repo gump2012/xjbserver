@@ -15,7 +15,9 @@ function newOrder(response,request){
 
     request.addListener('end', function() {
         var datajson = JSON.parse(requestData);
-        var postData = '';
+        console.log(requestData);
+        console.log(datajson);
+        console.log(datajson.productlist);
         var item = {
             city:datajson.city
             ,province:datajson.province
@@ -29,8 +31,8 @@ function newOrder(response,request){
             ,shipping_fee:datajson.shipping_fee
             ,promotion_totalprice:datajson.promotion_totalprice
             ,payment_way_id:datajson.payment_way_id
-            ,order_id:MD5(Date.now())
-            ,creat_time:Date.now()
+            ,order_id:MD5(Date.now().toString())
+            ,creat_time:Date.now().toString()
             ,order_states:0
             ,payment_states:0
             ,shipping_states:0
@@ -49,13 +51,13 @@ function newOrder(response,request){
                     ,attr_list:[]
                 }
 
-                if(datajson.productlist.attr_list)
+                if(datajson.productlist[i].attr_list)
                 {
-                    for(j in datajson.productlist.attr_list)
+                    for(j in datajson.productlist[i].attr_list)
                     {
                         var attritem = {
-                            goods_attr_id:datajson.productlist.attr_list[i].goods_attr_id
-                            ,attr_price:datajson.productlist.attr_list[i].attr_price
+                            goods_attr_id:datajson.productlist[i].attr_list[j].goods_attr_id
+                            ,attr_price:datajson.productlist[i].attr_list[j].attr_price
                         }
 
                         productitem.attr_list.push(attritem);
@@ -63,32 +65,37 @@ function newOrder(response,request){
                 }
 
                 item.productlist.push(productitem);
+                console.log(item);
             }
         }
 
         var ordermodle = mongoose.model('todayOrder');
 
-        var orderEntity = new ordermodle(productitem);
+        var orderEntity = new ordermodle(item);
         orderEntity.save();
 
         var consigneemodle = mongoose.model('todayConsigneeInfo');
         var consigneeitem = {
-            token:productitem.token
-            ,consignee:productitem.consignee
-            ,address:productitem.address
-            ,mobile:productitem.mobile
-            ,baseaddr:productitem.baseaddr
+            token:item.token
+            ,consignee:item.consignee
+            ,address:item.address
+            ,mobile:item.mobile
+            ,baseaddr:item.baseaddr
         }
 
         var consigneeEntity = new consigneemodle(consigneeitem);
         consigneeEntity.save();
 
+        var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
         var responsevalue = {
-            order_id:productitem.order_id
-            ,orderprice:productitem.shipping_fee + productitem.promotion_totalprice
-            ,create_time:productitem.creat_time.getTime()
+            order_id:item.order_id
+            ,orderprice:orderprice
+            ,create_time:item.creat_time
+            ,order_status:item.order_states
+            ,payment_way_id:item.payment_way_id
+            ,payment_status:item.payment_states
         }
-
+        console.log(responsevalue);
         var postData = JSON.stringify(responsevalue);
         response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
         response.write(postData);
