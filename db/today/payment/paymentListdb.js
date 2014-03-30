@@ -3,7 +3,10 @@
  */
 function createdb(mongoose){
     var userSchema = new mongoose.Schema({
-        payment_way_id        :Number
+        payment_way_id        :{
+            type: Number,
+            unique: true
+        }
         ,payment_way_name     :String
         ,payment_way_desp     :String
     });

@@ -108,7 +108,7 @@ function findPid(item,response,pidnumber){
     }
     else{
         var pid = item.productlist[pidnumber-1].pid;
-        productmodle.findOne({pid:pid},['price'],function(err,doc){
+        productmodle.findOne({pid:pid},'price',function(err,doc){
             if(doc)
             {
                 if(item.productlist[pidnumber - 1].price == doc.price){
@@ -140,13 +140,11 @@ function comparePrice(item,response){
     var totalprice = 0.00;
     for(i in item.productlist){
         var attrprice = 0.00;
-        for(j in item.productlist[i].attr_list[j]){
-            attrprice += item.productlist[i].attr_list[j].attr_price;
+        for(j in item.productlist[i].attr_list){
+            attrprice += new Number(item.productlist[i].attr_list[j].attr_price);
         }
-
-        totalprice += (item.productlist[i].price + attrprice) * item.productlist[i].quantity;
+        totalprice += (new Number(item.productlist[i].price) + attrprice) * item.productlist[i].quantity;
     }
-
     if(totalprice != item.promotion_totalprice){
         returnErr(response,'商品总价不对');
     }
@@ -216,7 +214,7 @@ function findAttr(item,response,pidnumber,attrnumber){
         var goodattrid = item.productlist[pidnumber].attr_list[attrnumber].goods_attr_id;
 
         var attrmodel = mongoose.model('todayProductAttr');
-        attrmodel.findOne({goods_attr_id:goodattrid},['attr_price'],function(err,doc){
+        attrmodel.findOne({goods_attr_id:goodattrid},'attr_price',function(err,doc){
             if(doc)
             {
                 if(item.productlist[pidnumber].attr_list[attrnumber].attr_price == doc.attr_price){

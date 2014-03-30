@@ -33,7 +33,7 @@ int main(int argc, const char * argv[])
         //NSURL *url = [NSURL URLWithString:@"http://115.28.225.137:10080/book/login"];
         //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/book/login"];
         //NSString *str = @"{\"mail\":\"yige2002@tom.com\",\"ps\":\"111111\"}";//设置参数
-        NSString *strurl = @"http://115.28.225.137:10080/order?assistant=neworder";
+        NSString *strurl = @"http://127.0.0.1:10080/order?assistant=neworder";
         NSString *strc =@"\
 {\
 \"city\": \"2268\",\
@@ -52,11 +52,11 @@ int main(int argc, const char * argv[])
 {\
 \"title\": \"好产品\",\
 \"attr_list\": [\
-{\"goods_attr_id\":\"2828\",\
+{\"goods_attr_id\":\"1\",\
 \"attr_price\":\"0.00\"}\
 ],\
 \"price\": \"22\",\
-\"pid\": \"325\",\
+\"pid\": \"1\",\
 \"quantity\": \"1\"\
 }\
 ]\

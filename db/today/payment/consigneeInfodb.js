@@ -3,7 +3,10 @@
  */
 function createdb(mongoose){
     var userSchema = new mongoose.Schema({
-        token                 :String
+        token                 :{
+            type: String,
+            unique: true
+        }
         ,consignee            :String
         ,address              :String
         ,mobile               :String

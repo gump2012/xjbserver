@@ -6,7 +6,10 @@ function creatdb(mongoose){
     var proAttrSchema = new mongoose.Schema({
         pid                 :Number
         ,attr_id            :Number
-        ,goods_attr_id      :Number
+        ,goods_attr_id      :{
+            type: Number,
+            unique: true
+        }
         ,attr_name          :String
         ,attr_value         :String
         ,attr_price         :Number

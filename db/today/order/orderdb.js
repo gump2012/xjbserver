@@ -15,7 +15,10 @@ function createdb(mongoose){
         ,shipping_fee           :Number
         ,promotion_totalprice   :Number
         ,payment_way_id         :Number
-        ,order_id               :String
+        ,order_id               :{
+            type: String,
+            unique: true
+        }
         ,creat_time             :Date
         ,order_states           :Number
         ,payment_states         :Number

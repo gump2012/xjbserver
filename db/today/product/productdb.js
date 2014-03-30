@@ -4,7 +4,10 @@
 
 function creatdb(mongoose){
     var proSchema = new mongoose.Schema({
-        pid                 :Number
+        pid                 :{
+            type: Number,
+            unique: true
+        }
         ,cid                :Number
         ,title              :String
         ,volume             :Number

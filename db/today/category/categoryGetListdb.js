@@ -3,7 +3,10 @@
  */
 function createdb(mongoose){
     var userSchema = new mongoose.Schema({
-         cid     :Number
+         cid     :{
+            type: Number,
+            unique: true
+        }
         ,cname   :String
         ,info    :String
         ,pic_url :String
