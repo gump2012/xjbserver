@@ -15,8 +15,6 @@ function visitRes(resquest,response){
         pathname = '/root/apk/todaythebest_0408.apk';
     }
 
-
-
     if (path.extname(pathname)=="") {
         pathname=__dirname + "/";
     }
@@ -50,7 +48,8 @@ function visitRes(resquest,response){
             }
             console.log(pathname);
             fs.readFile(pathname,function (err,data){
-                response.end(data);
+                response.write(data, "binary");
+                response.end();
             });
         } else {
             response.writeHead(404, {"Content-Type": "text/html"});
