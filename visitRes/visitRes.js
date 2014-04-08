@@ -7,7 +7,15 @@ var url  = require("url"),
     fs   = require("fs");
 
 function visitRes(resquest,response){
+
     var pathname=__dirname+url.parse(resquest.url).pathname;
+
+    if(url.parse(resquest.url).pathname.indexOf("/apk") != -1)
+    {
+        pathname = '/root/apk/todaythebest_0408.apk';
+    }
+
+
 
     if (path.extname(pathname)=="") {
         pathname=__dirname + "/";
