@@ -29,11 +29,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:1
         ,cid:1
-        ,title:'朦胧透明露乳开档蕾丝大码短裙睡衣'
+        ,title:'白色性感漏乳挂脖开怀性感连体情趣内衣'
         ,volume:16937
         ,recentvolume:758
-        ,org_price:58.00
-        ,price:22.00
+        ,org_price:36.00
+        ,price:18.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://img01.taobaocdn.com/imgextra/i1/468359490/T2pqkeXhFXXXXXXXXX_!!468359490.jpg'
