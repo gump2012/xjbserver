@@ -28,8 +28,8 @@ function creatdb(mongoose){
         ,title:'JOKER外用延时喷剂日本史上最久 最受欢迎'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:183.00
+        ,price:68.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_2.jpg'
@@ -46,8 +46,8 @@ function creatdb(mongoose){
         ,title:'MFPONES男用助勃刺激阴蒂震动环 世界好套环'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:32.00
+        ,price:18.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_3.jpg'
@@ -64,8 +64,8 @@ function creatdb(mongoose){
         ,title:'倍耐力延时喷剂纯植物提取 让男人更从容自信'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:70.00
+        ,price:30.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_4.jpg'
@@ -82,8 +82,8 @@ function creatdb(mongoose){
         ,title:'印度神油印度秘方久战不倒杀菌防病延时金刚'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:12.00
+        ,price:5.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_5.jpg'
@@ -100,8 +100,8 @@ function creatdb(mongoose){
         ,title:'头牌推荐 百倍安全管理 私密保存'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:10.00
+        ,price:5.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_6.jpg'
@@ -118,8 +118,8 @@ function creatdb(mongoose){
         ,title:'头牌推荐 耐氏男用延时喷剂 超久防早泄 正品防伪'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:189.00
+        ,price:99.0
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_7.jpg'
@@ -136,8 +136,8 @@ function creatdb(mongoose){
         ,title:'延时必备 三色锁精环 根本射不出来'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:20.00
+        ,price:12.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_8.jpg'
@@ -154,8 +154,8 @@ function creatdb(mongoose){
         ,title:'杜蕾斯按摩油 润滑油 让爱更浓烈'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:108.00
+        ,price:35.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_9.jpg'
@@ -172,8 +172,8 @@ function creatdb(mongoose){
         ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:68.00
+        ,price:40.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_10.jpg'
@@ -190,8 +190,8 @@ function creatdb(mongoose){
         ,title:'水晶之恋凤梨套 延时增粗 G点 刺激 宝贝好喜欢'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:10.00
+        ,price:6.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_11.jpg'
@@ -208,8 +208,8 @@ function creatdb(mongoose){
         ,title:'爱妃液人体爱液润滑油 按摩推油 可用肛交'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:32.00
+        ,price:15.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_12.jpg'
@@ -244,8 +244,8 @@ function creatdb(mongoose){
         ,title:'玩爆潮品男用龟头增大增粗延时套'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:28.00
+        ,price:16.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_14.jpg'
@@ -262,8 +262,8 @@ function creatdb(mongoose){
         ,title:'男用阴茎增粗增大增长狼牙套 伴君如伴虎'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:35.00
+        ,price:6.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_15.jpg'
@@ -280,8 +280,8 @@ function creatdb(mongoose){
         ,title:'百乐男用阴茎增粗增大增长狼牙套 各种刺激伴君左右'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:35.00
+        ,price:9.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_16.jpg'
@@ -298,8 +298,8 @@ function creatdb(mongoose){
         ,title:'纯天然高级羊眼圈 让您的高潮永驻'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:16.00
+        ,price:8.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_17.jpg'
@@ -316,8 +316,8 @@ function creatdb(mongoose){
         ,title:'美国Enlarge男士阴茎增粗助大精油 外用防早泄'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:85.00
+        ,price:48.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_18.jpg'
@@ -334,8 +334,8 @@ function creatdb(mongoose){
         ,title:'耐氏外用延时湿巾 天然最安全（1片12片'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:50.00
+        ,price:25.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_19.jpg'
@@ -352,8 +352,8 @@ function creatdb(mongoose){
         ,title:'菲尔普成人用品玩具专用消毒液 深度清洁 私密防护'
         ,volume:0
         ,recentvolume:0
-        ,org_price:18.00
-        ,price:9.90
+        ,org_price:19.00
+        ,price:5.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_20.jpg'
