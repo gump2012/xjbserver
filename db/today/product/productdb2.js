@@ -14,7 +14,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_1.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_1.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -32,7 +32,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_2.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_2.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -50,7 +50,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_3.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_3.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -68,7 +68,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_4.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_4.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -86,7 +86,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_5.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_5.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -104,7 +104,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_6.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_6.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -122,7 +122,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_7.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_7.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -140,7 +140,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_8.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_8.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -158,7 +158,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_9.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_9.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -176,7 +176,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_10.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_10.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -194,7 +194,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_11.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_11.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -212,7 +212,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_12.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_12.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -230,7 +230,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_13.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_13.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -248,7 +248,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_14.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_14.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -266,7 +266,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_15.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_15.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -284,7 +284,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_16.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_16.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -302,7 +302,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_17.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_17.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -320,7 +320,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_18.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_18.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -338,7 +338,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_19.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_19.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -356,7 +356,7 @@ function creatdb(mongoose){
         ,price:9.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/categoryproduct2_20.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category2/categoryproduct2_20.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
