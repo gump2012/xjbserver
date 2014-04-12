@@ -6,6 +6,7 @@ var productdb2 = require('./productdb2');
 var productdb1 = require('./productdb1');
 var productdb3 = require('./productdb3');
 var productdb4 = require('./productdb4');
+var productdb5 = require('./productdb5');
 
 function creatdb(mongoose){
     var proSchema = new mongoose.Schema({
@@ -36,6 +37,7 @@ function creatdb(mongoose){
     productdb2.createdb(mongoose);
     productdb3.createdb(mongoose);
     productdb4.createdb(mongoose);
+    productdb5.createdb(mongoose);
 }
 
 exports.createdb = creatdb;
