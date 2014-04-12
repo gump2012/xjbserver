@@ -10,9 +10,9 @@ function visitRes(resquest,response){
 
     var pathname=__dirname+url.parse(resquest.url).pathname;
 
-    if(url.parse(resquest.url).pathname.indexOf("/apk") != -1)
+    if(url.parse(resquest.url).pathname.indexOf("/apk/today_lead.apk") != -1)
     {
-        pathname = '/root/apk/todaythebest_0408.apk';
+        pathname = '/root/apk/today_lead.apk';
     }
 
     if (path.extname(pathname)=="") {
