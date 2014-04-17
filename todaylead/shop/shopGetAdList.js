@@ -5,6 +5,14 @@ var mongoose = require('mongoose');
 
 function getAdList(response,request){
 
+//    var productmodle = mongoose.model('todayProduct');
+//
+//    productmodle.find({},'title pid',{sort: {pid:'desc'}}, function (err, docs) {
+//        for(var i in docs){
+//            console.log(docs[i]);
+//        }
+//    });
+
     var responsevalue = {
         info:{
             extra:{},
