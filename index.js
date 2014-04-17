@@ -12,6 +12,7 @@ var categoryHandle = require("./todaylead/category/categoryHandle");
 var productHandles = require("./todaylead/product/productHandles");
 var paymentHandles = require("./todaylead/payment/paymentHandles");
 var orderHandles = require("./todaylead/order/orderHandles");
+var adHandles = require("./todaylead/shop/shopHandles");
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -24,6 +25,7 @@ handle["/product"] = productHandles.product;
 
 handle["/payment"] = paymentHandles.payment;
 handle["/order"] = orderHandles.order;
+handle["/shop"] = adHandles.ad;
 
 db.start();
 server.start(router.route,handle);

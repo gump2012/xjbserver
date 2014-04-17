@@ -13,7 +13,9 @@ categoryHandle["getProductsByCategory"] = categoryGetPList.getCategoryProducts;
 function category(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
     console.log(assistant);
-    route.route(categoryHandle,assistant,response,request);
+    if(assistant){
+        route.route(categoryHandle,assistant,response,request);
+    }
 }
 
 exports.category = category;

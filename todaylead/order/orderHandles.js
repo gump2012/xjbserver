@@ -12,7 +12,9 @@ orderHandle["neworder"] = newOrder.newOrder;
 function order(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
     console.log(assistant);
-    route.route(orderHandle,assistant,response,request);
+    if(assistant){
+        route.route(orderHandle,assistant,response,request);
+    }
 }
 
 exports.order = order;

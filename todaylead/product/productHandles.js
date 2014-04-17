@@ -12,7 +12,9 @@ productHandle["getProductDetail"] = productGetDetail.getDetail;
 function product(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
     console.log(assistant);
-    route.route(productHandle,assistant,response,request);
+    if(assistant){
+        route.route(productHandle,assistant,response,request);
+    }
 }
 
 exports.product = product;

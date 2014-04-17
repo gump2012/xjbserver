@@ -16,7 +16,9 @@ paymentHandle["getPromotionDetail"] = paymentGetPromotion.getPromotionDetail;
 function payment(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
     console.log(assistant);
-    route.route(paymentHandle,assistant,response,request);
+    if(assistant){
+        route.route(paymentHandle,assistant,response,request);
+    }
 }
 
 exports.payment = payment;
