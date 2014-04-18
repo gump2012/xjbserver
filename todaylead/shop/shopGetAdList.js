@@ -5,22 +5,6 @@ var mongoose = require('mongoose');
 
 function getAdList(response,request){
 
-    var productmodle = mongoose.model('todayProduct');
-
-    productmodle.find({},'title',{sort: {pid:'desc'}}, function (err, docs) {
-        var gettext=[];
-        for(var i in docs){
-            if(docs[i].title.indexOf('百花') != -1){
-                gettext.push(docs[i].title);
-            }
-        }
-
-        for(var i in gettext)
-        {
-            console.log(gettext[i]);
-        }
-    });
-
     var responsevalue = {
         info:{
             extra:{},
