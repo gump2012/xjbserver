@@ -6,15 +6,14 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:61
         ,cid:4
-        ,title:'百乐小号电动丰胸器 丰乳挑逗 乳房增大器 吸乳器 美胸杯'
+        ,title:'38频无线跳蛋 居家女人的性福选择'
         ,volume:0
         ,recentvolume:0
-        ,org_price:169.00
-        ,price:109.0
+        ,org_price:68.00
+        ,price:22.0
         ,state:1
         ,stamper:''
-        //,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_1.jpg'
-        ,pic_url:'http://gd2.alicdn.com/bao/uploaded/i2/T1UvvJFmBeXXXXXXXX_!!0-item_pic.jpg_460x460.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_1.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -25,11 +24,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:62
         ,cid:4
-        ,title:'邦爱12频双跳蛋 变频静音防水迷你可爱双跳蛋'
+        ,title:'360度全方位震动按摩乳房按摩神器'
         ,volume:0
         ,recentvolume:0
-        ,org_price:48.00
-        ,price:48.00
+        ,org_price:60.00
+        ,price:24.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_2.jpg'
@@ -43,11 +42,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:63
         ,cid:4
-        ,title:'正品百乐招蜂引蝶情趣玩具摇摆按摩棒性用品成人用品女性自慰器'
+        ,title:'360度旋转按摩头充电磨砂AV棒 送女用按摩头套'
         ,volume:0
         ,recentvolume:0
-        ,org_price:126.00
-        ,price:126.00
+        ,org_price:12.00
+        ,price:5.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_3.jpg'
@@ -61,14 +60,14 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:64
         ,cid:4
-        ,title:'女性潮吹AV棒 成人情趣用品阴蒂G点刺激女用自慰器震动充电按摩棒'
+        ,title:'便携口袋迷你手机链AV棒 性福无处不在'
         ,volume:0
         ,recentvolume:0
-        ,org_price:50.00
-        ,price:29.00
+        ,org_price:20.00
+        ,price:10.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_4.jpg'
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_4.gif'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -77,293 +76,293 @@ function creatdb(mongoose){
         }
     });
 
-//    var newCategory = new todayCategory({pid:65
-//        ,cid:4
-//        ,title:'久兴幻魅真人倒模手动飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:88.00
-//        ,price:48.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_5.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:66
-//        ,cid:4
-//        ,title:'优客仕战士系列口娇自慰飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:480.00
-//        ,price:210.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_6.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:67
-//        ,cid:4
-//        ,title:'倍儿性桃花岛真人阴臀倒模 飞一样的感觉'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:45.00
-//        ,price:25.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_7.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:68
-//        ,cid:4
-//        ,title:'名器飞机杯真人体温USB加热'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:30.00
-//        ,price:12.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_8.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:69
-//        ,cid:4
-//        ,title:'日本男优终极利器 延时训练器'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:48.00
-//        ,price:26.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_9.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:70
-//        ,cid:4
-//        ,title:'玩爆潮品MFONES取悦电动震动飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:169.00
-//        ,price:72.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_10.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:71
-//        ,cid:4
-//        ,title:'男女通用强力吸附后庭拉珠'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:69.00
-//        ,price:28.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_11.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:72
-//        ,cid:4
-//        ,title:'百乐前列腺按摩棒'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:60.00
-//        ,price:40.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_12.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:73
-//        ,cid:4
-//        ,title:'百乐大力神4频电动超爽飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:159.00
-//        ,price:76.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_13.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:74
-//        ,cid:4
-//        ,title:'百乐大男人空心阳具男用加长套增长6厘米延时阴茎增大增粗'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:39.00
-//        ,price:20.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_14.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:75
-//        ,cid:4
-//        ,title:'真的好厉害 男性增大脉冲理疗环电机理疗器'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:98.00
-//        ,price:60.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_15.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:76
-//        ,cid:4
-//        ,title:'美国FunZone少女后庭自慰杯 电动震动飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:299.00
-//        ,price:156.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_16.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:77
-//        ,cid:4
-//        ,title:'自慰狼友前列腺按摩棒'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:56.00
-//        ,price:36.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_17.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:78
-//        ,cid:4
-//        ,title:'震动版太空杯 特价优惠'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:80.00
-//        ,price:35.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_18.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:79
-//        ,cid:4
-//        ,title:'香港邦爱电动震动处女阴交口娇肛交飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:199.00
-//        ,price:130.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_19.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
-//
-//    var newCategory = new todayCategory({pid:80
-//        ,cid:4
-//        ,title:'香港雷霆首款可自动伸缩的飞机杯'
-//        ,volume:0
-//        ,recentvolume:0
-//        ,org_price:388.00
-//        ,price:199.00
-//        ,state:1
-//        ,stamper:''
-//        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_20.jpg'
-//        ,time:0});
-//    newCategory.save( function( err, silence ) {
-//        if( err )
-//        {
-//            console.log(err);
-//        }
-//    });
+    var newCategory = new todayCategory({pid:65
+        ,cid:4
+        ,title:'喵星人36变频15震动模式强力马达防水静音有线跳蛋'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:68.00
+        ,price:35.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_5.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:66
+        ,cid:4
+        ,title:'夏奇新品 天使礼物 震动C字裤 7频震动快感无处不在'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:160.00
+        ,price:68.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_6.gif'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:67
+        ,cid:4
+        ,title:'夏奇正品 战神海浪震动棒 征服你的情欲快感'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:100.00
+        ,price:49.90
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_7.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:68
+        ,cid:4
+        ,title:'奇宝正品 龙猫遥控变频静音防水震动跳蛋'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:35.00
+        ,price:23.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_8.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:69
+        ,cid:4
+        ,title:'性福魔盒18频磨砂防水无线遥控跳蛋'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:68.00
+        ,price:20.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_9.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:70
+        ,cid:4
+        ,title:'潮吹之王 仙女棒 醉生梦死的感觉'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:159.00
+        ,price:53.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_10.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:71
+        ,cid:4
+        ,title:'激情劈叉裤穿戴空心阳具 亲密伙伴 女性首选'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:79.00
+        ,price:35.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_11.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:72
+        ,cid:4
+        ,title:'百乐正品电动丰乳器 做坚挺女人，势在必行'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:180.00
+        ,price:90.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_12.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:73
+        ,cid:4
+        ,title:'百乐派蒂拉 G点阴蒂双震30频振动棒'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:160.00
+        ,price:68.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_13.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:74
+        ,cid:4
+        ,title:'百乐真品招蜂引蝶伸缩转珠棒 体验被塞满的感觉'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:199.00
+        ,price:69.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_14.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:75
+        ,cid:4
+        ,title:'蒂贝正品 惊蛇之草轻触防水20频震动棒'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:320.00
+        ,price:160.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_15.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:76
+        ,cid:4
+        ,title:'蒂贝正品双马达震动LED夜灯按键隐形穿戴蝴蝶'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:210.00
+        ,price:85.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_16.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:77
+        ,cid:4
+        ,title:'邦爱正品7频美国大兵仿真阳具'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:216.00
+        ,price:136.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_17.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:78
+        ,cid:4
+        ,title:'邦爱正品12频迷你小老二双震双跳蛋'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:55.00
+        ,price:35.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_18.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:79
+        ,cid:4
+        ,title:'钻石AV棒 最佳私密自慰武器 女人必备'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:51.00
+        ,price:29.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_19.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:80
+        ,cid:4
+        ,title:'雷霆真品 转珠棒 雷霆之势 高潮已至'
+        ,volume:0
+        ,recentvolume:0
+        ,org_price:128.00
+        ,price:68.00
+        ,state:1
+        ,stamper:''
+        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category4/categoryproduct4_20.jpg'
+        ,time:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
 
 exports.createdb = creatdb;
