@@ -23,6 +23,21 @@ void testFun(NSString *content ,NSString *strurl)
     NSLog(@"%@",str1);
 }
 
+void testGet(NSString *strurl)
+{
+    NSURL *url = [NSURL URLWithString:strurl];
+    //第二步，创建请求
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc]initWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:10];
+    
+    //第三步，连接服务器
+    
+    NSData *received = [NSURLConnection sendSynchronousRequest:request returningResponse:nil error:nil];
+    
+    NSString *str1 = [[NSString alloc]initWithData:received encoding:NSUTF8StringEncoding];
+    
+    NSLog(@"%@",str1);
+}
+
 int main(int argc, const char * argv[])
 {
 
@@ -30,38 +45,39 @@ int main(int argc, const char * argv[])
         
         
         
-        //NSURL *url = [NSURL URLWithString:@"http://115.28.225.137:10080/book/login"];
+        NSURL *url = [NSURL URLWithString:@"http://115.28.225.137:10080/book/login"];
         //NSURL *url = [NSURL URLWithString:@"http://localhost:10080/book/login"];
         //NSString *str = @"{\"mail\":\"yige2002@tom.com\",\"ps\":\"111111\"}";//设置参数
-        NSString *strurl = @"http://127.0.0.1:10080/order?assistant=neworder";
-        NSString *strc =@"\
-{\
-\"city\": \"2268\",\
-\"consignee\": \"李东\",\
-\"mobile\": \"13646426253\",\
-\"memo\": \"你好\",\
-\"province\": \"2182\",\
-\"ticket_id\": \"bb2dd06d40c0fd6cc8b291e8f26e7764\",\
-\"token\": \"5a928f51b477a1162cf7c767b5a7dbda\",\
-\"address\": \"青大纺织学院东门\",\
-\"shipping_fee\": \"12.00\",\
-\"promotion_totalprice\": \"22.00\",\
-\"area\": \"2275\",\
-\"payment_way_id\": \"1\",\
-\"productlist\": [\
-{\
-\"title\": \"好产品\",\
-\"attr_list\": [\
-{\"goods_attr_id\":\"1\",\
-\"attr_price\":\"0.00\"}\
-],\
-\"price\": \"22\",\
-\"pid\": \"1\",\
-\"quantity\": \"1\"\
-}\
-]\
-}";
-        testFun(strc,strurl);
+//        NSString *strurl = @"http://127.0.0.1:10080/order?assistant=neworder";
+//        NSString *strc =@"\
+//{\
+//\"city\": \"2268\",\
+//\"consignee\": \"李东\",\
+//\"mobile\": \"13646426253\",\
+//\"memo\": \"你好\",\
+//\"province\": \"2182\",\
+//\"ticket_id\": \"bb2dd06d40c0fd6cc8b291e8f26e7764\",\
+//\"token\": \"5a928f51b477a1162cf7c767b5a7dbda\",\
+//\"address\": \"青大纺织学院东门\",\
+//\"shipping_fee\": \"12.00\",\
+//\"promotion_totalprice\": \"22.00\",\
+//\"area\": \"2275\",\
+//\"payment_way_id\": \"1\",\
+//\"productlist\": [\
+//{\
+//\"title\": \"好产品\",\
+//\"attr_list\": [\
+//{\"goods_attr_id\":\"1\",\
+//\"attr_price\":\"0.00\"}\
+//],\
+//\"price\": \"22\",\
+//\"pid\": \"1\",\
+//\"quantity\": \"1\"\
+//}\
+//]\
+//}";
+//        testFun(strc,strurl);
+        testGet(@"http://xjb.ushengsheng.com/shop.php?m=Shop&a=getProductDetail&pid=1");
         
     }
     return 0;
