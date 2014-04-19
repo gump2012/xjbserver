@@ -13,7 +13,7 @@ function creatdb(mongoose){
         ,price:99.0
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_1.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GlZxr/9inI6.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -31,7 +31,7 @@ function creatdb(mongoose){
         ,price:48.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_2.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GneDF/ovzpz.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -49,7 +49,7 @@ function creatdb(mongoose){
         ,price:29.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_3.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gmo0z/14VcyU.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -67,7 +67,7 @@ function creatdb(mongoose){
         ,price:26.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_4.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GmSuI/gQAg3.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -85,7 +85,7 @@ function creatdb(mongoose){
         ,price:48.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_5.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GnOKe/WohVT.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -103,7 +103,7 @@ function creatdb(mongoose){
         ,price:210.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_6.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gn728/9nEaR.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -121,7 +121,7 @@ function creatdb(mongoose){
         ,price:25.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_7.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GnU2e/kYBvI.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -139,7 +139,7 @@ function creatdb(mongoose){
         ,price:12.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_8.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gn0PY/F8iuf.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -157,7 +157,7 @@ function creatdb(mongoose){
         ,price:26.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_9.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gnwct/qgUq0.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -175,7 +175,7 @@ function creatdb(mongoose){
         ,price:72.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_10.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GoIJl/ELk7x.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -193,7 +193,7 @@ function creatdb(mongoose){
         ,price:28.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_11.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GnMXN/1tGBR.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -211,7 +211,7 @@ function creatdb(mongoose){
         ,price:40.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_12.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GnVEH/AyeOK.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -229,7 +229,7 @@ function creatdb(mongoose){
         ,price:76.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_13.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Go2sV/n6ys4.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -247,7 +247,7 @@ function creatdb(mongoose){
         ,price:20.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_14.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GoYmj/phUDI.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -265,7 +265,7 @@ function creatdb(mongoose){
         ,price:60.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_15.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GoWqq/EwFNz.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -283,7 +283,7 @@ function creatdb(mongoose){
         ,price:156.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_16.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GoWqq/EwFNz.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -301,7 +301,7 @@ function creatdb(mongoose){
         ,price:36.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_17.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3GpsOl/q5Rk0.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -319,7 +319,7 @@ function creatdb(mongoose){
         ,price:35.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_18.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Go9IJ/CuTtL.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -337,7 +337,7 @@ function creatdb(mongoose){
         ,price:130.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_19.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gpy3e/PcWfL.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -355,7 +355,7 @@ function creatdb(mongoose){
         ,price:199.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://115.28.225.137:10080/res/images/category/product/category3/categoryproduct3_20.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gq5u6/awu48.jpg'
         ,time:0});
     newCategory.save( function( err, silence ) {
         if( err )
