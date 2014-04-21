@@ -7,7 +7,8 @@ var productdb = require("./today/product/productdb");
 var paymentListdb = require("./today/payment/paymentListdb");
 var consigneeInfodb = require("./today/payment/consigneeInfodb");
 var orderdb = require("./today/order/orderdb");
-var addb = require("./today/shop/shopAddb.js");
+var addb = require("./today/shop/shopAddb");
+var shoptopicdb = require("./today/shop/shopTopicdb");
 
 var mongoose = require('mongoose');
 function start(){
@@ -36,6 +37,7 @@ function start(){
         orderdb.createdb(mongoose);
 
         addb.createdb(mongoose);
+        shoptopicdb.createdb(mongoose);
     });
 };
 
