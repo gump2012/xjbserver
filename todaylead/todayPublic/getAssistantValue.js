@@ -9,5 +9,21 @@ function getAssistantValue(request){
     return assistant;
 }
 
+function returnErr(response,errstr){
+    var responsevalue = {
+        info:{
+            extra:'',
+            data:''
+        },
+        response_status:'',
+        msg:errstr
+    }
+    var postData = JSON.stringify(responsevalue);
+    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+    response.write(postData);
+    response.end();
+}
+
 exports.getAssistantValue = getAssistantValue;
+exports.returnErr = returnErr;
 
