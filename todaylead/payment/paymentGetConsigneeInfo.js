@@ -35,8 +35,6 @@ function getInfo(response,request){
             responsevalue.data.address = doc.address;
             responsevalue.data.mobile = doc.mobile;
             responsevalue.data.baseaddr = doc.baseaddr;
-
-            findGallery(pid,responsevalue,response);
         }
         else
         {
