@@ -25,6 +25,7 @@ function creatdb(mongoose){
         ,stamper            :String
         ,pic_url            :String
         ,time               :Number
+        ,gallery            :[String]
     });
 
     mongoose.model('todayProduct',proSchema);

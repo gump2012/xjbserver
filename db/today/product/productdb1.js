@@ -15,7 +15,13 @@ var newCategory = new todayCategory({pid:1
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[
+        'http://img03.taobaocdn.com/imgextra/i3/468359490/T2rEuxXtpXXXXXXXXX-468359490.jpg'
+        ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2qE4FXxpaXXXXXXXX-468359490.jpg'
+        ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2LSWKXpNaXXXXXXXX-468359490.jpg'
+        ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2Xa0WXAlaXXXXXXXX-468359490.jpg'
+    ]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -33,7 +39,8 @@ newCategory = new todayCategory({pid:2
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFFvk/p88pE.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -51,7 +58,8 @@ newCategory = new todayCategory({pid:3
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFyRw/5vQyV.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -69,7 +77,8 @@ newCategory = new todayCategory({pid:4
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pEuJw/QpzFN.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -87,7 +96,8 @@ newCategory = new todayCategory({pid:5
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pEBdV/pT2h1.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -105,7 +115,8 @@ newCategory = new todayCategory({pid:6
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFTcU/KNG1j.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -123,7 +134,8 @@ newCategory = new todayCategory({pid:7
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pEP7c/qZ3wb.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -141,7 +153,8 @@ newCategory = new todayCategory({pid:8
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pGmdO/10anS9.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -159,7 +172,8 @@ newCategory = new todayCategory({pid:9
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFLcZ/b4XSH.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -177,7 +191,8 @@ newCategory = new todayCategory({pid:10
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFSwx/wMnYW.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -195,7 +210,8 @@ newCategory = new todayCategory({pid:11
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFiaf/K3snU.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -213,7 +229,8 @@ newCategory = new todayCategory({pid:12
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pGs9s/siBhe.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -231,7 +248,8 @@ newCategory = new todayCategory({pid:13
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFwBd/nTmiJ.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -249,7 +267,8 @@ newCategory = new todayCategory({pid:14
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pGOBc/VR9XQ.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -267,7 +286,8 @@ newCategory = new todayCategory({pid:15
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pGsin/vAwcr.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -285,7 +305,8 @@ newCategory = new todayCategory({pid:16
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pH4wu/12werd.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -303,7 +324,8 @@ newCategory = new todayCategory({pid:17
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pHdBB/QD68Y.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -321,7 +343,8 @@ newCategory = new todayCategory({pid:18
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pHfsp/XC17E.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -339,7 +362,8 @@ newCategory = new todayCategory({pid:19
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pHmHz/AEcgA.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -357,7 +381,8 @@ newCategory = new todayCategory({pid:20
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pHuZQ/Mfi1X.jpg'
-    ,time:0});
+    ,time:0
+    ,gallery:[]});
 newCategory.save( function( err, silence ) {
     if( err )
     {

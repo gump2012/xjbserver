@@ -14,7 +14,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VNLIB/9UBMs.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -32,7 +33,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VO2As/WL7gw.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -50,7 +52,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VNZkE/pcufV.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -68,7 +71,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VPJN8/IhhtS.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -86,7 +90,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VO9PY/XV8fE.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -104,7 +109,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VOLlz/CgLSl.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -122,7 +128,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VOv2A/GFBuE.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -140,7 +147,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VP45f/3M1Ls.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -158,7 +166,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VOVpp/2VshK.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -176,7 +185,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VNR0R/HBdck.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -194,7 +204,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VPqLy/1hNqL.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -212,7 +223,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VPmet/13iHf2.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -230,7 +242,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VPuKW/1EAPA.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -248,7 +261,8 @@ function creatdb(mongoose){
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VOTqt/suwXq.jpg'
-        ,time:0});
+        ,time:0
+        ,gallery:[]});
     newCategory.save( function( err, silence ) {
         if( err )
         {

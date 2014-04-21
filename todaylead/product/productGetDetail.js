@@ -45,8 +45,17 @@ function findBasic(pid,responsevalue,response){
             responsevalue.info.data.price = doc.price;
             responsevalue.info.data.volume = doc.volume;
             responsevalue.info.data.recentvolume = doc.recentvolume;
-
-            findGallery(pid,responsevalue,response);
+            console.log(doc.gallery.length);
+            console.log(doc.gallery);
+            for(i in doc.gallery)
+            {
+                console.log(i);
+                console.log(doc.gallery[i]);
+                responsevalue.info.data.gallery.push(doc.gallery[i]);
+            }
+            console.log('caonima');
+            console.log(responsevalue.info.data.gallery);
+            findAttr(pid,responsevalue,response);
         }
         else
         {
@@ -56,17 +65,6 @@ function findBasic(pid,responsevalue,response){
             response.write(postData);
             response.end();
         }
-    });
-}
-
-function findGallery(pid,responsevalue,response){
-    var gallerymode = mongoose.model('todayProductPic');
-    gallerymode.find({pid:pid},function(err,doc){
-        for(var i in doc){
-            responsevalue.info.data.gallery.push(doc[i].url);
-        }
-
-        findAttr(pid,responsevalue,response);
     });
 }
 
