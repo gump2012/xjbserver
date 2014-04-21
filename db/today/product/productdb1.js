@@ -17,10 +17,11 @@ var newCategory = new todayCategory({pid:1
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'
     ,time:0
     ,gallery:[
-        'http://img03.taobaocdn.com/imgextra/i3/468359490/T2rEuxXtpXXXXXXXXX-468359490.jpg'
-        ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2qE4FXxpaXXXXXXXX-468359490.jpg'
-        ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2LSWKXpNaXXXXXXXX-468359490.jpg'
-        ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2Xa0WXAlaXXXXXXXX-468359490.jpg'
+        "http://img03.taobaocdn.com/imgextra/i3/468359490/T2rEuxXtpXXXXXXXXX-468359490.jpg"
+        ,"http://img02.taobaocdn.com/imgextra/i2/468359490/T2qE4FXxpaXXXXXXXX-468359490.jpg"
+        ,"http://img02.taobaocdn.com/imgextra/i2/468359490/T2LSWKXpNaXXXXXXXX-468359490.jpg"
+        ,"http://img02.taobaocdn.com/imgextra/i2/468359490/T2Xa0WXAlaXXXXXXXX-468359490.jpg"
+        ,null
     ]});
 newCategory.save( function( err, silence ) {
     if( err )

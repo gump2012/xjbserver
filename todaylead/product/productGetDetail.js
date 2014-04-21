@@ -45,16 +45,12 @@ function findBasic(pid,responsevalue,response){
             responsevalue.info.data.price = doc.price;
             responsevalue.info.data.volume = doc.volume;
             responsevalue.info.data.recentvolume = doc.recentvolume;
-            console.log(doc.gallery.length);
-            console.log(doc.gallery);
-            for(i in doc.gallery)
+
+            for(var i = 0; i < doc.gallery.length - 1; ++i)
             {
-                console.log(i);
-                console.log(doc.gallery[i]);
                 responsevalue.info.data.gallery.push(doc.gallery[i]);
             }
-            console.log('caonima');
-            console.log(responsevalue.info.data.gallery);
+
             findAttr(pid,responsevalue,response);
         }
         else
