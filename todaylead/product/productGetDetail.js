@@ -13,7 +13,7 @@ function getDetail(response,request){
         info:{
             extra:{},
             data:{
-                id              :pid
+                pid              :pid
                 ,cid            :0
                 ,title          :''
                 ,volume         :0
