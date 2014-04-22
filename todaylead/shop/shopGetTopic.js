@@ -14,33 +14,29 @@ function getTopic(response,request){
         msg:''
     }
 
-    var admodle = mongoose.model('todayAd');
-    admodle.find({},function(err,doc){
+    var topicmodle = mongoose.model('todayshoptopic');
+    topicmodle.find({},function(err,doc){
         for(var i in doc){
             var item = {
-                adid              :doc[i].adid
+                topicid           :doc[i].topicid
                 ,img_url          :doc[i].img_url
-                ,type             :doc[i].type
-                ,linkto           :doc[i].linkto
-                ,param            :{
-                    app_ad_in_subtype   :doc[i].param.app_ad_in_subtype
-                }
+                ,title            :doc[i].title
+                ,goods            :[]
             }
 
-            switch (item.param.app_ad_in_subtype)
+            var iTop = 5;
+            if(doc[i].goods.length > iTop)
             {
-                case 1:
+                for(var j = 0; j < iTop; ++j)
                 {
-                    item.param.keyword = doc[i].param.keyword;
+                    item.goods.push(doc[i].goods[j]);
                 }
-                    break;
-                case 2:
+            }
+            else{
+                for(j in doc[i].goods)
                 {
-                    item.param.pid = doc[i].param.pid;
+                    item.goods.push(doc[i].goods[j]);
                 }
-                    break;
-                default :
-                    break;
             }
 
             responsevalue.info.data.push(item);

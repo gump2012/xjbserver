@@ -29,6 +29,18 @@ function createdb(mongoose){
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
         ]
     });
     newtopic.save( function( err, silence ) {
@@ -44,6 +56,18 @@ function createdb(mongoose){
         ,title:'100天'
         ,goods:[
             {pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
@@ -67,6 +91,18 @@ function createdb(mongoose){
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
         ]
     });
     newtopic.save( function( err, silence ) {
@@ -82,6 +118,18 @@ function createdb(mongoose){
         ,title:'100天'
         ,goods:[
             {pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
+            ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
             ,{pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
