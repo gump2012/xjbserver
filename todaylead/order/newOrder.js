@@ -5,6 +5,8 @@
 var mongoose = require('mongoose');
 var crypto = require('crypto');
 
+var querystring = require("querystring");
+
 function newOrder(response,request){
     request.setEncoding('utf8');
 
@@ -14,67 +16,74 @@ function newOrder(response,request){
     });
 
     request.addListener('end', function() {
-        var datajson = JSON.parse(requestData);
-        if(datajson){
-            var item = {
-                city:datajson.city
-                ,province:datajson.province
-                ,area:datajson.area
-                ,consignee:datajson.consignee
-                ,mobile:datajson.mobile
-                ,memo:datajson.memo
-                ,ticket_id:datajson.ticket_id
-                ,token:datajson.token
-                ,address:datajson.address
-                ,shipping_fee:datajson.shipping_fee
-                ,promotion_totalprice:datajson.promotion_totalprice
-                ,payment_way_id:datajson.payment_way_id
-                ,order_id:MD5(Date.now().toString())
-                ,creat_time:Date.now().toString()
-                ,order_states:0
-                ,payment_states:0
-                ,shipping_states:0
-                ,productlist:[]
-            }
-
-            if(datajson.productlist)
-            {
-                for(i in datajson.productlist)
-                {
-                    var productitem = {
-                        title:datajson.productlist[i].title
-                        ,price:datajson.productlist[i].price
-                        ,pid:datajson.productlist[i].pid
-                        ,quantity:datajson.productlist[i].quantity
-                        ,attr_list:[]
-                    }
-
-                    if(datajson.productlist[i].attr_list)
-                    {
-                        for(j in datajson.productlist[i].attr_list)
-                        {
-                            var attritem = {
-                                goods_attr_id:datajson.productlist[i].attr_list[j].goods_attr_id
-                                ,attr_price:datajson.productlist[i].attr_list[j].attr_price
-                            }
-
-                            productitem.attr_list.push(attritem);
-                        }
-                    }
-
-                    item.productlist.push(productitem);
+        var strjson = querystring.parse(requestData).order_json;
+        if(strjson){
+            var datajson = JSON.parse(strjson);
+            if(datajson){
+                var item = {
+                    city:datajson.city
+                    ,province:datajson.province
+                    ,area:datajson.area
+                    ,consignee:datajson.consignee
+                    ,mobile:datajson.mobile
+                    ,memo:datajson.memo
+                    ,ticket_id:datajson.ticket_id
+                    ,token:datajson.token
+                    ,address:datajson.address
+                    ,shipping_fee:datajson.shipping_fee
+                    ,promotion_totalprice:datajson.promotion_totalprice
+                    ,payment_way_id:datajson.payment_way_id
+                    ,order_id:MD5(Date.now().toString())
+                    ,creat_time:Date.now().toString()
+                    ,order_states:0
+                    ,payment_states:0
+                    ,shipping_states:0
+                    ,productlist:[]
                 }
+
+                if(datajson.productlist)
+                {
+                    for(i in datajson.productlist)
+                    {
+                        var productitem = {
+                            title:datajson.productlist[i].title
+                            ,price:datajson.productlist[i].price
+                            ,pid:datajson.productlist[i].pid
+                            ,quantity:datajson.productlist[i].quantity
+                            ,attr_list:[]
+                        }
+
+                        if(datajson.productlist[i].attr_list)
+                        {
+                            for(j in datajson.productlist[i].attr_list)
+                            {
+                                var attritem = {
+                                    goods_attr_id:datajson.productlist[i].attr_list[j].goods_attr_id
+                                    ,attr_price:datajson.productlist[i].attr_list[j].attr_price
+                                }
+
+                                productitem.attr_list.push(attritem);
+                            }
+                        }
+
+                        item.productlist.push(productitem);
+                    }
+                }
+
+                var pidnumber = item.productlist.length;
+                findPid(item,response,pidnumber);
+            }
+            else
+            {
+                returnErr(response,'数据错误');
             }
 
-            var pidnumber = item.productlist.length;
-            findPid(item,response,pidnumber);
         }
-        else
-        {
-            returnErr(response,'数据错误');
+        else{
+            returnErr(response,'数据为空')
         }
-     });
 
+    });
 }
 
 function MD5(str, encoding) {
