@@ -21,6 +21,7 @@ function getTopic(response,request){
                 topicid           :doc[i].topicid
                 ,img_url          :doc[i].img_url
                 ,title            :doc[i].title
+                ,img_url          :doc[i].img_url
                 ,goods            :[]
             }
 
