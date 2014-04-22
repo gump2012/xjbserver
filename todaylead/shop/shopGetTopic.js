@@ -8,7 +8,14 @@ function getTopic(response,request){
     var responsevalue = {
         info:{
             extra:{},
-            data:[]
+            data:{
+                topic:[]
+                ,recommend:{
+                    title:''
+                    ,keyword:''
+                    ,topthree:[]
+                }
+            }
         },
         response_status:'',
         msg:''
@@ -39,7 +46,51 @@ function getTopic(response,request){
                 }
             }
 
-            responsevalue.info.data.push(item);
+            responsevalue.info.data.topic.push(item);
+        }
+
+        getRecommend(response,responsevalue);
+//        var postData = JSON.stringify(responsevalue);
+//        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+//        response.write(postData);
+//        response.end();
+    });
+}
+
+function getRecommend(response,responsevalue){
+    var productmodle = mongoose.model('todayProduct');
+
+    var strRecommend = '新潮推荐';
+    var strkw = '新潮';
+
+    responsevalue.info.data.recommend.title = strRecommend;
+    responsevalue.info.data.recommend.keyword = strkw;
+
+    productmodle.find({},'title pid pic_url',{sort: {pid:'desc'}}, function (err, docs) {
+        var gettext=[];
+        for(var i in docs){
+            if(docs[i].title.indexOf(strkw) != -1){
+                var item = {
+                    pic_url:docs[i].pic_url
+                    ,pid:docs[i].pid
+                }
+                gettext.push(item);
+            }
+        }
+
+        if(gettext.length > 2)
+        {
+            for(var i = 0; i < 3; ++i)
+            {
+                responsevalue.info.data.recommend.topthree.push(gettext[i]);
+            }
+        }
+        else
+        {
+            for(i in gettext)
+            {
+                responsevalue.info.data.recommend.topthree.push(gettext[i]);
+            }
         }
 
         var postData = JSON.stringify(responsevalue);
