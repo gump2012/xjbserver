@@ -21,7 +21,7 @@ function createdb(mongoose){
 
     var newtopic = new todaytopic({
         topicid:1
-        ,img_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
+        ,pic_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
         ,title:'100天'
         ,goods:[
             {pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
@@ -52,7 +52,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:2
-        ,img_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
+        ,pic_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
         ,title:'100天'
         ,goods:[
             {pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
@@ -83,7 +83,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:3
-        ,img_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
+        ,pic_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
         ,title:'100天'
         ,goods:[
             {pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}
@@ -114,7 +114,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:4
-        ,img_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
+        ,pic_url:'http://xingjiabi.b0.upaiyun.com/images/shop/theme/532ff2f73c5cf.jpg'
         ,title:'100天'
         ,goods:[
             {pid:1,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'}

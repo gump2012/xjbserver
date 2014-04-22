@@ -19,9 +19,8 @@ function getTopic(response,request){
         for(var i in doc){
             var item = {
                 topicid           :doc[i].topicid
-                ,img_url          :doc[i].img_url
+                ,pic_url          :doc[i].pic_url
                 ,title            :doc[i].title
-                ,img_url          :doc[i].img_url
                 ,goods            :[]
             }
 
