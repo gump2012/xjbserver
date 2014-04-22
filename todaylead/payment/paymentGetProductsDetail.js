@@ -5,6 +5,8 @@
 var publicfun = require("../todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
 
+var querystring = require("querystring");
+
 function getProductsDetail(response,request){
     request.setEncoding('utf8');
 
@@ -14,9 +16,8 @@ function getProductsDetail(response,request){
     });
 
     request.addListener('end', function() {
-        var datajson = JSON.parse(requestData);
-        if(datajson.pids){
-            var strpids = datajson.pids;
+        var strpids = querystring.parse(requestData).pids;
+        if(strpids){
             var pidsarr=strpids.split(",");
             if(pidsarr.length > 0){
                 var responsevalue = {
