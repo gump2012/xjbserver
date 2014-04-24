@@ -18,7 +18,7 @@ var newCategory = new todayCategory({pid:1
     ,time:0
     ,gallery:[
         "http://pic.yupoo.com/yige2002/DHwb00yE/twcIf.jpg"
-        ,"http://pic.yupoo.com/yige2002/DHwb00yE/twcIf.jpg"
+        ,"http://pic.yupoo.com/yige2002/DHwbEy1g/Cg7Sd.jpg"
         ,"http://pic.yupoo.com/yige2002/DHwbEI2C/ESEbp.jpg"
         ,null
     ]});
