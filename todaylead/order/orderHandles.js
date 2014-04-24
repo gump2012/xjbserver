@@ -5,9 +5,11 @@ var getAssistantValue = require("../todayPublic/getAssistantValue");
 var route = require("../../router");
 
 var newOrder = require("./newOrder");
+var orderGetDetail = require("./orderGetDetail");
 
 var orderHandle = {};
 orderHandle["neworder"] = newOrder.newOrder;
+orderHandle["getMyOrderDetail"] = orderGetDetail.getMyOrderDetail;
 
 function order(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
