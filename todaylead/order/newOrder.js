@@ -90,10 +90,6 @@ function MD5(str, encoding) {
     return crypto.createHash('md5').update(str).digest(encoding || 'hex');
 }
 
-function priceCompare(item){
-    return false;
-}
-
 function returnErr(response,errstr){
     var responsevalue = {
         info:{

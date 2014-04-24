@@ -19,7 +19,7 @@ function createdb(mongoose){
             type: String,
             unique: true
         }
-        ,creat_time             :Date
+        ,creat_time             :String
         ,order_states           :Number
         ,payment_states         :Number
         ,shipping_states        :Number

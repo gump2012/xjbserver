@@ -49,7 +49,21 @@ function getMyOrderDetail(response,request){
 }
 
 function processOrderData(response,request,doc){
-
+    var responseValue = {
+        order_id:doc.order_id
+        ,order_status:doc.order_status
+        ,payment_status:doc.payment_states
+        ,shipping_status:doc.shipping_states
+        ,consignee:doc.consignee
+        ,address:doc.address
+        ,city:doc.city
+        ,province:doc.province
+        ,area:doc.area
+        ,mobile:doc.mobile
+        ,promotion_totalprice:doc.promotion_totalprice
+        ,payment_way_id:doc.payment_way_id
+        ,creat_time:doc.creat_time
+    }
 }
 
 exports.getMyOrderDetail = getMyOrderDetail;
