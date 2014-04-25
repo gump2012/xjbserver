@@ -24,6 +24,15 @@ function returnErr(response,errstr){
     response.end();
 }
 
+function returnValue(response,responsevalue)
+{
+    var postData = JSON.stringify(responsevalue);
+    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+    response.write(postData);
+    response.end();
+}
+
 exports.getAssistantValue = getAssistantValue;
 exports.returnErr = returnErr;
+exports.returnValue = returnValue;
 
