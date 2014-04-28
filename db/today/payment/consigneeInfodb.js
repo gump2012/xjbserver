@@ -7,6 +7,7 @@ function createdb(mongoose){
             type: String,
             unique: true
         }
+        ,ticket_id            :String
         ,consignee            :String
         ,address              :String
         ,mobile               :String

@@ -106,12 +106,12 @@ function returnErr(response,errstr){
 }
 
 function findPid(item,response,pidnumber){
-    var productmodle = mongoose.model('todayProduct');
 
     if(pidnumber <= 0){
         comparePrice(item,response);
     }
     else{
+        var productmodle = mongoose.model('todayProduct');
         var pid = item.productlist[pidnumber-1].pid;
         productmodle.findOne({pid:pid},'price',function(err,doc){
             if(doc)
@@ -183,6 +183,7 @@ function comparePrice(item,response){
                 ,address:item.address
                 ,mobile:item.mobile
                 ,baseaddr:item.baseaddr
+                ,ticket_id:item.ticket_id
             }
 
             var consigneeEntity = new consigneemodle(consigneeitem);
@@ -207,7 +208,6 @@ function comparePrice(item,response){
             var postData = JSON.stringify(responsevalue);
             response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
             response.write(postData);
-            console.log(postData);
             response.end();
         }
     }

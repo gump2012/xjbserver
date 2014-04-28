@@ -367,7 +367,7 @@ newCategory = new todayCategory({pid:16
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pH4wu/12werd.jpg'
     ,time:0
     ,gallery:[
-        ,'http://pic.yupoo.com/yige2002/DHyuuanW/vcsUJ.jpg'
+        'http://pic.yupoo.com/yige2002/DHyuuanW/vcsUJ.jpg'
         ,'http://pic.yupoo.com/yige2002/DHyuuuZM/m6wbs.jpg'
         ,null
     ]});
@@ -437,7 +437,7 @@ newCategory = new todayCategory({pid:19
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pHmHz/AEcgA.jpg'
     ,time:0
     ,gallery:[
-        ,'http://pic.yupoo.com/yige2002/DHyzSdV7/LsWNk.jpg'
+        'http://pic.yupoo.com/yige2002/DHyzSdV7/LsWNk.jpg'
         ,'http://pic.yupoo.com/yige2002/DHyzSEZU/H62pJ.jpg'
         ,null
     ]});

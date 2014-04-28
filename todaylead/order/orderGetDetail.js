@@ -31,28 +31,6 @@ function getMyOrderDetail(response,request){
                         "thumb_size": "_100x100.jpg"
                     },
                     "data": {
-                        "order_number": "6154755957803502520",
-                        "order_status": "等待确认",
-                        "pay_status": "0",
-                        "shipping_status": "0",
-                        "consignee": "李东",
-                        "address": "碧桂园17号",
-                        "baseaddr": "北京北京市房山区",
-                        "mobile": "13646426253",
-                        "goods_amount": "71.00",
-                        "payment_id": "1",
-                        "payment_name": "货到付款",
-                        "payment_status": "0",
-                        "is_new_style": "1",
-                        "payment_fee": "12.00",
-                        "orderprice": "83.00",
-                        "memo": "",
-                        "create_time": "1398228939",
-                        "is_transfer": "false",
-                        "promotion": null,
-                        "goods_number": "2",
-                        "status": "0",
-                        "payment_notice": "",
                         "goods_list": [
                             {
                                 "goods_name": "延时秘籍龟头训练器",
@@ -120,8 +98,92 @@ function processOrderData(response,request,doc){
         ,payment_way_id:doc.payment_way_id
         ,creat_time:doc.creat_time
         ,goods_number:0
+        ,shipping_fee:doc.shipping_fee
+        ,memo:doc.memo
+        ,payment_name:''
         ,goods_list:[]
     }
+
+    if(doc.productlist){
+        getGoodsList(response,request,responseValue,doc.productlist,0);
+    }
+    else{
+        publictool.returnErr(response,'no product list');
+    }
+}
+
+function getGoodsList(response,request,responseValue,productarr,iindex){
+    if(iindex >= productarr.length){
+        getPaymentName(response,request,responseValue);
+    }
+    else{
+        var pid = productarr[iindex].pid;
+        if(pid)
+        {
+            var gooditem = {
+                goods_name:productarr[iindex].title
+                ,goods_number:productarr[iindex].quantity
+                ,goods_price:productarr[iindex].price
+                ,goods_attr:''
+                ,pic_url:''
+            }
+
+            responseValue.goods_number += new Number(gooditem.goods_number);
+
+            var productmodle = mongoose.model('todayProduct');
+            productmodle.findOne({pid:pid},'pic_url',function(err,doc){
+                if(doc)
+                {
+                    gooditem.pic_url = doc.pic_url;
+                    if(productarr[iindex].attr_list && productarr[iindex].attr_list.length > 0){
+                        getGoodsAttr(response,request,responseValue,productarr,iindex,productarr[iindex].attr_list,gooditem);
+                    }
+                    else{
+                        iindex++;
+                        responseValue.goods_list.push(gooditem);
+                        getGoodsList(response,request,responseValue,productarr,iindex);
+                    }
+                }
+                else
+                {
+                    publictool.returnErr(response,'未找到商品数据');
+                }
+            });
+        }
+        else{
+            publictool.returnErr(response,'pid is undefind');
+        }
+    }
+}
+
+function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,gooditem){
+    gooditem.goods_price = new Number(gooditem.goods_price) + new Number(attrarr[0].attr_price);
+    var attrmodel = mongoose.model('todayProductAttr');
+    attrmodel.findOne({attr_id:attrarr[0].goods_attr_id},'attr_value',function(err,doc){
+        if(doc){
+            gooditem.goods_attr = doc.attr_value;
+
+            iindex++;
+            responseValue.goods_list.push(gooditem);
+            getGoodsList(response,request,responseValue,productarr,iindex);
+        }
+        else{
+            publictool.returnErr(response,'未找到属性数据');
+        }
+    });
+}
+
+function getPaymentName(response,request,responseValue){
+    var paymodel = mongoose.model('todayPaymentList');
+    paymodel.findOne({payment_way_id:responseValue.payment_way_id},'payment_way_name',function(err,doc){
+       if(doc){
+           responseValue.payment_name = doc.payment_way_name;
+           publictool.returnValue(response,responseValue);
+       }
+        else{
+           publictool.returnErr(response,'未找到付款方式')
+       }
+    });
 }
 
 exports.getMyOrderDetail = getMyOrderDetail;
