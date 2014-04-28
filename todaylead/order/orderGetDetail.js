@@ -14,49 +14,15 @@ function getMyOrderDetail(response,request){
     if(order_id){
         var ticketid = querystring.parse(arg).ticket_id;
         if(ticketid){
-//            var ordermodle = mongoose.model('todayOrder');
-//            ordermodle.findOne({order_id:order_id,ticket_id:ticketid},function(err,doc){
-//                if(doc){
-//                    processOrderData(response,request,doc);
-//                }
-//                else{
-//                    publictool.returnErr(response,'no order data');
-//                }
-//            });
-
-
-            var responsevalue ={
-                "info": {
-                    "extra": {
-                        "thumb_size": "_100x100.jpg"
-                    },
-                    "data": {
-                        "goods_list": [
-                            {
-                                "goods_name": "延时秘籍龟头训练器",
-                                "goods_number": "1",
-                                "goods_price": "26.00",
-                                "goods_attr": "[规格]：萝莉第一次 阶段一适合 送1包油",
-                                "pic_url": "http://img.taobaocdn.com/imgextra/http://img04.taobaocdn.com/imgextra/i4/468359490/T2psJZXc8eXXXXXXXX_!!468359490.jpg"
-                            },
-                            {
-                                "goods_name": "玩爆潮品4D黑腔带香味仿真型名器【春蕾行动】",
-                                "goods_number": "1",
-                                "goods_price": "45.00",
-                                "goods_attr": "[规格]：4D香味黑腔-台妹款",
-                                "pic_url": "http://img04.taobaocdn.com/imgextra/i4/468359490/T2bvNEXshaXXXXXXXX-468359490.jpg"
-                            }
-                        ]
-                    }
-                },
-                "response_status": "success",
-                "msg": ""
-            };
-
-            var postData = JSON.stringify(responsevalue);
-            response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-            response.write(postData);
-            response.end();
+            var ordermodle = mongoose.model('todayOrder');
+            ordermodle.findOne({order_id:order_id,ticket_id:ticketid},function(err,doc){
+                if(doc){
+                    processOrderData(response,request,doc);
+                }
+                else{
+                    publictool.returnErr(response,'no order data');
+                }
+            });
         }
         else{
             var token = querystring.parse(arg).token;
