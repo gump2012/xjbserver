@@ -9,6 +9,7 @@ var consigneeInfodb = require("./today/payment/consigneeInfodb");
 var orderdb = require("./today/order/orderdb");
 var addb = require("./today/shop/shopAddb");
 var shoptopicdb = require("./today/shop/shopTopicdb");
+var accountdb = require("./today/account/accountdb");
 
 var mongoose = require('mongoose');
 function start(){
@@ -38,6 +39,8 @@ function start(){
 
         addb.createdb(mongoose);
         shoptopicdb.createdb(mongoose);
+
+        accountdb.createdb(mongoose);
     });
 };
 
