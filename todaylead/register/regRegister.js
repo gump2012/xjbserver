@@ -35,6 +35,7 @@ function register(response,request){
                         ,account_coin:1
                         ,sex_type:0
                         ,nickname:nickname
+                        ,token:token
                     };
 
                     accountdb.saveAccount(accountvalue);

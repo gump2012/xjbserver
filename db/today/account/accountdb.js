@@ -18,6 +18,10 @@ function createdb(mongoose){
         ,account_coin       :Number
         ,sex_type           :Number
         ,nickname           :String
+        ,token              :{
+            type:String
+            ,unique:true
+        }
     });
 
     mongoose.model('todayaccount',userSchema);
