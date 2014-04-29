@@ -4,13 +4,16 @@
 var getAssistantValue = require("../todayPublic/getAssistantValue");
 var route = require("../../router");
 
-var categoryHandle = {}
+var mylogin = require("./login");
+
+var loginHandle = {}
+loginHandle["login"] = mylogin.login;
 
 function login(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
     console.log(assistant);
     if(assistant){
-        route.route(categoryHandle,assistant,response,request);
+        route.route(loginHandle,assistant,response,request);
     }
 }
 

@@ -25,7 +25,7 @@ function register(response,request){
             var accountmodel = mongoose.model('todayaccount');
             accountmodel.findOne({phone:phone},function(err,doc){
                 if(doc){
-                    publictool.returnErrWithResponseState(response,'账号会员已存在','account_email_exists');
+                    publictool.returnErrWithResponseState(response,'账号会员已存在','account_phone_exists');
                 }
                 else{
                     var accountvalue = {
@@ -36,6 +36,7 @@ function register(response,request){
                         ,sex_type:0
                         ,nickname:nickname
                         ,token:token
+                        ,password:password
                     };
 
                     accountdb.saveAccount(accountvalue);

@@ -22,6 +22,7 @@ function createdb(mongoose){
             type:String
             ,unique:true
         }
+        ,password           :String
     });
 
     mongoose.model('todayaccount',userSchema);
