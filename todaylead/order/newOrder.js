@@ -38,6 +38,8 @@ function newOrder(response,request){
                     ,order_states:0
                     ,payment_states:0
                     ,shipping_states:0
+                    ,goods_number:0
+                    ,payment_name:''
                     ,productlist:[]
                 }
 
@@ -50,8 +52,11 @@ function newOrder(response,request){
                             ,price:datajson.productlist[i].price
                             ,pid:datajson.productlist[i].pid
                             ,quantity:datajson.productlist[i].quantity
+                            ,pic_url:''
                             ,attr_list:[]
                         }
+
+                        item.goods_number += new Number(productitem.quantity);
 
                         if(datajson.productlist[i].attr_list)
                         {
@@ -113,9 +118,10 @@ function findPid(item,response,pidnumber){
     else{
         var productmodle = mongoose.model('todayProduct');
         var pid = item.productlist[pidnumber-1].pid;
-        productmodle.findOne({pid:pid},'price',function(err,doc){
+        productmodle.findOne({pid:pid},'price pic_url',function(err,doc){
             if(doc)
             {
+                item.productlist[pidnumber - 1].pic_url = doc.pic_url;
                 if(item.productlist[pidnumber - 1].price == doc.price){
                     pidnumber--;
                     var attrnumber = item.productlist[pidnumber].attr_list.length;
@@ -138,7 +144,6 @@ function findPid(item,response,pidnumber){
             }
         });
     }
-
 }
 
 function comparePrice(item,response){
@@ -171,11 +176,6 @@ function comparePrice(item,response){
             returnErr(response,'运费不对');
         }
         else{
-            var ordermodle = mongoose.model('todayOrder');
-
-            var orderEntity = new ordermodle(item);
-            orderEntity.save();
-
             var consigneemodle = mongoose.model('todayConsigneeInfo');
             var consigneeitem = {
                 token:item.token
@@ -189,26 +189,7 @@ function comparePrice(item,response){
             var consigneeEntity = new consigneemodle(consigneeitem);
             consigneeEntity.save();
 
-            var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
-            var responsevalue = {
-                info:{
-                    extra:'',
-                    data:{
-                        order_id:item.order_id
-                        ,orderprice:orderprice
-                        ,create_time:item.creat_time
-                        ,order_status:item.order_states
-                        ,payment_way_id:item.payment_way_id
-                        ,payment_status:item.payment_states
-                    }
-                },
-                response_status:'',
-                msg:''
-            }
-            var postData = JSON.stringify(responsevalue);
-            response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-            response.write(postData);
-            response.end();
+            findPaymentName(response,item);
         }
     }
 }
@@ -240,6 +221,63 @@ function findAttr(item,response,pidnumber,attrnumber){
     else{
         findPid(item,response,pidnumber);
     }
+}
+
+function findPaymentName(response,item){
+
+    var paymentmodel = mongoose.model('todayPaymentList');
+    paymodel.findOne({payment_way_id:item.payment_way_id},'payment_way_name',function(err,doc){
+        if(doc){
+            item.payment_name = doc.payment_way_name;
+
+            var ordermodle = mongoose.model('todayOrder');
+            var orderEntity = new ordermodle(item);
+            orderEntity.save();
+
+            var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
+            var responsevalue = {
+                info:{
+                    extra:'',
+                    data:{
+                        order_id:item.order_id
+                        ,orderprice:orderprice
+                        ,create_time:item.creat_time
+                        ,order_status:item.order_states
+                        ,payment_way_id:item.payment_way_id
+                        ,payment_status:item.payment_states
+                        ,payment_name:item.payment_name
+                    }
+                },
+                response_status:'',
+                msg:''
+            }
+            publictool.returnValue(response,responsevalue);
+        }
+        else{
+            publictool.returnErr(response,'未找到付款方式')
+        }
+    });
+
+    var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
+    var responsevalue = {
+        info:{
+            extra:'',
+            data:{
+                order_id:item.order_id
+                ,orderprice:orderprice
+                ,create_time:item.creat_time
+                ,order_status:item.order_states
+                ,payment_way_id:item.payment_way_id
+                ,payment_status:item.payment_states
+            }
+        },
+        response_status:'',
+        msg:''
+    }
+    var postData = JSON.stringify(responsevalue);
+    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+    response.write(postData);
+    response.end();
 }
 
 exports.newOrder = newOrder;

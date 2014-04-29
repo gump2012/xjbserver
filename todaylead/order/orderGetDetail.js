@@ -63,7 +63,7 @@ function processOrderData(response,request,doc){
         ,promotion_totalprice:doc.promotion_totalprice
         ,payment_way_id:doc.payment_way_id
         ,creat_time:doc.creat_time
-        ,goods_number:0
+        ,goods_number:doc.goods_number
         ,shipping_fee:doc.shipping_fee
         ,memo:doc.memo
         ,payment_name:''
@@ -93,8 +93,6 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
                 ,goods_attr:''
                 ,pic_url:''
             }
-
-            responseValue.goods_number += new Number(gooditem.goods_number);
 
             var productmodle = mongoose.model('todayProduct');
             productmodle.findOne({pid:pid},'pic_url',function(err,doc){

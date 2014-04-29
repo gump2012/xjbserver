@@ -23,6 +23,8 @@ function createdb(mongoose){
         ,order_states           :Number
         ,payment_states         :Number
         ,shipping_states        :Number
+        ,goods_number           :Number
+        ,payment_name           :String
         ,productlist            :[mongoose.Schema.Types.Mixed]
     });
 
