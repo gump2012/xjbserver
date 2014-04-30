@@ -50,24 +50,31 @@ function getMyOrderDetail(response,request){
 
 function processOrderData(response,request,doc){
     var responseValue = {
-        order_id:doc.order_id
-        ,order_status:doc.order_status
-        ,payment_status:doc.payment_states
-        ,shipping_status:doc.shipping_states
-        ,consignee:doc.consignee
-        ,address:doc.address
-        ,city:doc.city
-        ,province:doc.province
-        ,area:doc.area
-        ,mobile:doc.mobile
-        ,promotion_totalprice:doc.promotion_totalprice
-        ,payment_way_id:doc.payment_way_id
-        ,creat_time:doc.creat_time
-        ,goods_number:doc.goods_number
-        ,shipping_fee:doc.shipping_fee
-        ,memo:doc.memo
-        ,payment_name:''
-        ,goods_list:[]
+        info:{
+            extra:{}
+            ,data:{
+                order_id:doc.order_id
+                ,order_status:doc.order_status
+                ,payment_status:doc.payment_states
+                ,shipping_status:doc.shipping_states
+                ,consignee:doc.consignee
+                ,address:doc.address
+                ,city:doc.city
+                ,province:doc.province
+                ,area:doc.area
+                ,mobile:doc.mobile
+                ,promotion_totalprice:doc.promotion_totalprice
+                ,payment_way_id:doc.payment_way_id
+                ,creat_time:doc.creat_time
+                ,goods_number:doc.goods_number
+                ,shipping_fee:doc.shipping_fee
+                ,memo:doc.memo
+                ,payment_name:''
+                ,goods_list:[]
+            }
+        }
+        ,response_status:'success'
+        ,msg:''
     }
 
     if(doc.productlist){
@@ -104,7 +111,7 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
                     }
                     else{
                         iindex++;
-                        responseValue.goods_list.push(gooditem);
+                        responseValue.info.data.goods_list.push(gooditem);
                         getGoodsList(response,request,responseValue,productarr,iindex);
                     }
                 }
@@ -128,7 +135,7 @@ function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,g
             gooditem.goods_attr = doc.attr_value;
 
             iindex++;
-            responseValue.goods_list.push(gooditem);
+            responseValue.info.data.goods_list.push(gooditem);
             getGoodsList(response,request,responseValue,productarr,iindex);
         }
         else{
@@ -139,9 +146,9 @@ function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,g
 
 function getPaymentName(response,request,responseValue){
     var paymodel = mongoose.model('todayPaymentList');
-    paymodel.findOne({payment_way_id:responseValue.payment_way_id},'payment_way_name',function(err,doc){
+    paymodel.findOne({payment_way_id:responseValue.info.data.payment_way_id},'payment_way_name',function(err,doc){
        if(doc){
-           responseValue.payment_name = doc.payment_way_name;
+           responseValue.info.data.payment_name = doc.payment_way_name;
            publictool.returnValue(response,responseValue);
        }
         else{
