@@ -36,6 +36,7 @@ function login(response,request){
                                     ,sex_type:doc.sex_type
                                     ,account_coin:doc.account_coin
                                     ,avatar:doc.avatar
+                                    ,phone:phone
                                 }
                             },
                             response_status: "success",
