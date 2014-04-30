@@ -4,7 +4,7 @@
 
 var mongoose = require('mongoose');
 var crypto = require('crypto');
-
+var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
 
 function newOrder(response,request){
@@ -226,7 +226,7 @@ function findAttr(item,response,pidnumber,attrnumber){
 function findPaymentName(response,item){
 
     var paymentmodel = mongoose.model('todayPaymentList');
-    paymodel.findOne({payment_way_id:item.payment_way_id},'payment_way_name',function(err,doc){
+    paymentmodel.findOne({payment_way_id:item.payment_way_id},'payment_way_name',function(err,doc){
         if(doc){
             item.payment_name = doc.payment_way_name;
 
@@ -257,27 +257,6 @@ function findPaymentName(response,item){
             publictool.returnErr(response,'未找到付款方式')
         }
     });
-
-    var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
-    var responsevalue = {
-        info:{
-            extra:'',
-            data:{
-                order_id:item.order_id
-                ,orderprice:orderprice
-                ,create_time:item.creat_time
-                ,order_status:item.order_states
-                ,payment_way_id:item.payment_way_id
-                ,payment_status:item.payment_states
-            }
-        },
-        response_status:'',
-        msg:''
-    }
-    var postData = JSON.stringify(responsevalue);
-    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-    response.write(postData);
-    response.end();
 }
 
 exports.newOrder = newOrder;

@@ -104,7 +104,7 @@ function getMyOrderList(response,request){
                 var responsevalue = {
                     "info": {
                         "extra": {},
-                        "data": []
+                        "data":[]
                     },
                     "response_status": "success",
                     "msg": ""
@@ -115,13 +115,13 @@ function getMyOrderList(response,request){
                         var item = {
                             order_number:docs[i].order_id
                             ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
-                            ,create_time:doc[i].creat_time
-                            ,order_status:doc[i].order_states
-                            ,pay_status:doc[i].payment_states
-                            ,shipping_status:doc[i].shipping_states
+                            ,create_time:docs[i].creat_time
+                            ,order_status:docs[i].order_states
+                            ,pay_status:docs[i].payment_states
+                            ,shipping_status:docs[i].shipping_states
                             ,payment_id:docs[i].payment_way_id
-                            ,payment_name:doc[i].payment_name
-                            ,goods_number:doc[i].goods_number
+                            ,payment_name:docs[i].payment_name
+                            ,goods_number:docs[i].goods_number
                             ,pic_url:''
                         }
 
@@ -129,7 +129,7 @@ function getMyOrderList(response,request){
                             item.pic_url = docs[i].productlist[0].pic_url;
                         }
 
-                        responsevalue.data.push(item);
+                        responsevalue.info.data.push(item);
                     }
                 }
                 else{
