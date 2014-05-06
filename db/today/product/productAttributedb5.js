@@ -1,15 +1,12 @@
 /**
- * Created by lishiming on 14-5-5.
- */
-/**
- * Created by lishiming on 14-5-5.
+ * Created by lishiming on 14-5-6.
  */
 function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProductAttr');
 
-    var newCategory = new todayCategory({pid:31
+    var newCategory = new todayCategory({pid:41
         ,attr_id:11
-        ,goods_attr_id:3100001
+        ,goods_attr_id:4100001
         ,attr_name:'品牌'
         ,attr_value:'其他'
         ,attr_price:0.00
@@ -21,9 +18,9 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:31
+    newCategory = new todayCategory({pid:41
         ,attr_id:12
-        ,goods_attr_id:3100002
+        ,goods_attr_id:4100002
         ,attr_name:'材质'
         ,attr_value:'其他'
         ,attr_price:0.00
@@ -35,9 +32,9 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:31
+    newCategory = new todayCategory({pid:41
         ,attr_id:13
-        ,goods_attr_id:3100003
+        ,goods_attr_id:4100003
         ,attr_name:'产地'
         ,attr_value:'国产'
         ,attr_price:0.00
@@ -49,11 +46,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:31
+    newCategory = new todayCategory({pid:41
         ,attr_id:18
-        ,goods_attr_id:3100004
+        ,goods_attr_id:4100004
         ,attr_name:'规格'
-        ,attr_value:'水晶之恋凤梨套'
+        ,attr_value:'3D美臀'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -63,11 +60,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:32
+    newCategory = new todayCategory({pid:42
         ,attr_id:11
-        ,goods_attr_id:3200001
+        ,goods_attr_id:4200001
         ,attr_name:'品牌'
-        ,attr_value:'爱妃'
+        ,attr_value:'其他'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -77,11 +74,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:32
+    newCategory = new todayCategory({pid:42
         ,attr_id:12
-        ,goods_attr_id:3200002
+        ,goods_attr_id:4200002
         ,attr_name:'材质'
-        ,attr_value:'液体'
+        ,attr_value:'医用软胶'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -91,9 +88,9 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:32
+    newCategory = new todayCategory({pid:42
         ,attr_id:13
-        ,goods_attr_id:3200003
+        ,goods_attr_id:4200003
         ,attr_name:'产地'
         ,attr_value:'国产'
         ,attr_price:0.00
@@ -105,11 +102,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:32
+    newCategory = new todayCategory({pid:42
         ,attr_id:18
-        ,goods_attr_id:3200004
+        ,goods_attr_id:4200004
         ,attr_name:'规格'
-        ,attr_value:'玫瑰味'
+        ,attr_value:'萝莉双层结构上付 熟女'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -119,11 +116,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:32
+    newCategory = new todayCategory({pid:42
         ,attr_id:18
-        ,goods_attr_id:3200005
+        ,goods_attr_id:4200005
         ,attr_name:'规格'
-        ,attr_value:'郁金香味'
+        ,attr_value:'萝莉双层结构下付 处女'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -133,9 +130,443 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:43
         ,attr_id:11
-        ,goods_attr_id:3300001
+        ,goods_attr_id:4300001
+        ,attr_name:'品牌'
+        ,attr_value:'FunZone'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:43
+        ,attr_id:12
+        ,goods_attr_id:4300002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:43
+        ,attr_id:13
+        ,goods_attr_id:4300003
+        ,attr_name:'产地'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:43
+        ,attr_id:18
+        ,goods_attr_id:4300004
+        ,attr_name:'规格'
+        ,attr_value:'可乐蛋细纹草莓味'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:43
+        ,attr_id:18
+        ,goods_attr_id:4300005
+        ,attr_name:'规格'
+        ,attr_value:'可乐蛋螺旋形泥猴桃味'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:43
+        ,attr_id:18
+        ,goods_attr_id:4300006
+        ,attr_name:'规格'
+        ,attr_value:'可乐蛋波纹香橙味'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:44
+        ,attr_id:11
+        ,goods_attr_id:4400001
+        ,attr_name:'品牌'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:44
+        ,attr_id:12
+        ,goods_attr_id:4400002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:44
+        ,attr_id:13
+        ,goods_attr_id:4400003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:44
+        ,attr_id:18
+        ,goods_attr_id:4400004
+        ,attr_name:'规格'
+        ,attr_value:'丰乳妹'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:44
+        ,attr_id:18
+        ,goods_attr_id:4400005
+        ,attr_name:'规格'
+        ,attr_value:'大波妹'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:45
+        ,attr_id:11
+        ,goods_attr_id:4500001
+        ,attr_name:'品牌'
+        ,attr_value:'久兴'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:45
+        ,attr_id:13
+        ,goods_attr_id:4500002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:45
+        ,attr_id:12
+        ,goods_attr_id:4500003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:45
+        ,attr_id:18
+        ,goods_attr_id:4500004
+        ,attr_name:'规格'
+        ,attr_value:'幻魅红色处女'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:45
+        ,attr_id:18
+        ,goods_attr_id:4500005
+        ,attr_name:'规格'
+        ,attr_value:'幻魅绿色肛交'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:45
+        ,attr_id:18
+        ,goods_attr_id:4500006
+        ,attr_name:'规格'
+        ,attr_value:'幻魅蓝色口娇'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:46
+        ,attr_id:11
+        ,goods_attr_id:4600001
+        ,attr_name:'品牌'
+        ,attr_value:'优客仕'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:46
+        ,attr_id:12
+        ,goods_attr_id:4600002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:46
+        ,attr_id:13
+        ,goods_attr_id:4600003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:46
+        ,attr_id:18
+        ,goods_attr_id:4600004
+        ,attr_name:'规格'
+        ,attr_value:'绿色-亲密【最接近真人】'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:46
+        ,attr_id:18
+        ,goods_attr_id:4600005
+        ,attr_name:'规格'
+        ,attr_value:'红色-波浪【强吸吮刺激】'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:46
+        ,attr_id:18
+        ,goods_attr_id:4600006
+        ,attr_name:'规格'
+        ,attr_value:'白色-圆珠【可持久训练】'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:47
+        ,attr_id:11
+        ,goods_attr_id:4700001
+        ,attr_name:'品牌'
+        ,attr_value:'倍儿性'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:47
+        ,attr_id:12
+        ,goods_attr_id:4700002
+        ,attr_name:'材质'
+        ,attr_value:'医用软胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:47
+        ,attr_id:13
+        ,goods_attr_id:4700003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:47
+        ,attr_id:18
+        ,goods_attr_id:4700004
+        ,attr_name:'规格'
+        ,attr_value:'桃花岛阴臀倒模'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:48
+        ,attr_id:11
+        ,goods_attr_id:4800001
+        ,attr_name:'品牌'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:48
+        ,attr_id:12
+        ,goods_attr_id:4800002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:48
+        ,attr_id:13
+        ,goods_attr_id:4800003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:48
+        ,attr_id:18
+        ,goods_attr_id:4800004
+        ,attr_name:'规格'
+        ,attr_value:'加热棒'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:49
+        ,attr_id:11
+        ,goods_attr_id:4900001
         ,attr_name:'品牌'
         ,attr_value:'玩爆潮品'
         ,attr_price:0.00
@@ -147,11 +578,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:49
         ,attr_id:12
-        ,goods_attr_id:3300002
+        ,goods_attr_id:4900002
         ,attr_name:'材质'
-        ,attr_value:'软胶'
+        ,attr_value:'医用软胶'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -161,11 +592,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:49
         ,attr_id:13
-        ,goods_attr_id:3300003
+        ,goods_attr_id:4900003
         ,attr_name:'产地'
-        ,attr_value:'国产'
+        ,attr_value:'日本'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -175,11 +606,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:49
         ,attr_id:18
-        ,goods_attr_id:3300004
+        ,goods_attr_id:4900004
         ,attr_name:'规格'
-        ,attr_value:'天蝎座'
+        ,attr_value:'第一阶段-人初'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -189,11 +620,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:49
         ,attr_id:18
-        ,goods_attr_id:3300005
+        ,goods_attr_id:4900005
         ,attr_name:'规格'
-        ,attr_value:'巨蟹座'
+        ,attr_value:'第二阶段-进化'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -203,12 +634,12 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:49
         ,attr_id:18
-        ,goods_attr_id:3300006
+        ,goods_attr_id:4900006
         ,attr_name:'规格'
-        ,attr_value:'摩羯座'
-        ,attr_price:0.00
+        ,attr_value:'第三阶段-得道'
+        ,attr_price:9.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -217,12 +648,12 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:33
+    newCategory = new todayCategory({pid:49
         ,attr_id:18
-        ,goods_attr_id:3300007
+        ,goods_attr_id:4900007
         ,attr_name:'规格'
-        ,attr_value:'射手座'
-        ,attr_price:0.00
+        ,attr_value:'第四阶段-极致'
+        ,attr_price:9.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -231,9 +662,23 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:34
+    newCategory = new todayCategory({pid:49
+        ,attr_id:18
+        ,goods_attr_id:4900008
+        ,attr_name:'规格'
+        ,attr_value:'第五阶段-突破'
+        ,attr_price:9.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:50
         ,attr_id:11
-        ,goods_attr_id:3400001
+        ,goods_attr_id:5000001
         ,attr_name:'品牌'
         ,attr_value:'玩爆潮品'
         ,attr_price:0.00
@@ -245,107 +690,9 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:34
+    newCategory = new todayCategory({pid:50
         ,attr_id:12
-        ,goods_attr_id:3400002
-        ,attr_name:'材质'
-        ,attr_value:'软胶'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:34
-        ,attr_id:13
-        ,goods_attr_id:3400003
-        ,attr_name:'产地'
-        ,attr_value:'国产'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:34
-        ,attr_id:18
-        ,goods_attr_id:3400004
-        ,attr_name:'规格'
-        ,attr_value:'肉色一大一小两只装'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:34
-        ,attr_id:18
-        ,goods_attr_id:3400005
-        ,attr_name:'规格'
-        ,attr_value:'粉色一大一小两只装'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:34
-        ,attr_id:18
-        ,goods_attr_id:3400006
-        ,attr_name:'规格'
-        ,attr_value:'黑色一大一小两只装'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:34
-        ,attr_id:18
-        ,goods_attr_id:3400007
-        ,attr_name:'规格'
-        ,attr_value:'透明一大一小两只装'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:11
-        ,goods_attr_id:3500001
-        ,attr_name:'品牌'
-        ,attr_value:'其他'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:13
-        ,goods_attr_id:3500002
+        ,goods_attr_id:5000002
         ,attr_name:'材质'
         ,attr_value:'其他'
         ,attr_price:0.00
@@ -357,137 +704,11 @@ function creatdb(mongoose){
         }
     });
 
-    var newCategory = new todayCategory({pid:35
-        ,attr_id:12
-        ,goods_attr_id:3500003
-        ,attr_name:'产地'
-        ,attr_value:'中国大陆'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:18
-        ,goods_attr_id:3500004
-        ,attr_name:'规格'
-        ,attr_value:'凸点锯刺狼牙套'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:18
-        ,goods_attr_id:3500005
-        ,attr_name:'规格'
-        ,attr_value:'虫刺狼牙套'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:18
-        ,goods_attr_id:3500006
-        ,attr_name:'规格'
-        ,attr_value:'螺纹突刺狼牙套'
-        ,attr_price:1.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:18
-        ,goods_attr_id:3500007
-        ,attr_name:'规格'
-        ,attr_value:'龙须鱼刺狼牙套'
-        ,attr_price:1.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:18
-        ,goods_attr_id:3500008
-        ,attr_name:'规格'
-        ,attr_value:'螺纹突刺狼牙套-彩色'
-        ,attr_price:6.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:35
-        ,attr_id:18
-        ,goods_attr_id:3500009
-        ,attr_name:'规格'
-        ,attr_value:'龙珠狼牙套'
-        ,attr_price:6.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:36
-        ,attr_id:11
-        ,goods_attr_id:3600001
-        ,attr_name:'品牌'
-        ,attr_value:'百乐'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:36
-        ,attr_id:12
-        ,goods_attr_id:3600002
-        ,attr_name:'材质'
-        ,attr_value:'其他'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:36
+    newCategory = new todayCategory({pid:50
         ,attr_id:13
-        ,goods_attr_id:3600003
+        ,goods_attr_id:5000003
         ,attr_name:'产地'
-        ,attr_value:'国产'
+        ,attr_value:'日本'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -497,11 +718,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:36
+    newCategory = new todayCategory({pid:50
         ,attr_id:18
-        ,goods_attr_id:3600004
+        ,goods_attr_id:5000004
         ,attr_name:'规格'
-        ,attr_value:'百乐拇指狼牙套'
+        ,attr_value:'【阴交杯】优雅紫色'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -511,11 +732,11 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:36
+    newCategory = new todayCategory({pid:50
         ,attr_id:18
-        ,goods_attr_id:3600005
+        ,goods_attr_id:5000005
         ,attr_name:'规格'
-        ,attr_value:'百乐双叉叉兔狼牙套'
+        ,attr_value:'【口交杯】清新绿色'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -525,334 +746,12 @@ function creatdb(mongoose){
         }
     });
 
-    newCategory = new todayCategory({pid:36
+    newCategory = new todayCategory({pid:50
         ,attr_id:18
-        ,goods_attr_id:3600006
+        ,goods_attr_id:5000006
         ,attr_name:'规格'
-        ,attr_value:'百乐狼牙套'
+        ,attr_value:'【肛交杯】魅感红色'
         ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:36
-        ,attr_id:18
-        ,goods_attr_id:3600007
-        ,attr_name:'规格'
-        ,attr_value:'百乐爱心狼牙套'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:36
-        ,attr_id:18
-        ,goods_attr_id:3600008
-        ,attr_name:'规格'
-        ,attr_value:'百乐带座狼牙套'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:36
-        ,attr_id:18
-        ,goods_attr_id:3600009
-        ,attr_name:'规格'
-        ,attr_value:'百乐震动水晶套'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:11
-        ,goods_attr_id:3700001
-        ,attr_name:'品牌'
-        ,attr_value:'其他'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:12
-        ,goods_attr_id:3700002
-        ,attr_name:'材质'
-        ,attr_value:'其他'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:13
-        ,goods_attr_id:3700003
-        ,attr_name:'产地'
-        ,attr_value:'国产'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:18
-        ,goods_attr_id:3700004
-        ,attr_name:'规格'
-        ,attr_value:'人造羊眼圈简装'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:18
-        ,goods_attr_id:3700005
-        ,attr_name:'规格'
-        ,attr_value:'天然羊眼圈简装'
-        ,attr_price:3.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:18
-        ,goods_attr_id:3700006
-        ,attr_name:'规格'
-        ,attr_value:'天然羊眼圈精装'
-        ,attr_price:5.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:38
-        ,attr_id:11
-        ,goods_attr_id:3800001
-        ,attr_name:'品牌'
-        ,attr_value:'Enlarge'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:38
-        ,attr_id:12
-        ,goods_attr_id:3800002
-        ,attr_name:'材质'
-        ,attr_value:'液体'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:38
-        ,attr_id:13
-        ,goods_attr_id:3800003
-        ,attr_name:'产地'
-        ,attr_value:'美国'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:38
-        ,attr_id:18
-        ,goods_attr_id:3800004
-        ,attr_name:'规格'
-        ,attr_value:'美国原装进口-增粗助大精油'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:39
-        ,attr_id:11
-        ,goods_attr_id:3900001
-        ,attr_name:'品牌'
-        ,attr_value:'耐氏'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:39
-        ,attr_id:12
-        ,goods_attr_id:3900002
-        ,attr_name:'材质'
-        ,attr_value:'液体'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:39
-        ,attr_id:13
-        ,goods_attr_id:3900003
-        ,attr_name:'产地'
-        ,attr_value:'国产'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:39
-        ,attr_id:18
-        ,goods_attr_id:3900004
-        ,attr_name:'规格'
-        ,attr_value:'单片装'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:39
-        ,attr_id:18
-        ,goods_attr_id:3900005
-        ,attr_name:'规格'
-        ,attr_value:'12片盒装'
-        ,attr_price:22.50
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:40
-        ,attr_id:11
-        ,goods_attr_id:4000001
-        ,attr_name:'品牌'
-        ,attr_value:'菲尔普'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:40
-        ,attr_id:12
-        ,goods_attr_id:4000002
-        ,attr_name:'材质'
-        ,attr_value:'其他'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:40
-        ,attr_id:13
-        ,goods_attr_id:4000003
-        ,attr_name:'产地'
-        ,attr_value:'中国大陆'
-        ,attr_price:0.00
-        ,attr_type:0});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:40
-        ,attr_id:18
-        ,goods_attr_id:4000004
-        ,attr_name:'规格'
-        ,attr_value:'30ml喷头【售完】'
-        ,attr_price:0.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:40
-        ,attr_id:18
-        ,goods_attr_id:4000005
-        ,attr_name:'规格'
-        ,attr_value:'100ml喷头'
-        ,attr_price:7.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
