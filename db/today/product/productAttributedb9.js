@@ -482,7 +482,7 @@ function creatdb(mongoose){
 
     newCategory = new todayCategory({pid:88
         ,attr_id:88
-        ,goods_attr_id:7800004
+        ,goods_attr_id:8800004
         ,attr_name:'规格'
         ,attr_value:'倍力乐超薄10只装'
         ,attr_price:0.00
