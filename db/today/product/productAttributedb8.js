@@ -313,7 +313,7 @@ function creatdb(mongoose){
     });
 
     newCategory = new todayCategory({pid:75
-        ,attr_id:13
+        ,attr_id:12
         ,goods_attr_id:7500002
         ,attr_name:'材质'
         ,attr_value:'其他'
@@ -327,7 +327,7 @@ function creatdb(mongoose){
     });
 
     var newCategory = new todayCategory({pid:75
-        ,attr_id:12
+        ,attr_id:13
         ,goods_attr_id:7500003
         ,attr_name:'产地'
         ,attr_value:'国产'
@@ -383,7 +383,7 @@ function creatdb(mongoose){
     });
 
     newCategory = new todayCategory({pid:76
-        ,attr_id:13
+        ,attr_id:12
         ,goods_attr_id:7600002
         ,attr_name:'材质'
         ,attr_value:'其他'
@@ -397,7 +397,7 @@ function creatdb(mongoose){
     });
 
     var newCategory = new todayCategory({pid:76
-        ,attr_id:12
+        ,attr_id:13
         ,goods_attr_id:7600003
         ,attr_name:'产地'
         ,attr_value:'国产'
@@ -453,7 +453,7 @@ function creatdb(mongoose){
     });
 
     newCategory = new todayCategory({pid:77
-        ,attr_id:13
+        ,attr_id:12
         ,goods_attr_id:7700002
         ,attr_name:'材质'
         ,attr_value:'其他'
@@ -467,7 +467,7 @@ function creatdb(mongoose){
     });
 
     var newCategory = new todayCategory({pid:77
-        ,attr_id:12
+        ,attr_id:13
         ,goods_attr_id:7700003
         ,attr_name:'产地'
         ,attr_value:'香港'
@@ -509,7 +509,7 @@ function creatdb(mongoose){
     });
 
     newCategory = new todayCategory({pid:78
-        ,attr_id:13
+        ,attr_id:12
         ,goods_attr_id:7800002
         ,attr_name:'材质'
         ,attr_value:'其他'
@@ -523,7 +523,7 @@ function creatdb(mongoose){
     });
 
     var newCategory = new todayCategory({pid:78
-        ,attr_id:12
+        ,attr_id:13
         ,goods_attr_id:7800003
         ,attr_name:'产地'
         ,attr_value:'香港'
@@ -579,7 +579,7 @@ function creatdb(mongoose){
     });
 
     newCategory = new todayCategory({pid:79
-        ,attr_id:13
+        ,attr_id:12
         ,goods_attr_id:7900002
         ,attr_name:'材质'
         ,attr_value:'其他'
@@ -593,7 +593,7 @@ function creatdb(mongoose){
     });
 
     var newCategory = new todayCategory({pid:79
-        ,attr_id:12
+        ,attr_id:13
         ,goods_attr_id:7900003
         ,attr_name:'产地'
         ,attr_value:'国产'
@@ -635,7 +635,7 @@ function creatdb(mongoose){
     });
 
     newCategory = new todayCategory({pid:80
-        ,attr_id:13
+        ,attr_id:12
         ,goods_attr_id:8000002
         ,attr_name:'材质'
         ,attr_value:'其他'
@@ -649,7 +649,7 @@ function creatdb(mongoose){
     });
 
     var newCategory = new todayCategory({pid:80
-        ,attr_id:12
+        ,attr_id:13
         ,goods_attr_id:8000003
         ,attr_name:'产地'
         ,attr_value:'香港'
@@ -678,7 +678,7 @@ function creatdb(mongoose){
 
     newCategory = new todayCategory({pid:80
         ,attr_id:18
-        ,goods_attr_id:8000004
+        ,goods_attr_id:8000005
         ,attr_name:'规格'
         ,attr_value:'充电式'
         ,attr_price:10.00
