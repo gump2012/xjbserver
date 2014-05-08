@@ -2,14 +2,10 @@
  * Created by gump on 4/25/14.
  */
 var publicfun = require("../todayPublic/getAssistantValue");
-
-var querystring = require("querystring");
-var url = require("url");
 var mongoose = require('mongoose');
 
 function getMyOrderList(response,request){
-    var arg = url.parse(request.url).query;
-    var ticket_id = querystring.parse(arg).ticket_id;
+    var ticket_id = publicfun.getRegistID(request);
 
     if(ticket_id){
 
@@ -55,7 +51,7 @@ function getMyOrderList(response,request){
         });
     }
     else{
-        var token = querystring.parse(arg).token;
+        var token = publicfun.getDeviceID(request);
         if(token){
             var ordermodel = mongoose.model('todayOrder');
 
@@ -65,7 +61,7 @@ function getMyOrderList(response,request){
                         "extra": {},
                         "data":[]
                     },
-                    "response_status": "success",
+                    "response_status": "true",
                     "msg": ""
                 }
 
@@ -92,7 +88,8 @@ function getMyOrderList(response,request){
                     }
                 }
                 else{
-                    responsevalue.response_status = "no order";
+                    responsevalue.response_status = "false";
+                    responsevalue.msg = '没有订单';
                 }
 
                 publicfun.returnValue(response,responsevalue);

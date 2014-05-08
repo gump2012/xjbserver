@@ -12,7 +12,7 @@ function getMyOrderDetail(response,request){
     var order_id = querystring.parse(arg).order_id;
 
     if(order_id){
-        var ticketid = querystring.parse(arg).ticket_id;
+        var ticketid = publictool.getRegistID(request);
         if(ticketid){
             var ordermodle = mongoose.model('todayOrder');
             ordermodle.findOne({order_id:order_id,ticket_id:ticketid},function(err,doc){
@@ -25,7 +25,7 @@ function getMyOrderDetail(response,request){
             });
         }
         else{
-            var token = querystring.parse(arg).token;
+            var token = publictool.getDeviceID(request);
 
             if(token){
                 var ordermodle = mongoose.model('todayOrder');

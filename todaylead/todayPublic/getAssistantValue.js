@@ -11,6 +11,19 @@ function getAssistantValue(request){
     return assistant;
 }
 
+
+function getDeviceID(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).device_id;
+    return assistant;
+}
+
+function getRegistID(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).regist_id;
+    return assistant;
+}
+
 function returnErr(response,errstr){
     var responsevalue = {
         info:{
@@ -59,4 +72,6 @@ exports.returnErr = returnErr;
 exports.returnValue = returnValue;
 exports.returnErrWithResponseState = returnErrWithResponseState;
 exports.MD5 = MD5;
+exports.getDeviceID = getDeviceID;
+exports.getRegistID = getRegistID;
 

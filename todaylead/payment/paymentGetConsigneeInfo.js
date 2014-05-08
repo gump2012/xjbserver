@@ -2,15 +2,11 @@
  * Created by lishiming on 14-3-26.
  */
 var mongoose = require('mongoose');
-
-var url = require("url");
-var querystring = require("querystring");
 var publictool = require("../todayPublic/getAssistantValue");
 
 function getInfo(response,request){
 
-    var arg = url.parse(request.url).query;
-    var token = querystring.parse(arg).token;
+    var token = publictool.getDeviceID(request);
 
     var categorymodle = mongoose.model('todayConsigneeInfo');
 

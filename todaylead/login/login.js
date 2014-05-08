@@ -31,7 +31,7 @@ function login(response,request){
                             info: {
                                 extra: null,
                                 data: {
-                                    ticket_id: doc.ticket_id
+                                    regist_id: doc.ticket_id
                                     ,nickname:doc.nickname
                                     ,sex_type:doc.sex_type
                                     ,account_coin:doc.account_coin

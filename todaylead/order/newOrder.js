@@ -20,63 +20,70 @@ function newOrder(response,request){
         if(strjson){
             var datajson = JSON.parse(strjson);
             if(datajson){
-                var item = {
-                    city:datajson.city
-                    ,province:datajson.province
-                    ,area:datajson.area
-                    ,consignee:datajson.consignee
-                    ,mobile:datajson.mobile
-                    ,memo:datajson.memo
-                    ,ticket_id:datajson.ticket_id
-                    ,token:datajson.token
-                    ,address:datajson.address
-                    ,shipping_fee:datajson.shipping_fee
-                    ,promotion_totalprice:datajson.promotion_totalprice
-                    ,payment_way_id:datajson.payment_way_id
-                    ,order_id:MD5(Date.now().toString())
-                    ,creat_time:Date.now().toString()
-                    ,order_states:0
-                    ,payment_states:0
-                    ,shipping_states:0
-                    ,goods_number:0
-                    ,payment_name:''
-                    ,productlist:[]
-                }
-
-                if(datajson.productlist)
-                {
-                    for(i in datajson.productlist)
-                    {
-                        var productitem = {
-                            title:datajson.productlist[i].title
-                            ,price:datajson.productlist[i].price
-                            ,pid:datajson.productlist[i].pid
-                            ,quantity:datajson.productlist[i].quantity
-                            ,pic_url:''
-                            ,attr_list:[]
-                        }
-
-                        item.goods_number += new Number(productitem.quantity);
-
-                        if(datajson.productlist[i].attr_list)
-                        {
-                            for(j in datajson.productlist[i].attr_list)
-                            {
-                                var attritem = {
-                                    goods_attr_id:datajson.productlist[i].attr_list[j].goods_attr_id
-                                    ,attr_price:datajson.productlist[i].attr_list[j].attr_price
-                                }
-
-                                productitem.attr_list.push(attritem);
-                            }
-                        }
-
-                        item.productlist.push(productitem);
+                var regist_id = publictool.getRegistID(request);
+                var device_id = publictool.getDeviceID(request);
+                if(regist_id || device_id){
+                    var item = {
+                        city:datajson.city
+                        ,province:datajson.province
+                        ,area:datajson.area
+                        ,consignee:datajson.consignee
+                        ,mobile:datajson.mobile
+                        ,memo:datajson.memo
+                        ,ticket_id:regist_id
+                        ,token:device_id
+                        ,address:datajson.address
+                        ,shipping_fee:datajson.shipping_fee
+                        ,promotion_totalprice:datajson.promotion_totalprice
+                        ,payment_way_id:datajson.payment_way_id
+                        ,order_id:MD5(Date.now().toString())
+                        ,creat_time:Date.now().toString()
+                        ,order_states:0
+                        ,payment_states:0
+                        ,shipping_states:0
+                        ,goods_number:0
+                        ,payment_name:''
+                        ,productlist:[]
                     }
-                }
 
-                var pidnumber = item.productlist.length;
-                findPid(item,response,pidnumber);
+                    if(datajson.productlist)
+                    {
+                        for(i in datajson.productlist)
+                        {
+                            var productitem = {
+                                title:datajson.productlist[i].title
+                                ,price:datajson.productlist[i].price
+                                ,pid:datajson.productlist[i].pid
+                                ,quantity:datajson.productlist[i].quantity
+                                ,pic_url:''
+                                ,attr_list:[]
+                            }
+
+                            item.goods_number += new Number(productitem.quantity);
+
+                            if(datajson.productlist[i].attr_list)
+                            {
+                                for(j in datajson.productlist[i].attr_list)
+                                {
+                                    var attritem = {
+                                        goods_attr_id:datajson.productlist[i].attr_list[j].goods_attr_id
+                                        ,attr_price:datajson.productlist[i].attr_list[j].attr_price
+                                    }
+
+                                    productitem.attr_list.push(attritem);
+                                }
+                            }
+
+                            item.productlist.push(productitem);
+                        }
+                    }
+
+                    var pidnumber = item.productlist.length;
+                    findPid(item,response,pidnumber);
+                }
+                else{
+                    publictool.returnErr(response,'没有注册id或设备id');
+                }
             }
             else
             {
