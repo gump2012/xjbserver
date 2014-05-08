@@ -11,7 +11,8 @@ function getProducts(response,request){
 
     var arg = url.parse(request.url).query;
     var strkeyword = querystring.parse(arg).keyword;
-
+    var limit = querystring.parse(arg).limit;
+    var page = querystring.parse(arg).page;
     var responsevalue = {
         info:{
             extra:'',
@@ -21,12 +22,14 @@ function getProducts(response,request){
         msg:''
     }
 
-    if(strkeyword)
+    if(strkeyword && limit && page)
     {
         var productmodle = mongoose.model('todayProduct');
 
         productmodle.find({},{},{sort: {pid:'desc'}}, function (err, docs) {
             for(var i in docs){
+                var tempdata = [];
+
                 if(docs[i].title.indexOf(strkeyword) != -1){
                     var item = {
                         pid:docs[i].pid
@@ -38,16 +41,43 @@ function getProducts(response,request){
                         ,recentvolume:docs[i].recentvolume
                         ,pic_url:docs[i].pic_url
                     }
-                    responsevalue.info.data.push(item);
+                    tempdata.push(item);
                 }
             }
+            var ipage = new Number(page);
+            var ilimit = new Number(limit);
+            var ineedcount = (ipage - 1) * ilimit;
+            if(ineedcount > tempdata.length){
+                publictool.returnErr(response,'请求数据超出');
+            }
+            else if(ipage <= 0){
+               publictool.returnErr(response,'page 怎么能是0呢');
+            }
+            else {
+                var isendcount = ipage * ilimit;
+                if(isendcount - 1 <= tempdata.length){
+                    for(var i = (page - 1) * ilimit;i < isendcount;++i){
+                        responsevalue.info.data.push(tempdata[i]);
+                    }
+                }
+                else{
+                    for(var i = (page - 1) * ilimit;i < tempdata.length;++i){
+                        responsevalue.info.data.push(tempdata[i]);
+                    }
+                }
 
-            publictool.returnValue(response,responsevalue);
+                publictool.returnValue(response,responsevalue);
+            }
         });
     }
     else
     {
-        publictool.returnErr(response,'keyword is empty');
+        if(strkeyword){
+            publictool.returnErr(response,'no limit or page');
+        }
+        else{
+            publictool.returnErr(response,'keyword is empty');
+        }
     }
 }
 
