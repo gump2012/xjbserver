@@ -4,7 +4,6 @@
 
 var publicfun = require("../todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
-
 var querystring = require("querystring");
 
 function getProductsDetail(response,request){
@@ -25,7 +24,7 @@ function getProductsDetail(response,request){
                         extra:''
                         ,data:[]
                     }
-                    ,response_status:''
+                    ,response_status:'true'
                     ,msg:''
                 };
 
@@ -91,10 +90,7 @@ function findAttribute(pidarr,iindex,response,responsevalue){
             iindex++;
 
             if(iindex >= pidarr.length){
-                var postData = JSON.stringify(responsevalue);
-                response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-                response.write(postData);
-                response.end();
+                publicfun.returnValue(response,responsevalue);
             }
             else{
                 findProduct(pidarr,iindex,response,responsevalue);

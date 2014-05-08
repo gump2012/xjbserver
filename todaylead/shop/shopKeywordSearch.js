@@ -3,7 +3,7 @@
  */
 
 var mongoose = require('mongoose');
-
+var publictool = require("../todayPublic/getAssistantValue");
 var url = require("url");
 var querystring = require("querystring");
 
@@ -17,7 +17,7 @@ function getProducts(response,request){
             extra:'',
             data:[]
         },
-        response_status:'',
+        response_status:'true',
         msg:''
     }
 
@@ -42,20 +42,12 @@ function getProducts(response,request){
                 }
             }
 
-            var postData = JSON.stringify(responsevalue);
-            response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-            response.write(postData);
-            response.end();
+            publictool.returnValue(response,responsevalue);
         });
     }
     else
     {
-        responsevalue.msg = 'keyword is empty';
-
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnErr(response,'keyword is empty');
     }
 }
 

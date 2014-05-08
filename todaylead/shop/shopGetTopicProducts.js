@@ -18,7 +18,7 @@ function getTopicPro(response,request){
             extra:{},
             data:[]
         },
-        response_status:'',
+        response_status:'true',
         msg:''
     }
 
@@ -67,10 +67,7 @@ function findProduct(gooosarr,iindex,response,responsevalue){
             }
             else
             {
-                var postData = JSON.stringify(responsevalue);
-                response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-                response.write(postData);
-                response.end();
+                publictool.returnValue(response,responsevalue);
             }
         }
         else

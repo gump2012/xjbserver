@@ -3,6 +3,7 @@
  */
 
 var mongoose = require('mongoose');
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getCategoryList(response,request){
 
@@ -15,7 +16,7 @@ function getCategoryList(response,request){
                 extra:{},
                 data:[]
             },
-            response_status:'',
+            response_status:'true',
             msg:''
         }
 
@@ -30,10 +31,7 @@ function getCategoryList(response,request){
             responsevalue.info.data.push(item);
         }
 
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnValue(response,responsevalue);
     });
 }
 

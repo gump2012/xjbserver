@@ -19,7 +19,7 @@ function getRecommend(response,request){
                 ,topthree:[]
             }
         },
-        response_status:'',
+        response_status:'false',
         msg:'暂时合并 不用此协议了'
     }
 

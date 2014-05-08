@@ -2,6 +2,7 @@
  * Created by lishiming on 14-4-17.
  */
 var mongoose = require('mongoose');
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getAdList(response,request){
 
@@ -10,7 +11,7 @@ function getAdList(response,request){
             extra:{},
             data:[]
         },
-        response_status:'',
+        response_status:'true',
         msg:''
     }
 
@@ -46,10 +47,7 @@ function getAdList(response,request){
             responsevalue.info.data.push(item);
         }
 
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnValue(response,responsevalue);
     });
 }
 

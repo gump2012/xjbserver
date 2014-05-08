@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 
 var url = require("url");
 var querystring = require("querystring");
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getInfo(response,request){
 
@@ -25,7 +26,7 @@ function getInfo(response,request){
                     ,baseaddr:''
                 }
             },
-            response_status:'',
+            response_status:'true',
             msg:''
         }
 
@@ -41,10 +42,7 @@ function getInfo(response,request){
             responsevalue.msg = 'not find product';
         }
 
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnValue(response,responsevalue);
     });
 }
 

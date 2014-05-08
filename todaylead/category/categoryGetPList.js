@@ -5,6 +5,7 @@
 var mongoose = require('mongoose');
 var url = require("url");
 var querystring = require("querystring");
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getCategoryProducts(response,request){
     var categorymodle = mongoose.model('todayProduct');
@@ -18,7 +19,7 @@ function getCategoryProducts(response,request){
                 extra:{},
                 data:[]
             },
-            response_status:'',
+            response_status:'true',
             msg:''
         }
 
@@ -37,10 +38,7 @@ function getCategoryProducts(response,request){
             responsevalue.info.data.push(item);
         }
 
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnValue(response,responsevalue);
     });
 }
 

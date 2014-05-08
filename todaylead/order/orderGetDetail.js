@@ -73,7 +73,7 @@ function processOrderData(response,request,doc){
                 ,goods_list:[]
             }
         }
-        ,response_status:'success'
+        ,response_status:'true'
         ,msg:''
     }
 

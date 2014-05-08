@@ -4,6 +4,7 @@
 var mongoose = require('mongoose');
 var url = require("url");
 var querystring = require("querystring");
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getDetail(response,request){
     var arg = url.parse(request.url).query;
@@ -55,11 +56,7 @@ function findBasic(pid,responsevalue,response){
         }
         else
         {
-            responsevalue.msg = 'not find product';
-            var postData = JSON.stringify(responsevalue);
-            response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-            response.write(postData);
-            response.end();
+            publictool.returnErr(response,'没有找到商品');
         }
     });
 }
@@ -81,10 +78,7 @@ function findAttr(pid,responsevalue,response){
            responsevalue.info.data.attr_list.push(item);
        }
 
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnValue(response,responsevalue);
     });
 }
 

@@ -21,7 +21,7 @@ function getMyOrderList(response,request){
                     "extra": {},
                     "data": []
                 },
-                "response_status": "success",
+                "response_status": "true",
                 "msg": ""
             }
 

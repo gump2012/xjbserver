@@ -2,6 +2,7 @@
  * Created by gump on 4/21/14.
  */
 var mongoose = require('mongoose');
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getTopic(response,request){
 
@@ -17,7 +18,7 @@ function getTopic(response,request){
                 }
             }
         },
-        response_status:'',
+        response_status:'true',
         msg:''
     }
 
@@ -50,10 +51,6 @@ function getTopic(response,request){
         }
 
         getRecommend(response,responsevalue);
-//        var postData = JSON.stringify(responsevalue);
-//        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-//        response.write(postData);
-//        response.end();
     });
 }
 
@@ -93,10 +90,7 @@ function getRecommend(response,responsevalue){
             }
         }
 
-        var postData = JSON.stringify(responsevalue);
-        response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-        response.write(postData);
-        response.end();
+        publictool.returnValue(response,responsevalue);
     });
 }
 

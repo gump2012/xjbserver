@@ -52,7 +52,7 @@ function register(response,request){
                                 ,avatar:accountvalue.avatar
                             }
                         },
-                        response_status: "success",
+                        response_status: "true",
                         msg: ""
                     }
 
@@ -61,7 +61,7 @@ function register(response,request){
             });
         }
         else{
-            publictool.returnErrWithResponseState(response,'注册信息不全','account_data_wrong');
+            publictool.returnErr(response,'注册信息不全');
         }
     });
 }

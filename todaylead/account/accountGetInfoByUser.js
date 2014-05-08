@@ -5,7 +5,7 @@
 var url = require("url");
 var querystring = require("querystring");
 var mongoose = require('mongoose');
-var publictool = require("../todayPublic/getAssistantValue")
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getInfoByUser(response,request){
     var arg = url.parse(request.url).query;
@@ -25,7 +25,7 @@ function getInfoByUser(response,request){
                            ,avatar:doc.avatar
                        }
                    },
-                   response_status: "success",
+                   response_status: "true",
                    msg: ""
                }
 

@@ -4,6 +4,7 @@
 
 var url = require("url");
 var querystring = require("querystring");
+var publictool = require("../todayPublic/getAssistantValue");
 
 function getPromotionDetail(response,request){
 
@@ -26,14 +27,11 @@ function getPromotionDetail(response,request){
                 goods_amount_reduce: 0.00
             }
         },
-        response_status:'',
+        response_status:'true',
         msg:''
     }
 
-    var postData = JSON.stringify(responsevalue);
-    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-    response.write(postData);
-    response.end();
+    publictool.returnValue(response,responsevalue);
 }
 
 exports.getPromotionDetail = getPromotionDetail;

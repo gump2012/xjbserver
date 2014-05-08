@@ -24,7 +24,7 @@ function login(response,request){
             accountmodel.findOne({phone:phone},function(err,doc){
                 if(doc){
                     if(password != doc.password){
-                        publictool.returnErrWithResponseState(response,'密码错误','account_phone_pswrong');
+                        publictool.returnErr(response,'密码错误');
                     }
                     else{
                         var responsevalue = {
@@ -39,7 +39,7 @@ function login(response,request){
                                     ,phone:phone
                                 }
                             },
-                            response_status: "success",
+                            response_status: "true",
                             msg: ""
                         }
 
@@ -47,12 +47,12 @@ function login(response,request){
                     }
                 }
                 else{
-                    publictool.returnErrWithResponseState(response,'无此用户','account_phone_noexists');
+                    publictool.returnErr(response,'无此用户');
                 }
             });
         }
         else{
-            publictool.returnErrWithResponseState(response,'数据不全','account_data_wrong');
+            publictool.returnErr(response,'数据不全');
         }
     });
 }

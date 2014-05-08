@@ -17,7 +17,7 @@ function returnErr(response,errstr){
             extra:'',
             data:''
         },
-        response_status:'',
+        response_status:'false',
         msg:errstr
     }
     var postData = JSON.stringify(responsevalue);
@@ -43,6 +43,7 @@ function returnErrWithResponseState(response,errstr,statestr){
 
 function returnValue(response,responsevalue)
 {
+    responsevalue.response_status = 'true';
     var postData = JSON.stringify(responsevalue);
     response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
     response.write(postData);

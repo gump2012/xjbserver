@@ -80,12 +80,12 @@ function newOrder(response,request){
             }
             else
             {
-                returnErr(response,'数据错误');
+                publictool.returnErr(response,'数据错误');
             }
 
         }
         else{
-            returnErr(response,'数据为空')
+            publictool.returnErr(response,'数据为空');
         }
 
     });
@@ -93,21 +93,6 @@ function newOrder(response,request){
 
 function MD5(str, encoding) {
     return crypto.createHash('md5').update(str).digest(encoding || 'hex');
-}
-
-function returnErr(response,errstr){
-    var responsevalue = {
-        info:{
-            extra:'',
-            data:''
-        },
-        response_status:'',
-        msg:errstr
-    }
-    var postData = JSON.stringify(responsevalue);
-    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
-    response.write(postData);
-    response.end();
 }
 
 function findPid(item,response,pidnumber){
@@ -134,13 +119,13 @@ function findPid(item,response,pidnumber){
                 }
                 else{
                     var strerr = item.productlist[pidnumber - 1].pid + '商品价格不符';
-                    returnErr(response,strerr);
+                    publictool.returnErr(response,strerr);
                 }
 
             }
             else
             {
-                returnErr(response,'未找到商品数据');
+                publictool.returnErr(response,'未找到商品数据');
             }
         });
     }
@@ -156,7 +141,7 @@ function comparePrice(item,response){
         totalprice += (new Number(item.productlist[i].price) + attrprice) * item.productlist[i].quantity;
     }
     if(totalprice != item.promotion_totalprice){
-        returnErr(response,'商品总价不对');
+        publictool.returnErr(response,'商品总价不对');
     }
     else{
         var shipfee = 0.00;
@@ -173,7 +158,7 @@ function comparePrice(item,response){
 
         if(shipfee != item.shipping_fee)
         {
-            returnErr(response,'运费不对');
+            publictool.returnErr(response,'运费不对');
         }
         else{
             var consigneemodle = mongoose.model('todayConsigneeInfo');
@@ -208,13 +193,13 @@ function findAttr(item,response,pidnumber,attrnumber){
                 }
                 else{
                     var strerr = item.productlist[pidnumber].attr_list[attrnumber].goods_attr_id + '商品属性价格不符';
-                    returnErr(response,strerr);
+                    publictool.returnErr(response,strerr);
                 }
 
             }
             else
             {
-                returnErr(response,'未找到商品属性数据');
+                publictool.returnErr(response,'未找到商品属性数据');
             }
         });
     }
@@ -248,7 +233,7 @@ function findPaymentName(response,item){
                         ,payment_name:item.payment_name
                     }
                 },
-                response_status:'',
+                response_status:'true',
                 msg:''
             }
             publictool.returnValue(response,responsevalue);
