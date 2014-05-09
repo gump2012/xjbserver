@@ -24,6 +24,18 @@ function getRegistID(request){
     return assistant;
 }
 
+function getLimit(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).limit;
+    return assistant;
+}
+
+function getPage(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).page;
+    return assistant;
+}
+
 function returnErr(response,errstr){
     var responsevalue = {
         info:{
@@ -74,4 +86,6 @@ exports.returnErrWithResponseState = returnErrWithResponseState;
 exports.MD5 = MD5;
 exports.getDeviceID = getDeviceID;
 exports.getRegistID = getRegistID;
+exports.getLimit = getLimit;
+exports.getPage = getPage;
 

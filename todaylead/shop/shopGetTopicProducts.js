@@ -12,34 +12,67 @@ function getTopicPro(response,request){
 
     var arg = url.parse(request.url).query;
     var topicid = querystring.parse(arg).topicid;
+    var limit = querystring.parse(arg).limit;
+    var page = querystring.parse(arg).page;
 
-    var responsevalue = {
-        info:{
-            extra:{},
-            data:[]
-        },
-        response_status:'true',
-        msg:''
-    }
+    if(limit && page){
+        var responsevalue = {
+            info:{
+                extra:{},
+                data:[]
+            },
+            response_status:'true',
+            msg:''
+        }
 
-    if(topicid){
-        var topicmodle = mongoose.model('todayshoptopic');
-        topicmodle.findOne({topicid:topicid},function(err,doc){
-            if(doc){
-                if(doc.goods.length > 0){
-                    findProduct(doc.goods,0,response,responsevalue);
+        if(topicid){
+            var topicmodle = mongoose.model('todayshoptopic');
+            topicmodle.findOne({topicid:topicid},function(err,doc){
+                if(doc){
+                    if(doc.goods.length > 0){
+                        var ipage = new Number(page);
+                        var ilimit = new Number(limit);
+                        if(ipage <= 0){
+                            publictool.returnErr(response,'page 怎么是0捏');
+                        }
+                        else{
+                            var goodsarr = [];
+                            var istartcount = (ipage - 1) * ilimit;
+                            if(istartcount < doc.goods.length){
+                                var iendcount = ipage * ilimit;
+                                if(iendcount > doc.goods.length){
+                                    for(var i = istartcount; i <  doc.goods.length;++i){
+                                        goodsarr.push(doc.goods[i]);
+                                    }
+                                }
+                                else{
+                                    for(var i = istartcount; i < iendcount;++i){
+                                        goodsarr.push(doc.goods[i]);
+                                    }
+                                }
+
+                                findProduct(goodsarr,0,response,responsevalue);
+                            }
+                            else{
+                                publictool.returnErr(response,'数据超出了')
+                            }
+                        }
+                    }
+                    else{
+                        publictool.returnErr(response,'no goods');
+                    }
                 }
                 else{
-                    publictool.returnErr(response,'no goods');
+                    publictool.returnErr(response,'not find topic data');
                 }
-            }
-            else{
-                publictool.returnErr(response,'not find topic data');
-            }
-        });
+            });
+        }
+        else{
+            publictool.returnErr(response,'not find topic post parameter');
+        }
     }
     else{
-        publictool.returnErr(response,'not find topic post parameter');
+        publictool.returnErr(response,'not find page or limit');
     }
 }
 

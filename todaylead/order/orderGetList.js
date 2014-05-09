@@ -5,101 +5,128 @@ var publicfun = require("../todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
 
 function getMyOrderList(response,request){
-    var ticket_id = publicfun.getRegistID(request);
+    var limit = publicfun.getLimit(request);
+    var page = publicfun.getPage(request);
+    if(limit && page){
+        var ticket_id = publicfun.getRegistID(request);
 
-    if(ticket_id){
+        if(ticket_id){
 
-        var ordermodel = mongoose.model('todayOrder');
-
-        ordermodel.find({ticket_id:ticket_id},function(err,docs){
-            var responsevalue = {
-                "info": {
-                    "extra": {},
-                    "data": []
-                },
-                "response_status": "true",
-                "msg": ""
-            }
-
-           if(docs){
-               for(i in docs){
-                   var item = {
-                       order_number:docs[i].order_id
-                       ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
-                       ,create_time:doc[i].creat_time
-                       ,order_status:doc[i].order_states
-                       ,pay_status:doc[i].payment_states
-                       ,shipping_status:doc[i].shipping_states
-                       ,payment_id:docs[i].payment_way_id
-                       ,payment_name:doc[i].payment_name
-                       ,goods_number:doc[i].goods_number
-                       ,pic_url:''
-                   }
-
-                   if(docs[i].productlist.length > 0){
-                       item.pic_url = docs[i].productlist[0].pic_url;
-                   }
-
-                   responsevalue.data.push(item);
-               }
-           }
-           else{
-               responsevalue.response_status = "no order";
-           }
-
-            publicfun.returnValue(response,responsevalue);
-        });
-    }
-    else{
-        var token = publicfun.getDeviceID(request);
-        if(token){
             var ordermodel = mongoose.model('todayOrder');
 
-            ordermodel.find({token:token},function(err,docs){
-                var responsevalue = {
-                    "info": {
-                        "extra": {},
-                        "data":[]
-                    },
-                    "response_status": "true",
-                    "msg": ""
-                }
-
+            ordermodel.find({ticket_id:ticket_id},{},{sort: [['_id', -1]]},function(err,docs){
                 if(docs){
-                    for(i in docs){
-                        var item = {
-                            order_number:docs[i].order_id
-                            ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
-                            ,create_time:docs[i].creat_time
-                            ,order_status:docs[i].order_states
-                            ,pay_status:docs[i].payment_states
-                            ,shipping_status:docs[i].shipping_states
-                            ,payment_id:docs[i].payment_way_id
-                            ,payment_name:docs[i].payment_name
-                            ,goods_number:docs[i].goods_number
-                            ,pic_url:''
-                        }
-
-                        if(docs[i].productlist.length > 0){
-                            item.pic_url = docs[i].productlist[0].pic_url;
-                        }
-
-                        responsevalue.info.data.push(item);
+                    var responsevalue = {
+                        "info": {
+                            "extra": {},
+                            "data": []
+                        },
+                        "response_status": "true",
+                        "msg": ""
                     }
+
+                    getReturnValue(docs,limit,page,response,responsevalue);
                 }
                 else{
-                    responsevalue.response_status = "false";
-                    responsevalue.msg = '没有订单';
+                    publicfun.returnErr(response,'no order');
                 }
-
-                publicfun.returnValue(response,responsevalue);
             });
         }
         else{
-            publicfun.returnErr(response,'no token or tickid');
+            var token = publicfun.getDeviceID(request);
+            if(token){
+                var ordermodel = mongoose.model('todayOrder');
+
+                ordermodel.find({token:token},{},{sort: [['_id', -1]]},function(err,docs){
+                    if(docs){
+                        var responsevalue = {
+                            "info": {
+                                "extra": {},
+                                "data":[]
+                            },
+                            "response_status": "true",
+                            "msg": ""
+                        }
+
+                        getReturnValue(docs,limit,page,response,responsevalue);
+                    }
+                    else{
+                        publicfun.returnErr(response,'no order');
+                    }
+                });
+            }
+            else{
+                publicfun.returnErr(response,'no token or tickid');
+            }
+        }
+    }
+    else{
+        publicfun.returnErr(response,'no page or limit');
+    }
+}
+
+function getReturnValue(docs,limit,page,response,responsevalue){
+    var ipage = new Number(page);
+    var ilimit = new Number(limit);
+    if(ipage <= 0){
+        publicfun.returnErr(response,'page 怎么能是0捏');
+    }
+    else{
+        var istartcount = (ipage - 1) * ilimit;
+        if(istartcount > docs.length){
+            publicfun.returnErr(response,'数据超出了');
+        }
+        else{
+            var iendcount = ipage * ilimit;
+            var orderarr = [];
+            if(iendcount > docs.length){
+                for(var i = istartcount;i < docs.length;++i){
+                    var item = {
+                        order_number:docs[i].order_id
+                        ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
+                        ,create_time:doc[i].creat_time
+                        ,order_status:doc[i].order_states
+                        ,pay_status:doc[i].payment_states
+                        ,shipping_status:doc[i].shipping_states
+                        ,payment_id:docs[i].payment_way_id
+                        ,payment_name:doc[i].payment_name
+                        ,goods_number:doc[i].goods_number
+                        ,pic_url:''
+                    }
+
+                    if(docs[i].productlist.length > 0){
+                        item.pic_url = docs[i].productlist[0].pic_url;
+                    }
+
+                    responsevalue.data.push(item);
+                }
+            }
+            else{
+                for(var i = istartcount; i < iendcount;++i){
+                    var item = {
+                        order_number:docs[i].order_id
+                        ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
+                        ,create_time:doc[i].creat_time
+                        ,order_status:doc[i].order_states
+                        ,pay_status:doc[i].payment_states
+                        ,shipping_status:doc[i].shipping_states
+                        ,payment_id:docs[i].payment_way_id
+                        ,payment_name:doc[i].payment_name
+                        ,goods_number:doc[i].goods_number
+                        ,pic_url:''
+                    }
+
+                    if(docs[i].productlist.length > 0){
+                        item.pic_url = docs[i].productlist[0].pic_url;
+                    }
+
+                    responsevalue.data.push(item);
+                }
+            }
         }
     }
 
+    publicfun.returnValue(response,responsevalue);
 }
 
 exports.getMyOrderList = getMyOrderList;
