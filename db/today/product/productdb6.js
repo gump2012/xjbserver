@@ -17,10 +17,7 @@ function creatdb(mongoose){
         ,time:0
         ,gallery:[
             "http://pic.yupoo.com/yige2002/DH6j6OLv/v056K.jpg"
-            ,'http://pic.yupoo.com/yige2002/DH6j7hw0/IQZJj.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6jJzg6/Xnfl0.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6jJQuY/vtiqy.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6jKpFx/Xc3tM.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6jKrRt/Cxll0.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6jKLZu/JGTyl.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6jL6Qf/QP6n8.jpg'
@@ -70,9 +67,7 @@ function creatdb(mongoose){
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3VNZkE/pcufV.jpg'
         ,time:0
         ,gallery:[
-            'http://pic.yupoo.com/yige2002/DH6ySukH/8GqKU.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6yTmio/ABpF6.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6ySEVo/gFW7s.jpg'
+            'http://pic.yupoo.com/yige2002/DH6ySEVo/gFW7s.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6yUqzW/oXQMb.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6ygsFg/Kl4bA.jpg'
             ,null
@@ -99,11 +94,6 @@ function creatdb(mongoose){
             'http://pic.yupoo.com/yige2002/DH71Zisf/7Q09d.jpg'
             ,"http://pic.yupoo.com/yige2002/DH71YDlU/bB9J2.jpg"
             ,'http://pic.yupoo.com/yige2002/DH720szB/peqf7.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH720Y6n/CuyeE.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH720wOs/HjlCE.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH71ojFd/mcGSu.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH723cAx/xWwJn.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH7231Qk/LH6Gn.jpg'
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -228,10 +218,6 @@ function creatdb(mongoose){
             ,'http://pic.yupoo.com/yige2002/DH6JzoTn/zyMcC.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6IWiNw/VUuH5.jpg'
             ,'http://pic.yupoo.com/yige2002/DH6JAbis/7FEUw.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6JzPYc/geM7X.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6JAzVp/fRHsd.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6JzPJ5/a8ONs.jpg'
-            ,'http://pic.yupoo.com/yige2002/DH6JBEO4/SWhac.jpg'
             ,null
         ]});
     newCategory.save( function( err, silence ) {
