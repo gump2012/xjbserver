@@ -93,6 +93,240 @@ function creatdb(mongoose){
             ,'http://pic.yupoo.com/yige2002/DHy6LdWI/J6wX3.jpg'
             ,'http://pic.yupoo.com/yige2002/DHy6Pq4y/Eaavt.jpg'
             ,'http://pic.yupoo.com/yige2002/DHy6dQZM/L6Dvw.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy5JEqJ/TICqV.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6r2Gy/Z1IiI.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy5NMRW/WFA2G.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:7
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHy9dflZ/Gi3Kj.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy9hrX9/4sQKL.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy8IYPk/mCyOY.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy9zdUn/FMhbu.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy9zfdM/F0Sg3.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy8V58e/AjTXT.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:8
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHydhbBN/LBelC.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHycDHHx/bFzDs.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHydjl5R/UDwii.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHydjlFZ/i9lQR.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:9
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHyfjqR0/rWuZy.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyfjiuw/3ka99.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyfkeEK/QQTHl.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyfkksx/3nMYX.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyfkW20/oMhpq.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyfkOsu/14jf5c.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:10
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHygA5yv/u41y2.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyhf4eZ/apwKd.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHygAv1Q/10T2oL.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyhfqWB/4go9r.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyhfU7x/Qs0kI.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHygBoIA/npx0x.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:11
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHyj1zgl/uJ8UZ.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyj27zt/Ym8ve.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyins8M/L1Btg.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyj26ql/14Qp6R.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyj2CaA/ik7Fl.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:12
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHykLevb/ULGNw.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykLOVD/mGoW8.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyk8frJ/vAcuz.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykMSBa/tvw2x.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykNSvr/Gwreu.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykOKE4/EpOqK.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykPJ3A/6TE7n.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykPVza/qS50U.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHykQgzV/ouGtG.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:13
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHynV0U7/Bp6We.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHynVigx/z6GdB.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHynW0qY/cd33E.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHynWkjT/Nkxv6.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHynikog/Nke4m.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:14
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHypWJ3B/LkwN2.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHypXljq/zHLh5.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHypZ1Rh/nzn8l.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyq1cdc/cU7g2.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyq2nNs/121vIj.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:15
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHysqsV0/oWhMz.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyrMbN2/97AvB.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHysqrQk/n8Vyo.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHysrj4Q/PyAb5.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyrMPaa/11s6Au.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:16
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHyuzVpj/GpgCb.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyuxsF1/RgVKy.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHytUoKN/zR2Vy.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyuzmc2/BSFMm.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyuzVti/Y96W9.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:17
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHywmdMH/76gLM.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHywmHbU/13PPu0.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHywmPMu/AlW6z.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyvJTgz/JgWhd.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:18
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHyynfwo/4lILd.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyynEoQ/fQCJy.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyyoxEZ/38o5D.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyxKhnq/KDRy5.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:19
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHyzSXzH/CLFyG.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyzeM0e/EgG27.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyzUl5Z/NiEJq.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyzVrBM/13nIrR.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyzWrzo/mIBL1.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyzX1Tb/aLfu7.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyziTWR/B0NAi.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:20
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHyACQ3e/AKMdu.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyBjNVu/WwYPx.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyBl3wJ/Y1D0g.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyAHMf1/iLgO2.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyBob8r/kyh6k.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHyBr3rB/4RauT.jpg'
             ,null
         ]});
     newCategory.save( function( err, silence ) {
