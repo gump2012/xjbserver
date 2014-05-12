@@ -82,6 +82,25 @@ function creatdb(mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:6
+        ,picarr:[
+            'http://pic.yupoo.com/yige2002/DHy6uOSj/hQBlL.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6vD5f/7Pe6S.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6xJED/Gpj5G.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6AQt3/e9O3c.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6Hj4w/NKfh2.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6LdWI/J6wX3.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6Pq4y/Eaavt.jpg'
+            ,'http://pic.yupoo.com/yige2002/DHy6dQZM/L6Dvw.jpg'
+            ,null
+        ]});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
 
 exports.createdb = creatdb;
