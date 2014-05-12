@@ -36,6 +36,12 @@ function getPage(request){
     return assistant;
 }
 
+function getpid(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).pid;
+    return assistant;
+}
+
 function returnErr(response,errstr){
     var responsevalue = {
         info:{
@@ -88,4 +94,5 @@ exports.getDeviceID = getDeviceID;
 exports.getRegistID = getRegistID;
 exports.getLimit = getLimit;
 exports.getPage = getPage;
+exports.getpid = getpid;
 
