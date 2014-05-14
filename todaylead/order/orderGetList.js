@@ -14,7 +14,7 @@ function getMyOrderList(response,request){
 
             var ordermodel = mongoose.model('todayOrder');
 
-            ordermodel.find({ticket_id:ticket_id},{},{sort: [['_id', -1]]},function(err,docs){
+            ordermodel.find({ticket_id:ticket_id},{},{sort:{'_id': -1}},function(err,docs){
                 if(docs){
                     var responsevalue = {
                         "info": {
