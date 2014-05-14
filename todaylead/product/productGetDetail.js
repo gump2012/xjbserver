@@ -25,6 +25,7 @@ function getDetail(response,request){
                 ,stamper        :''
                 ,gallery        :[]
                 ,attr_list      :[]
+                ,pic_url        :''
             }
         },
         response_status:'',
@@ -46,6 +47,7 @@ function findBasic(pid,responsevalue,response){
             responsevalue.info.data.price = doc.price;
             responsevalue.info.data.volume = doc.volume;
             responsevalue.info.data.recentvolume = doc.recentvolume;
+            responsevalue.info.data.pic_url = doc.pic_url;
 
             for(var i = 0; i < doc.gallery.length - 1; ++i)
             {
