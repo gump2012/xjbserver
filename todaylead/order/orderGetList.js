@@ -37,7 +37,7 @@ function getMyOrderList(response,request){
             if(token){
                 var ordermodel = mongoose.model('todayOrder');
 
-                ordermodel.find({token:token},{},{sort: [['_id', -1]]},function(err,docs){
+                ordermodel.find({token:token},null,{sort:{'_id': -1}},function(err,docs){
                     if(docs){
                         var responsevalue = {
                             "info": {
@@ -84,13 +84,13 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                     var item = {
                         order_number:docs[i].order_id
                         ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
-                        ,create_time:doc[i].creat_time
-                        ,order_status:doc[i].order_states
-                        ,pay_status:doc[i].payment_states
-                        ,shipping_status:doc[i].shipping_states
+                        ,create_time:docs[i].creat_time
+                        ,order_status:docs[i].order_states
+                        ,pay_status:docs[i].payment_states
+                        ,shipping_status:docs[i].shipping_states
                         ,payment_id:docs[i].payment_way_id
-                        ,payment_name:doc[i].payment_name
-                        ,goods_number:doc[i].goods_number
+                        ,payment_name:docs[i].payment_name
+                        ,goods_number:docs[i].goods_number
                         ,pic_url:''
                     }
 
@@ -98,7 +98,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         item.pic_url = docs[i].productlist[0].pic_url;
                     }
 
-                    responsevalue.data.push(item);
+                    responsevalue.info.data.push(item);
                 }
             }
             else{
@@ -106,13 +106,13 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                     var item = {
                         order_number:docs[i].order_id
                         ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
-                        ,create_time:doc[i].creat_time
-                        ,order_status:doc[i].order_states
-                        ,pay_status:doc[i].payment_states
-                        ,shipping_status:doc[i].shipping_states
+                        ,create_time:docs[i].creat_time
+                        ,order_status:docs[i].order_states
+                        ,pay_status:docs[i].payment_states
+                        ,shipping_status:docs[i].shipping_states
                         ,payment_id:docs[i].payment_way_id
-                        ,payment_name:doc[i].payment_name
-                        ,goods_number:doc[i].goods_number
+                        ,payment_name:docs[i].payment_name
+                        ,goods_number:docs[i].goods_number
                         ,pic_url:''
                     }
 
@@ -120,7 +120,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         item.pic_url = docs[i].productlist[0].pic_url;
                     }
 
-                    responsevalue.data.push(item);
+                    responsevalue.info.data.push(item);
                 }
             }
         }
