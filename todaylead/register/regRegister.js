@@ -20,6 +20,7 @@ function register(response,request){
         var phone = querystring.parse(requestData).phone;
         var password = querystring.parse(requestData).password;
         var token = publictool.getDeviceID(request);
+        console.log(nickname)
         if(nickname && phone && password && token)
         {
             var accountmodel = mongoose.model('todayaccount');
@@ -44,7 +45,7 @@ function register(response,request){
                         info: {
                             extra: null,
                             data: {
-                                device_id: accountvalue.ticket_id
+                                regist_id: accountvalue.ticket_id
                                 ,phone:accountvalue.phone
                                 ,nickname:accountvalue.nickname
                                 ,sex_type:accountvalue.sex_type
