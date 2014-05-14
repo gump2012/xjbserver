@@ -2,6 +2,9 @@
  * Created by lishiming on 1/16/14.
  */
 function router(handle,pathname,response,request){
+
+    console.log(request.url);
+
     if(typeof handle[pathname] === 'function'){
         handle[pathname](response,request);
     }else{
