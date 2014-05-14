@@ -130,7 +130,7 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
 function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,gooditem){
     gooditem.goods_price = new Number(gooditem.goods_price) + new Number(attrarr[0].attr_price);
     var attrmodel = mongoose.model('todayProductAttr');
-    attrmodel.findOne({attr_id:attrarr[0].goods_attr_id},'attr_value',function(err,doc){
+    attrmodel.findOne({goods_attr_id:attrarr[0].goods_attr_id},'attr_value',function(err,doc){
         if(doc){
             gooditem.goods_attr = doc.attr_value;
 
