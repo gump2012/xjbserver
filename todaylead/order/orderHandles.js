@@ -7,11 +7,13 @@ var route = require("../../router");
 var newOrder = require("./newOrder");
 var orderGetDetail = require("./orderGetDetail");
 var orderGetList = require("./orderGetList");
+var orderDel = require("./orderDelete");
 
 var orderHandle = {};
 orderHandle["neworder"] = newOrder.newOrder;
 orderHandle["getMyOrderDetail"] = orderGetDetail.getMyOrderDetail;
 orderHandle["getMyOrderList"] = orderGetList.getMyOrderList;
+orderHandle["delMyOrder"] = orderDel.deleteorder;
 
 function order(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
