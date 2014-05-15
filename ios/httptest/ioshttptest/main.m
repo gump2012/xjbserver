@@ -7,11 +7,12 @@
 //
 #import "categoryList.h"
 #import "categoryProducts.h"
+#import "accountGetInfo.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[categoryProducts alloc] init];
+        BaseHttpRequest *testres = [[accountGetInfo alloc] init];
         [testres request];
     }
     return 0;
