@@ -22,7 +22,7 @@ function createdb(mongoose){
 
     var newAd = new todayAd({
         adid:1
-        ,img_url:'http://img01.taobaocdn.com/imgextra/i1/468359490/T2KbGsXFpaXXXXXXXX-468359490.jpg'
+        ,img_url:'http://pic.yupoo.com/yige2002/DJo6EIds/PDLNL.jpg'
         ,type:1
         ,linkto:''
         ,param:{
@@ -39,7 +39,7 @@ function createdb(mongoose){
 
     newAd = new todayAd({
         adid:2
-        ,img_url:'http://img01.taobaocdn.com/imgextra/i1/468359490/T2KbGsXFpaXXXXXXXX-468359490.jpg'
+        ,img_url:'http://pic.yupoo.com/yige2002/DJo6DUKq/WurV9.jpg'
         ,type:1
         ,linkto:''
         ,param:{
