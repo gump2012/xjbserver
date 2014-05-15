@@ -12,6 +12,7 @@
 		35A421BD1924ACFD00DBF5D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421BC1924ACFD00DBF5D8 /* main.m */; };
 		35A421CC1924AE9800DBF5D8 /* BaseHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421CB1924AE9800DBF5D8 /* BaseHttpRequest.m */; };
 		35A421CF1924B11B00DBF5D8 /* categoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421CE1924B11B00DBF5D8 /* categoryList.m */; };
+		35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421D11924BD0400DBF5D8 /* categoryProducts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +37,8 @@
 		35A421CB1924AE9800DBF5D8 /* BaseHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHttpRequest.m; sourceTree = "<group>"; };
 		35A421CD1924B11B00DBF5D8 /* categoryList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categoryList.h; sourceTree = "<group>"; };
 		35A421CE1924B11B00DBF5D8 /* categoryList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryList.m; sourceTree = "<group>"; };
+		35A421D01924BD0400DBF5D8 /* categoryProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = categoryProducts.h; sourceTree = "<group>"; };
+		35A421D11924BD0400DBF5D8 /* categoryProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryProducts.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				35A421CB1924AE9800DBF5D8 /* BaseHttpRequest.m */,
 				35A421CD1924B11B00DBF5D8 /* categoryList.h */,
 				35A421CE1924B11B00DBF5D8 /* categoryList.m */,
+				35A421D01924BD0400DBF5D8 /* categoryProducts.h */,
+				35A421D11924BD0400DBF5D8 /* categoryProducts.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				35A421CC1924AE9800DBF5D8 /* BaseHttpRequest.m in Sources */,
 				35A421CF1924B11B00DBF5D8 /* categoryList.m in Sources */,
 				35A421BD1924ACFD00DBF5D8 /* main.m in Sources */,
+				35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

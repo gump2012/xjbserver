@@ -6,11 +6,12 @@
 //  Copyright (c) 2014年 lishiming. All rights reserved.
 //
 #import "categoryList.h"
+#import "categoryProducts.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[categoryList alloc] init];
+        BaseHttpRequest *testres = [[categoryProducts alloc] init];
         [testres request];
     }
     return 0;
