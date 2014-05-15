@@ -14,6 +14,7 @@
 		35A421CF1924B11B00DBF5D8 /* categoryList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421CE1924B11B00DBF5D8 /* categoryList.m */; };
 		35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421D11924BD0400DBF5D8 /* categoryProducts.m */; };
 		35A421D51924BEF200DBF5D8 /* accountGetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421D41924BEF200DBF5D8 /* accountGetInfo.m */; };
+		35A421D81924C0B300DBF5D8 /* alipayreturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421D71924C0B300DBF5D8 /* alipayreturn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,8 @@
 		35A421D11924BD0400DBF5D8 /* categoryProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = categoryProducts.m; sourceTree = "<group>"; };
 		35A421D31924BEF200DBF5D8 /* accountGetInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = accountGetInfo.h; sourceTree = "<group>"; };
 		35A421D41924BEF200DBF5D8 /* accountGetInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = accountGetInfo.m; sourceTree = "<group>"; };
+		35A421D61924C0B300DBF5D8 /* alipayreturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alipayreturn.h; sourceTree = "<group>"; };
+		35A421D71924C0B300DBF5D8 /* alipayreturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alipayreturn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				35A421D11924BD0400DBF5D8 /* categoryProducts.m */,
 				35A421D31924BEF200DBF5D8 /* accountGetInfo.h */,
 				35A421D41924BEF200DBF5D8 /* accountGetInfo.m */,
+				35A421D61924C0B300DBF5D8 /* alipayreturn.h */,
+				35A421D71924C0B300DBF5D8 /* alipayreturn.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 				35A421BD1924ACFD00DBF5D8 /* main.m in Sources */,
 				35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */,
 				35A421D51924BEF200DBF5D8 /* accountGetInfo.m in Sources */,
+				35A421D81924C0B300DBF5D8 /* alipayreturn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
