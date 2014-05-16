@@ -24,11 +24,13 @@
 #import "shopAdList.h"
 #import "shopRecommend.h"
 #import "shopkeywordSearch.h"
+#import "shopTopic.h"
+#import "shopTopicProducts.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[shopkeywordSearch alloc] init];
+        BaseHttpRequest *testres = [[shopTopicProducts alloc] init];
         [testres request];
     }
     return 0;
