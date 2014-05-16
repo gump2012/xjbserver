@@ -24,6 +24,8 @@
 		35A421FA1925E9FC00DBF5D8 /* paymentList.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421F91925E9FC00DBF5D8 /* paymentList.m */; };
 		35A421FD1925ECE700DBF5D8 /* paymentProductsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421FC1925ECE700DBF5D8 /* paymentProductsDetail.m */; };
 		35A422001925EEE500DBF5D8 /* paymentPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421FF1925EEE500DBF5D8 /* paymentPromotion.m */; };
+		35A422031925F14400DBF5D8 /* productDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A422021925F14400DBF5D8 /* productDetail.m */; };
+		35A422061925F1CC00DBF5D8 /* productHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A422051925F1CC00DBF5D8 /* productHtml.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,6 +74,10 @@
 		35A421FC1925ECE700DBF5D8 /* paymentProductsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paymentProductsDetail.m; sourceTree = "<group>"; };
 		35A421FE1925EEE500DBF5D8 /* paymentPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paymentPromotion.h; sourceTree = "<group>"; };
 		35A421FF1925EEE500DBF5D8 /* paymentPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paymentPromotion.m; sourceTree = "<group>"; };
+		35A422011925F14400DBF5D8 /* productDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productDetail.h; sourceTree = "<group>"; };
+		35A422021925F14400DBF5D8 /* productDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productDetail.m; sourceTree = "<group>"; };
+		35A422041925F1CC00DBF5D8 /* productHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productHtml.h; sourceTree = "<group>"; };
+		35A422051925F1CC00DBF5D8 /* productHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productHtml.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,10 @@
 				35A421FC1925ECE700DBF5D8 /* paymentProductsDetail.m */,
 				35A421FE1925EEE500DBF5D8 /* paymentPromotion.h */,
 				35A421FF1925EEE500DBF5D8 /* paymentPromotion.m */,
+				35A422011925F14400DBF5D8 /* productDetail.h */,
+				35A422021925F14400DBF5D8 /* productDetail.m */,
+				35A422041925F1CC00DBF5D8 /* productHtml.h */,
+				35A422051925F1CC00DBF5D8 /* productHtml.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -210,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35A421CC1924AE9800DBF5D8 /* BaseHttpRequest.m in Sources */,
+				35A422061925F1CC00DBF5D8 /* productHtml.m in Sources */,
 				35A421EE1925D63100DBF5D8 /* deleteOrder.m in Sources */,
 				35A421F71925E24800DBF5D8 /* paymentConsigneeInfo.m in Sources */,
 				35A421DB1924C32A00DBF5D8 /* login.m in Sources */,
@@ -223,6 +234,7 @@
 				35A422001925EEE500DBF5D8 /* paymentPromotion.m in Sources */,
 				35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */,
 				35A421D51924BEF200DBF5D8 /* accountGetInfo.m in Sources */,
+				35A422031925F14400DBF5D8 /* productDetail.m in Sources */,
 				35A421D81924C0B300DBF5D8 /* alipayreturn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
