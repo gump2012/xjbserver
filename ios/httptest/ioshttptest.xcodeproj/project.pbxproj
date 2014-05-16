@@ -26,6 +26,7 @@
 		35A422001925EEE500DBF5D8 /* paymentPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421FF1925EEE500DBF5D8 /* paymentPromotion.m */; };
 		35A422031925F14400DBF5D8 /* productDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A422021925F14400DBF5D8 /* productDetail.m */; };
 		35A422061925F1CC00DBF5D8 /* productHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A422051925F1CC00DBF5D8 /* productHtml.m */; };
+		35A422091925F3E000DBF5D8 /* regist.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A422081925F3E000DBF5D8 /* regist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -78,6 +79,8 @@
 		35A422021925F14400DBF5D8 /* productDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productDetail.m; sourceTree = "<group>"; };
 		35A422041925F1CC00DBF5D8 /* productHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = productHtml.h; sourceTree = "<group>"; };
 		35A422051925F1CC00DBF5D8 /* productHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = productHtml.m; sourceTree = "<group>"; };
+		35A422071925F3E000DBF5D8 /* regist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regist.h; sourceTree = "<group>"; };
+		35A422081925F3E000DBF5D8 /* regist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +159,8 @@
 				35A422021925F14400DBF5D8 /* productDetail.m */,
 				35A422041925F1CC00DBF5D8 /* productHtml.h */,
 				35A422051925F1CC00DBF5D8 /* productHtml.m */,
+				35A422071925F3E000DBF5D8 /* regist.h */,
+				35A422081925F3E000DBF5D8 /* regist.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				35A421F11925DA8200DBF5D8 /* orderlist.m in Sources */,
 				35A421FA1925E9FC00DBF5D8 /* paymentList.m in Sources */,
 				35A421F41925DD1C00DBF5D8 /* orderdetail.m in Sources */,
+				35A422091925F3E000DBF5D8 /* regist.m in Sources */,
 				35A421EA1925A8A300DBF5D8 /* newOrder.m in Sources */,
 				35A421FD1925ECE700DBF5D8 /* paymentProductsDetail.m in Sources */,
 				35A421BD1924ACFD00DBF5D8 /* main.m in Sources */,

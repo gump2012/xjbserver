@@ -20,11 +20,12 @@
 #import "paymentPromotion.h"
 #import "productDetail.h"
 #import "productHtml.h"
+#import "regist.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[productHtml alloc] init];
+        BaseHttpRequest *testres = [[regist alloc] init];
         [testres request];
     }
     return 0;
