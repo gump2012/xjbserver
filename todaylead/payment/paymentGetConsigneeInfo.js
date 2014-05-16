@@ -10,36 +10,47 @@ function getInfo(response,request){
 
     var categorymodle = mongoose.model('todayConsigneeInfo');
 
-    categorymodle.findOne({token:token},function(err,doc){
+    if(token){
+        categorymodle.findOne({token:token},function(err,doc){
 
-        var responsevalue = {
-            info:{
-                extra:'',
-                data:{
-                    consignee:''
-                    ,address:''
-                    ,mobile:''
-                    ,baseaddr:''
-                }
-            },
-            response_status:'true',
-            msg:''
-        }
+            var responsevalue = {
+                info:{
+                    extra:'',
+                    data:{
+                        consignee:''
+                        ,address:''
+                        ,mobile:''
+                        ,baseaddr:''
+                        ,province:''
+                        ,city:''
+                        ,area:''
+                    }
+                },
+                response_status:'true',
+                msg:''
+            }
 
-        if(doc)
-        {
-            responsevalue.data.consignee = doc.consignee;
-            responsevalue.data.address = doc.address;
-            responsevalue.data.mobile = doc.mobile;
-            responsevalue.data.baseaddr = doc.baseaddr;
-        }
-        else
-        {
-            responsevalue.msg = 'not find product';
-        }
+            if(doc)
+            {
+                responsevalue.info.data.consignee = doc.consignee;
+                responsevalue.info.data.address = doc.address;
+                responsevalue.info.data.mobile = doc.mobile;
+                responsevalue.info.data.baseaddr = doc.baseaddr;
+                responsevalue.info.data.province = doc.province;
+                responsevalue.info.data.city = doc.city;
+                responsevalue.info.data.area = doc.area;
+            }
+            else
+            {
+                responsevalue.msg = 'not find product';
+            }
 
-        publictool.returnValue(response,responsevalue);
-    });
+            publictool.returnValue(response,responsevalue);
+        });
+    }
+    else{
+        publictool.returnErr(response,'no deviceid');
+    }
 }
 
 exports.getInfo = getInfo;

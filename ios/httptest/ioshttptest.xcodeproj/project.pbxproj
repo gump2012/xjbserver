@@ -20,6 +20,7 @@
 		35A421EE1925D63100DBF5D8 /* deleteOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421ED1925D63100DBF5D8 /* deleteOrder.m */; };
 		35A421F11925DA8200DBF5D8 /* orderlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421F01925DA8200DBF5D8 /* orderlist.m */; };
 		35A421F41925DD1C00DBF5D8 /* orderdetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421F31925DD1C00DBF5D8 /* orderdetail.m */; };
+		35A421F71925E24800DBF5D8 /* paymentConsigneeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421F61925E24800DBF5D8 /* paymentConsigneeInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,8 @@
 		35A421F01925DA8200DBF5D8 /* orderlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderlist.m; sourceTree = "<group>"; };
 		35A421F21925DD1C00DBF5D8 /* orderdetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderdetail.h; sourceTree = "<group>"; };
 		35A421F31925DD1C00DBF5D8 /* orderdetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderdetail.m; sourceTree = "<group>"; };
+		35A421F51925E24800DBF5D8 /* paymentConsigneeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paymentConsigneeInfo.h; sourceTree = "<group>"; };
+		35A421F61925E24800DBF5D8 /* paymentConsigneeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = paymentConsigneeInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				35A421F01925DA8200DBF5D8 /* orderlist.m */,
 				35A421F21925DD1C00DBF5D8 /* orderdetail.h */,
 				35A421F31925DD1C00DBF5D8 /* orderdetail.m */,
+				35A421F51925E24800DBF5D8 /* paymentConsigneeInfo.h */,
+				35A421F61925E24800DBF5D8 /* paymentConsigneeInfo.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 			files = (
 				35A421CC1924AE9800DBF5D8 /* BaseHttpRequest.m in Sources */,
 				35A421EE1925D63100DBF5D8 /* deleteOrder.m in Sources */,
+				35A421F71925E24800DBF5D8 /* paymentConsigneeInfo.m in Sources */,
 				35A421DB1924C32A00DBF5D8 /* login.m in Sources */,
 				35A421CF1924B11B00DBF5D8 /* categoryList.m in Sources */,
 				35A421F11925DA8200DBF5D8 /* orderlist.m in Sources */,

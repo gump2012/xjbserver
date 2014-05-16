@@ -12,6 +12,9 @@ function createdb(mongoose){
         ,address              :String
         ,mobile               :String
         ,baseaddr             :String
+        ,province             :String
+        ,city                 :String
+        ,area                 :String
     });
 
     mongoose.model('todayConsigneeInfo',userSchema);

@@ -176,6 +176,9 @@ function comparePrice(item,response){
                 ,mobile:item.mobile
                 ,baseaddr:item.baseaddr
                 ,ticket_id:item.ticket_id
+                ,province:item.province
+                ,city:item.city
+                ,area:item.area
             }
 
             var consigneeEntity = new consigneemodle(consigneeitem);

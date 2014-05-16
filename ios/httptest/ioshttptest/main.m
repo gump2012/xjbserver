@@ -14,11 +14,12 @@
 #import "deleteOrder.h"
 #import "orderlist.h"
 #import "orderdetail.h"
+#import "paymentConsigneeInfo.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[orderdetail alloc] init];
+        BaseHttpRequest *testres = [[paymentConsigneeInfo alloc] init];
         [testres request];
     }
     return 0;
