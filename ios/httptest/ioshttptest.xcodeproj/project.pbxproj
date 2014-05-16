@@ -16,6 +16,7 @@
 		35A421D51924BEF200DBF5D8 /* accountGetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421D41924BEF200DBF5D8 /* accountGetInfo.m */; };
 		35A421D81924C0B300DBF5D8 /* alipayreturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421D71924C0B300DBF5D8 /* alipayreturn.m */; };
 		35A421DB1924C32A00DBF5D8 /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421DA1924C32A00DBF5D8 /* login.m */; };
+		35A421EA1925A8A300DBF5D8 /* newOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421E91925A8A300DBF5D8 /* newOrder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,8 @@
 		35A421D71924C0B300DBF5D8 /* alipayreturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alipayreturn.m; sourceTree = "<group>"; };
 		35A421D91924C32A00DBF5D8 /* login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = login.h; sourceTree = "<group>"; };
 		35A421DA1924C32A00DBF5D8 /* login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = login.m; sourceTree = "<group>"; };
+		35A421E81925A8A300DBF5D8 /* newOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newOrder.h; sourceTree = "<group>"; };
+		35A421E91925A8A300DBF5D8 /* newOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newOrder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				35A421D71924C0B300DBF5D8 /* alipayreturn.m */,
 				35A421D91924C32A00DBF5D8 /* login.h */,
 				35A421DA1924C32A00DBF5D8 /* login.m */,
+				35A421E81925A8A300DBF5D8 /* newOrder.h */,
+				35A421E91925A8A300DBF5D8 /* newOrder.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				35A421CC1924AE9800DBF5D8 /* BaseHttpRequest.m in Sources */,
 				35A421DB1924C32A00DBF5D8 /* login.m in Sources */,
 				35A421CF1924B11B00DBF5D8 /* categoryList.m in Sources */,
+				35A421EA1925A8A300DBF5D8 /* newOrder.m in Sources */,
 				35A421BD1924ACFD00DBF5D8 /* main.m in Sources */,
 				35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */,
 				35A421D51924BEF200DBF5D8 /* accountGetInfo.m in Sources */,

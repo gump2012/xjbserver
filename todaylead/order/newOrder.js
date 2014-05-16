@@ -246,18 +246,18 @@ function findPaymentName(response,item){
             }
 
             if(item.payment_way_id == 2){
-                responsevalue.info.data.alipay_submit_data = '_input_charset=\"utf-8\"' +
-                    '&body=\"一笔来自今日头牌的订单\"' +
-                    '&notify_url=\"http://115.28.225.137:10080/alipay?assistant=return\"' +
-                    '&out_trade_no=\"' + responsevalue.info.data.order_id + '\"' +
-                    '&partner=\"2088411489511305\"' +
-                    '&payment_type=\"1\"' +
-                    '&seller_id=\"toupai@3pshow.com\"' +
-                    '&service=\"mobile.securitypay.pay\"' +
-                    '&subject=\"今日头牌订单\"' +
-                    '&total_fee=\"' + responsevalue.info.data.orderprice + '\"' +
-                    '&sign_type=\"RSA\"' +
-                    '&privatekey=\"MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBALktmztkMnbwS0oP8chd6frMW6QqQR5A7nl89n' +
+                responsevalue.info.data.alipay_submit_data = '_input_charset="utf-8"' +
+                    '&body="一笔来自今日头牌的订单"' +
+                    '&notify_url="http://115.28.225.137:10080/alipay?assistant=return"' +
+                    '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
+                    '&partner="2088411489511305"' +
+                    '&payment_type="1"' +
+                    '&seller_id="toupai@3pshow.com"' +
+                    '&service="mobile.securitypay.pay"' +
+                    '&subject="今日头牌订单"' +
+                    '&total_fee="' + responsevalue.info.data.orderprice + '"' +
+                    '&sign_type="RSA"' +
+                    '&privatekey="MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBALktmztkMnbwS0oP8chd6frMW6QqQR5A7nl89n' +
                     'iphgDKHXWZY7ia3d/gvQtodKEt/VvWqZMqvnHq64pX0TaMHbKGcp7YYdsmLyeLbcjqqlNi/NxMB29C2Rn8Xb1DK2CRS1a7I3Qy3' +
                     '3L3QtJLUvPcHiwZujcXyIs9KUT+iVjk6mNlAgMBAAECgYBdfqJOtUMpfB93UF+R+6DEKOPoGhFwtfXxzt8egvEOev2uv3hy33ZA' +
                     'r9ai6OVh77do5BQQIteu6p5r5fTSpqHjAOFQrMODU3oekZBNlUvUwujYQbZR3VLKRJh5C2AFadAnMLJFKgyCw3zrCgr+Dp1mcxy' +
@@ -265,10 +265,10 @@ function findPaymentName(response,item){
                     'Zl3jAMfMsCQQDCHrB6mB/LTQQzFunU7DxIdeO+CMU2OXsGIacEjSBefxlZO3n4AKPtXLgyXi8EomJhpUcLtmCbO2WNevHn2kqPA' +
                     'kAvJftIbns8tkCInKkLPoWMgMzobDPzn+iMaj2cpcTQYvIodnWETs0PE2I7f/b9dgV/2HbfOgNZkfa82ZwNMMwDAkBEI/u0/QNk' +
                     'HOPVfzyTpl0+3ksUYQXBFApQS63SFiv/n8PpI8ybtrXUU1DBNXhxuwKn3hmDTgC5XO8366lQxrqXAkEAlZ85cWZffDcuOhT8GUh' +
-                    'lV1YN5j7yrGER+Z7X3HzwFfRToIvytF7Wi0fwGsOd4KjJZBN6u8zRBKbh1Rl4rjGK5g==\"' +
-                    '&publickey=\"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5LZs7ZDJ28EtKD/HIXen6zFukKkEeQO55fPZ4qYYAyh11m' +
+                    'lV1YN5j7yrGER+Z7X3HzwFfRToIvytF7Wi0fwGsOd4KjJZBN6u8zRBKbh1Rl4rjGK5g=="' +
+                    '&publickey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5LZs7ZDJ28EtKD/HIXen6zFukKkEeQO55fPZ4qYYAyh11m' +
                     'WO4mt3f4L0LaHShLf1b1qmTKr5x6uuKV9E2jB2yhnKe2GHbJi8ni23I6qpTYvzcTAdvQtkZ/F29QytgkUtWuyN0Mt9y90LSS1Lz' +
-                    '3B4sGbo3F8iLPSlE/olY5OpjZQIDAQAB\"';
+                    '3B4sGbo3F8iLPSlE/olY5OpjZQIDAQAB"';
             }
 
             publictool.returnValue(response,responsevalue);
