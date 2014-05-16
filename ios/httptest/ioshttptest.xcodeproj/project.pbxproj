@@ -18,6 +18,7 @@
 		35A421DB1924C32A00DBF5D8 /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421DA1924C32A00DBF5D8 /* login.m */; };
 		35A421EA1925A8A300DBF5D8 /* newOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421E91925A8A300DBF5D8 /* newOrder.m */; };
 		35A421EE1925D63100DBF5D8 /* deleteOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421ED1925D63100DBF5D8 /* deleteOrder.m */; };
+		35A421F11925DA8200DBF5D8 /* orderlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421F01925DA8200DBF5D8 /* orderlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,8 @@
 		35A421E91925A8A300DBF5D8 /* newOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newOrder.m; sourceTree = "<group>"; };
 		35A421EC1925D63100DBF5D8 /* deleteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deleteOrder.h; sourceTree = "<group>"; };
 		35A421ED1925D63100DBF5D8 /* deleteOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteOrder.m; sourceTree = "<group>"; };
+		35A421EF1925DA8200DBF5D8 /* orderlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderlist.h; sourceTree = "<group>"; };
+		35A421F01925DA8200DBF5D8 /* orderlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderlist.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				35A421E91925A8A300DBF5D8 /* newOrder.m */,
 				35A421EC1925D63100DBF5D8 /* deleteOrder.h */,
 				35A421ED1925D63100DBF5D8 /* deleteOrder.m */,
+				35A421EF1925DA8200DBF5D8 /* orderlist.h */,
+				35A421F01925DA8200DBF5D8 /* orderlist.m */,
 			);
 			path = ioshttptest;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				35A421EE1925D63100DBF5D8 /* deleteOrder.m in Sources */,
 				35A421DB1924C32A00DBF5D8 /* login.m in Sources */,
 				35A421CF1924B11B00DBF5D8 /* categoryList.m in Sources */,
+				35A421F11925DA8200DBF5D8 /* orderlist.m in Sources */,
 				35A421EA1925A8A300DBF5D8 /* newOrder.m in Sources */,
 				35A421BD1924ACFD00DBF5D8 /* main.m in Sources */,
 				35A421D21924BD0400DBF5D8 /* categoryProducts.m in Sources */,

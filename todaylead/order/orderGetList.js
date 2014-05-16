@@ -38,7 +38,8 @@ function getMyOrderList(response,request){
                 var ordermodel = mongoose.model('todayOrder');
 
                 ordermodel.find({token:token},null,{sort:{'_id': -1}},function(err,docs){
-                    if(docs){
+                    console.log(docs);
+                    if(docs && docs.length > 0){
                         var responsevalue = {
                             "info": {
                                 "extra": {},

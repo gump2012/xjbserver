@@ -12,11 +12,12 @@
 #import "login.h"
 #import "newOrder.h"
 #import "deleteOrder.h"
+#import "orderlist.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[deleteOrder alloc] init];
+        BaseHttpRequest *testres = [[orderlist alloc] init];
         [testres request];
     }
     return 0;
