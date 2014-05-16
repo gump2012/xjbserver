@@ -11,11 +11,12 @@
 #import "alipayreturn.h"
 #import "login.h"
 #import "newOrder.h"
+#import "deleteOrder.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[newOrder alloc] init];
+        BaseHttpRequest *testres = [[deleteOrder alloc] init];
         [testres request];
     }
     return 0;

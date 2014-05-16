@@ -9,7 +9,6 @@ var publictool = require("../todayPublic/getAssistantValue");
 function deleteorder(response,request){
     var arg = url.parse(request.url).query;
     var order_id = querystring.parse(arg).order_id;
-
     if(order_id){
         var ordermodle = mongoose.model('todayOrder');
         ordermodle.findOne({order_id:order_id},function(err,doc){
