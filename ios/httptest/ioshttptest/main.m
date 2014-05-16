@@ -15,11 +15,14 @@
 #import "orderlist.h"
 #import "orderdetail.h"
 #import "paymentConsigneeInfo.h"
+#import "paymentList.h"
+#import "paymentProductsDetail.h"
+#import "paymentPromotion.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[paymentConsigneeInfo alloc] init];
+        BaseHttpRequest *testres = [[paymentPromotion alloc] init];
         [testres request];
     }
     return 0;
