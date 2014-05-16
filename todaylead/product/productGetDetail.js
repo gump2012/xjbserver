@@ -7,6 +7,7 @@ var querystring = require("querystring");
 var publictool = require("../todayPublic/getAssistantValue");
 
 function getDetail(response,request){
+
     var arg = url.parse(request.url).query;
     var pid = querystring.parse(arg).pid;
 

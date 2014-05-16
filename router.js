@@ -2,7 +2,7 @@
  * Created by lishiming on 1/16/14.
  */
 function router(handle,pathname,response,request){
-
+    request.setEncoding('utf8');
     console.log(request.url);
 
     if(typeof handle[pathname] === 'function'){

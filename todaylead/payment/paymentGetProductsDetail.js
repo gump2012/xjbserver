@@ -7,7 +7,6 @@ var mongoose = require('mongoose');
 var querystring = require("querystring");
 
 function getProductsDetail(response,request){
-    request.setEncoding('utf8');
 
     var requestData = '';
     request.addListener('data', function(postDataChunk) {

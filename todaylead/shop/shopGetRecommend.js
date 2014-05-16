@@ -5,11 +5,10 @@
 var mongoose = require('mongoose');
 
 function getRecommend(response,request){
-
 //    var productmodle = mongoose.model('todayProduct');
 //
-//    var strRecommend = '新潮推荐';
-//    var strkw = '新潮';
+    var strRecommend = '新潮推荐';
+    var strkw = '新潮';
     var responsevalue = {
         info:{
             extra:{},

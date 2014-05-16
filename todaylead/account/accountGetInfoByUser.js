@@ -6,6 +6,7 @@ var mongoose = require('mongoose');
 var publictool = require("../todayPublic/getAssistantValue");
 
 function getInfoByUser(response,request){
+
     var ticket_id = publictool.getRegistID(request);
     if(ticket_id){
         var accountmodel = mongoose.model('todayaccount');

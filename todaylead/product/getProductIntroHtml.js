@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 var publictool = require("../todayPublic/getAssistantValue");
 
 function getIntroHtml(response,request){
+
     var pid = publictool.getpid(request);
 
     var detailmodel = mongoose.model('todayProductPicDetail');

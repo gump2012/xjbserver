@@ -8,7 +8,6 @@ var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
 
 function newOrder(response,request){
-    request.setEncoding('utf8');
 
     var requestData = '';
     request.addListener('data', function(postDataChunk) {

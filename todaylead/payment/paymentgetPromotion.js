@@ -8,7 +8,6 @@ var publictool = require("../todayPublic/getAssistantValue");
 
 function getPromotionDetail(response,request){
 
-
     var arg = url.parse(request.url).query;
     var totalprice = new Number(querystring.parse(arg).totalprice);
     var payment_way_id = querystring.parse(arg).payment_way_id;

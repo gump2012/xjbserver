@@ -21,11 +21,14 @@
 #import "productDetail.h"
 #import "productHtml.h"
 #import "regist.h"
+#import "shopAdList.h"
+#import "shopRecommend.h"
+#import "shopkeywordSearch.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[regist alloc] init];
+        BaseHttpRequest *testres = [[shopkeywordSearch alloc] init];
         [testres request];
     }
     return 0;

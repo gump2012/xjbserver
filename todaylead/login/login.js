@@ -8,8 +8,6 @@ var mongoose = require('mongoose');
 
 function login(response,request){
 
-    request.setEncoding('utf8');
-
     var requestData = '';
     request.addListener('data', function(postDataChunk) {
         requestData += postDataChunk;

@@ -11,6 +11,7 @@ function getProducts(response,request){
 
     var arg = url.parse(request.url).query;
     var strkeyword = querystring.parse(arg).keyword;
+    strkeyword = decodeURI(strkeyword);
     var limit = querystring.parse(arg).limit;
     var page = querystring.parse(arg).page;
     var responsevalue = {
@@ -27,8 +28,8 @@ function getProducts(response,request){
         var productmodle = mongoose.model('todayProduct');
 
         productmodle.find({},{},{sort: {pid:'desc'}}, function (err, docs) {
+            var tempdata = [];
             for(var i in docs){
-                var tempdata = [];
 
                 if(docs[i].title.indexOf(strkeyword) != -1){
                     var item = {
