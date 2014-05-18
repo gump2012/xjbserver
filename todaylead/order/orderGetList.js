@@ -84,7 +84,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
             if(iendcount > docs.length){
                 for(var i = istartcount;i < docs.length;++i){
                     var item = {
-                        order_number:docs[i].order_id
+                        order_id:docs[i].order_id
                         ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
                         ,create_time:docs[i].creat_time
                         ,order_status:docs[i].order_states
@@ -106,7 +106,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
             else{
                 for(var i = istartcount; i < iendcount;++i){
                     var item = {
-                        order_number:docs[i].order_id
+                        order_id:docs[i].order_id
                         ,orderprice:docs[i].promotion_totalprice + docs[i].shipping_fee
                         ,create_time:docs[i].creat_time
                         ,order_status:docs[i].order_states
