@@ -9,6 +9,7 @@ function alipayreturn(response,request){
 
     request.addListener('end', function() {
         console.log(requestData);
+        console.log('caonimabi wa ');
         response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
         response.write("success");
         response.end();
