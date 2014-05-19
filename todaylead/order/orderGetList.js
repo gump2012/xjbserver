@@ -39,21 +39,19 @@ function getMyOrderList(response,request){
                 var ordermodel = mongoose.model('todayOrder');
 
                 ordermodel.find({token:token},null,{sort:{'_id': -1}},function(err,docs){
-                    console.log(docs);
+                    var responsevalue = {
+                        "info": {
+                            "extra": {},
+                            "data":[]
+                        },
+                        "response_status": "true",
+                        "msg": ""
+                    }
                     if(docs && docs.length > 0){
-                        var responsevalue = {
-                            "info": {
-                                "extra": {},
-                                "data":[]
-                            },
-                            "response_status": "true",
-                            "msg": ""
-                        }
-
                         getReturnValue(docs,limit,page,response,responsevalue);
                     }
                     else{
-                        publicfun.returnErr(response,'no order');
+                        publicfun.returnValue(response,responsevalue);
                     }
                 });
             }
