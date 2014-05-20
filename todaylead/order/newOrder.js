@@ -10,13 +10,13 @@ var querystring = require("querystring");
 function newOrder(response,request){
 
     makeRsa('_input_charset="utf-8"' +
-        '&body="一笔来自今日头牌的订单"' +
+        '&body="an order from jinritoupai"' +
         '&notify_url="http://115.28.225.137:10080/alipay?assistant=return"&service="mobile.securitypay.pay"' +
-        '&out_trade_no="0GUEK5QFWAMKPZF"' +
+        '&out_trade_no="0GUEK5QFWAMKPZa"' +
         '&partner="2088411489511305"' +
         '&payment_type="1"' +
         '&seller_id="toupai@3pshow.com"' +
-        '&subject="今日头牌订单"' +
+        '&subject="jinritoupai order"' +
         '&total_fee="0.01"'
         );
 
@@ -300,7 +300,7 @@ function makeRsa(strcontent){
             console.error(err);
         } else {
             var signer = crypto.createSign('RSA-SHA1');
-            strcontent = encodeURIComponent(strcontent);
+            //strcontent = encodeURIComponent(strcontent);
             signer.update(strcontent);
             var sign = signer.sign(data, "base64");
             console.log(sign);
