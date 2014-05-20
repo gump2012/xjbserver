@@ -9,6 +9,17 @@ var querystring = require("querystring");
 
 function newOrder(response,request){
 
+    makeRsa('_input_charset="utf-8"' +
+        '&body="一笔来自今日头牌的订单"' +
+        '&notify_url="http://115.28.225.137:10080/alipay?assistant=return"&service="mobile.securitypay.pay"' +
+        '&out_trade_no="0GUEK5QFWAMKPZF"' +
+        '&partner="2088411489511305"' +
+        '&payment_type="1"' +
+        '&seller_id="toupai@3pshow.com"' +
+        '&subject="今日头牌订单"' +
+        '&total_fee="0.01"'
+        );
+
     var requestData = '';
     request.addListener('data', function(postDataChunk) {
         requestData += postDataChunk;
@@ -279,6 +290,28 @@ function findPaymentName(response,item){
             publictool.returnErr(response,'未找到付款方式')
         }
     });
+}
+
+function makeRsa(strcontent){
+    var fs = require('fs');
+
+    fs.readFile('rsa_private_key.pem','utf8', function(err, data) {
+        if(err) {
+            console.error(err);
+        } else {
+            var signer = crypto.createSign('RSA-SHA1');
+            strcontent = encodeURIComponent(strcontent);
+            signer.update(strcontent);
+            var sign = signer.sign(data, "base64");
+            console.log(sign);
+            sign = encodeURIComponent(sign);
+            console.log(sign);
+            return sign;
+        }
+    });
+
+
+
 }
 
 exports.newOrder = newOrder;
