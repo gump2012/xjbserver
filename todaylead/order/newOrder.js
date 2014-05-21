@@ -286,8 +286,8 @@ function makeRsa(strcontent,responsevalue,response){
             sign = encodeURIComponent(sign);
 
             responsevalue.info.data.alipay_submit_data = strcontent +
-                '&sign_type="RSA"' +
-                '&sign="' + sign + '"';
+                '&sign_type=RSA' +
+                '&sign=' + sign;
             console.log(responsevalue.info.data.alipay_submit_data);
             publictool.returnValue(response,responsevalue);
         }
