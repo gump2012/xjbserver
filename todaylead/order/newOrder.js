@@ -259,14 +259,11 @@ function findPaymentName(response,item){
                     '&subject="jinritoupai order"' +
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
-                var strsign = makeRsa(orderstr);
-                console.log(strsign);
-                responsevalue.info.data.alipay_submit_data = orderstr +
-                    '&sign_type="RSA"' +
-                    '&sign="' + strsign + '"';
+                makeRsa(orderstr,responsevalue,response);
             }
-
-            publictool.returnValue(response,responsevalue);
+            else{
+                publictool.returnValue(response,responsevalue);
+            }
         }
         else{
             publictool.returnErr(response,'未找到付款方式');
@@ -274,19 +271,24 @@ function findPaymentName(response,item){
     });
 }
 
-function makeRsa(strcontent){
+function makeRsa(strcontent,responsevalue,response){
     var fs = require('fs');
 
     fs.readFile('rsa_private_key.pem','utf8', function(err, data) {
         if(err) {
             console.error(err);
+            publictool.returnErr(response,'读取支付宝私钥出现错误');
         } else {
             var signer = crypto.createSign('RSA-SHA1');
             signer.update(strcontent);
             var sign = signer.sign(data, "base64");
             sign = encodeURIComponent(sign);
-            console.log(sign);
-            return sign;
+
+            responsevalue.info.data.alipay_submit_data = orderstr +
+                '&sign_type="RSA"' +
+                '&sign="' + sign + '"';
+
+            publictool.returnValue(response,responsevalue);
         }
     });
 }
