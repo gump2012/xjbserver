@@ -153,12 +153,12 @@ function comparePrice(item,response){
         var shipfee = 0.00;
         if(item.payment_way_id == 1){
             if(totalprice < 1000.00){
-                shipfee = 12.00;
+                shipfee = 0.00;
             }
         }
         else if(item.payment_way_id == 2){
             if(totalprice < 1000.00){
-                shipfee = 12.00;
+                shipfee = 0.00;
             }
         }
 
