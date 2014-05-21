@@ -12,7 +12,7 @@ function getPromotionDetail(response,request){
     var totalprice = new Number(querystring.parse(arg).totalprice);
     var payment_way_id = querystring.parse(arg).payment_way_id;
 
-    var shoping_fee = totalprice < 1000.00 ? 0.00 : 0.00;
+    var shoping_fee = totalprice < 1000.00 ? 12.00 : 0.00;
     var orderprice = totalprice + shoping_fee;
     var responsevalue = {
         info:{
