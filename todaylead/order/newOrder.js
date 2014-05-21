@@ -252,11 +252,11 @@ function findPaymentName(response,item){
                 var orderstr = '_input_charset="utf-8"' +
                     '&body="an order from jinritoupai"' +
                     '&notify_url="http://115.28.225.137:10080/alipay?assistant=return"' +
-                    '&service="mobile.securitypay.pay"' +
                     '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
                     '&seller_id="toupai@3pshow.com"' +
+                    '&service="mobile.securitypay.pay"' +
                     '&subject="jinritoupai order"' +
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
@@ -287,7 +287,7 @@ function makeRsa(strcontent,responsevalue,response){
 
             responsevalue.info.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
-                '&sign=' + sign;
+                '&sign="' + sign + '"';
             console.log(responsevalue.info.data.alipay_submit_data);
             publictool.returnValue(response,responsevalue);
         }
