@@ -3,7 +3,7 @@
  */
 var getAssistantValue = require("../todayPublic/getAssistantValue");
 var route = require("../../router");
-
+var querystring = require("querystring");
 var alipayreturn = require("./alipayReturn");
 
 var alipayHandle = {}
@@ -18,7 +18,7 @@ function alipay(response,request){
 
     request.addListener('end', function() {
         console.log(requestData);
-        console.log('caonimabi wa ');
+        console.log(querystring.parse(requestData).out_trade_no);
         response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
         response.write("success");
         response.end();
