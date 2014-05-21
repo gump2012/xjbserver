@@ -284,10 +284,10 @@ function makeRsa(strcontent,responsevalue,response){
             var sign = signer.sign(data, "base64");
             sign = encodeURIComponent(sign);
 
-            responsevalue.info.data.alipay_submit_data = orderstr +
+            responsevalue.info.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
                 '&sign="' + sign + '"';
-
+            console.log(responsevalue.info.data.alipay_submit_data);
             publictool.returnValue(response,responsevalue);
         }
     });
