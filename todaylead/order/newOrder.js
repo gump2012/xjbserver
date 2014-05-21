@@ -260,7 +260,7 @@ function findPaymentName(response,item){
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
                 var strsign = makeRsa(orderstr);
-
+                console.log(strsign);
                 responsevalue.info.data.alipay_submit_data = orderstr +
                     '&sign_type="RSA"' +
                     '&sign="' + strsign + '"';
