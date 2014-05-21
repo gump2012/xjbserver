@@ -249,16 +249,16 @@ function findPaymentName(response,item){
 
             if(item.payment_way_id == 2){
 
-                var orderstr = '_input_charset=utf-8' +
-                    '&body=an order from jinritoupai' +
-                    '&notify_url=http://115.28.225.137:10080/alipay?assistant=return' +
-                    '&service=mobile.securitypay.pay' +
-                    '&out_trade_no=' + responsevalue.info.data.order_id +
-                    '&partner=2088411489511305' +
-                    '&payment_type=1' +
-                    '&seller_id=toupai@3pshow.com' +
-                    '&subject=jinritoupai order' +
-                    '&total_fee=' + responsevalue.info.data.orderprice;
+                var orderstr = '_input_charset="utf-8"' +
+                    '&body="an order from jinritoupai"' +
+                    '&notify_url="http://115.28.225.137:10080/alipay?assistant=return"' +
+                    '&service="mobile.securitypay.pay"' +
+                    '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
+                    '&partner="2088411489511305"' +
+                    '&payment_type="1"' +
+                    '&seller_id="toupai@3pshow.com"' +
+                    '&subject="jinritoupai order"' +
+                    '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
                 makeRsa(orderstr,responsevalue,response);
             }
@@ -286,8 +286,8 @@ function makeRsa(strcontent,responsevalue,response){
             sign = encodeURIComponent(sign);
 
             responsevalue.info.data.alipay_submit_data = strcontent +
-                '&sign_type=RSA' +
-                '&sign=' + sign;
+                '&sign_type="RSA"' +
+                '&sign="' + sign + '"';
             console.log(responsevalue.info.data.alipay_submit_data);
             publictool.returnValue(response,responsevalue);
         }
