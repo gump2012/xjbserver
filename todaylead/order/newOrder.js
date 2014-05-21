@@ -251,7 +251,7 @@ function findPaymentName(response,item){
 
                 var orderstr = '_input_charset="utf-8"' +
                     '&body="an order from jinritoupai"' +
-                    '&notify_url="http://115.28.225.137:10080/alipay?assistant=return"' +
+                    '&notify_url="http://115.28.225.137:10080/alipay"' +
                     '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
