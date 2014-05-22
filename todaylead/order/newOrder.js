@@ -147,9 +147,6 @@ function comparePrice(item,response){
         totalprice += (new Number(item.productlist[i].price) + attrprice) * item.productlist[i].quantity;
     }
 
-    console.log(totalprice);
-    console.log(item.promotion_totalprice);
-
     if(totalprice != item.promotion_totalprice){
         publictool.returnErr(response,'商品总价不对');
     }

@@ -4,10 +4,6 @@
 var getAssistantValue = require("../todayPublic/getAssistantValue");
 var route = require("../../router");
 var querystring = require("querystring");
-var alipayreturn = require("./alipayReturn");
-
-var alipayHandle = {}
-alipayHandle["return"] = alipayreturn.alipayreturn;
 
 function alipay(response,request){
 
@@ -23,13 +19,6 @@ function alipay(response,request){
         response.write("success");
         response.end();
     });
-
-    var assistant = getAssistantValue.getAssistantValue(request);
-    console.log(assistant);
-    console.log('caoninaibi');
-    if(assistant){
-        route.route(alipayHandle,assistant,response,request);
-    }
 }
 
 exports.alipay = alipay;
