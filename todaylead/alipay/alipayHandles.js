@@ -38,7 +38,7 @@ function alipay(response,request){
                 returnText(response,'success');
             }
             else{
-                returnText(response,'false');
+                returnText(response,'success');
             }
         }
         else{
