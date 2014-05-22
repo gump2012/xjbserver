@@ -15,6 +15,7 @@ function alipay(response,request){
     request.addListener('end', function() {
         console.log(requestData);
         console.log(querystring.parse(requestData).out_trade_no);
+        console.log(querystring.parse(requestData).trade_status)
         response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
         response.write("success");
         response.end();
