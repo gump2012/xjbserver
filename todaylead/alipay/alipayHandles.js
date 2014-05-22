@@ -14,7 +14,6 @@ function alipay(response,request){
     });
 
     request.addListener('end', function() {
-        console.log(requestData);
         var out_trade_no = querystring.parse(requestData).out_trade_no;
         var trade_status = querystring.parse(requestData).trade_status;
         console.log(trade_status);
@@ -35,7 +34,7 @@ function alipay(response,request){
                         }
                     });
                 }
-                
+
                 returnText(response,'success');
             }
             else{
