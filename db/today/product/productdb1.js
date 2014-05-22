@@ -11,7 +11,7 @@ var newCategory = new todayCategory({pid:1
     ,volume:0
     ,recentvolume:0
     ,org_price:36.00
-    ,price:18.00
+    ,price:0.01
     ,state:1
     ,stamper:''
     ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'
