@@ -251,14 +251,14 @@ function findPaymentName(response,item){
             if(item.payment_way_id == 2){
 
                 var orderstr = '_input_charset="utf-8"' +
-                    '&body="an order from jinritoupai"' +
+                    '&body="jinritoupai order"' +
                     '&notify_url="http://115.28.225.137:10080/alipay"' +
                     '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
                     '&seller_id="toupai@3pshow.com"' +
                     '&service="mobile.securitypay.pay"' +
-                    '&subject="chenguoyong"' +
+                    '&subject="an order from jinritoupai"' +
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
                 makeRsa(orderstr,responsevalue,response);
@@ -283,6 +283,7 @@ function makeRsa(strcontent,responsevalue,response){
         } else {
             var signer = crypto.createSign('RSA-SHA1');
             signer.update(strcontent);
+            console.log(strcontent);
             var sign = signer.sign(data, "base64");
             sign = encodeURIComponent(sign);
             console.log(sign);
