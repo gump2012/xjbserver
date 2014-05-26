@@ -251,14 +251,14 @@ function findPaymentName(response,item){
             if(item.payment_way_id == 2){
 
                 var orderstr = '_input_charset="utf-8"' +
-                    '&body="jinritoupai order"' +
-                    '&notify_url="http://115.28.225.137:10080/alipay"' +
+                    '&body="一笔来自今日头牌的订单"' +
+                    '&notify_url="http://182.92.80.203:10080/alipay"' +
                     '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
                     '&seller_id="toupai@3pshow.com"' +
                     '&service="mobile.securitypay.pay"' +
-                    '&subject="an order from jinritoupai"' +
+                    '&subject="今日头牌订单"' +
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
                 makeRsa(orderstr,responsevalue,response);
@@ -282,7 +282,7 @@ function makeRsa(strcontent,responsevalue,response){
             publictool.returnErr(response,'读取支付宝私钥出现错误');
         } else {
             var signer = crypto.createSign('RSA-SHA1');
-            signer.update(strcontent);
+            signer.update(strcontent,'utf8');
             console.log(strcontent);
             var sign = signer.sign(data, "base64");
             sign = encodeURIComponent(sign);
