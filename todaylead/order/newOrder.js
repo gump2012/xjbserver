@@ -252,7 +252,7 @@ function findPaymentName(response,item){
 
                 var orderstr = '_input_charset="utf-8"' +
                     '&body="一笔来自今日头牌的订单"' +
-                    '&notify_url="http://182.92.80.203:10080/alipay"' +
+                    '&notify_url="http://115.28.225.137:10080/alipay"' +
                     '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
