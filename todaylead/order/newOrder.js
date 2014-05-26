@@ -285,6 +285,7 @@ function makeRsa(strcontent,responsevalue,response){
             signer.update(strcontent);
             var sign = signer.sign(data, "base64");
             sign = encodeURIComponent(sign);
+            console.log(sign);
 
             responsevalue.info.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
