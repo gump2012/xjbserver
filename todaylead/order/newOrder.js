@@ -258,7 +258,7 @@ function findPaymentName(response,item){
                     '&payment_type="1"' +
                     '&seller_id="toupai@3pshow.com"' +
                     '&service="mobile.securitypay.pay"' +
-                    '&subject="jinritoupai order"' +
+                    '&subject="%e9%99%88%e5%9b%bd%e7%94%a8"' +
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
                 makeRsa(orderstr,responsevalue,response);
