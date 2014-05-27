@@ -38,10 +38,10 @@ function getTopicPro(response,request){
                         else{
                             var goodsarr = [];
                             var istartcount = (ipage - 1) * ilimit;
-                            if(istartcount < doc.goods.length){
+                            if(istartcount < doc.goods.length - 1){
                                 var iendcount = ipage * ilimit;
-                                if(iendcount > doc.goods.length){
-                                    for(var i = istartcount; i <  doc.goods.length;++i){
+                                if(iendcount > doc.goods.length - 1){
+                                    for(var i = istartcount; i <  doc.goods.length - 1;++i){
                                         goodsarr.push(doc.goods[i]);
                                     }
                                 }
