@@ -33,7 +33,7 @@ function getTopic(response,request){
             }
 
             var iTop = 5;
-            if(doc[i].goods.length > iTop)
+            if(doc[i].goods.length - 1 > iTop)
             {
                 for(var j = 0; j < iTop; ++j)
                 {
@@ -41,7 +41,7 @@ function getTopic(response,request){
                 }
             }
             else{
-                for(j in doc[i].goods)
+                for(var j = 0; j < doc[i].goods.length - 1; ++j)
                 {
                     item.goods.push(doc[i].goods[j]);
                 }

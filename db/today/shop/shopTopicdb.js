@@ -29,6 +29,7 @@ function createdb(mongoose){
             ,{pid:78,pic_url:'http://pic.yupoo.com/yige2002/DH3KNl6H/Ni57b.jpg'}
             ,{pid:2,pic_url:'http://pic.yupoo.com/yige2002/DH3pFFvk/p88pE.jpg'}
             ,{pid:84,pic_url:'http://pic.yupoo.com/yige2002/DH3SRatn/HeyFY.jpg'}
+            ,null
         ]
     });
     newtopic.save( function( err, silence ) {
@@ -48,6 +49,7 @@ function createdb(mongoose){
             ,{pid:751,pic_url:'http://pic.yupoo.com/yige2002/DKJgCRMd/VIVD8.jpg'}
             ,{pid:89,pic_url:'http://pic.yupoo.com/yige2002/DH3SQzmL/ONCp6.jpg'}
             ,{pid:90,pic_url:'http://pic.yupoo.com/yige2002/DH3SQGSG/ut3NW.jpg'}
+            ,null
         ]
     });
     newtopic.save( function( err, silence ) {
@@ -67,6 +69,7 @@ function createdb(mongoose){
             ,{pid:61,pic_url:'http://pic.yupoo.com/yige2002/DH3KMbU8/Ds3QD.jpg'}
             ,{pid:105,pic_url:'http://pic.yupoo.com/yige2002/DH3VOLlz/CgLSl.jpg'}
             ,{pid:107,pic_url:'http://pic.yupoo.com/yige2002/DH3VP45f/3M1Ls.jpg'}
+            ,null
         ]
     });
     newtopic.save( function( err, silence ) {
@@ -86,6 +89,7 @@ function createdb(mongoose){
             ,{pid:80,pic_url:'http://pic.yupoo.com/yige2002/DH3KOoM7/jsxEM.jpg'}
             ,{pid:75,pic_url:'http://pic.yupoo.com/yige2002/DH3KMB4z/aX7Yt.jpg'}
             ,{pid:72,pic_url:'http://pic.yupoo.com/yige2002/DH3KNHvr/yGnbE.jpg'}
+            ,null
         ]
     });
     newtopic.save( function( err, silence ) {
