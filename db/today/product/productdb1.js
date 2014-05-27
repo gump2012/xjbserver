@@ -380,7 +380,7 @@ newCategory.save( function( err, silence ) {
 
 newCategory = new todayCategory({pid:17
     ,cid:1
-    ,title:'百花天使火爆仿皮野性魅力两件式情趣内衣'
+    ,title:'百花天使火爆仿皮野性魅力两件式情趣内衣 头牌推荐'
     ,volume:315145
     ,recentvolume:121
     ,org_price:32.00

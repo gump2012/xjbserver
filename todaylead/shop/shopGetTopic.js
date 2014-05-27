@@ -58,7 +58,7 @@ function getRecommend(response,responsevalue){
     var productmodle = mongoose.model('todayProduct');
 
     var strRecommend = '头牌推荐';
-    var strkw = '新潮';
+    var strkw = '头牌推荐';
 
     responsevalue.info.data.recommend.title = strRecommend;
     responsevalue.info.data.recommend.keyword = strkw;

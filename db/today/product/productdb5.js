@@ -361,7 +361,7 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:96
         ,cid:5
-        ,title:'杜蕾斯大胆爱10片装 给您无限激情'
+        ,title:'杜蕾斯大胆爱10片装 给您无限激情 头牌推荐'
         ,volume:0
         ,recentvolume:0
         ,org_price:39.00

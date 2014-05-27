@@ -292,7 +292,7 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:73
         ,cid:4
-        ,title:'百乐派蒂拉 G点阴蒂双震30频振动棒'
+        ,title:'百乐派蒂拉 G点阴蒂双震30频振动棒 头牌推荐'
         ,volume:0
         ,recentvolume:0
         ,org_price:160.00
