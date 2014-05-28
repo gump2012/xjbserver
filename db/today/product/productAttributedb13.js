@@ -1,0 +1,202 @@
+/**
+ * Created by lishiming on 14-5-28.
+ */
+exports.createdb = function (mongoose){
+    var todayCategory = mongoose.model('todayProductAttr');
+
+    var newCategory = new todayCategory({pid:751
+        ,attr_id:11
+        ,goods_attr_id:75100001
+        ,attr_name:'品牌'
+        ,attr_value:'名流'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:751
+        ,attr_id:12
+        ,goods_attr_id:75100002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:751
+        ,attr_id:13
+        ,goods_attr_id:75100003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:751
+        ,attr_id:18
+        ,goods_attr_id:75100004
+        ,attr_name:'规格'
+        ,attr_value:'活力螺纹+动感颗粒+柔滑丝薄 共30只'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:752
+        ,attr_id:11
+        ,goods_attr_id:75200001
+        ,attr_name:'品牌'
+        ,attr_value:'冈本'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:752
+        ,attr_id:12
+        ,goods_attr_id:75200002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:752
+        ,attr_id:13
+        ,goods_attr_id:75200003
+        ,attr_name:'产地'
+        ,attr_value:'日本'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:752
+        ,attr_id:18
+        ,goods_attr_id:75200004
+        ,attr_name:'规格'
+        ,attr_value:'003白金3片'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:752
+        ,attr_id:18
+        ,goods_attr_id:75200005
+        ,attr_name:'规格'
+        ,attr_value:'003黄金6片'
+        ,attr_price:27.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:752
+        ,attr_id:18
+        ,goods_attr_id:75200006
+        ,attr_name:'规格'
+        ,attr_value:'003超薄白金3片+黄金6片'
+        ,attr_price:60.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:753
+        ,attr_id:11
+        ,goods_attr_id:75300001
+        ,attr_name:'品牌'
+        ,attr_value:'第六感'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:753
+        ,attr_id:12
+        ,goods_attr_id:75300002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:753
+        ,attr_id:13
+        ,goods_attr_id:75300003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:753
+        ,attr_id:18
+        ,goods_attr_id:75300004
+        ,attr_name:'规格'
+        ,attr_value:'六合一24+螺纹24+超薄平滑24'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+}
