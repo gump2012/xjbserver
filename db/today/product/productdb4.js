@@ -299,7 +299,7 @@ function creatdb(mongoose){
         ,price:68.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMna9/SgpVL.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNijyAvT/LeX4N.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHghLUub/rEcpA.jpg'
