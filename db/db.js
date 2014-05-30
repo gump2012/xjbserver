@@ -23,8 +23,16 @@ function start(){
         console.log('db is open success!');
 
         var userSchema = new mongoose.Schema({
-            mail :String
+            mail:{
+                type: String,
+                unique: true
+            }
             ,ps   :String
+            ,user_id:{
+                type: String,
+                unique: true
+            }
+            ,nickname:String
         });
 
         mongoose.model('user',userSchema);

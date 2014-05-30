@@ -20,7 +20,7 @@ exports.bookLogin = function (response,request){
             var mail = querystring.parse(requestData).email;
             if(ps && mail){
                 responsevalue = {
-                    "user_id":"00255"
+                    "user_id":"-1"
                     ,"data":{
                         "nick_name":"xxx"
                         ,"sex":"男"
@@ -41,27 +41,16 @@ exports.bookLogin = function (response,request){
                 }
 
                 var bookuser = mongoose.model('user');
-                bookuser.find({mail:datajson.mail},function(err,buser){
+                bookuser.find({mail:mail},function(err,buser){
                     if(buser.length > 0)
                     {
-                        var dbuser = buser[0];
-                        if(dbuser.ps == datajson.ps)
-                        {
-                            postData = JSON.stringify({booklogin:'1'});
-                        }
-                        else
-                        {
-                            postData = JSON.stringify({booklogin:'2'});
-                        }
-                    }
-                    else
-                    {
-                        postData = JSON.stringify({booklogin:'0'});
+                        responsevalue.user_id = buser.user_id;
+                        responsevalue.data.nick_name = buser.nickname;
                     }
 
+                    var postData = JSON.stringify(responsevalue);
                     response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
                     response.write(postData);
-                    console.log(postData);
                     response.end();
                 });
             }
@@ -104,14 +93,19 @@ exports.bookRegister = function (response,request){
             var email = querystring.parse(requestData).email;
             if(nickname && password && email){
                 var bookuser = mongoose.model('user');
-                bookuser.find({mail:datajson.mail},function(err,buser){
+                bookuser.find({mail:email},function(err,buser){
                     responsevalue = {
                         info:-1
-                        ,user_id:''
                     };
                     if(buser.length == 0)
                     {
-                        var newuser = new bookuser({mail:datajson.mail, ps:datajson.ps});
+                        responsevalue.info = 1;
+                        var newuser = new bookuser({
+                            mail:email
+                            ,ps:password
+                            ,user_id:crypto.createHash('md5').update(Date.now().toString() + email).digest(encoding || 'hex')
+                            ,nickname:nickname
+                        });
 
                         //保存实例
                         newuser.save( function( err, silence ) {
@@ -120,9 +114,6 @@ exports.bookRegister = function (response,request){
                                 console.log(err);
                             }
                         });
-
-                        responsevalue.info = 1;
-                        responsevalue.user_id = crypto.createHash('md5').update(Date.now().toString()).digest(encoding || 'hex');
                     }
 
                     var postData = JSON.stringify(responsevalue);
@@ -134,7 +125,6 @@ exports.bookRegister = function (response,request){
             else{
                 responsevalue = {
                     info:-1
-                    ,user_id:''
                 };
                 var postData = JSON.stringify(responsevalue);
                 response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
@@ -145,7 +135,55 @@ exports.bookRegister = function (response,request){
         else{
             responsevalue = {
                 info:-1
-                ,user_id:''
+            };
+            var postData = JSON.stringify(responsevalue);
+            response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+            response.write(postData);
+            response.end();
+        }
+    });
+}
+
+exports.findpassword = function(response,request){
+    var requestData = '';
+    request.addListener('data', function(postDataChunk) {
+        requestData += postDataChunk;
+    });
+
+    request.addListener('end', function() {
+
+        if(requestData != ''){
+            var email = querystring.parse(requestData).email;
+            if(email){
+                var bookuser = mongoose.model('user');
+                bookuser.find({mail:email},function(err,buser){
+                    responsevalue = {
+                        info:-1
+                    };
+                    if(buser.length > 0)
+                    {
+                        responsevalue.info = 1;
+                    }
+
+                    var postData = JSON.stringify(responsevalue);
+                    response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+                    response.write(postData);
+                    response.end();
+                });
+            }
+            else{
+                responsevalue = {
+                    info:-1
+                };
+                var postData = JSON.stringify(responsevalue);
+                response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
+                response.write(postData);
+                response.end();
+            }
+        }
+        else{
+            responsevalue = {
+                info:-1
             };
             var postData = JSON.stringify(responsevalue);
             response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});

@@ -23,6 +23,7 @@ handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 handle["/book/login"] = bookLoginHandlers.bookLogin;
 handle["/book/register"] = bookLoginHandlers.bookRegister;
+handle["/book/findpassword"] = bookLoginHandlers.findpassword;
 
 handle["/category"] = categoryHandle.category;
 handle["/product"] = productHandles.product;
