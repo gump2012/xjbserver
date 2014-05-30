@@ -38,7 +38,7 @@ newCategory = new todayCategory({pid:2
     ,price:15.00
     ,state:1
     ,stamper:''
-    ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFFvk/p88pE.jpg'
+    ,pic_url:'http://pic.yupoo.com/yige2002/DNlKcSaF/11MNk7.jpg'
     ,time:0
     ,gallery:[
         'http://pic.yupoo.com/yige2002/DHwd9ywq/gyR7u.jpg'

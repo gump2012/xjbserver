@@ -415,7 +415,7 @@ function creatdb(mongoose){
         ,price:35.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KNl6H/Ni57b.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNlMWJeY/kCaW9.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHkZiXnR/MwBDQ.jpg'

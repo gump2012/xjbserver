@@ -24,11 +24,11 @@ function createdb(mongoose){
         ,pic_url:'http://pic.yupoo.com/yige2002/DJo6eot3/dUe3n.jpg'
         ,title:'TOP20疯抢宝贝'
         ,goods:[
-            {pid:25,pic_url:'http://pic.yupoo.com/yige2002/DH3Agg4f/FK4Le.jpg'}
-            ,{pid:49,pic_url:'http://pic.yupoo.com/yige2002/DH3Gnwct/qgUq0.jpg'}
-            ,{pid:78,pic_url:'http://pic.yupoo.com/yige2002/DH3KNl6H/Ni57b.jpg'}
-            ,{pid:2,pic_url:'http://pic.yupoo.com/yige2002/DH3pFFvk/p88pE.jpg'}
-            ,{pid:84,pic_url:'http://pic.yupoo.com/yige2002/DH3SRatn/HeyFY.jpg'}
+            {pid:25,pic_url:'http://pic.yupoo.com/yige2002/DNlL8kID/HAont.jpg'}
+            ,{pid:49,pic_url:'http://pic.yupoo.com/yige2002/DNlMhxkn/1485rg.jpg'}
+            ,{pid:78,pic_url:'http://pic.yupoo.com/yige2002/DNlMWJeY/kCaW9.jpg'}
+            ,{pid:2,pic_url:'http://pic.yupoo.com/yige2002/DNlKcSaF/11MNk7.jpg'}
+            ,{pid:84,pic_url:'http://pic.yupoo.com/yige2002/DNlUCOon/XeNIj.jpg'}
             ,null
         ]
     });

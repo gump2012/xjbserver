@@ -110,7 +110,7 @@ function creatdb(mongoose){
         ,price:5.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3Agg4f/FK4Le.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNlL8kID/HAont.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHnKdxlx/dTFMh.jpg'

@@ -88,7 +88,7 @@ function creatdb(mongoose){
         ,price:22.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3SRatn/HeyFY.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNlUCOon/XeNIj.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHz4UqQn/141uLd.jpg'
