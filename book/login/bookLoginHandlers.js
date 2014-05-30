@@ -15,34 +15,32 @@ exports.bookLogin = function (response,request){
 
     request.addListener('end', function() {
 
+        responsevalue = {
+            "user_id":"-1"
+            ,"data":{
+                "nick_name":"xxx"
+                ,"sex":"男"
+                ,"age":"32"
+                ,"grade":"12"
+                ,"notice":"xxxxxxxxxxxxxx"
+                ,"address":"xxxxxx"
+                ,"shop_name":"xxxxx"
+                ,"phone":"1251522"
+                ,"publish":"1"
+                ,"reply":"1"
+                ,"collect":"-1"
+                ,"follow":"-1"
+                ,"photo_show":"1"
+                ,"vedio_show":"-1"
+                ,"letter":"-1"
+            }
+        }
+
         if(requestData != ''){
             var ps = querystring.parse(requestData).password;
             var mail = querystring.parse(requestData).email;
 
-            responsevalue = {
-                "user_id":"-1"
-                ,"data":{
-                    "nick_name":"xxx"
-                    ,"sex":"男"
-                    ,"age":"32"
-                    ,"grade":"12"
-                    ,"notice":"xxxxxxxxxxxxxx"
-                    ,"address":"xxxxxx"
-                    ,"shop_name":"xxxxx"
-                    ,"phone":"1251522"
-                    ,"publish":"1"
-                    ,"reply":"1"
-                    ,"collect":"-1"
-                    ,"follow":"-1"
-                    ,"photo_show":"1"
-                    ,"vedio_show":"-1"
-                    ,"letter":"-1"
-                }
-            }
-
             if(ps && mail){
-
-
                 var bookuser = mongoose.model('user');
                 bookuser.find({mail:mail},function(err,buser){
                     if(buser.length > 0)
