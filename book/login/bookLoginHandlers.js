@@ -18,27 +18,30 @@ exports.bookLogin = function (response,request){
         if(requestData != ''){
             var ps = querystring.parse(requestData).password;
             var mail = querystring.parse(requestData).email;
-            if(ps && mail){
-                responsevalue = {
-                    "user_id":"-1"
-                    ,"data":{
-                        "nick_name":"xxx"
-                        ,"sex":"男"
-                        ,"age":"32"
-                        ,"grade":"12"
-                        ,"notice":"xxxxxxxxxxxxxx"
-                        ,"address":"xxxxxx"
-                        ,"shop_name":"xxxxx"
-                        ,"phone":"1251522"
-                        ,"publish":"1"
-                        ,"reply":"1"
-                        ,"collect":"-1"
-                        ,"follow":"-1"
-                        ,"photo_show":"1"
-                        ,"vedio_show":"-1"
-                        ,"letter":"-1"
-                    }
+
+            responsevalue = {
+                "user_id":"-1"
+                ,"data":{
+                    "nick_name":"xxx"
+                    ,"sex":"男"
+                    ,"age":"32"
+                    ,"grade":"12"
+                    ,"notice":"xxxxxxxxxxxxxx"
+                    ,"address":"xxxxxx"
+                    ,"shop_name":"xxxxx"
+                    ,"phone":"1251522"
+                    ,"publish":"1"
+                    ,"reply":"1"
+                    ,"collect":"-1"
+                    ,"follow":"-1"
+                    ,"photo_show":"1"
+                    ,"vedio_show":"-1"
+                    ,"letter":"-1"
                 }
+            }
+
+            if(ps && mail){
+
 
                 var bookuser = mongoose.model('user');
                 bookuser.find({mail:mail},function(err,buser){
@@ -55,10 +58,6 @@ exports.bookLogin = function (response,request){
                 });
             }
             else{
-                responsevalue = {
-                    info:-1
-                    ,user_id:''
-                };
                 var postData = JSON.stringify(responsevalue);
                 response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
                 response.write(postData);
@@ -66,10 +65,6 @@ exports.bookLogin = function (response,request){
             }
         }
         else{
-            responsevalue = {
-                info:-1
-                ,user_id:''
-            };
             var postData = JSON.stringify(responsevalue);
             response.writeHead(200,{"Content-Type":"text/html;charset=UTF-8"});
             response.write(postData);
