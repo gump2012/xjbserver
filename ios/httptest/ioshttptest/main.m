@@ -26,11 +26,12 @@
 #import "shopkeywordSearch.h"
 #import "shopTopic.h"
 #import "shopTopicProducts.h"
+#import "alipayto.h"
 
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[newOrder alloc] init];
+        BaseHttpRequest *testres = [[alipayto alloc] init];
         [testres request];
     }
     return 0;
