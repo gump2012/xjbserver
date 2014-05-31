@@ -50,7 +50,7 @@ function getMyOrderDetail(response,request){
 }
 
 function processOrderData(response,request,doc){
-    console.log(doc.order_status);
+    console.log(doc.order_states);
 
     var responseValue = {
         info:{
