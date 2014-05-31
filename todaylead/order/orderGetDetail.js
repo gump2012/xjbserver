@@ -57,7 +57,7 @@ function processOrderData(response,request,doc){
             extra:{}
             ,data:{
                 order_id:doc.order_id
-                ,order_status:doc.order_status
+                ,order_status:doc.order_states
                 ,payment_status:doc.payment_states
                 ,shipping_status:doc.shipping_states
                 ,consignee:doc.consignee
