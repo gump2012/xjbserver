@@ -18,7 +18,7 @@ function alipay(response,request){
         var trade_status = querystring.parse(requestData).trade_status;
         console.log(trade_status);
         if(trade_status){
-            if(trade_status.indexOf('TRADE_FINISHED') || trade_status.indexOf('TRADE_SUCCESS')){
+            if(trade_status == 'TRADE_FINISHED' || trade_status == 'TRADE_SUCCESS'){
                 if(out_trade_no){
                     var ordermodle = mongoose.model('todayOrder');
                     ordermodle.findOne({order_id:out_trade_no},function(err,doc){
