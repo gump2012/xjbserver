@@ -50,8 +50,8 @@ function getMyOrderDetail(response,request){
 }
 
 function processOrderData(response,request,doc){
-    console.log(doc.shipping_fee);
-    console.log(doc.promotion_totalprice);
+    console.log(doc.order_status);
+
     var responseValue = {
         info:{
             extra:{}
