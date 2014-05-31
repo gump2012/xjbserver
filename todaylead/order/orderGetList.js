@@ -88,7 +88,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         ,order_status:docs[i].order_states
                         ,pay_status:docs[i].payment_states
                         ,shipping_status:docs[i].shipping_states
-                        ,payment_id:docs[i].payment_way_id
+                        ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
                         ,goods_number:docs[i].goods_number
                         ,pic_url:''
@@ -110,7 +110,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         ,order_status:docs[i].order_states
                         ,pay_status:docs[i].payment_states
                         ,shipping_status:docs[i].shipping_states
-                        ,payment_id:docs[i].payment_way_id
+                        ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
                         ,goods_number:docs[i].goods_number
                         ,pic_url:''
