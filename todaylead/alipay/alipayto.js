@@ -15,7 +15,7 @@ exports.alipayto = function (response,request){
 
     request.addListener('end', function() {
         var orderid = querystring.parse(requestData).order_id;
-        var total_fee = querystring.parse(requestData).total_fee;
+        var total_fee = querystring.parse(requestData).order_price;
         if(orderid && total_fee){
             var responsevalue = {
                 info:{
