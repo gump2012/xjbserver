@@ -66,12 +66,13 @@ function processOrderData(response,request,doc){
                 ,mobile:doc.mobile
                 ,promotion_totalprice:doc.promotion_totalprice
                 ,payment_way_id:doc.payment_way_id
-                ,creat_time:doc.creat_time
+                ,create_time:doc.creat_time
                 ,goods_number:doc.goods_number
                 ,shipping_fee:doc.shipping_fee
                 ,memo:doc.memo
                 ,payment_name:''
                 ,goods_list:[]
+                ,order_price:new Number(doc.shipping_fee) + new Number(doc.promotion_totalprice)
             }
         }
         ,response_status:'true'

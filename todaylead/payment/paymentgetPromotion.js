@@ -20,7 +20,7 @@ function getPromotionDetail(response,request){
             data:{
                 promotion_totalprice:totalprice,
                 discount_amount: 0.00,
-                orderprice: orderprice,
+                order_price: orderprice,
                 shipping_fee: shoping_fee,
                 shipping_fee_reduce: 0.00,
                 goods_amount_reduce: 0.00
