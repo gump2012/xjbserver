@@ -13,7 +13,7 @@ function creatdb(mongoose){
         ,price:22.0
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMbU8/Ds3QD.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNrubbmF/mLt3k.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHfELduD/ZeAO2.jpg'

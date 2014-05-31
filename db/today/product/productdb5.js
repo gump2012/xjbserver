@@ -39,7 +39,7 @@ function creatdb(mongoose){
         ,price:9.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3SQ96m/6GBis.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNrqw0Dg/12CWkn.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DH7pFhtf/SCBgS.jpg'
@@ -205,7 +205,7 @@ function creatdb(mongoose){
         ,price:28.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3SQzmL/ONCp6.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNrw7ig8/YhBKL.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHDdTup6/KnBn7.jpg'
@@ -228,7 +228,7 @@ function creatdb(mongoose){
         ,price:40.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3SQGSG/ut3NW.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNrwtF8L/Hzhb0.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DHDVIWlw/tinSU.jpg'

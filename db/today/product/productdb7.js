@@ -13,7 +13,7 @@ exports.createdb = function (mongoose){
         ,price:19.9
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DKJgCRMd/VIVD8.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNrwTsAn/RWb8L.jpg'
         ,time:0
         ,gallery:[
             "http://pic.yupoo.com/yige2002/DKJgxSHE/OPI9L.jpg"
@@ -36,7 +36,7 @@ exports.createdb = function (mongoose){
         ,price:38.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DKPYuPZ6/jabj4.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNrx7pEN/aPpEm.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DKPYuWPo/NrmUI.jpg'
@@ -60,7 +60,7 @@ exports.createdb = function (mongoose){
         ,price:59.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DKSyikqU/kU9EL.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DNry1n8W/dXHsN.jpg'
         ,time:0
         ,gallery:[
             'http://pic.yupoo.com/yige2002/DKSyjWif/6iESD.jpg'
