@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" /> 
+    <title>使用帮助</title>
+    <style>
+        *{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);} 
+        body{font-family:微软雅黑;font-size:12px;background:#FFFFFF;} 
+        .title,.content{font-size:1.25em;}
+        .title{border-bottom:1px solid #CDC9C6;line-height:1.5em;padding:0.5em 0 0 0;color:#8B8B8B;background:url(http://xingjiabi.b0.upaiyun.com/ico/helpico.png) no-repeat 98% center ;position:relative;} 
+		.title b{display:inline-table;padding-left:0.5em;position:absolute;top:0.7em;}
+		.title span{width:80%;padding-left:1.5em;display:inline-table;}
+        .content{display:none;backgroud-color:#F0F0F0;padding:0.5em 1em;border-bottom:1px solid #CDC9C6;}
+    </style>
+	<script>
+	window.onload = function(){
+		var oTitle = document.getElementsByTagName('div');
+		var oContent = document.getElementsByTagName('p');
+		for(var i=0;i<oTitle.length;i++){
+			oTitle[i].onclick = (function(i){
+				return function(){
+					hideAll();
+					if(oContent[i].style.display == 'none'){
+						oContent[i].style.display = 'block';
+					}
+					else{
+						oContent[i].style.display = 'none';
+					}
+				};
+			})(i);
+		} 
+		
+		function hideAll(){
+			for(var i=0;i<oTitle.length;i++){
+				oContent[i].style.display = 'none';			
+			}
+		}
+	};	
+	</script>
+</head>
+<body>
+    <div class="title"><b>•</b><span>你们商城宝贝是正品吗？</span></div>
+    <p class="content">性价比100%正品，全部商品均具有品牌授权书与质量检查报告，绝无劣质虚假商品上架，请亲们放心购买。</p>
+    <div class="title"><b>•</b><span>亲！你们商城发港澳台或者国外吗？</span></div>
+    <p class="content">不好意思，我们只发大陆地区，因为港澳台和国外地区快递无法送达。</p>
+    <div class="title"><b>•</b><span>你们的包裹怎么保证隐私呢？</span></div>
+    <p class="content">我们的包裹是保密包装，快递单上不会显示任何和商品商城的相关信息，包裹外面还有一层黑色的塑料薄膜，让同事朋友签收也没有问题的！</p>
+    <div class="title"><b>•</b><span>性价比商城用什么物流呢？</span></div>
+    <p class="content">货到付款的订单能发圆通快递哦；银行转账或者支付宝支付的订单可以发圆通，中通，申通，韵达，EMS
+注意事项：新疆西藏这两个地方的订单如果是货到付款的话只能选择非液体和电子机械产品，因为圆通走空运，此类产品无法上飞机；如果实在需要的顾客请选择银行转账或者支付宝支付，我们会安排走EMS陆运。</p>
+    <div class="title"><b>•</b><span>商城满多少包邮这个怎么操作呢？需要用购物车吗？</span></div>
+    <p class="content">亲将宝贝放入购物车，在结算的时候选择付款方式，就会有相应的包邮优惠！
+注意事项：亲买多件商品的话记得用购物车结算哦，只有用购物车结算才能算单笔运费或者享受相应的满额包邮优惠！</p>
+    <div class="title"><b>•</b><span>亲！便宜点喽，要不给个包邮？下次还来！</span></div>
+    <p class="content">亲，我们商城的价格是由厂家制定的，恕不议价。</p>
+    <div class="title"><b>•</b><span>你们发货时间，客服在线时间怎么安排？周末呢？</span></div>
+    <p class="content">一般在15:00之前下的订单当天发出；15:00之后的订单次日发出，周末也一样哦；客服在线时间是9:00-18:00，周末也在线的。如果亲需要尽快发货的话可以在第一时间内来电和客服沟通！</p>
+    <div class="title"><b>•</b><span>你们商城发什么物流呢？多久会到呢？</span></div>
+    <p class="content">一般是3-5天会到，新疆西藏等偏远地区可能需要10天左右，具体要看当地的物流情况。</p>
+    <div class="title"><b>•</b><span>我订单下错了怎么删除呢？</span></div>
+    <p class="content">收到订单之后，我们客服MM都会打电话和亲确认的，到时候和客服确认删除就可以；如果亲不方便接电话的话可以主动来电确认删除哦！不过需要保证电话号码和订单上的联系方式一致。</p>
+    <div class="title"><b>•</b><span>亲！我地址填错了，可以改地址吗？</span></div>
+    <p class="content">如果该订单还未发货的话，需要亲联系我们客服MM进行更改哦，不过需要保证电话号码和订单上的联系方式一致。如果已经发货了，那就没有办法更改了。</p>
+    <div class="title"><b>•</b><span>我提交订单了，选择货到付款，后续需要怎么操作？</span></div>
+    <p class="content">下单后务必保证亲的电话畅通哦，我们收到订单之后，客服MM都会打电话和亲确认，确认无误之后就会给亲发货，货款到时候直接给快递员即可；如果亲不方便接电话的话也欢迎亲主动和我们的客服MM联系确认，不过需要保证电话号码和订单上的联系方式一致。</p>
+    <div class="title"><b>•</b><span>我提交订单了，选择银行转账，后续需要怎么操作？</span></div>
+    <p class="content">下单后务必保证亲的电话畅通哦，我们收到订单之后，客服MM都会打电话和亲确认转账是否成功，如果亲不方便接电话的话也欢迎亲主动和我们的客服MM联系，不过需要保证电话号码和订单上的联系方式一致。如果确认收到款项之后就会给亲发货。</p>
+    <div class="title"><b>•</b><span>我提交订单了，选择支付宝付款，后续需要怎么操作？</span></div>
+    <p class="content">我们收到订单之后，客服MM都会打电话和亲确认，确定收到款项之后就会给亲发货；如果亲不方便接电话的话也欢迎亲主动和我们的客服MM联系确认，不过需要保证电话号码和订单上的联系方式一致。</p>
+    <div class="title"><b>•</b><span>怎么查看我的订单状态呢？</span></div>
+    <p class="content">打开性价比APP-个人中心-我的订单 中就可以看到订单状态。</p>
+    <div class="title"><b>•</b><span>怎么查看物流呢？</span></div>
+    <p class="content">打开性价比APP-个人中心-我的订单 中就可以看到订单的物流信息。</p>
+    <div class="title"><b>•</b><span>商城买的宝贝物流太慢或者物流存在疑问怎么办？</span></div>
+    <p class="content">亲，具体到货时间要看当地的物流情况哦，3-5天内都是正常的，还需要亲耐心等待下；如果看到物流信息确实可疑，可以致电我们性价比官方客服咨询。</p>
+    <div class="title"><b>•</b><span>包裹收到了，但是宝贝损坏了怎么办！</span></div>
+    <p class="content">亲发现宝贝损坏了之后请第一时间联系我们客服MM，客服MM会指导亲发照片确认，确认快递损坏之后，我们承担邮费给亲免费退换哦。</p>
+    <div class="title"><b>•</b><span>宝贝收到了，但是发错货了怎么办！</span></div>
+    <p class="content">亲发现发错货了之后请第一时间联系我们客服MM，客服MM会指导亲发照片确认，如果确实发错了，我们承担邮费给亲免费退换哦。</p>
+    <div class="title"><b>•</b><span>物流显示已经签收了，但是我没收到货啊？</span></div>
+    <p class="content">亲可以询问下同事或者门卫，可能是代为签收了，如果确认没有送到的话请致电我们客服MM沟通解决哦 。</p>
+    <div class="title"><b>•</b><span>亲！我对商城买的宝贝有疑问，需要咨询怎么办？</span></div>
+    <p class="content">欢迎亲致电我们性价比官方客服咨询。</p>
+    <div class="title"><b>•</b><span>亲！商城买的宝贝需要退货/换货怎么处理？你们的七天无理由退换有什么条件？</span></div>
+    <p class="content">
+七天无理由退换：是根据包裹签收时间的次日凌晨算起，在保证包装完好，未被使用，不影响二次销售的情况下可以退换。
+退换货流程：需要退换货的亲们需要先致电我们客服登记，然后快递寄回，并告诉我们客服MM物流单号，我们收到包裹，确认无误之后会进行退款/换货操作；
+退货邮费：如果出现质量问题，发错货，货物损坏并且和我们客服MM确认之后，由我们承担邮费；由于个人原因需要亲承担退回邮费。
+注意事项：
+1.退回包裹请勿发到付包裹，如果是需要我们承担运费的退回件，也请亲先垫付下，我们确认之后会联系您，将邮费退还您的银行卡或者支付宝。
+2.换货的物流在APP上是查不到的，需要查询的顾客可以致电我们客服MM。
+    </p>
+    
+    <div class="title"><b>•</b><span>我看中了你们淘宝精选的宝贝，怎么是淘宝卖家？</span></div>
+    <p class="content">淘宝精选的宝贝都是淘宝的卖家提供服务和宝贝！非本商城发货！</p>
+    <div class="title"><b>•</b><span>淘宝精选买的宝贝有问题怎么办？</span></div>
+    <p class="content">淘宝精选的宝贝都是淘宝的卖家提供服务和宝贝哦，有具体疑问需要和淘宝卖家沟通解决哦！</p>
+    <div class="title"><b>•</b><span>淘宝精选买的宝贝有疑问怎么办？</span></div>
+    <p class="content">淘宝精选的宝贝都是淘宝的卖家提供服务和宝贝哦，有具体疑问需要和淘宝卖家沟通解决哦！</p>
+    <div class="title"><b>•</b><span>淘宝精选买的宝贝物流太慢或者物流存在疑问怎么办？</span></div>
+    <p class="content">淘宝精选的宝贝都是淘宝的卖家提供服务和宝贝哦，有具体疑问需要和淘宝卖家沟通解决哦！</p>
+    <div class="title"><b>•</b><span>淘宝精选买的宝贝需要退货怎么操作？</span></div>
+    <p class="content">淘宝精选的宝贝都是淘宝的卖家提供服务和宝贝哦，非本商城发货！有具体操作需要和淘宝卖家沟通解决哦！</p>
+    <div class="title"><b>•</b><span>怎么发帖呢？</span></div>
+    <p class="content">把性价比更新到最新版本就可以发帖了，iphone用户在app store更新；安卓用户在91手机助手或者360手机助手上面更新。</p>
+    <div class="title"><b>•</b><span>我发的帖子怎么老是不通过或者卡在审核中？</span></div>
+    <p class="content">发帖过来之后小编们需要有一段时间审核的，请耐心等待哦；如果最终审核不通过请参照交流区《教你玩转交流区》的帖子。</p>
+    <div class="title"><b>•</b><span>怎么删除我的帖子呢？</span></div>
+    <p class="content">打开性价比APP-个人中心-我的帖子，在这里可以进行删帖操作。</p>
+    <div class="title"><b>•</b><span>我的评论怎么没了？</span></div>
+    <p class="content">一般是涉及敏感内容被屏蔽了，详情请参照交流区《教你玩转交流区》的帖子。</p>
+    <div class="title"><b>•</b><span>怎么不能发言了？</span></div>
+    <p class="content">一般是涉及发布敏感内容被禁言了，详情请参照交流区《教你玩转交流区》的帖子。</p>
+    <div class="title"><b>•</b><span>怎么删除我的评论呢？</span></div>
+    <p class="content">评论用户暂时无法删除，如果确实需要删除的话请联系社区管理员或者致电客服。</p>
+    <div class="title"><b>•</b><span>怎么和MM私信？</span></div>
+    <p class="content">确保你的版本是最新版本的情况下，在MM发言处点击私信即可小窗MM。</p>
+    <div class="title"><b>•</b><span>私信是怎么扣积分的呢？</span></div>
+    <p class="content">只扣第一次的积分哦，之后和此人私聊就不扣了。</p>
+    <div class="title"><b>•</b><span>为什么有的楼主显示匿名无法私信？</span></div>
+    <p class="content">那是因为该用户选择匿名发帖哦。</p>
+    <div class="title"><b>•</b><span>怎么查看私信呢？</span></div>
+    <p class="content">打开性价比APP-个人中心-我的私信，在这里可以看到私信内容。</p>
+    <div class="title"><b>•</b><span>为什么有的用户性别是问号？</span></div>
+    <p class="content">因为用户没有设置性别哦。</p>
+    <div class="title"><b>•</b><span>怎么获得积分？</span></div>
+    <p class="content">分享性价比APP或者分享交流区帖子哦，详情请看：性价比APP-个人中心-我的金币。</p>  
+    <div class="title"><b>•</b><span>分享之后没有加积分？</span></div>
+    <p class="content">将软件版本更新到最新即可解决：iphone用户在app store更新；安卓用户在91手机助手或者360手机助手上更新。</p>
+    
+</body>
+</html>
