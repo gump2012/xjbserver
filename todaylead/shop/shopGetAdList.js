@@ -40,6 +40,10 @@ function getAdList(response,request){
                     item.param.pid = doc[i].param.pid;
                 }
                     break;
+                case 3:
+                {
+                    item.linkto = doc[i].linkto;
+                }
                 default :
                     break;
             }

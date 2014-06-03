@@ -70,6 +70,21 @@ function createdb(mongoose){
             console.log(err);
         }
     });
+
+    newAd = new todayAd({
+        adid:4
+        ,img_url:'http://img04.taobaocdn.com/imgextra/i4/468359490/T24zTTXtFXXXXXXXXX-468359490.jpg'
+        ,type:2
+        ,linkto:'http://115.28.225.137:10080/res/html/baoyou.html'
+        ,param:{
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
 
 exports.createdb = createdb;
