@@ -28,25 +28,36 @@ function getAdList(response,request){
                 }
             }
 
-            switch (item.param.app_ad_in_subtype)
+            switch (item.type)
             {
                 case 1:
                 {
-                    item.param.keyword = doc[i].param.keyword;
+                    switch (item.param.app_ad_in_subtype)
+                    {
+                        case 1:
+                        {
+                            item.param.keyword = doc[i].param.keyword;
+                        }
+                            break;
+                        case 2:
+                        {
+                            item.param.pid = doc[i].param.pid;
+                        }
+                            break;
+                        default :
+                            break;
+                    }
                 }
                     break;
                 case 2:
                 {
-                    item.param.pid = doc[i].param.pid;
-                }
-                    break;
-                case 3:
-                {
                     item.linkto = doc[i].linkto;
                 }
+                    break;
                 default :
                     break;
             }
+
 
             responsevalue.info.data.push(item);
         }
