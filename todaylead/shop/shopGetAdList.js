@@ -24,8 +24,12 @@ function getAdList(response,request){
                 ,type             :doc[i].type
                 ,linkto           :doc[i].linkto
                 ,param            :{
-                    app_ad_in_subtype   :doc[i].param.app_ad_in_subtype
+                    app_ad_in_subtype   :0
                 }
+            }
+
+            if(doc[i].param && doc[i].param.app_ad_in_subtype){
+                item.param.app_ad_in_subtype = doc[i].param.app_ad_in_subtype;
             }
 
             switch (item.type)
