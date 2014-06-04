@@ -45,7 +45,7 @@ function getAdList(response,request){
                             break;
                         case 2:
                         {
-                            item.param.pid = doc[i].param.pid;
+                            item.param.product_id = doc[i].param.pid;
                         }
                             break;
                         default :
