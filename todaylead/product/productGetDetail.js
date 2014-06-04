@@ -19,7 +19,7 @@ function getDetail(response,request){
                 ,recentvolume   :0
                 ,origin_price      :0.00
                 ,price          :0.00
-                ,state          :1
+                ,status          :1
                 ,stamper        :''
                 ,gallery        :[]
                 ,attr_list      :[]
