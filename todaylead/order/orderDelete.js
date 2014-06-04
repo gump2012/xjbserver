@@ -20,7 +20,7 @@ function deleteorder(response,request){
                             ordermodle.remove({ order_id:order_id }, function(err) {
                                 if (!err) {
                                     var responsevalue = {
-                                        info: {
+                                        desc: {
                                             extra: null,
                                             data: null
                                         },

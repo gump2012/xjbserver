@@ -18,7 +18,7 @@ function getMyOrderList(response,request){
             ordermodel.find({ticket_id:ticket_id},{},{sort:{'_id': -1}},function(err,docs){
                 if(docs){
                     var responsevalue = {
-                        "info": {
+                        "desc": {
                             "extra": {},
                             "data": []
                         },
@@ -40,7 +40,7 @@ function getMyOrderList(response,request){
 
                 ordermodel.find({token:token},null,{sort:{'_id': -1}},function(err,docs){
                     var responsevalue = {
-                        "info": {
+                        "desc": {
                             "extra": {},
                             "data":[]
                         },
@@ -83,14 +83,14 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                 for(var i = istartcount;i < docs.length;++i){
                     var item = {
                         order_id:docs[i].order_id
-                        ,order_price:docs[i].promotion_totalprice + docs[i].shipping_fee
+                        ,price:docs[i].promotion_totalprice + docs[i].shipping_fee
                         ,create_time:docs[i].creat_time
-                        ,order_status:docs[i].order_states
+                        ,status:docs[i].order_states
                         ,pay_status:docs[i].payment_states
                         ,shipping_status:docs[i].shipping_states
                         ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
-                        ,goods_number:docs[i].goods_number
+                        ,count:docs[i].goods_number
                         ,pic_url:''
                     }
 
@@ -98,21 +98,21 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         item.pic_url = docs[i].productlist[0].pic_url;
                     }
 
-                    responsevalue.info.data.push(item);
+                    responsevalue.desc.data.push(item);
                 }
             }
             else{
                 for(var i = istartcount; i < iendcount;++i){
                     var item = {
                         order_id:docs[i].order_id
-                        ,order_price:docs[i].promotion_totalprice + docs[i].shipping_fee
+                        ,price:docs[i].promotion_totalprice + docs[i].shipping_fee
                         ,create_time:docs[i].creat_time
-                        ,order_status:docs[i].order_states
+                        ,status:docs[i].order_states
                         ,pay_status:docs[i].payment_states
                         ,shipping_status:docs[i].shipping_states
                         ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
-                        ,goods_number:docs[i].goods_number
+                        ,count:docs[i].goods_number
                         ,pic_url:''
                     }
 
@@ -120,7 +120,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         item.pic_url = docs[i].productlist[0].pic_url;
                     }
 
-                    responsevalue.info.data.push(item);
+                    responsevalue.desc.data.push(item);
                 }
             }
         }

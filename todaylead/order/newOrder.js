@@ -15,7 +15,7 @@ function newOrder(response,request){
     });
 
     request.addListener('end', function() {
-        var strjson = querystring.parse(requestData).order_json;
+        var strjson = querystring.parse(requestData).json;
         if(strjson){
             var datajson = JSON.parse(strjson);
             if(datajson){
@@ -23,17 +23,17 @@ function newOrder(response,request){
                 var device_id = publictool.getDeviceID(request);
                 if(regist_id || device_id){
                     var item = {
-                        city:datajson.city
-                        ,province:datajson.province
-                        ,area:datajson.area
+                        city:datajson.city_code
+                        ,province:datajson.province_code
+                        ,area:datajson.area_code
                         ,consignee:datajson.consignee
-                        ,mobile:datajson.mobile
+                        ,mobile:datajson.phone
                         ,memo:datajson.memo
                         ,ticket_id:regist_id
                         ,token:device_id
                         ,address:datajson.address
-                        ,shipping_fee:datajson.shipping_fee
-                        ,promotion_totalprice:datajson.promotion_totalprice
+                        ,shipping_fee:datajson.transport_price
+                        ,product_total_price:datajson.product_total_price
                         ,payment_way_id:datajson.payment_way_id
                         ,order_id:MD5(Date.now().toString())
                         ,creat_time:Date.now().toString()
@@ -45,28 +45,28 @@ function newOrder(response,request){
                         ,productlist:[]
                     }
 
-                    if(datajson.productlist)
+                    if(datajson.product_list)
                     {
-                        for(i in datajson.productlist)
+                        for(i in datajson.product_list)
                         {
                             var productitem = {
-                                title:datajson.productlist[i].title
-                                ,price:datajson.productlist[i].price
-                                ,pid:datajson.productlist[i].pid
-                                ,quantity:datajson.productlist[i].quantity
+                                title:datajson.product_list[i].name
+                                ,price:datajson.product_list[i].price
+                                ,pid:datajson.product_list[i].product_id
+                                ,quantity:datajson.product_list[i].count
                                 ,pic_url:''
                                 ,attr_list:[]
                             }
 
                             item.goods_number += new Number(productitem.quantity);
 
-                            if(datajson.productlist[i].attr_list)
+                            if(datajson.product_list[i].attr_list)
                             {
-                                for(j in datajson.productlist[i].attr_list)
+                                for(j in datajson.product_list[i].attr_list)
                                 {
                                     var attritem = {
-                                        goods_attr_id:datajson.productlist[i].attr_list[j].goods_attr_id
-                                        ,attr_price:datajson.productlist[i].attr_list[j].attr_price
+                                        goods_attr_id:datajson.product_list[i].attr_list[j].product_attr_id
+                                        ,attr_price:datajson.product_list[i].attr_list[j].price
                                     }
 
                                     productitem.attr_list.push(attritem);
@@ -231,17 +231,19 @@ function findPaymentName(response,item){
 
             var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
             var responsevalue = {
-                info:{
+                desc:{
                     extra:'',
                     data:{
                         order_id:item.order_id
-                        ,orderprice:orderprice
+                        ,price:orderprice
                         ,create_time:item.creat_time
-                        ,order_status:item.order_states
+                        ,status:item.order_states
                         ,payment_way_id:item.payment_way_id
                         ,payment_status:item.payment_states
                         ,payment_name:item.payment_name
                         ,alipay_submit_data:''
+                        ,product_price_reduce:0.00
+                        ,transport_price_reduce:0.00
                     }
                 },
                 response_status:'true',
@@ -253,13 +255,13 @@ function findPaymentName(response,item){
                 var orderstr = '_input_charset="utf-8"' +
                     '&body="一笔来自今日头牌的订单"' +
                     '&notify_url="http://115.28.225.137:10080/alipay"' +
-                    '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
+                    '&out_trade_no="' + responsevalue.desc.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
                     '&seller_id="toupai@3pshow.com"' +
                     '&service="mobile.securitypay.pay"' +
                     '&subject="今日头牌订单"' +
-                    '&total_fee="' + responsevalue.info.data.orderprice + '"';
+                    '&total_fee="' + responsevalue.desc.data.orderprice + '"';
 
                 makeRsa(orderstr,responsevalue,response);
             }
@@ -288,7 +290,7 @@ function makeRsa(strcontent,responsevalue,response){
             sign = encodeURIComponent(sign);
             console.log(sign);
 
-            responsevalue.info.data.alipay_submit_data = strcontent +
+            responsevalue.desc.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
                 '&sign="' + sign + '"';
             publictool.returnValue(response,responsevalue);

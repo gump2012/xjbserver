@@ -14,12 +14,12 @@ function getProductsDetail(response,request){
     });
 
     request.addListener('end', function() {
-        var strpids = querystring.parse(requestData).pids;
+        var strpids = querystring.parse(requestData).product_id_list;
         if(strpids){
             var pidsarr=strpids.split(",");
             if(pidsarr.length > 0){
                 var responsevalue = {
-                    info:{
+                    desc:{
                         extra:''
                         ,data:[]
                     }
@@ -45,16 +45,16 @@ function findProduct(pidarr,iindex,response,responsevalue){
     productmodle.findOne({pid:pid},function(err,doc){
         if(doc){
             productitem = {
-                pid:doc.pid
-                ,title:doc.title
+                product_id:doc.pid
+                ,name:doc.title
                 ,price:doc.price
                 ,state:doc.state
-                ,cid:doc.cid
+                ,category_id:doc.cid
                 ,attr_list:[]
                 ,pic_url:doc.pic_url
             };
 
-            responsevalue.info.data.push(productitem);
+            responsevalue.desc.data.push(productitem);
             findAttribute(pidarr,iindex,response,responsevalue);
         }
         else{
@@ -64,26 +64,26 @@ function findProduct(pidarr,iindex,response,responsevalue){
 }
 
 function findAttribute(pidarr,iindex,response,responsevalue){
-    if(iindex >= responsevalue.info.data.length)
+    if(iindex >= responsevalue.desc.data.length)
     {
         publicfun.returnErr(response,'服务器数据逻辑错误');
     }
     else{
         var productAttrModle = mongoose.model('todayProductAttr');
 
-        productAttrModle.find({pid:responsevalue.info.data[iindex].pid},function(err,doc){
+        productAttrModle.find({pid:responsevalue.desc.data[iindex].pid},function(err,doc){
             for(i in doc){
                 if(doc[i].attr_type == 1){
                     var item = {
                         attr_id          :doc[i].attr_id
-                        ,goods_attr_id   :doc[i].goods_attr_id
-                        ,attr_name       :doc[i].attr_name
-                        ,attr_value      :doc[i].attr_value
-                        ,attr_price      :doc[i].attr_price
-                        ,attr_type       :doc[i].attr_type
+                        ,product_attr_id   :doc[i].goods_attr_id
+                        ,name       :doc[i].attr_name
+                        ,value      :doc[i].attr_value
+                        ,price      :doc[i].attr_price
+                        ,type       :doc[i].attr_type
                     }
 
-                    responsevalue.info.data[iindex].attr_list.push(item);
+                    responsevalue.desc.data[iindex].attr_list.push(item);
                 }
             }
 

@@ -13,7 +13,7 @@ function getInfoByUser(response,request){
         accountmodel.findOne({ticket_id:ticket_id},function(err,doc){
            if(doc){
                var responsevalue = {
-                   info: {
+                   desc: {
                        extra: null,
                        data: {
                            phone:doc.phone

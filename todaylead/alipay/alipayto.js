@@ -15,10 +15,10 @@ exports.alipayto = function (response,request){
 
     request.addListener('end', function() {
         var orderid = querystring.parse(requestData).order_id;
-        var total_fee = querystring.parse(requestData).order_price;
+        var total_fee = querystring.parse(requestData).price;
         if(orderid && total_fee){
             var responsevalue = {
-                info:{
+                desc:{
                     extra:'',
                     data:{
                         alipay_submit_data:''
@@ -60,7 +60,7 @@ function makeRsa(strcontent,responsevalue,response){
             var sign = signer.sign(data, "base64");
             sign = encodeURIComponent(sign);
 
-            responsevalue.info.data.alipay_submit_data = strcontent +
+            responsevalue.desc.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
                 '&sign="' + sign + '"';
             publictool.returnValue(response,responsevalue);

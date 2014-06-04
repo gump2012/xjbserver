@@ -32,7 +32,7 @@ function getIntroHtml(response,request){
 
             strhtml +=' \\r\\n</div>';
             var responsevalue = {
-                info: {
+                desc: {
                     extra: null,
                     data: {
                     content: strhtml

@@ -5,7 +5,7 @@ var publictool = require("../todayPublic/getAssistantValue");
 
 exports.getPromotionList = function(response,request){
     var responsevalue = {
-        info: {
+        desc: {
         "extra": null,
             "data": {
             "promotion_ico": "http://xingjiabi.b0.upaiyun.com/ico/promotion.png",

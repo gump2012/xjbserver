@@ -2,25 +2,22 @@
  * Created by gump on 3/19/14.
  */
 var mongoose = require('mongoose');
-var url = require("url");
-var querystring = require("querystring");
 var publictool = require("../todayPublic/getAssistantValue");
 
 function getDetail(response,request){
 
-    var arg = url.parse(request.url).query;
-    var pid = querystring.parse(arg).pid;
+    var pid = publictool.getpid(request);
 
     var responsevalue = {
-        info:{
+        desc:{
             extra:{},
             data:{
-                pid              :pid
-                ,cid            :0
-                ,title          :''
+                product_id              :pid
+                ,category_id            :0
+                ,name          :''
                 ,volume         :0
                 ,recentvolume   :0
-                ,org_price      :0.00
+                ,origin_price      :0.00
                 ,price          :0.00
                 ,state          :1
                 ,stamper        :''
@@ -42,17 +39,17 @@ function findBasic(pid,responsevalue,response){
     productmodle.findOne({pid:pid},function(err,doc){
         if(doc)
         {
-            responsevalue.info.data.cid = doc.cid;
-            responsevalue.info.data.title = doc.title;
-            responsevalue.info.data.org_price = doc.org_price;
-            responsevalue.info.data.price = doc.price;
-            responsevalue.info.data.volume = doc.volume;
-            responsevalue.info.data.recentvolume = doc.recentvolume;
-            responsevalue.info.data.pic_url = doc.pic_url;
+            responsevalue.desc.data.category_id = doc.cid;
+            responsevalue.desc.data.name = doc.title;
+            responsevalue.desc.data.origin_price = doc.org_price;
+            responsevalue.desc.data.price = doc.price;
+            responsevalue.desc.data.volume = doc.volume;
+            responsevalue.desc.data.recentvolume = doc.recentvolume;
+            responsevalue.desc.data.pic_url = doc.pic_url;
 
             for(var i = 0; i < doc.gallery.length - 1; ++i)
             {
-                responsevalue.info.data.gallery.push(doc.gallery[i]);
+                responsevalue.desc.data.gallery.push(doc.gallery[i]);
             }
 
             findAttr(pid,responsevalue,response);
@@ -71,14 +68,14 @@ function findAttr(pid,responsevalue,response){
        for(var i in doc){
            var item = {
                attr_id          :doc[i].attr_id
-               ,goods_attr_id   :doc[i].goods_attr_id
-               ,attr_name       :doc[i].attr_name
-               ,attr_value      :doc[i].attr_value
-               ,attr_price      :doc[i].attr_price
-               ,attr_type       :doc[i].attr_type
+               ,product_attr_id   :doc[i].goods_attr_id
+               ,name            :doc[i].attr_name
+               ,value           :doc[i].attr_value
+               ,price      :doc[i].attr_price
+               ,type       :doc[i].attr_type
            }
 
-           responsevalue.info.data.attr_list.push(item);
+           responsevalue.desc.data.attr_list.push(item);
        }
 
         publictool.returnValue(response,responsevalue);

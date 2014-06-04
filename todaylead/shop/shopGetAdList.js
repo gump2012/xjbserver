@@ -7,7 +7,7 @@ var publictool = require("../todayPublic/getAssistantValue");
 function getAdList(response,request){
 
     var responsevalue = {
-        info:{
+        desc:{
             extra:{},
             data:[]
         },
@@ -19,24 +19,24 @@ function getAdList(response,request){
     admodle.find({},function(err,doc){
         for(var i in doc){
             var item = {
-                adid              :doc[i].adid
-                ,img_url          :doc[i].img_url
+                advert_id              :doc[i].adid
+                ,pic_url          :doc[i].img_url
                 ,type             :doc[i].type
-                ,linkto           :doc[i].linkto
+                ,link             :doc[i].linkto
                 ,param            :{
-                    app_ad_in_subtype   :0
+                    type   :0
                 }
             }
 
             if(doc[i].param && doc[i].param.app_ad_in_subtype){
-                item.param.app_ad_in_subtype = doc[i].param.app_ad_in_subtype;
+                item.param.type = doc[i].param.app_ad_in_subtype;
             }
 
             switch (item.type)
             {
                 case 1:
                 {
-                    switch (item.param.app_ad_in_subtype)
+                    switch (item.param.type)
                     {
                         case 1:
                         {
@@ -55,7 +55,7 @@ function getAdList(response,request){
                     break;
                 case 2:
                 {
-                    item.linkto = doc[i].linkto;
+                    item.link = doc[i].linkto;
                 }
                     break;
                 default :
@@ -63,7 +63,7 @@ function getAdList(response,request){
             }
 
 
-            responsevalue.info.data.push(item);
+            responsevalue.desc.data.push(item);
         }
 
         publictool.returnValue(response,responsevalue);

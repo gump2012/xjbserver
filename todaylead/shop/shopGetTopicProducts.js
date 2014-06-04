@@ -11,13 +11,13 @@ var publictool = require("../todayPublic/getAssistantValue");
 function getTopicPro(response,request){
 
     var arg = url.parse(request.url).query;
-    var topicid = querystring.parse(arg).topicid;
-    var limit = querystring.parse(arg).limit;
-    var page = querystring.parse(arg).page;
+    var topicid = querystring.parse(arg).topic_id;
+    var limit = publictool.getLimit(request);
+    var page = publictool.getPage(request);
 
     if(limit && page){
         var responsevalue = {
-            info:{
+            desc:{
                 extra:{},
                 data:[]
             },
@@ -91,7 +91,7 @@ function findProduct(gooosarr,iindex,response,responsevalue){
                 ,recentvolume:doc.recentvolume
             }
 
-            responsevalue.info.data.push(item);
+            responsevalue.desc.data.push(item);
 
             if(iindex < gooosarr.length - 1)
             {

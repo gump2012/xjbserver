@@ -26,7 +26,7 @@ function getRegistID(request){
 
 function getLimit(request){
     var arg = url.parse(request.url).query;
-    var assistant = querystring.parse(arg).limit;
+    var assistant = querystring.parse(arg).count;
     return assistant;
 }
 
@@ -38,13 +38,13 @@ function getPage(request){
 
 function getpid(request){
     var arg = url.parse(request.url).query;
-    var assistant = querystring.parse(arg).pid;
+    var assistant = querystring.parse(arg).product_id;
     return assistant;
 }
 
 function returnErr(response,errstr){
     var responsevalue = {
-        info:{
+        desc:{
             extra:'',
             data:''
         },
@@ -59,7 +59,7 @@ function returnErr(response,errstr){
 
 function returnErrWithResponseState(response,errstr,statestr){
     var responsevalue = {
-        info:{
+        desc:{
             extra:'',
             data:''
         },

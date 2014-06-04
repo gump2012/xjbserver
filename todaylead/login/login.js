@@ -26,10 +26,10 @@ function login(response,request){
                     }
                     else{
                         var responsevalue = {
-                            info: {
+                            desc: {
                                 extra: null,
                                 data: {
-                                    regist_id: doc.ticket_id
+                                    user_id: doc.ticket_id
                                     ,nickname:doc.nickname
                                     ,sex_type:doc.sex_type
                                     ,account_coin:doc.account_coin

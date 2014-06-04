@@ -42,10 +42,10 @@ function register(response,request){
 
                     accountdb.saveAccount(accountvalue);
                     var responsevalue = {
-                        info: {
+                        desc: {
                             extra: null,
                             data: {
-                                regist_id: accountvalue.ticket_id
+                                user_id: accountvalue.ticket_id
                                 ,phone:accountvalue.phone
                                 ,nickname:accountvalue.nickname
                                 ,sex_type:accountvalue.sex_type

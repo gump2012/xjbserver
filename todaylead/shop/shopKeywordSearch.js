@@ -12,10 +12,10 @@ function getProducts(response,request){
     var arg = url.parse(request.url).query;
     var strkeyword = querystring.parse(arg).keyword;
     strkeyword = decodeURI(strkeyword);
-    var limit = querystring.parse(arg).limit;
-    var page = querystring.parse(arg).page;
+    var limit = publictool.getLimit(request);
+    var page = publictool.getPage(request);
     var responsevalue = {
-        info:{
+        desc:{
             extra:'',
             data:[]
         },
@@ -58,12 +58,12 @@ function getProducts(response,request){
                 var isendcount = ipage * ilimit;
                 if(isendcount - 1 <= tempdata.length){
                     for(var i = (page - 1) * ilimit;i < isendcount;++i){
-                        responsevalue.info.data.push(tempdata[i]);
+                        responsevalue.desc.data.push(tempdata[i]);
                     }
                 }
                 else{
                     for(var i = (page - 1) * ilimit;i < tempdata.length;++i){
-                        responsevalue.info.data.push(tempdata[i]);
+                        responsevalue.desc.data.push(tempdata[i]);
                     }
                 }
 

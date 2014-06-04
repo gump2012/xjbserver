@@ -11,15 +11,15 @@ function getCategoryProducts(response,request){
 
     var categorymodle = mongoose.model('todayProduct');
     var arg = url.parse(request.url).query;
-    var cid = querystring.parse(arg).cid;
-    var limit = querystring.parse(arg).limit;
-    var page = querystring.parse(arg).page;
+    var cid = querystring.parse(arg).category_id;
+    var limit = publictool.getLimit(request);
+    var page = publictool.getPage(request);
 
     if(limit && page){
         categorymodle.find({cid:cid},{},{sort: {pid:'desc'}},function(err,doc){
 
             var responsevalue = {
-                info:{
+                desc:{
                     extra:{},
                     data:[]
                 },
@@ -42,33 +42,33 @@ function getCategoryProducts(response,request){
                     if(iendcount > doc.length){
                         for(var i = istartcount; i < doc.length;++i){
                             var item = {
-                                cid         :doc[i].cid,
-                                pid         :doc[i].pid,
-                                title       :doc[i].title,
+                                category_id         :doc[i].cid,
+                                product_id         :doc[i].pid,
+                                name       :doc[i].title,
                                 pic_url     :doc[i].pic_url,
-                                org_price   :doc[i].org_price,
+                                origin_price   :doc[i].org_price,
                                 price       :doc[i].price,
                                 volume      :doc[i].volume,
                                 recentvolume:doc[i].recentvolume
                             }
 
-                            responsevalue.info.data.push(item);
+                            responsevalue.desc.data.push(item);
                         }
                     }
                     else{
                         for(var i = istartcount; i < iendcount;++i){
                             var item = {
-                                cid         :doc[i].cid,
-                                pid         :doc[i].pid,
-                                title       :doc[i].title,
+                                category_id         :doc[i].cid,
+                                product_id         :doc[i].pid,
+                                name       :doc[i].title,
                                 pic_url     :doc[i].pic_url,
-                                org_price   :doc[i].org_price,
+                                origin_price   :doc[i].org_price,
                                 price       :doc[i].price,
                                 volume      :doc[i].volume,
                                 recentvolume:doc[i].recentvolume
                             }
 
-                            responsevalue.info.data.push(item);
+                            responsevalue.desc.data.push(item);
                         }
                     }
 

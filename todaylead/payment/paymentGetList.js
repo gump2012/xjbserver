@@ -11,7 +11,7 @@ function getList(response,request){
     categorymodle.find({},function(err,doc){
 
         var responsevalue = {
-            info:{
+            desc:{
                 extra:'',
                 data:[]
             },
@@ -22,11 +22,11 @@ function getList(response,request){
         for(var i in doc){
             var item = {
                 payment_way_id : doc[i].payment_way_id,
-                payment_way_name : doc[i].payment_way_name,
-                payment_way_desp :doc[i].payment_way_desp
+                name           : doc[i].payment_way_name,
+                desc           : doc[i].payment_way_desp
             }
 
-            responsevalue.info.data.push(item);
+            responsevalue.desc.data.push(item);
         }
 
         publictool.returnValue(response,responsevalue);
