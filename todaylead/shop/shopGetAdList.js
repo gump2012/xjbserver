@@ -56,6 +56,7 @@ function getAdList(response,request){
                 case 2:
                 {
                     item.link = doc[i].linkto;
+                    item.param.name = doc[i].param.name;
                 }
                     break;
                 default :

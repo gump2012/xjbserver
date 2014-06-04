@@ -77,6 +77,7 @@ function createdb(mongoose){
         ,type:2
         ,linkto:'http://115.28.225.137:10080/res/html/baoyou.html'
         ,param:{
+            name:'包邮活动'
         }
     });
     newAd.save( function( err, silence ) {
