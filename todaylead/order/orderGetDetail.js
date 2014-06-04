@@ -53,7 +53,7 @@ function processOrderData(response,request,doc){
     console.log(doc.order_states);
 
     var responseValue = {
-        desc:{
+        info:{
             extra:{}
             ,data:{
                 order_id:doc.order_id
@@ -117,7 +117,7 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
                     }
                     else{
                         iindex++;
-                        responseValue.desc.data.product_list.push(gooditem);
+                        responseValue.info.data.product_list.push(gooditem);
                         getGoodsList(response,request,responseValue,productarr,iindex);
                     }
                 }
@@ -141,7 +141,7 @@ function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,g
             gooditem.attr = doc.attr_value;
 
             iindex++;
-            responseValue.desc.data.product_list.push(gooditem);
+            responseValue.info.data.product_list.push(gooditem);
             getGoodsList(response,request,responseValue,productarr,iindex);
         }
         else{
@@ -152,9 +152,9 @@ function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,g
 
 function getPaymentName(response,request,responseValue){
     var paymodel = mongoose.model('todayPaymentList');
-    paymodel.findOne({payment_way_id:responseValue.desc.data.payment_way_id},'payment_way_name',function(err,doc){
+    paymodel.findOne({payment_way_id:responseValue.info.data.payment_way_id},'payment_way_name',function(err,doc){
        if(doc){
-           responseValue.desc.data.payment_name = doc.payment_way_name;
+           responseValue.info.data.payment_name = doc.payment_way_name;
            publictool.returnValue(response,responseValue);
        }
         else{

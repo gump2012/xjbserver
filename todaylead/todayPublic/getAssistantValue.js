@@ -44,7 +44,7 @@ function getpid(request){
 
 function returnErr(response,errstr){
     var responsevalue = {
-        desc:{
+        info:{
             extra:'',
             data:''
         },
@@ -59,7 +59,7 @@ function returnErr(response,errstr){
 
 function returnErrWithResponseState(response,errstr,statestr){
     var responsevalue = {
-        desc:{
+        info:{
             extra:'',
             data:''
         },

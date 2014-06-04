@@ -17,7 +17,7 @@ function getTopicPro(response,request){
 
     if(limit && page){
         var responsevalue = {
-            desc:{
+            info:{
                 extra:{},
                 data:[]
             },
@@ -91,7 +91,7 @@ function findProduct(gooosarr,iindex,response,responsevalue){
                 ,recentvolume:doc.recentvolume
             }
 
-            responsevalue.desc.data.push(item);
+            responsevalue.info.data.push(item);
 
             if(iindex < gooosarr.length - 1)
             {

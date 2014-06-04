@@ -15,7 +15,7 @@ function getPromotionDetail(response,request){
     var shoping_fee = totalprice < 1000.00 ? 0.00 : 0.00;
     var orderprice = totalprice + shoping_fee;
     var responsevalue = {
-        desc:{
+        info:{
             extra:'',
             data:{
                 product_total_price:totalprice,

@@ -231,7 +231,7 @@ function findPaymentName(response,item){
 
             var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
             var responsevalue = {
-                desc:{
+                info:{
                     extra:'',
                     data:{
                         order_id:item.order_id
@@ -255,13 +255,13 @@ function findPaymentName(response,item){
                 var orderstr = '_input_charset="utf-8"' +
                     '&body="一笔来自今日头牌的订单"' +
                     '&notify_url="http://115.28.225.137:10080/alipay"' +
-                    '&out_trade_no="' + responsevalue.desc.data.order_id + '"' +
+                    '&out_trade_no="' + responsevalue.info.data.order_id + '"' +
                     '&partner="2088411489511305"' +
                     '&payment_type="1"' +
                     '&seller_id="toupai@3pshow.com"' +
                     '&service="mobile.securitypay.pay"' +
                     '&subject="今日头牌订单"' +
-                    '&total_fee="' + responsevalue.desc.data.orderprice + '"';
+                    '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
                 makeRsa(orderstr,responsevalue,response);
             }
@@ -290,7 +290,7 @@ function makeRsa(strcontent,responsevalue,response){
             sign = encodeURIComponent(sign);
             console.log(sign);
 
-            responsevalue.desc.data.alipay_submit_data = strcontent +
+            responsevalue.info.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
                 '&sign="' + sign + '"';
             publictool.returnValue(response,responsevalue);

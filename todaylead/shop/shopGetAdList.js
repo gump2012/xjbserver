@@ -7,7 +7,7 @@ var publictool = require("../todayPublic/getAssistantValue");
 function getAdList(response,request){
 
     var responsevalue = {
-        desc:{
+        info:{
             extra:{},
             data:[]
         },
@@ -63,7 +63,7 @@ function getAdList(response,request){
             }
 
 
-            responsevalue.desc.data.push(item);
+            responsevalue.info.data.push(item);
         }
 
         publictool.returnValue(response,responsevalue);

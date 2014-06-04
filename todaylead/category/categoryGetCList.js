@@ -12,7 +12,7 @@ function getCategoryList(response,request){
     categorymodle.find({},function(err,doc){
 
         var responsevalue = {
-            desc:{
+            info:{
                 extra:{},
                 data:[]
             },
@@ -28,7 +28,7 @@ function getCategoryList(response,request){
                 pic_url: doc[i].pic_url
             }
 
-            responsevalue.desc.data.push(item);
+            responsevalue.info.data.push(item);
         }
 
         publictool.returnValue(response,responsevalue);

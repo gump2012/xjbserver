@@ -19,7 +19,7 @@ function getProductsDetail(response,request){
             var pidsarr=strpids.split(",");
             if(pidsarr.length > 0){
                 var responsevalue = {
-                    desc:{
+                    info:{
                         extra:''
                         ,data:[]
                     }
@@ -54,7 +54,7 @@ function findProduct(pidarr,iindex,response,responsevalue){
                 ,pic_url:doc.pic_url
             };
 
-            responsevalue.desc.data.push(productitem);
+            responsevalue.info.data.push(productitem);
             findAttribute(pidarr,iindex,response,responsevalue);
         }
         else{
@@ -64,14 +64,14 @@ function findProduct(pidarr,iindex,response,responsevalue){
 }
 
 function findAttribute(pidarr,iindex,response,responsevalue){
-    if(iindex >= responsevalue.desc.data.length)
+    if(iindex >= responsevalue.info.data.length)
     {
         publicfun.returnErr(response,'服务器数据逻辑错误');
     }
     else{
         var productAttrModle = mongoose.model('todayProductAttr');
 
-        productAttrModle.find({pid:responsevalue.desc.data[iindex].pid},function(err,doc){
+        productAttrModle.find({pid:responsevalue.info.data[iindex].pid},function(err,doc){
             for(i in doc){
                 if(doc[i].attr_type == 1){
                     var item = {
@@ -83,7 +83,7 @@ function findAttribute(pidarr,iindex,response,responsevalue){
                         ,type       :doc[i].attr_type
                     }
 
-                    responsevalue.desc.data[iindex].attr_list.push(item);
+                    responsevalue.info.data[iindex].attr_list.push(item);
                 }
             }
 

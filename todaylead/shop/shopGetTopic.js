@@ -7,7 +7,7 @@ var publictool = require("../todayPublic/getAssistantValue");
 function getTopic(response,request){
 
     var responsevalue = {
-        desc:{
+        info:{
             extra:{},
             data:{
                 topic_list:[]
@@ -47,7 +47,7 @@ function getTopic(response,request){
                 }
             }
 
-            responsevalue.desc.data.topic_list.push(item);
+            responsevalue.info.data.topic_list.push(item);
         }
 
         getRecommend(response,responsevalue);
@@ -60,8 +60,8 @@ function getRecommend(response,responsevalue){
     var strRecommend = '头牌推荐';
     var strkw = '头牌推荐';
 
-    responsevalue.desc.data.recommend.name = strRecommend;
-    responsevalue.desc.data.recommend.keyword = strkw;
+    responsevalue.info.data.recommend.name = strRecommend;
+    responsevalue.info.data.recommend.keyword = strkw;
 
     productmodle.find({},'title pid pic_url',{sort: {pid:'desc'}}, function (err, docs) {
         var gettext=[];
@@ -79,14 +79,14 @@ function getRecommend(response,responsevalue){
         {
             for(var i = 0; i < 3; ++i)
             {
-                responsevalue.desc.data.recommend.product_list.push(gettext[i]);
+                responsevalue.info.data.recommend.product_list.push(gettext[i]);
             }
         }
         else
         {
             for(i in gettext)
             {
-                responsevalue.desc.data.recommend.product_list.push(gettext[i]);
+                responsevalue.info.data.recommend.product_list.push(gettext[i]);
             }
         }
 

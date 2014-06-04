@@ -19,7 +19,7 @@ function getCategoryProducts(response,request){
         categorymodle.find({cid:cid},{},{sort: {pid:'desc'}},function(err,doc){
 
             var responsevalue = {
-                desc:{
+                info:{
                     extra:{},
                     data:[]
                 },
@@ -52,7 +52,7 @@ function getCategoryProducts(response,request){
                                 recentvolume:doc[i].recentvolume
                             }
 
-                            responsevalue.desc.data.push(item);
+                            responsevalue.info.data.push(item);
                         }
                     }
                     else{
@@ -68,7 +68,7 @@ function getCategoryProducts(response,request){
                                 recentvolume:doc[i].recentvolume
                             }
 
-                            responsevalue.desc.data.push(item);
+                            responsevalue.info.data.push(item);
                         }
                     }
 

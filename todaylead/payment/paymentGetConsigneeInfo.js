@@ -14,7 +14,7 @@ function getInfo(response,request){
         categorymodle.findOne({token:token},function(err,doc){
 
             var responsevalue = {
-                desc:{
+                info:{
                     extra:'',
                     data:{
                         consignee:''
@@ -32,13 +32,13 @@ function getInfo(response,request){
 
             if(doc)
             {
-                responsevalue.desc.data.consignee = doc.consignee;
-                responsevalue.desc.data.address = doc.address;
-                responsevalue.desc.data.mobile = doc.mobile;
-                responsevalue.desc.data.baseaddr = doc.baseaddr;
-                responsevalue.desc.data.province_code = doc.province;
-                responsevalue.desc.data.city_code = doc.city;
-                responsevalue.desc.data.area_code = doc.area;
+                responsevalue.info.data.consignee = doc.consignee;
+                responsevalue.info.data.address = doc.address;
+                responsevalue.info.data.mobile = doc.mobile;
+                responsevalue.info.data.baseaddr = doc.baseaddr;
+                responsevalue.info.data.province_code = doc.province;
+                responsevalue.info.data.city_code = doc.city;
+                responsevalue.info.data.area_code = doc.area;
             }
             else
             {

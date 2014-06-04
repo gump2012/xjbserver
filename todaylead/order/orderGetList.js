@@ -18,7 +18,7 @@ function getMyOrderList(response,request){
             ordermodel.find({ticket_id:ticket_id},{},{sort:{'_id': -1}},function(err,docs){
                 if(docs){
                     var responsevalue = {
-                        "desc": {
+                        "info": {
                             "extra": {},
                             "data": []
                         },
@@ -40,7 +40,7 @@ function getMyOrderList(response,request){
 
                 ordermodel.find({token:token},null,{sort:{'_id': -1}},function(err,docs){
                     var responsevalue = {
-                        "desc": {
+                        "info": {
                             "extra": {},
                             "data":[]
                         },
@@ -98,7 +98,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         item.pic_url = docs[i].productlist[0].pic_url;
                     }
 
-                    responsevalue.desc.data.push(item);
+                    responsevalue.info.data.push(item);
                 }
             }
             else{
@@ -120,7 +120,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         item.pic_url = docs[i].productlist[0].pic_url;
                     }
 
-                    responsevalue.desc.data.push(item);
+                    responsevalue.info.data.push(item);
                 }
             }
         }

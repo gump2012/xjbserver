@@ -9,7 +9,7 @@ function getDetail(response,request){
     var pid = publictool.getpid(request);
 
     var responsevalue = {
-        desc:{
+        info:{
             extra:{},
             data:{
                 product_id              :pid
@@ -39,17 +39,17 @@ function findBasic(pid,responsevalue,response){
     productmodle.findOne({pid:pid},function(err,doc){
         if(doc)
         {
-            responsevalue.desc.data.category_id = doc.cid;
-            responsevalue.desc.data.name = doc.title;
-            responsevalue.desc.data.origin_price = doc.org_price;
-            responsevalue.desc.data.price = doc.price;
-            responsevalue.desc.data.volume = doc.volume;
-            responsevalue.desc.data.recentvolume = doc.recentvolume;
-            responsevalue.desc.data.pic_url = doc.pic_url;
+            responsevalue.info.data.category_id = doc.cid;
+            responsevalue.info.data.name = doc.title;
+            responsevalue.info.data.origin_price = doc.org_price;
+            responsevalue.info.data.price = doc.price;
+            responsevalue.info.data.volume = doc.volume;
+            responsevalue.info.data.recentvolume = doc.recentvolume;
+            responsevalue.info.data.pic_url = doc.pic_url;
 
             for(var i = 0; i < doc.gallery.length - 1; ++i)
             {
-                responsevalue.desc.data.gallery.push(doc.gallery[i]);
+                responsevalue.info.data.gallery.push(doc.gallery[i]);
             }
 
             findAttr(pid,responsevalue,response);
@@ -75,7 +75,7 @@ function findAttr(pid,responsevalue,response){
                ,type       :doc[i].attr_type
            }
 
-           responsevalue.desc.data.attr_list.push(item);
+           responsevalue.info.data.attr_list.push(item);
        }
 
         publictool.returnValue(response,responsevalue);

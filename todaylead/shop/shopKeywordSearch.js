@@ -15,7 +15,7 @@ function getProducts(response,request){
     var limit = publictool.getLimit(request);
     var page = publictool.getPage(request);
     var responsevalue = {
-        desc:{
+        info:{
             extra:'',
             data:[]
         },
@@ -58,12 +58,12 @@ function getProducts(response,request){
                 var isendcount = ipage * ilimit;
                 if(isendcount - 1 <= tempdata.length){
                     for(var i = (page - 1) * ilimit;i < isendcount;++i){
-                        responsevalue.desc.data.push(tempdata[i]);
+                        responsevalue.info.data.push(tempdata[i]);
                     }
                 }
                 else{
                     for(var i = (page - 1) * ilimit;i < tempdata.length;++i){
-                        responsevalue.desc.data.push(tempdata[i]);
+                        responsevalue.info.data.push(tempdata[i]);
                     }
                 }
 

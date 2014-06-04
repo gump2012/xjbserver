@@ -11,7 +11,7 @@ function getList(response,request){
     categorymodle.find({},function(err,doc){
 
         var responsevalue = {
-            desc:{
+            info:{
                 extra:'',
                 data:[]
             },
@@ -26,7 +26,7 @@ function getList(response,request){
                 desc           : doc[i].payment_way_desp
             }
 
-            responsevalue.desc.data.push(item);
+            responsevalue.info.data.push(item);
         }
 
         publictool.returnValue(response,responsevalue);
