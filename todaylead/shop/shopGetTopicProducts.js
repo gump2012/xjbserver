@@ -82,10 +82,10 @@ function findProduct(gooosarr,iindex,response,responsevalue){
         if(doc)
         {
             var item = {
-                pid:doc.pid
+                product_id:doc.pid
                 ,pic_url:doc.pic_url
-                ,title:doc.title
-                ,org_price:doc.org_price
+                ,name:doc.title
+                ,origin_price:doc.org_price
                 ,price:doc.price
                 ,volume:doc.volume
                 ,recentvolume:doc.recentvolume

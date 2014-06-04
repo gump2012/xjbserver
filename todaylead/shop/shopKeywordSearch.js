@@ -33,10 +33,10 @@ function getProducts(response,request){
 
                 if(docs[i].title.indexOf(strkeyword) != -1){
                     var item = {
-                        pid:docs[i].pid
-                        ,cid:docs[i].cid
-                        ,title:docs[i].title
-                        ,org_price:docs[i].org_price
+                        product_id:docs[i].pid
+                        ,category_id:docs[i].cid
+                        ,name:docs[i].title
+                        ,origin_price:docs[i].org_price
                         ,price:docs[i].price
                         ,volume:docs[i].volume
                         ,recentvolume:docs[i].recentvolume
