@@ -48,7 +48,7 @@ function findProduct(pidarr,iindex,response,responsevalue){
                 product_id:doc.pid
                 ,name:doc.title
                 ,price:doc.price
-                ,state:doc.state
+                ,status:doc.state
                 ,category_id:doc.cid
                 ,attr_list:[]
                 ,pic_url:doc.pic_url
