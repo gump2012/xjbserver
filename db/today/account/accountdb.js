@@ -23,6 +23,14 @@ function createdb(mongoose){
             ,unique:true
         }
         ,password           :String
+        ,create_time        :String
+        ,ordernumber        :Number
+        ,province_code      :String
+        ,city_code          :String
+        ,area_code          :String
+        ,address            :String
+        ,address_phone      :String
+        ,consignee          :String
     });
 
     mongoose.model('todayaccount',userSchema);

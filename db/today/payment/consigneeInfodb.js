@@ -15,6 +15,8 @@ function createdb(mongoose){
         ,province             :String
         ,city                 :String
         ,area                 :String
+        ,ordernumber          :Number
+        ,create_time          :String
     });
 
     mongoose.model('todayConsigneeInfo',userSchema);
