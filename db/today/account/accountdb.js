@@ -4,7 +4,7 @@
 
 var mongoose = require('mongoose');
 
-function createdb(mongoose){
+exports.createdb = function (mongoose){
     var userSchema = new mongoose.Schema({
         ticket_id     :{
             type: String,
@@ -35,18 +35,3 @@ function createdb(mongoose){
 
     mongoose.model('todayaccount',userSchema);
 }
-
-function saveAccount(accountValue){
-    var accountmodel = mongoose.model('todayaccount');
-
-    var newAccount = new accountmodel(accountValue);
-    newAccount.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-}
-
-exports.createdb = createdb;
-exports.saveAccount = saveAccount;

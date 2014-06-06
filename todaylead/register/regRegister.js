@@ -5,7 +5,8 @@
 var querystring = require("querystring");
 var publictool = require("../todayPublic/getAssistantValue")
 var mongoose = require('mongoose');
-var accountdb = require("../../db/today/account/accountdb");
+
+var accountfunc = require("../account/accountFunction");
 
 function register(response,request){
     request.setEncoding('utf8');
@@ -31,16 +32,25 @@ function register(response,request){
                 else{
                     var accountvalue = {
                         ticket_id:publictool.MD5(Date.now().toString() + token)
-                        ,phone:phone
-                        ,avatar:'http://xingjiabi.b0.upaiyun.com/avatar/41b236cdf70c6e0ac9acb1403a04a688.png'
-                        ,account_coin:1
-                        ,sex_type:0
-                        ,nickname:nickname
-                        ,token:token
-                        ,password:password
+                        ,phone              :phone
+                        ,avatar             :'http://xingjiabi.b0.upaiyun.com/avatar/41b236cdf70c6e0ac9acb1403a04a688.png'
+                        ,account_coin       :1
+                        ,sex_type           :0
+                        ,nickname           :nickname
+                        ,token              :token
+                        ,password           :password
+                        ,create_time        :Date.now().toString()
+                        ,ordernumber        :0
+                        ,province_code      :''
+                        ,city_code          :''
+                        ,area_code          :''
+                        ,address            :''
+                        ,address_phone      :''
+                        ,consignee          :''
                     };
 
-                    accountdb.saveAccount(accountvalue);
+                    accountfunc.saveUser(accountvalue);
+
                     var responsevalue = {
                         info: {
                             extra: null,
