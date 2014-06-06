@@ -5,6 +5,7 @@
 var querystring = require("querystring");
 var publictool = require("../todayPublic/getAssistantValue")
 var mongoose = require('mongoose');
+var accountFunc = require("../account/accountFunction");
 
 function login(response,request){
 
@@ -42,6 +43,40 @@ function login(response,request){
                         }
 
                         publictool.returnValue(response,responsevalue);
+
+                        var deviceid = publictool.getDeviceID(request);
+                        if(deviceid){
+                            doc.token = deviceid;
+                            doc.save(function( err, silence ) {
+                                if( err )
+                                {
+                                    console.log(err);
+                                }
+                            });
+
+                            var devicemodel = mongoose.model('todayConsigneeInfo');
+                            devicemodel.findOne({token:deviceid},function(err,docdevice){
+                                if(!docdevice){
+
+                                    var devicevalue = {
+                                        token                 :deviceid
+                                        ,ticket_id            :doc.ticket_id
+                                        ,consignee            :''
+                                        ,address              :''
+                                        ,mobile               :''
+                                        ,baseaddr             :''
+                                        ,province             :''
+                                        ,city                 :''
+                                        ,area                 :''
+                                        ,ordernumber          :0
+                                        ,create_time          :Date.now().toString()
+                                    }
+
+                                    accountFunc.saveDevice(devicevalue);
+
+                                }
+                            });
+                        }
                     }
                 }
                 else{
