@@ -168,21 +168,8 @@ function comparePrice(item,response){
             publictool.returnErr(response,'运费不对');
         }
         else{
-            var consigneemodle = mongoose.model('todayConsigneeInfo');
-            var consigneeitem = {
-                token:item.token
-                ,consignee:item.consignee
-                ,address:item.address
-                ,mobile:item.mobile
-                ,baseaddr:item.baseaddr
-                ,ticket_id:item.ticket_id
-                ,province:item.province
-                ,city:item.city
-                ,area:item.area
-            }
 
-            var consigneeEntity = new consigneemodle(consigneeitem);
-            consigneeEntity.save();
+            saveConsignee(item);
 
             findPaymentName(response,item);
         }
@@ -296,6 +283,30 @@ function makeRsa(strcontent,responsevalue,response){
             publictool.returnValue(response,responsevalue);
         }
     });
+}
+
+function saveConsignee(item){
+    if(item.ticket_id){
+        var accountmodle = mongoose.model('todayaccount');
+        accountmodle.findOne({})
+    }
+
+    var consigneemodle = mongoose.model('todayConsigneeInfo');
+    //consigneemodle.findOne({token:item.token})
+    var consigneeitem = {
+        token:item.token
+        ,consignee:item.consignee
+        ,address:item.address
+        ,mobile:item.mobile
+        ,baseaddr:item.baseaddr
+        ,ticket_id:item.ticket_id
+        ,province:item.province
+        ,city:item.city
+        ,area:item.area
+    }
+
+    var consigneeEntity = new consigneemodle(consigneeitem);
+    consigneeEntity.save();
 }
 
 exports.newOrder = newOrder;
