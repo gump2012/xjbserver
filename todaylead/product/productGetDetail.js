@@ -14,16 +14,16 @@ function getDetail(response,request){
             data:{
                 product_id              :pid
                 ,category_id            :0
-                ,name          :''
-                ,volume         :0
-                ,recentvolume   :0
-                ,origin_price      :0.00
-                ,price          :0.00
-                ,status          :1
-                ,stamper        :''
-                ,gallery        :[]
-                ,attr_list      :[]
-                ,pic_url        :''
+                ,name                   :''
+                ,volume                 :0
+                ,recentvolume           :0
+                ,origin_price           :0.00
+                ,price                  :0.00
+                ,status                 :1
+                ,stamper                :''
+                ,gallery                :[]
+                ,attr_list              :[]
+                ,pic_url                :''
             }
         },
         response_status:'',
