@@ -398,7 +398,7 @@ function makeOrderID(response,responsevalue){
     number = Math.random();
     orderid += number.toString().slice(2,7);
 
-    responsevalue.order_id = orderid;
+    responsevalue.info.data.order_id = orderid;
 
     publictool.returnValue(response,responsevalue);
 }
