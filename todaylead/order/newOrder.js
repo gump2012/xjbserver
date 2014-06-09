@@ -22,7 +22,7 @@ function newOrder(response,request){
             if(datajson){
                 var regist_id = publictool.getRegistID(request);
                 var device_id = publictool.getDeviceID(request);
-                if(regist_id || device_id){
+                if(device_id){
                     var item = {
                         city:datajson.city_code
                         ,province:datajson.province_code
@@ -82,7 +82,7 @@ function newOrder(response,request){
                     findPid(item,response,pidnumber);
                 }
                 else{
-                    publictool.returnErr(response,'没有注册id或设备id');
+                    publictool.returnErr(response,'没有设备id');
                 }
             }
             else
@@ -288,26 +288,28 @@ function makeRsa(strcontent,responsevalue,response,item){
 
 function saveConsignee(item){
 
-    var accountmodle = mongoose.model('todayaccount');
-    accountmodle.findOne({ticket_id:item.ticket_id},function(err,doc){
-        if(doc){
-            doc.token = item.token;
-            doc.ordernumber += 1;
-            doc.province_code = item.province;
-            doc.city_code = item.city;
-            doc.area_code = item.area;
-            doc.address = item.address;
-            doc.address_phone = item.mobile;
-            doc.consignee = item.consignee;
+    if(item.topic_id){
+        var accountmodle = mongoose.model('todayaccount');
+        accountmodle.findOne({ticket_id:item.ticket_id},function(err,doc){
+            if(doc){
+                doc.token = item.token;
+                doc.ordernumber += 1;
+                doc.province_code = item.province;
+                doc.city_code = item.city;
+                doc.area_code = item.area;
+                doc.address = item.address;
+                doc.address_phone = item.mobile;
+                doc.consignee = item.consignee;
 
-            doc.save(function( err, silence ) {
-                if( err )
-                {
-                    console.log(err);
-                }
-            });
-        }
-    });
+                doc.save(function( err, silence ) {
+                    if( err )
+                    {
+                        console.log(err);
+                    }
+                });
+            }
+        });
+    }
 
     var deviecmodle = mongoose.model('todayConsigneeInfo');
     deviecmodle.findOne({token:item.token},function(err,doc){
