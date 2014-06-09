@@ -20,7 +20,7 @@ function getDeviceID(request){
 
 function getRegistID(request){
     var arg = url.parse(request.url).query;
-    var assistant = querystring.parse(arg).regist_id;
+    var assistant = querystring.parse(arg).user_id;
     return assistant;
 }
 

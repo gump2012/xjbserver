@@ -11,7 +11,7 @@
 @implementation categoryList
 
 -(void)request{
-    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"category?assistant=getCategories"];
+    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"category?assistant=getCategories"];
     [self testGet:strhttp];
 }
 

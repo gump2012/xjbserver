@@ -11,7 +11,8 @@
 @implementation categoryProducts
 
 -(void)request{
-    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"category?assistant=getProductsByCategory&cid=1&limit=10&page=3"];
+    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"category?\
+assistant=getProductsByCategory&category_id=1&count=10&page=2"];
     [self testGet:strhttp];
 }
 
