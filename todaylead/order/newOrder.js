@@ -6,6 +6,7 @@ var mongoose = require('mongoose');
 var crypto = require('crypto');
 var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
+var accountFunc = require("../account/accountFunction");
 
 function newOrder(response,request){
 
@@ -35,7 +36,7 @@ function newOrder(response,request){
                         ,shipping_fee:datajson.transport_price
                         ,product_total_price:datajson.product_total_price
                         ,payment_way_id:datajson.payment_way_id
-                        ,order_id:MD5(Date.now().toString())
+                        ,order_id:''
                         ,creat_time:Date.now().toString()
                         ,order_states:0
                         ,payment_states:0
@@ -168,9 +169,6 @@ function comparePrice(item,response){
             publictool.returnErr(response,'运费不对');
         }
         else{
-
-            saveConsignee(item);
-
             findPaymentName(response,item);
         }
     }
@@ -250,10 +248,11 @@ function findPaymentName(response,item){
                     '&subject="今日头牌订单"' +
                     '&total_fee="' + responsevalue.info.data.orderprice + '"';
 
-                makeRsa(orderstr,responsevalue,response);
+                makeRsa(orderstr,responsevalue,response,item);
             }
             else{
-                publictool.returnValue(response,responsevalue);
+                saveConsignee(item);
+                makeOrderID(response,responsevalue);
             }
         }
         else{
@@ -262,7 +261,7 @@ function findPaymentName(response,item){
     });
 }
 
-function makeRsa(strcontent,responsevalue,response){
+function makeRsa(strcontent,responsevalue,response,item){
     var fs = require('fs');
 
     fs.readFile('rsa_private_key.pem','utf8', function(err, data) {
@@ -280,33 +279,126 @@ function makeRsa(strcontent,responsevalue,response){
             responsevalue.info.data.alipay_submit_data = strcontent +
                 '&sign_type="RSA"' +
                 '&sign="' + sign + '"';
-            publictool.returnValue(response,responsevalue);
+
+            saveConsignee(item);
+            makeOrderID(response,responsevalue);
         }
     });
 }
 
 function saveConsignee(item){
-    if(item.ticket_id){
-        var accountmodle = mongoose.model('todayaccount');
-        accountmodle.findOne({})
+
+    var accountmodle = mongoose.model('todayaccount');
+    accountmodle.findOne({ticket_id:item.ticket_id},function(err,doc){
+        if(doc){
+            doc.token = item.token;
+            doc.ordernumber += 1;
+            doc.province_code = item.province;
+            doc.city_code = item.city;
+            doc.area_code = item.area;
+            doc.address = item.address;
+            doc.address_phone = item.mobile;
+            doc.consignee = item.consignee;
+
+            doc.save(function( err, silence ) {
+                if( err )
+                {
+                    console.log(err);
+                }
+            });
+        }
+    });
+
+    var deviecmodle = mongoose.model('todayConsigneeInfo');
+    deviecmodle.findOne({token:item.token},function(err,doc){
+        if(doc){
+            doc.ticket_id = item.ticket_id;
+            doc.consignee = item.consignee;
+            doc.address = item.address;
+            doc.mobile = item.mobile;
+            doc.baseaddr = item.address;
+            doc.province = item.province;
+            doc.city = item.city;
+            doc.area = item.area;
+            doc.ordernumber += 1;
+
+            doc.save(function( err, silence ) {
+                if( err )
+                {
+                    console.log(err);
+                }
+            });
+        }
+        else{
+            var devicevalue = {
+                token                 :item.token
+                ,ticket_id            :item.ticket_id
+                ,consignee            :item.consignee
+                ,address              :item.address
+                ,mobile               :item.mobile
+                ,baseaddr             :item.address
+                ,province             :item.province
+                ,city                 :item.city
+                ,area                 :item.area
+                ,ordernumber          :0
+                ,create_time          :Date.now().toString()
+            }
+            accountFunc.saveDevice(devicevalue);
+        }
+    });
+}
+
+function makeOrderID(response,responsevalue){
+    var now= new Date();
+    var number = now.getFullYear();
+    var orderid = number.toString().slice(2);
+
+    number = now.getMonth();
+    if(number < 10){
+        orderid += '0' + number.toString();
+    }
+    else{
+        orderid += number.toString();
     }
 
-    var consigneemodle = mongoose.model('todayConsigneeInfo');
-    //consigneemodle.findOne({token:item.token})
-    var consigneeitem = {
-        token:item.token
-        ,consignee:item.consignee
-        ,address:item.address
-        ,mobile:item.mobile
-        ,baseaddr:item.baseaddr
-        ,ticket_id:item.ticket_id
-        ,province:item.province
-        ,city:item.city
-        ,area:item.area
+    number = now.getDate();
+    if(number < 10){
+        orderid += '0' + number.toString();
+    }
+    else{
+        orderid += number.toString();
     }
 
-    var consigneeEntity = new consigneemodle(consigneeitem);
-    consigneeEntity.save();
+    number = now.getHours();
+    if(number < 10){
+        orderid += '0' + number.toString();
+    }
+    else{
+        orderid += number.toString();
+    }
+
+    number = now.getMinutes();
+    if(number < 10){
+        orderid += '0' + number.toString();
+    }
+    else{
+        orderid += number.toString();
+    }
+
+    number = now.getSeconds();
+    if(number < 10){
+        orderid += '0' + number.toString();
+    }
+    else{
+        orderid += number.toString();
+    }
+
+    number = Math.random();
+    orderid += number.toString().slice(2,7);
+
+    responsevalue.order_id = orderid;
+
+    publictool.returnValue(response,responsevalue);
 }
 
 exports.newOrder = newOrder;
