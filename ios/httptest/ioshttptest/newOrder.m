@@ -12,27 +12,27 @@
 
 -(void)request{
     NSString *contentser = @"\
-order_json=\
-{\"city\":\"1234\"\
+json=\
+{\"city_code\":\"1234\"\
 ,\"consignee\":\"dashabi\"\
-,\"mobile\":\"13646426253\"\
+,\"phone\":\"13646426253\"\
 ,\"memo\":\"\"\
-,\"province\":\"1234\"\
+,\"province_code\":\"1234\"\
 ,\"address\":\"jinsongsanlu\"\
-,\"shipping_fee\":12.0\
-,\"promotion_totalprice\":18.00\
-,\"area\":\"1234\"\
+,\"transport_price\":0.0\
+,\"product_total_price\":0.01\
+,\"area_code\":\"1234\"\
 ,\"payment_way_id\":2\
 ,\"productlist\":\
 [{\"title\":\"shasha\"\
-,\"price\":18.00\
+,\"price\":0.01\
 ,\"pid\":1\
 ,\"quantity\":1\
 ,\"attr_list\":\
 [{\"goods_attr_id\":\"100001\"\
 ,\"attr_price\":0.0\
 }]}]}";
-    NSString *urlstr = [NSString stringWithFormat:@"%@%@",LOCAL_URL,@"order?assistant=neworder&device_id=1"];
+    NSString *urlstr = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"order?assistant=neworder&device_id=1"];
     [self testPost:contentser withURL:urlstr];
 }
 

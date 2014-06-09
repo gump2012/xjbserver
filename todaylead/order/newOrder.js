@@ -148,7 +148,7 @@ function comparePrice(item,response){
         totalprice += (new Number(item.productlist[i].price) + attrprice) * item.productlist[i].quantity;
     }
 
-    if(totalprice != item.promotion_totalprice){
+    if(totalprice != item.product_total_price){
         publictool.returnErr(response,'商品总价不对');
     }
     else{
@@ -214,7 +214,7 @@ function findPaymentName(response,item){
             var orderEntity = new ordermodle(item);
             orderEntity.save();
 
-            var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
+            var orderprice = new Number(item.shipping_fee) + new Number(item.product_total_price);
             var responsevalue = {
                 info:{
                     extra:'',
