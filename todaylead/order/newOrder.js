@@ -352,10 +352,9 @@ function saveConsignee(item){
 
 function makeOrderID(response,responsevalue){
     var now= new Date();
-    var number = now.getFullYear();
-    var orderid = number.toString().slice(2);
+    var orderid = '';
 
-    number = now.getMonth();
+    var number = now.getMonth();
     if(number < 10){
         orderid += '0' + number.toString();
     }
@@ -396,7 +395,7 @@ function makeOrderID(response,responsevalue){
     }
 
     number = Math.random();
-    orderid += number.toString().slice(2,7);
+    orderid += number.toString().slice(2,8);
 
     responsevalue.info.data.order_id = orderid;
 
