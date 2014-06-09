@@ -22,20 +22,6 @@ function start(){
     db.once('open',function callback(){
         console.log('db is open success!');
 
-        var userSchema = new mongoose.Schema({
-            mail:{
-                type: String,
-                unique: true
-            }
-            ,ps   :String
-            ,user_id:{
-                type: String,
-                unique: true
-            }
-            ,nickname:String
-        });
-
-        mongoose.model('user',userSchema);
         categoryGetListdb.createdb(mongoose);
 
         productAttributedb.createdb(mongoose);

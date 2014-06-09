@@ -12,7 +12,7 @@
 
 -(void)request{
     NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"account?\
-assistant=getAccountInfoByUser&regist_id=33b5c4c273f7fbf390a9163232c160e2"];
+assistant=getAccountInfoByUser&user_id=d9de20976437207d1275c6f2dcf7c13e"];
     [self testGet:strhttp];
 }
 
