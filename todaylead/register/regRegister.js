@@ -60,7 +60,6 @@ function register(response,request){
                                 ,nickname:accountvalue.nickname
                                 ,sex_type:accountvalue.sex_type
                                 ,account_coin:accountvalue.account_coin
-                                ,avatar:accountvalue.avatar
                             }
                         },
                         response_status: "true",

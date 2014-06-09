@@ -20,7 +20,6 @@ function getInfoByUser(response,request){
                            ,nickname:doc.nickname
                            ,sex_type:doc.sex_type
                            ,account_coin:doc.account_coin
-                           ,avatar:doc.avatar
                        }
                    },
                    response_status: "true",
