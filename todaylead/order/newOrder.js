@@ -209,10 +209,16 @@ function findPaymentName(response,item){
     paymentmodel.findOne({payment_way_id:item.payment_way_id},'payment_way_name',function(err,doc){
         if(doc){
             item.payment_name = doc.payment_way_name;
+            item.order_id = makeOrderID();
 
             var ordermodle = mongoose.model('todayOrder');
             var orderEntity = new ordermodle(item);
-            orderEntity.save();
+            orderEntity.save(function( err, silence ) {
+                if( err )
+                {
+                    console.log(err);
+                }
+            });
 
             var orderprice = new Number(item.shipping_fee) + new Number(item.product_total_price);
             var responsevalue = {
@@ -234,8 +240,6 @@ function findPaymentName(response,item){
                 response_status:'true',
                 msg:''
             }
-
-            responsevalue.info.data.order_id = makeOrderID();
 
             if(item.payment_way_id == 2){
 
