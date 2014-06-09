@@ -246,7 +246,7 @@ function findPaymentName(response,item){
                     '&seller_id="toupai@3pshow.com"' +
                     '&service="mobile.securitypay.pay"' +
                     '&subject="今日头牌订单"' +
-                    '&total_fee="' + responsevalue.info.data.orderprice + '"';
+                    '&total_fee="' + responsevalue.info.data.price + '"';
 
                 makeRsa(orderstr,responsevalue,response,item);
             }
