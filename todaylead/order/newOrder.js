@@ -235,6 +235,8 @@ function findPaymentName(response,item){
                 msg:''
             }
 
+            responsevalue.info.data.order_id = makeOrderID();
+
             if(item.payment_way_id == 2){
 
                 var orderstr = '_input_charset="utf-8"' +
@@ -252,7 +254,7 @@ function findPaymentName(response,item){
             }
             else{
                 saveConsignee(item);
-                makeOrderID(response,responsevalue);
+                publictool.returnValue(response,responsevalue);
             }
         }
         else{
@@ -281,7 +283,7 @@ function makeRsa(strcontent,responsevalue,response,item){
                 '&sign="' + sign + '"';
 
             saveConsignee(item);
-            makeOrderID(response,responsevalue);
+            publictool.returnValue(response,responsevalue);
         }
     });
 }
@@ -350,7 +352,7 @@ function saveConsignee(item){
     });
 }
 
-function makeOrderID(response,responsevalue){
+function makeOrderID(){
     var now= new Date();
     var orderid = '';
 
@@ -397,9 +399,7 @@ function makeOrderID(response,responsevalue){
     number = Math.random();
     orderid += number.toString().slice(2,8);
 
-    responsevalue.info.data.order_id = orderid;
-
-    publictool.returnValue(response,responsevalue);
+    return orderid;
 }
 
 exports.newOrder = newOrder;
