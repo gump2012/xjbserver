@@ -290,7 +290,7 @@ function makeRsa(strcontent,responsevalue,response,item){
 
 function saveConsignee(item){
 
-    if(item.topic_id){
+    if(item.ticket_id){
         var accountmodle = mongoose.model('todayaccount');
         accountmodle.findOne({ticket_id:item.ticket_id},function(err,doc){
             if(doc){

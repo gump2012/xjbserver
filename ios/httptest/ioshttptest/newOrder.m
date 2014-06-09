@@ -32,7 +32,8 @@ json=\
 [{\"product_attr_id\":\"100001\"\
 ,\"price\":0.0\
 }]}]}";
-    NSString *urlstr = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"order?assistant=neworder&device_id=1"];
+    NSString *urlstr = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"order?assistant=neworder&device_id=1\
+user_id=d9de20976437207d1275c6f2dcf7c13e"];
     [self testPost:contentser withURL:urlstr];
 }
 
