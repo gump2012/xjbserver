@@ -21,7 +21,7 @@ function createdb(mongoose){
 
     var newtopic = new todaytopic({
         topicid:1
-        ,pic_url:'http://pic.yupoo.com/yige2002/DJo6eot3/dUe3n.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DOwAoVce/NyfKY.jpg'
         ,title:'TOP20疯抢宝贝'
         ,goods:[
             {product_id:25,pic_url:'http://pic.yupoo.com/yige2002/DNlL8kID/HAont.jpg'}
@@ -41,7 +41,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:2
-        ,pic_url:'http://pic.yupoo.com/yige2002/DKdLXv7q/7Mpc5.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DOwAdF35/NTojE.jpg'
         ,title:'安全套餐'
         ,goods:[
             {product_id:753,pic_url:'http://pic.yupoo.com/yige2002/DNrkW15S/z6VcE.jpg'}
@@ -61,7 +61,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:3
-        ,pic_url:'http://pic.yupoo.com/yige2002/DKdMCckB/JsM68.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/DOwACWbg/X9vAf.jpg'
         ,title:'性福必备'
         ,goods:[
             {product_id:22,pic_url:'http://pic.yupoo.com/yige2002/DNrpGred/c1JSp.jpg'}
