@@ -11,7 +11,7 @@
 @implementation productDetail
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",LOCAL_URL,@"product?assistant=getProductDetail&pid=12"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"product?assistant=getProductDetail&product_id=12"];
     [self testGet:strurl];
 }
 

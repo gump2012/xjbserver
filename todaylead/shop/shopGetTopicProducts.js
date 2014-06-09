@@ -78,7 +78,7 @@ function getTopicPro(response,request){
 
 function findProduct(gooosarr,iindex,response,responsevalue){
     var productmodle = mongoose.model('todayProduct');
-    productmodle.findOne({pid:gooosarr[iindex].pid},function(err,doc){
+    productmodle.findOne({pid:gooosarr[iindex].product_id},function(err,doc){
         if(doc)
         {
             var item = {

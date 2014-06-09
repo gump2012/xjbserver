@@ -10,7 +10,7 @@
 
 @implementation shopRecommend
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",LOCAL_URL,@"shop?assistant=getRecommend"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"shop?assistant=getRecommend"];
     [self testGet:strurl];
 }
 @end

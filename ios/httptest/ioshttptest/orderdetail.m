@@ -11,8 +11,8 @@
 @implementation orderdetail
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",LOCAL_URL,@"order?\
-assistant=getMyOrderDetail&order_id=1823bd6be3c384e97dd85ba1b416398d&device_id=1"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"order?\
+assistant=getMyOrderDetail&order_id=0509161916842937&device_id=1"];
     [self testGet:strurl];
 }
 

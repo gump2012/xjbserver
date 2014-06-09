@@ -23,7 +23,8 @@
 
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"http://127.0.0.1:10080/shop?assistant=keywordSearch&keyword=%@&limit=10&page=1",
+    NSString *strurl = [NSString stringWithFormat:@"%@shop?assistant=keywordSearch&keyword=%@&count=10&page=1",
+                        MAIN_SECOND_URL,
                         [@"娃娃" URLEncodingUTF8String]];
     [self testGet:strurl];
 }

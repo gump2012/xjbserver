@@ -10,7 +10,7 @@
 
 @implementation shopTopic
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",LOCAL_URL,@"shop?assistant=getTopicList"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"shop?assistant=getTopicList"];
     [self testGet:strurl];
 }
 @end
