@@ -1,6 +1,8 @@
 /**
  * Created by lishiming on 14-4-17.
  */
+var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_shopurl");
+
 function createdb(mongoose){
     var userSchema = new mongoose.Schema({
         adid                    :{
@@ -22,7 +24,7 @@ function createdb(mongoose){
 
     var newAd = new todayAd({
         adid:1
-        ,img_url:'http://pic.yupoo.com/yige2002/DJo6DUKq/WurV9.jpg'
+        ,img_url:macroproduct.AD_1
         ,type:1
         ,linkto:''
         ,param:{
@@ -39,7 +41,7 @@ function createdb(mongoose){
 
     newAd = new todayAd({
         adid:2
-        ,img_url:'http://pic.yupoo.com/yige2002/DJo6EIds/PDLNL.jpg'
+        ,img_url:macroproduct.AD_2
         ,type:1
         ,linkto:''
         ,param:{
@@ -56,7 +58,7 @@ function createdb(mongoose){
 
     newAd = new todayAd({
         adid:3
-        ,img_url:'http://pic.yupoo.com/yige2002/DOX1p8Yp/U3g0A.jpg'
+        ,img_url:macroproduct.AD_3
         ,type:2
         ,linkto:'http://115.28.225.137:10080/res/html/baoyou.html'
         ,param:{
