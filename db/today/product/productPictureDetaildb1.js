@@ -58,11 +58,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:4
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHwlr2gs/GNJVZ.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwlrz0Q/VE4je.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwlrfKf/14d0um.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwlrvZJ/C2Wig.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwlrBrR/IGTVK.jpg'
+            macroproduct.PID4_DETAIL_1
+            ,macroproduct.PID4_DETAIL_2
+            ,macroproduct.PID4_DETAIL_3
+            ,macroproduct.PID4_DETAIL_4
+            ,macroproduct.PID4_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -74,9 +74,9 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:5
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHy3mEHZ/nx02l.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy2JfMy/FPZGb.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy3obyC/14Jcjx.jpg'
+            macroproduct.PID5_DETAIL_1
+            ,macroproduct.PID5_DETAIL_2
+            ,macroproduct.PID5_DETAIL_3
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -88,17 +88,17 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:6
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHy6uOSj/hQBlL.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6vD5f/7Pe6S.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6xJED/Gpj5G.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6AQt3/e9O3c.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6Hj4w/NKfh2.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6LdWI/J6wX3.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6Pq4y/Eaavt.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6dQZM/L6Dvw.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy5JEqJ/TICqV.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy6r2Gy/Z1IiI.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy5NMRW/WFA2G.jpg'
+            macroproduct.PID6_DETAIL_1
+            ,macroproduct.PID6_DETAIL_2
+            ,macroproduct.PID6_DETAIL_3
+            ,macroproduct.PID6_DETAIL_4
+            ,macroproduct.PID6_DETAIL_5
+            ,macroproduct.PID6_DETAIL_6
+            ,macroproduct.PID6_DETAIL_7
+            ,macroproduct.PID6_DETAIL_8
+            ,macroproduct.PID6_DETAIL_9
+            ,macroproduct.PID6_DETAIL_10
+            ,macroproduct.PID6_DETAIL_11
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -110,12 +110,12 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:7
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHy9dflZ/Gi3Kj.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy9hrX9/4sQKL.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy8IYPk/mCyOY.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy9zdUn/FMhbu.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy9zfdM/F0Sg3.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHy8V58e/AjTXT.jpg'
+            macroproduct.PID7_DETAIL_1
+            ,macroproduct.PID7_DETAIL_2
+            ,macroproduct.PID7_DETAIL_3
+            ,macroproduct.PID7_DETAIL_4
+            ,macroproduct.PID7_DETAIL_5
+            ,macroproduct.PID7_DETAIL_6
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -127,10 +127,10 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:8
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHydhbBN/LBelC.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHycDHHx/bFzDs.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHydjl5R/UDwii.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHydjlFZ/i9lQR.jpg'
+            macroproduct.PID8_DETAIL_1
+            ,macroproduct.PID8_DETAIL_2
+            ,macroproduct.PID8_DETAIL_3
+            ,macroproduct.PID8_DETAIL_4
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -142,12 +142,12 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:9
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHyfjqR0/rWuZy.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyfjiuw/3ka99.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyfkeEK/QQTHl.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyfkksx/3nMYX.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyfkW20/oMhpq.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyfkOsu/14jf5c.jpg'
+            macroproduct.PID9_DETAIL_1
+            ,macroproduct.PID9_DETAIL_2
+            ,macroproduct.PID9_DETAIL_3
+            ,macroproduct.PID9_DETAIL_4
+            ,macroproduct.PID9_DETAIL_5
+            ,macroproduct.PID9_DETAIL_6
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -159,12 +159,12 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:10
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHygA5yv/u41y2.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyhf4eZ/apwKd.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHygAv1Q/10T2oL.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyhfqWB/4go9r.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyhfU7x/Qs0kI.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHygBoIA/npx0x.jpg'
+            macroproduct.PID10_DETAIL_1
+            ,macroproduct.PID10_DETAIL_2
+            ,macroproduct.PID10_DETAIL_3
+            ,macroproduct.PID10_DETAIL_4
+            ,macroproduct.PID10_DETAIL_5
+            ,macroproduct.PID10_DETAIL_6
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -176,11 +176,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:11
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHyj1zgl/uJ8UZ.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyj27zt/Ym8ve.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyins8M/L1Btg.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyj26ql/14Qp6R.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyj2CaA/ik7Fl.jpg'
+            macroproduct.PID11_DETAIL_1
+            ,macroproduct.PID11_DETAIL_2
+            ,macroproduct.PID11_DETAIL_3
+            ,macroproduct.PID11_DETAIL_4
+            ,macroproduct.PID11_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -192,15 +192,15 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:12
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHykLevb/ULGNw.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykLOVD/mGoW8.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyk8frJ/vAcuz.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykMSBa/tvw2x.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykNSvr/Gwreu.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykOKE4/EpOqK.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykPJ3A/6TE7n.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykPVza/qS50U.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHykQgzV/ouGtG.jpg'
+            macroproduct.PID12_DETAIL_1
+            ,macroproduct.PID12_DETAIL_2
+            ,macroproduct.PID12_DETAIL_3
+            ,macroproduct.PID12_DETAIL_4
+            ,macroproduct.PID12_DETAIL_5
+            ,macroproduct.PID12_DETAIL_6
+            ,macroproduct.PID12_DETAIL_7
+            ,macroproduct.PID12_DETAIL_8
+            ,macroproduct.PID12_DETAIL_9
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -212,11 +212,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:13
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHynV0U7/Bp6We.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHynVigx/z6GdB.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHynW0qY/cd33E.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHynWkjT/Nkxv6.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHynikog/Nke4m.jpg'
+            macroproduct.PID13_DETAIL_1
+            ,macroproduct.PID13_DETAIL_2
+            ,macroproduct.PID13_DETAIL_3
+            ,macroproduct.PID13_DETAIL_4
+            ,macroproduct.PID13_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -228,11 +228,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:14
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHypWJ3B/LkwN2.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHypXljq/zHLh5.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHypZ1Rh/nzn8l.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyq1cdc/cU7g2.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyq2nNs/121vIj.jpg'
+            macroproduct.PID14_DETAIL_1
+            ,macroproduct.PID14_DETAIL_2
+            ,macroproduct.PID14_DETAIL_3
+            ,macroproduct.PID14_DETAIL_4
+            ,macroproduct.PID14_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -244,11 +244,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:15
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHysqsV0/oWhMz.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyrMbN2/97AvB.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHysqrQk/n8Vyo.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHysrj4Q/PyAb5.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyrMPaa/11s6Au.jpg'
+            macroproduct.PID15_DETAIL_1
+            ,macroproduct.PID15_DETAIL_2
+            ,macroproduct.PID15_DETAIL_3
+            ,macroproduct.PID15_DETAIL_4
+            ,macroproduct.PID15_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -260,11 +260,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:16
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHyuzVpj/GpgCb.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyuxsF1/RgVKy.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHytUoKN/zR2Vy.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyuzmc2/BSFMm.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyuzVti/Y96W9.jpg'
+            macroproduct.PID16_DETAIL_1
+            ,macroproduct.PID16_DETAIL_2
+            ,macroproduct.PID16_DETAIL_3
+            ,macroproduct.PID16_DETAIL_4
+            ,macroproduct.PID16_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -276,10 +276,10 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:17
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHywmdMH/76gLM.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHywmHbU/13PPu0.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHywmPMu/AlW6z.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyvJTgz/JgWhd.jpg'
+            macroproduct.PID17_DETAIL_1
+            ,macroproduct.PID17_DETAIL_2
+            ,macroproduct.PID17_DETAIL_3
+            ,macroproduct.PID17_DETAIL_4
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -291,10 +291,10 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:18
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHyynfwo/4lILd.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyynEoQ/fQCJy.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyyoxEZ/38o5D.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyxKhnq/KDRy5.jpg'
+            macroproduct.PID18_DETAIL_1
+            ,macroproduct.PID18_DETAIL_2
+            ,macroproduct.PID18_DETAIL_3
+            ,macroproduct.PID18_DETAIL_4
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -306,13 +306,13 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:19
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHyzSXzH/CLFyG.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyzeM0e/EgG27.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyzUl5Z/NiEJq.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyzVrBM/13nIrR.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyzWrzo/mIBL1.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyzX1Tb/aLfu7.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyziTWR/B0NAi.jpg'
+            macroproduct.PID19_DETAIL_1
+            ,macroproduct.PID19_DETAIL_2
+            ,macroproduct.PID19_DETAIL_3
+            ,macroproduct.PID19_DETAIL_4
+            ,macroproduct.PID19_DETAIL_5
+            ,macroproduct.PID19_DETAIL_6
+            ,macroproduct.PID19_DETAIL_7
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -324,12 +324,12 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:20
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHyACQ3e/AKMdu.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyBjNVu/WwYPx.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyBl3wJ/Y1D0g.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyAHMf1/iLgO2.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyBob8r/kyh6k.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHyBr3rB/4RauT.jpg'
+            macroproduct.PID20_DETAIL_1
+            ,macroproduct.PID20_DETAIL_2
+            ,macroproduct.PID20_DETAIL_3
+            ,macroproduct.PID20_DETAIL_4
+            ,macroproduct.PID20_DETAIL_5
+            ,macroproduct.PID20_DETAIL_6
             ,null
         ]});
     newCategory.save( function( err, silence ) {
