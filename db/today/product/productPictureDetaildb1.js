@@ -1,18 +1,21 @@
 /**
  * Created by lishiming on 14-5-12.
  */
+
+var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_pid1_20");
+
 function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProductPicDetail');
 
     var newCategory = new todayCategory({pid:1
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHwbEWTA/ETRUp.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwbFhHI/eWP6g.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwbFkbA/3grNo.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwb15rF/uOd6h.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwbFuCa/RRUmO.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwb1qWw/zbOmf.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwbE6lN/qsKpd.jpg'
+            macroproduct.PID1_DETAIL_1
+            ,macroproduct.PID1_DETAIL_2
+            ,macroproduct.PID1_DETAIL_3
+            ,macroproduct.PID1_DETAIL_4
+            ,macroproduct.PID1_DETAIL_5
+            ,macroproduct.PID1_DETAIL_6
+            ,macroproduct.PID1_DETAIL_7
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -24,11 +27,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:2
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHwd9KRL/Deexn.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwdaacB/XtNy9.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwdaarP/EI5xt.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwdapVs/GG0Mg.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwdavue/VnNsm.jpg'
+            macroproduct.PID2_DETAIL_1
+            ,macroproduct.PID2_DETAIL_2
+            ,macroproduct.PID2_DETAIL_3
+            ,macroproduct.PID2_DETAIL_4
+            ,macroproduct.PID2_DETAIL_5
             ,null
         ]});
     newCategory.save( function( err, silence ) {
@@ -40,10 +43,10 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:3
         ,picarr:[
-            'http://pic.yupoo.com/yige2002/DHwgt9Zg/xGdy4.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwgtaTp/1lW84.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwgtc6E/oqbK4.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHwgtA8l/bY9ce.jpg'
+            macroproduct.PID3_DETAIL_1
+            ,macroproduct.PID3_DETAIL_2
+            ,macroproduct.PID3_DETAIL_3
+            ,macroproduct.PID3_DETAIL_4
             ,null
         ]});
     newCategory.save( function( err, silence ) {

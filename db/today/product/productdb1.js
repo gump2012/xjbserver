@@ -19,9 +19,9 @@ var newCategory = new todayCategory({pid:1
     ,pic_url:macroproduct.PID1_URL
     ,time:0
     ,gallery:[
-        "http://pic.yupoo.com/yige2002/DHwb00yE/twcIf.jpg"
-        ,"http://pic.yupoo.com/yige2002/DHwbEy1g/Cg7Sd.jpg"
-        ,"http://pic.yupoo.com/yige2002/DHwbEI2C/ESEbp.jpg"
+        macroproduct.PID1_GALLERY_1
+        ,macroproduct.PID1_GALLERY_2
+        ,macroproduct.PID1_GALLERY_3
         ,null
     ]});
 newCategory.save( function( err, silence ) {
@@ -40,12 +40,12 @@ newCategory = new todayCategory({pid:2
     ,price:15.00
     ,state:1
     ,stamper:''
-    ,pic_url:'http://pic.yupoo.com/yige2002/DNlKcSaF/11MNk7.jpg'
+    ,pic_url:macroproduct.PID2_URL
     ,time:0
     ,gallery:[
-        'http://pic.yupoo.com/yige2002/DHwd9ywq/gyR7u.jpg'
-        ,'http://pic.yupoo.com/yige2002/DHwd9MZ3/dfXms.jpg'
-        ,'http://pic.yupoo.com/yige2002/DHwd9RVo/SAYBe.jpg'
+        macroproduct.PID2_GALLERY_1
+        ,macroproduct.PID2_GALLERY_2
+        ,macroproduct.PID2_GALLERY_3
         ,null
     ]});
 newCategory.save( function( err, silence ) {
@@ -64,12 +64,12 @@ newCategory = new todayCategory({pid:3
     ,price:19.00
     ,state:1
     ,stamper:''
-    ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFyRw/5vQyV.jpg'
+    ,pic_url:macroproduct.PID3_URL
     ,time:0
     ,gallery:[
-        'http://pic.yupoo.com/yige2002/DHwgsrpE/ZObDr.jpg'
-        ,'http://pic.yupoo.com/yige2002/DHwfOadu/74AUF.jpg'
-        ,'http://pic.yupoo.com/yige2002/DHwgsTh4/czUWC.jpg'
+        macroproduct.PID3_GALLERY_1
+        ,macroproduct.PID3_GALLERY_2
+        ,macroproduct.PID3_GALLERY_3
         ,null
     ]});
 newCategory.save( function( err, silence ) {
