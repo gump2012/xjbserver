@@ -37,16 +37,15 @@ function start(){
 
         mongoose.model('todayProduct',proSchema);
         var todayCategory = mongoose.model('todayProduct');
-        todayCategory.find({cid:1},{},{sort: {pid:'asc'}},function(err,docs){
+        todayCategory.find({cid:2},{},{sort: {pid:'asc'}},function(err,docs){
            console.log(docs.length);
 
             var str = '';
             for(i in docs){
-                var count = new Number(i) + 1;
-                str += 'exports.PID' + count + '_URL = \'' + docs[i].pic_url +'\';' +'\n';
+                str += 'exports.PID' + docs[i].pid + '_URL = \'' + docs[i].pic_url +'\';' +'\n';
                 str += '\n';
 
-                str += 'exports.PID'+count+'_GALLERY = ['+'\n';
+                str += 'exports.PID'+docs[i].pid+'_GALLERY = ['+'\n';
                 if(docs[i].gallery.length > 1){
                     str +='\''+docs[i].gallery[0]+'\''+'\n';
 
