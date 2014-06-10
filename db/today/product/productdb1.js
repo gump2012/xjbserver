@@ -2,6 +2,8 @@
  * Created by gump on 4/12/14.
  */
 
+var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_pid1_20");
+
 function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProduct');
 
@@ -14,7 +16,7 @@ var newCategory = new todayCategory({pid:1
     ,price:0.01
     ,state:1
     ,stamper:''
-    ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg'
+    ,pic_url:macroproduct.PID1_URL
     ,time:0
     ,gallery:[
         "http://pic.yupoo.com/yige2002/DHwb00yE/twcIf.jpg"

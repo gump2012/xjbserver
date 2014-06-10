@@ -22,7 +22,7 @@ function createdb(mongoose){
 
     var newAd = new todayAd({
         adid:1
-        ,img_url:'http://pic.yupoo.com/yige2002/DJo6EIds/PDLNL.jpg'
+        ,img_url:'http://pic.yupoo.com/yige2002/DJo6DUKq/WurV9.jpg'
         ,type:1
         ,linkto:''
         ,param:{
@@ -39,7 +39,7 @@ function createdb(mongoose){
 
     newAd = new todayAd({
         adid:2
-        ,img_url:'http://pic.yupoo.com/yige2002/DJo6DUKq/WurV9.jpg'
+        ,img_url:'http://pic.yupoo.com/yige2002/DJo6EIds/PDLNL.jpg'
         ,type:1
         ,linkto:''
         ,param:{
@@ -56,24 +56,7 @@ function createdb(mongoose){
 
     newAd = new todayAd({
         adid:3
-        ,img_url:'http://img04.taobaocdn.com/imgextra/i4/468359490/T24zTTXtFXXXXXXXXX-468359490.jpg'
-        ,type:1
-        ,linkto:''
-        ,param:{
-            app_ad_in_subtype:1
-            ,keyword:'周年庆'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newAd = new todayAd({
-        adid:4
-        ,img_url:'http://img04.taobaocdn.com/imgextra/i4/468359490/T24zTTXtFXXXXXXXXX-468359490.jpg'
+        ,img_url:'http://pic.yupoo.com/yige2002/DOX1p8Yp/U3g0A.jpg'
         ,type:2
         ,linkto:'http://115.28.225.137:10080/res/html/baoyou.html'
         ,param:{
