@@ -390,7 +390,7 @@ function creatdb(mongoose){
         ,volume:0
         ,recentvolume:0
         ,org_price:16.00
-        ,price:8.00
+        ,price:6.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3AUmn3/jQKGb.jpg'
@@ -437,7 +437,7 @@ function creatdb(mongoose){
         ,volume:0
         ,recentvolume:0
         ,org_price:50.00
-        ,price:25.00
+        ,price:2.50
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3AVGTj/IcQZU.jpg'
@@ -459,13 +459,16 @@ function creatdb(mongoose){
         ,title:'菲尔普成人用品玩具专用消毒液 深度清洁 私密防护'
         ,volume:0
         ,recentvolume:0
-        ,org_price:19.00
-        ,price:5.00
+        ,org_price:56.00
+        ,price:14.00
         ,state:1
         ,stamper:''
         ,pic_url:'http://pic.yupoo.com/yige2002/DH3AiaSI/V8tLB.jpg'
         ,time:0
         ,gallery:[
+            'http://pic.yupoo.com/yige2002/DNhqeGqE/jzacP.jpg'
+            ,'http://pic.yupoo.com/yige2002/DNhqelmc/Vb1lM.jpg'
+            ,null
         ]});
     newCategory.save( function( err, silence ) {
         if( err )

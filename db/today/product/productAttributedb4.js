@@ -613,7 +613,7 @@ function creatdb(mongoose){
         ,attr_id:13
         ,goods_attr_id:3700003
         ,attr_name:'产地'
-        ,attr_value:'国产'
+        ,attr_value:'其他'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -627,7 +627,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:3700004
         ,attr_name:'规格'
-        ,attr_value:'人造羊眼圈简装'
+        ,attr_value:'天然羊眼圈简装'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -641,22 +641,8 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:3700005
         ,attr_name:'规格'
-        ,attr_value:'天然羊眼圈简装'
-        ,attr_price:3.00
-        ,attr_type:1});
-    newCategory.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newCategory = new todayCategory({pid:37
-        ,attr_id:18
-        ,goods_attr_id:3700006
-        ,attr_name:'规格'
         ,attr_value:'天然羊眼圈精装'
-        ,attr_price:5.00
+        ,attr_price:2.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -767,7 +753,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:3900004
         ,attr_name:'规格'
-        ,attr_value:'单片装'
+        ,attr_value:'单片装 ￥2.50'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -781,8 +767,8 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:3900005
         ,attr_name:'规格'
-        ,attr_value:'12片盒装'
-        ,attr_price:22.50
+        ,attr_value:'12片盒装 ￥25.00'
+        ,attr_price:25.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -823,7 +809,7 @@ function creatdb(mongoose){
         ,attr_id:13
         ,goods_attr_id:4000003
         ,attr_name:'产地'
-        ,attr_value:'中国大陆'
+        ,attr_value:'其他'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -837,7 +823,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:4000004
         ,attr_name:'规格'
-        ,attr_value:'30ml喷头【售完】'
+        ,attr_value:'100ml喷头 ￥14.00'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -851,8 +837,8 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:4000005
         ,attr_name:'规格'
-        ,attr_value:'100ml喷头'
-        ,attr_price:7.00
+        ,attr_value:'220ml喷头 ￥20.00'
+        ,attr_price:6.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
