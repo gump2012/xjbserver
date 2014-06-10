@@ -6,8 +6,6 @@ var router = require("./router");
 var requestHandlers = require("./requestHandlers");
 var db = require("./db/db.js");
 
-var bookLoginHandlers = require("./book/login/bookLoginHandlers");
-
 var categoryHandle = require("./todaylead/category/categoryHandle");
 var productHandles = require("./todaylead/product/productHandles");
 var paymentHandles = require("./todaylead/payment/paymentHandles");
@@ -23,9 +21,6 @@ var help = require("./todaylead/help/todayhelp");
 var handle = {};
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
-handle["/book/login"] = bookLoginHandlers.bookLogin;
-handle["/book/register"] = bookLoginHandlers.bookRegister;
-handle["/book/findpassword"] = bookLoginHandlers.findpassword;
 
 handle["/category"] = categoryHandle.category;
 handle["/product"] = productHandles.product;
