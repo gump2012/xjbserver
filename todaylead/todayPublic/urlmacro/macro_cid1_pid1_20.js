@@ -4,9 +4,9 @@
 exports.PID1_URL = 'http://pic.yupoo.com/yige2002/DH3pFjKM/eCGt1.jpg';
 
 exports.PID1_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DHwb00yE/twcIf.jpg'
-    ,'http://pic.yupoo.com/yige2002/DHwbEy1g/Cg7Sd.jpg'
-    ,'http://pic.yupoo.com/yige2002/DHwbEI2C/ESEbp.jpg'
+    'http://pic.yupoo.com/yige2002/DOdDmdRr/QJ6Xy.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOdDH7fa/4yRqs.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOdDHlSd/tT8KZ.jpg'
     ,null
 ];
 
