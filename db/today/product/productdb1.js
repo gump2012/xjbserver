@@ -38,12 +38,8 @@ newCategory = new todayCategory({pid:2
     ,stamper:''
     ,pic_url:macroproduct.PID2_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID2_GALLERY_1
-        ,macroproduct.PID2_GALLERY_2
-        ,macroproduct.PID2_GALLERY_3
-        ,null
-    ]});
+    ,gallery:macroproduct.PID2_GALLERY
+    });
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -62,12 +58,8 @@ newCategory = new todayCategory({pid:3
     ,stamper:''
     ,pic_url:macroproduct.PID3_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID3_GALLERY_1
-        ,macroproduct.PID3_GALLERY_2
-        ,macroproduct.PID3_GALLERY_3
-        ,null
-    ]});
+    ,gallery:macroproduct.PID3_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -86,11 +78,8 @@ newCategory = new todayCategory({pid:4
     ,stamper:''
     ,pic_url:macroproduct.PID4_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID4_GALLERY_1
-        ,macroproduct.PID4_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID4_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -109,11 +98,8 @@ newCategory = new todayCategory({pid:5
     ,stamper:''
     ,pic_url:macroproduct.PID5_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID5_GALLERY_1
-        ,macroproduct.PID5_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID5_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -132,12 +118,8 @@ newCategory = new todayCategory({pid:6
     ,stamper:''
     ,pic_url:macroproduct.PID6_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID6_GALLERY_1
-        ,macroproduct.PID6_GALLERY_2
-        ,macroproduct.PID6_GALLERY_3
-        ,null
-    ]});
+    ,gallery:macroproduct.PID6_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -156,12 +138,8 @@ newCategory = new todayCategory({pid:7
     ,stamper:''
     ,pic_url:macroproduct.PID7_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID7_GALLERY_1
-        ,macroproduct.PID7_GALLERY_2
-        ,macroproduct.PID7_GALLERY_3
-        ,null
-    ]});
+    ,gallery:macroproduct.PID7_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -180,11 +158,8 @@ newCategory = new todayCategory({pid:8
     ,stamper:''
     ,pic_url:macroproduct.PID8_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID8_GALLERY_1
-        ,macroproduct.PID8_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID8_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -203,11 +178,8 @@ newCategory = new todayCategory({pid:9
     ,stamper:''
     ,pic_url:macroproduct.PID9_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID9_GALLERY_1
-        ,macroproduct.PID9_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID9_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -226,11 +198,8 @@ newCategory = new todayCategory({pid:10
     ,stamper:''
     ,pic_url:macroproduct.PID10_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID10_GALLERY_1
-        ,macroproduct.PID10_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID10_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -249,11 +218,8 @@ newCategory = new todayCategory({pid:11
     ,stamper:''
     ,pic_url:macroproduct.PID11_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID11_GALLERY_1
-        ,macroproduct.PID11_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID11_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -272,11 +238,8 @@ newCategory = new todayCategory({pid:12
     ,stamper:''
     ,pic_url:macroproduct.PID12_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID12_GALLERY_1
-        ,macroproduct.PID12_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID12_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -295,11 +258,8 @@ newCategory = new todayCategory({pid:13
     ,stamper:''
     ,pic_url:macroproduct.PID13_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID13_GALLERY_1
-        ,macroproduct.PID13_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID13_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -318,11 +278,8 @@ newCategory = new todayCategory({pid:14
     ,stamper:''
     ,pic_url:macroproduct.PID14_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID14_GALLERY_1
-        ,macroproduct.PID14_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID14_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -341,11 +298,8 @@ newCategory = new todayCategory({pid:15
     ,stamper:''
     ,pic_url:macroproduct.PID15_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID15_GALLERY_1
-        ,macroproduct.PID15_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID15_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -364,11 +318,8 @@ newCategory = new todayCategory({pid:16
     ,stamper:''
     ,pic_url:macroproduct.PID16_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID16_GALLERY_1
-        ,macroproduct.PID16_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID16_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -387,11 +338,8 @@ newCategory = new todayCategory({pid:17
     ,stamper:''
     ,pic_url:macroproduct.PID17_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID17_GALLERY_1
-        ,macroproduct.PID17_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID17_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -410,12 +358,8 @@ newCategory = new todayCategory({pid:18
     ,stamper:''
     ,pic_url:macroproduct.PID18_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID18_GALLERY_1
-        ,macroproduct.PID18_GALLERY_2
-        ,macroproduct.PID18_GALLERY_3
-        ,null
-    ]});
+    ,gallery:macroproduct.PID18_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -434,11 +378,8 @@ newCategory = new todayCategory({pid:19
     ,stamper:''
     ,pic_url:macroproduct.PID19_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID19_GALLERY_1
-        ,macroproduct.PID19_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID19_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -457,11 +398,8 @@ newCategory = new todayCategory({pid:20
     ,stamper:''
     ,pic_url:macroproduct.PID20_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID20_GALLERY_1
-        ,macroproduct.PID20_GALLERY_2
-        ,null
-    ]});
+    ,gallery:macroproduct.PID20_GALLERY
+});
 newCategory.save( function( err, silence ) {
     if( err )
     {

@@ -30,10 +30,17 @@ function start(){
         todayCategory.findOne({pid:pidnum},function(err,doc){
             if(doc){
                 var str = '';
-                for(var i = 0; i < doc.picarr.length - 1;++i){
 
-                    str += 'exports.PID' + pidnum + '_DETAIL_' + (i+1) + ' = \'' + doc.picarr[i] + '\';' + '\n';
+                str += 'exports.PID'+pidnum+'_DETAIL = [\n';
 
+                if(doc.picarr.length > 1){
+                    str +='\''+doc.picarr[0]+'\''+'\n';
+
+                    for(var j = 1; j < doc.picarr.length - 1;++j){
+                        str += ','+'\''+doc.picarr[j] + '\'' + '\n';
+                    }
+
+                    str += ',null' +'\n' + '];' +'\n';
                 }
 
                 console.log(str);

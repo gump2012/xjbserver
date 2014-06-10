@@ -46,15 +46,22 @@ function start(){
                 str += 'exports.PID' + count + '_URL = \'' + docs[i].pic_url +'\';' +'\n';
                 str += '\n';
 
-                for(var j = 0; j < docs[i].gallery.length - 1;++j){
-                    str += 'exports.PID' + count + '_GALLERY_' + (j+1) + ' = \'' + docs[i].gallery[j] + '\';' + '\n';
+                str += 'exports.PID'+count+'_GALLERY = ['+'\n';
+                if(docs[i].gallery.length > 1){
+                    str +='\''+docs[i].gallery[0]+'\''+'\n';
+
+                    for(var j = 1; j < docs[i].gallery.length - 1;++j){
+                        str += ','+'\''+docs[i].gallery[j] + '\'' + '\n';
+                    }
+
+                    str += ',null' +'\n' + '];' +'\n';
                 }
+
                 str += '\n';
 
             }
 
             console.log(str);
-            writetofile(str);
         });
     });
 };
