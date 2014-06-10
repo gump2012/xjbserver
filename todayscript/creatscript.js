@@ -55,6 +55,9 @@ function start(){
 
                     str += ',null' +'\n' + '];' +'\n';
                 }
+                else{
+                    str += 'null' +'\n' + '];' +'\n';
+                }
 
                 str += '\n';
 
