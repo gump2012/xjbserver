@@ -27,7 +27,7 @@ function createdb(mongoose){
         ,linkto:''
         ,param:{
             app_ad_in_subtype:1
-            ,keyword:'新品尝鲜'
+            ,keyword:'百花'
         }
     });
     newAd.save( function( err, silence ) {
