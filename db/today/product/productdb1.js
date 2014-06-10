@@ -18,12 +18,8 @@ var newCategory = new todayCategory({pid:1
     ,stamper:''
     ,pic_url:macroproduct.PID1_URL
     ,time:0
-    ,gallery:[
-        macroproduct.PID1_GALLERY_1
-        ,macroproduct.PID1_GALLERY_2
-        ,macroproduct.PID1_GALLERY_3
-        ,null
-    ]});
+    ,gallery:macroproduct.PID1_GALLERY
+    });
 newCategory.save( function( err, silence ) {
     if( err )
     {
