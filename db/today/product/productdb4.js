@@ -1,6 +1,9 @@
 /**
  * Created by gump on 4/12/14.
  */
+
+var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid4_pid61_80");
+
 function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProduct');
 
@@ -13,16 +16,10 @@ function creatdb(mongoose){
         ,price:22.0
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DNrubbmF/mLt3k.jpg'
+        ,pic_url:macroproduct.PID61_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHfELduD/ZeAO2.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfEL5PP/7Y0sb.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfELObX/Lf6lm.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfE8g4J/ILXWq.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfELKot/2cgxM.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID61_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -39,13 +36,10 @@ function creatdb(mongoose){
         ,price:24.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KM9DF/116nzQ.jpg'
+        ,pic_url:macroproduct.PID62_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHfHT2rM/LUw72.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfHgTxW/CdeKG.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID62_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -62,14 +56,10 @@ function creatdb(mongoose){
         ,price:5.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMpYR/i02FQ.jpg'
+        ,pic_url:macroproduct.PID63_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHfVgYQe/V3var.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfVhnrr/Rf140.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfVhi7u/ty3jT.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID63_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -86,14 +76,10 @@ function creatdb(mongoose){
         ,price:10.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMocH/11hL8Y.gif'
+        ,pic_url:macroproduct.PID64_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHfZoqUX/AStcz.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfZpolE/HBgIX.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfYLRfC/brItT.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID64_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -110,16 +96,10 @@ function creatdb(mongoose){
         ,price:35.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMEOv/sziBp.jpg'
+        ,pic_url:macroproduct.PID65_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHfXkHM7/2yDU3.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfXmgWB/suQo8.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfWIRIu/yFjvt.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfXnsOH/aj5r4.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfXnKEK/OGA7V.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID65_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -136,14 +116,10 @@ function creatdb(mongoose){
         ,price:68.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KLB1e/1tbcq.gif'
+        ,pic_url:macroproduct.PID66_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHg0cR7m/OrlTb.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHg0e5xq/rB7dU.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHfZA8ZX/yuks6.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID66_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -160,14 +136,10 @@ function creatdb(mongoose){
         ,price:49.90
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KM633/LxJf7.jpg'
+        ,pic_url:macroproduct.PID67_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHg9jg36/NyGGL.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHg9jSKn/Hd8dd.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHg9jDKW/K6H2E.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID67_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -184,12 +156,10 @@ function creatdb(mongoose){
         ,price:23.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KNfuh/zUqY8.jpg'
+        ,pic_url:macroproduct.PID68_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHg9Waxx/iSspX.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID68_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -206,15 +176,10 @@ function creatdb(mongoose){
         ,price:20.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMk6o/CyzBc.jpg'
+        ,pic_url:macroproduct.PID69_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHgbocug/K8zT0.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgbpxHp/QnwbP.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgbpJiO/60udk.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgboPQ8/LmSVS.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID69_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -231,9 +196,10 @@ function creatdb(mongoose){
         ,price:53.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DHgc9dBI/12pYzu.jpg'
+        ,pic_url:macroproduct.PID70_URL
         ,time:0
-        ,gallery:[]});
+        ,gallery:macroproduct.PID70_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -250,14 +216,10 @@ function creatdb(mongoose){
         ,price:35.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KM9hS/1SiQH.jpg'
+        ,pic_url:macroproduct.PID71_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHgd3hkd/BfGXB.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgd3Jr9/14791h.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgd2V95/fjdt5.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID71_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -274,15 +236,9 @@ function creatdb(mongoose){
         ,price:90.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KNHvr/yGnbE.jpg'
+        ,pic_url:macroproduct.PID72_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHgfHoG7/13Levm.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgfHZej/6YBDA.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgf4ypW/GgCN0.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHgfIgau/Ub3dh.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID72_GALLERY});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -299,17 +255,10 @@ function creatdb(mongoose){
         ,price:68.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DNjrAdnm/7JAIl.jpg'
+        ,pic_url:macroproduct.PID73_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHghLUub/rEcpA.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHghMapy/mE7GT.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHghNXsr/IQDEv.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHghMT33/qkrVs.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHghNwQS/750Tn.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHghajoL/DjpsG.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID73_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -326,9 +275,10 @@ function creatdb(mongoose){
         ,price:69.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3K9TxX/3vnEj.jpg'
+        ,pic_url:macroproduct.PID74_URL
         ,time:0
-        ,gallery:[]});
+        ,gallery:macroproduct.PID74_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -345,13 +295,10 @@ function creatdb(mongoose){
         ,price:160.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KMB4z/aX7Yt.jpg'
+        ,pic_url:macroproduct.PID75_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHgt1WL0/63Tir.jpg'
-            ,"http://pic.yupoo.com/yige2002/DHgt1t5g/TSUs7.jpg"
-            ,null
-        ]});
+        ,gallery:macroproduct.PID75_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -368,14 +315,10 @@ function creatdb(mongoose){
         ,price:85.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KNKvD/hiLqM.jpg'
+        ,pic_url:macroproduct.PID76_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHkXDPAO/bKQCV.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHkXEecj/rjO21.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHkX0cqB/KTQ4t.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID76_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -392,13 +335,10 @@ function creatdb(mongoose){
         ,price:136.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KNe4h/vTCEH.jpg'
+        ,pic_url:macroproduct.PID77_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHkYriGY/eetng.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHkXNp7P/ijCln.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID77_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -415,15 +355,10 @@ function creatdb(mongoose){
         ,price:35.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DNlMWJeY/kCaW9.jpg'
+        ,pic_url:macroproduct.PID78_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHkZiXnR/MwBDQ.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHkZiY6c/QFnTp.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHkZjlMx/7RJcY.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHkZjG52/11tyIq.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID78_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -440,13 +375,10 @@ function creatdb(mongoose){
         ,price:29.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KavzP/ikwZF.jpg'
+        ,pic_url:macroproduct.PID79_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHl0cuAp/qG1mY.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHl0QqwO/mUxCz.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID79_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -463,16 +395,10 @@ function creatdb(mongoose){
         ,price:68.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DH3KOoM7/jsxEM.jpg'
+        ,pic_url:macroproduct.PID80_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DHl1lF8t/2jiPN.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHl1m36r/31eRM.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHl0I6Hn/shSN5.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHl1m8C5/eJKs1.jpg'
-            ,'http://pic.yupoo.com/yige2002/DHl1mRR9/9XPhL.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID80_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
