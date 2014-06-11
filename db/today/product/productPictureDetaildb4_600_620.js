@@ -26,4 +26,74 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:602
+        ,picarr:macroproduct.PID602_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:603
+        ,picarr:macroproduct.PID603_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:604
+        ,picarr:macroproduct.PID604_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:605
+        ,picarr:macroproduct.PID605_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:606
+        ,picarr:macroproduct.PID606_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:607
+        ,picarr:macroproduct.PID607_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:608
+        ,picarr:macroproduct.PID608_DETAIL
+    });
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
