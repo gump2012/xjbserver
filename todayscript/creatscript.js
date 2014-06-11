@@ -37,7 +37,7 @@ function start(){
 
         mongoose.model('todayProduct',proSchema);
         var todayCategory = mongoose.model('todayProduct');
-        todayCategory.find({cid:4},{},{sort: {pid:'asc'}},function(err,docs){
+        todayCategory.find({cid:6},{},{sort: {pid:'asc'}},function(err,docs){
            console.log(docs.length);
 
             var str = '';

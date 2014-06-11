@@ -26,7 +26,7 @@ function start(){
         mongoose.model('todayProductPicDetail',proSchema);
 
         var todayCategory = mongoose.model('todayProductPicDetail');
-        var pidnum = 601;
+        var pidnum = 115;
         todayCategory.findOne({pid:pidnum},function(err,doc){
             if(doc){
                 var str = '';

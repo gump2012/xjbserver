@@ -1,6 +1,9 @@
 /**
  * Created by lishiming on 14-5-27.
  */
+
+var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid5_pid751_770");
+
 exports.createdb = function (mongoose){
     var todayCategory = mongoose.model('todayProduct');
 
@@ -13,13 +16,10 @@ exports.createdb = function (mongoose){
         ,price:19.9
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DNrwTsAn/RWb8L.jpg'
+        ,pic_url:macroproduct.PID751_URL
         ,time:0
-        ,gallery:[
-            "http://pic.yupoo.com/yige2002/DKJgxSHE/OPI9L.jpg"
-            ,"http://pic.yupoo.com/yige2002/DKJgLwg3/OP7qj.jpg"
-            ,null
-        ]});
+        ,gallery:macroproduct.PID751_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -36,14 +36,10 @@ exports.createdb = function (mongoose){
         ,price:38.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DNrx7pEN/aPpEm.jpg'
+        ,pic_url:macroproduct.PID752_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DKPYuWPo/NrmUI.jpg'
-            ,'http://pic.yupoo.com/yige2002/DKPYv4Je/Zazm5.jpg'
-            ,'http://pic.yupoo.com/yige2002/DKPYv5qg/cY1Hd.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID752_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -60,14 +56,10 @@ exports.createdb = function (mongoose){
         ,price:59.00
         ,state:1
         ,stamper:''
-        ,pic_url:'http://pic.yupoo.com/yige2002/DNry1n8W/dXHsN.jpg'
+        ,pic_url:macroproduct.PID753_URL
         ,time:0
-        ,gallery:[
-            'http://pic.yupoo.com/yige2002/DKSyjWif/6iESD.jpg'
-            ,'http://pic.yupoo.com/yige2002/DKSyiY6q/xoXNG.jpg'
-            ,'http://pic.yupoo.com/yige2002/DKSyiUc2/wKEJb.jpg'
-            ,null
-        ]});
+        ,gallery:macroproduct.PID753_GALLERY
+    });
     newCategory.save( function( err, silence ) {
         if( err )
         {
