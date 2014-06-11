@@ -9,7 +9,6 @@ exports.PID101_GALLERY = [
     ,'http://pic.yupoo.com/yige2002/DH6jKrRt/Cxll0.jpg'
     ,'http://pic.yupoo.com/yige2002/DH6jKLZu/JGTyl.jpg'
     ,'http://pic.yupoo.com/yige2002/DH6jL6Qf/QP6n8.jpg'
-    ,'http://pic.yupoo.com/yige2002/DH6jLkcQ/wzHmf.jpg'
     ,null
 ];
 

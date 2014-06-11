@@ -204,8 +204,22 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:5300004
         ,attr_name:'规格'
-        ,attr_value:'百乐大力神'
+        ,attr_value:'百乐大力神手动'
         ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:53
+        ,attr_id:18
+        ,goods_attr_id:5300005
+        ,attr_name:'规格'
+        ,attr_value:'百乐大力神电动'
+        ,attr_price:16.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -358,7 +372,7 @@ function creatdb(mongoose){
         ,attr_id:11
         ,goods_attr_id:5600001
         ,attr_name:'品牌'
-        ,attr_value:'FunZone'
+        ,attr_value:'积之美'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -386,7 +400,7 @@ function creatdb(mongoose){
         ,attr_id:13
         ,goods_attr_id:5600003
         ,attr_name:'产地'
-        ,attr_value:'美国'
+        ,attr_value:'国产'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -400,7 +414,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:5600004
         ,attr_name:'规格'
-        ,attr_value:'处女娇嫩后庭花'
+        ,attr_value:'极品恋人'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {

@@ -10,6 +10,7 @@ var productdb5 = require('./productdb5');
 var productdb6 = require('./productdb6');
 var productdb7 = require('./productdb7');
 var productdb600_620 = require('./productdb600_620');
+var productdb200_220 = require('./productdb_cid1_pid200_220');
 
 function creatdb(mongoose){
     var proSchema = new mongoose.Schema({
@@ -45,6 +46,7 @@ function creatdb(mongoose){
     productdb6.createdb(mongoose);
     productdb7.createdb(mongoose);
     productdb600_620.createdb(mongoose);
+    productdb200_220.createdb(mongoose);
 }
 
 exports.createdb = creatdb;

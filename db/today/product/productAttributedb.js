@@ -16,6 +16,7 @@ var a11 = require('./productAttributedb11');
 var a12 = require('./productAttributedb12');
 var a13 = require('./productAttributedb13');
 var a600_620 = require('./productAttributedb600_620');
+var a200_220 = require('./productAttributedb_cid1_pid200_220');
 
 function creatdb(mongoose){
     var proAttrSchema = new mongoose.Schema({
@@ -52,6 +53,7 @@ function creatdb(mongoose){
     a12.createdb(mongoose);
     a13.createdb(mongoose);
     a600_620.createdb(mongoose);
+    a200_220.createdb(mongoose);
 }
 
 exports.createdb = creatdb;

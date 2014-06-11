@@ -98,7 +98,7 @@ exports.PID45_DETAIL = [
     ,null
 ];
 
-exports.PID46_URL = 'http://pic.yupoo.com/yige2002/DH3Gn728/9nEaR.jpg';
+exports.PID46_URL = 'http://pic.yupoo.com/yige2002/DOgvCMj3/SRc5M.jpg';
 
 exports.PID46_GALLERY = [
     'http://pic.yupoo.com/yige2002/DOgvCUey/zWLNK.jpg'
@@ -313,7 +313,7 @@ exports.PID55_DETAIL = [
     ,null
 ];
 
-exports.PID56_URL = 'http://pic.yupoo.com/yige2002/DH3GoWqq/EwFNz.jpg';
+exports.PID56_URL = 'http://pic.yupoo.com/yige2002/DOgG8uW5/RmvAo.jpg';
 
 exports.PID56_GALLERY = [
     'http://pic.yupoo.com/yige2002/DOgG99uO/U6hl8.jpg'
@@ -343,7 +343,7 @@ exports.PID56_DETAIL = [
     ,null
 ];
 
-exports.PID57_URL = 'http://pic.yupoo.com/yige2002/DH3GpsOl/q5Rk0.jpg';
+exports.PID57_URL = 'http://pic.yupoo.com/yige2002/DH3Go9IJ/CuTtL.jpg';
 
 exports.PID57_GALLERY = [
     'http://pic.yupoo.com/yige2002/DHmXxWJe/10dhri.gif'
@@ -357,7 +357,7 @@ exports.PID57_DETAIL = [
     null
 ];
 
-exports.PID58_URL = 'http://pic.yupoo.com/yige2002/DH3Go9IJ/CuTtL.jpg';
+exports.PID58_URL = 'http://pic.yupoo.com/yige2002/DH3GohV6/7Gmci.jpg';
 
 exports.PID58_GALLERY = [
     'http://pic.yupoo.com/yige2002/DHmXVkRz/VSeQo.jpg'

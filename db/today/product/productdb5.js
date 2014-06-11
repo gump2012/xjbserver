@@ -237,7 +237,7 @@ function creatdb(mongoose){
         ,recentvolume:0
         ,org_price:128.00
         ,price:72.00
-        ,state:1
+        ,state:0
         ,stamper:''
         ,pic_url:macroproduct.PID92_URL
         ,time:0
@@ -357,7 +357,7 @@ function creatdb(mongoose){
         ,recentvolume:0
         ,org_price:76.00
         ,price:65.00
-        ,state:1
+        ,state:0
         ,stamper:''
         ,pic_url:macroproduct.PID98_URL
         ,time:0
@@ -397,7 +397,7 @@ function creatdb(mongoose){
         ,recentvolume:0
         ,org_price:38.00
         ,price:12.00
-        ,state:1
+        ,state:0
         ,stamper:''
         ,pic_url:macroproduct.PID100_URL
         ,time:0

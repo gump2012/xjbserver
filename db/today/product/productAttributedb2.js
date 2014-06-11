@@ -106,7 +106,7 @@ function creatdb(mongoose){
         ,attr_id:17
         ,goods_attr_id:1200004
         ,attr_name:'颜色'
-        ,attr_value:'蓝色'
+        ,attr_value:'紫色'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -162,7 +162,7 @@ function creatdb(mongoose){
         ,attr_id:17
         ,goods_attr_id:1300004
         ,attr_name:'颜色'
-        ,attr_value:'蓝色'
+        ,attr_value:'桃色'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -274,7 +274,7 @@ function creatdb(mongoose){
         ,attr_id:17
         ,goods_attr_id:1500004
         ,attr_name:'颜色'
-        ,attr_value:'白色'
+        ,attr_value:'黑红比基尼'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -442,7 +442,7 @@ function creatdb(mongoose){
         ,attr_id:17
         ,goods_attr_id:1800004
         ,attr_name:'颜色'
-        ,attr_value:'黑色'
+        ,attr_value:'印花和服'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -555,6 +555,20 @@ function creatdb(mongoose){
         ,goods_attr_id:2000004
         ,attr_name:'颜色'
         ,attr_value:'紫色'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:20
+        ,attr_id:17
+        ,goods_attr_id:2000005
+        ,attr_name:'颜色'
+        ,attr_value:'粉色'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {

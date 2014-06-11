@@ -14,7 +14,7 @@ function creatdb(mongoose){
         ,recentvolume:0
         ,org_price:68.00
         ,price:22.0
-        ,state:1
+        ,state:0
         ,stamper:''
         ,pic_url:macroproduct.PID61_URL
         ,time:0
@@ -52,8 +52,8 @@ function creatdb(mongoose){
         ,title:'360度旋转按摩头充电磨砂AV棒 送女用按摩头套'
         ,volume:0
         ,recentvolume:0
-        ,org_price:12.00
-        ,price:5.00
+        ,org_price:320.00
+        ,price:66.00
         ,state:1
         ,stamper:''
         ,pic_url:macroproduct.PID63_URL
@@ -331,8 +331,8 @@ function creatdb(mongoose){
         ,title:'邦爱正品7频美国大兵仿真阳具'
         ,volume:0
         ,recentvolume:0
-        ,org_price:216.00
-        ,price:136.00
+        ,org_price:356.00
+        ,price:86.00
         ,state:1
         ,stamper:''
         ,pic_url:macroproduct.PID77_URL
@@ -348,7 +348,7 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:78
         ,cid:4
-        ,title:'邦爱正品12频迷你小老二双震双跳蛋'
+        ,title:'小老二软蛋'
         ,volume:0
         ,recentvolume:0
         ,org_price:55.00
@@ -368,11 +368,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:79
         ,cid:4
-        ,title:'钻石AV棒 最佳私密自慰武器 女人必备'
+        ,title:'蒂贝玉兔旋风女用自慰G点转珠震动按摩棒'
         ,volume:0
         ,recentvolume:0
-        ,org_price:51.00
-        ,price:29.00
+        ,org_price:196.00
+        ,price:92.00
         ,state:1
         ,stamper:''
         ,pic_url:macroproduct.PID79_URL

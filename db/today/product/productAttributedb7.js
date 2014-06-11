@@ -191,7 +191,7 @@ function creatdb(mongoose){
         ,goods_attr_id:6300005
         ,attr_name:'规格'
         ,attr_value:'金色双充加头套'
-        ,attr_price:0.00
+        ,attr_price:9.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -205,7 +205,7 @@ function creatdb(mongoose){
         ,goods_attr_id:6300006
         ,attr_name:'规格'
         ,attr_value:'金色220V加头套'
-        ,attr_price:0.00
+        ,attr_price:9.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -317,6 +317,62 @@ function creatdb(mongoose){
         ,goods_attr_id:6500004
         ,attr_name:'规格'
         ,attr_value:'光面深紫'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:65
+        ,attr_id:18
+        ,goods_attr_id:6500005
+        ,attr_name:'规格'
+        ,attr_value:'光面玫红'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:65
+        ,attr_id:18
+        ,goods_attr_id:6500006
+        ,attr_name:'规格'
+        ,attr_value:'螺纹玫红'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:65
+        ,attr_id:18
+        ,goods_attr_id:6500007
+        ,attr_name:'规格'
+        ,attr_value:'螺纹深紫'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:65
+        ,attr_id:18
+        ,goods_attr_id:6500008
+        ,attr_name:'规格'
+        ,attr_value:'螺纹桃红'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {

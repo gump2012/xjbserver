@@ -109,11 +109,11 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:46
         ,cid:3
-        ,title:'优客仕战士系列口娇自慰飞机杯'
+        ,title:'欲火旋风二代电动飞机杯吞舌尖上的诱惑2代口交杯'
         ,volume:0
         ,recentvolume:0
-        ,org_price:480.00
-        ,price:210.00
+        ,org_price:440.00
+        ,price:158.00
         ,state:1
         ,stamper:''
         ,pic_url:macroproduct.PID46_URL
@@ -253,7 +253,7 @@ function creatdb(mongoose){
         ,volume:0
         ,recentvolume:0
         ,org_price:159.00
-        ,price:76.00
+        ,price:60.00
         ,state:1
         ,stamper:''
         ,pic_url:macroproduct.PID53_URL
@@ -309,7 +309,7 @@ function creatdb(mongoose){
 
     var newCategory = new todayCategory({pid:56
         ,cid:3
-        ,title:'美国FunZone少女后庭自慰杯 电动震动飞机杯'
+        ,title:'积之美爱之吻极品恋人一口咬定男用电动口交阴交自慰杯器飞机杯'
         ,volume:0
         ,recentvolume:0
         ,org_price:299.00

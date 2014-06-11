@@ -372,7 +372,7 @@ function creatdb(mongoose){
         ,attr_id:11
         ,goods_attr_id:4600001
         ,attr_name:'品牌'
-        ,attr_value:'优客仕'
+        ,attr_value:'百乐'
         ,attr_price:0.00
         ,attr_type:0});
     newCategory.save( function( err, silence ) {
@@ -414,7 +414,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:4600004
         ,attr_name:'规格'
-        ,attr_value:'绿色-亲密【最接近真人】'
+        ,attr_value:'舌尖诱惑'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {

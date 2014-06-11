@@ -47,10 +47,13 @@ exports.PID63_GALLERY = [
 
 exports.PID63_DETAIL = [
     'http://pic.yupoo.com/yige2002/DHfUCfZV/TysyY.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOfzZeMn/9ZXbJ.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOfzZkUw/DhUSQ.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOfzElXO/IVC7T.jpg'
     ,null
 ];
 
-exports.PID64_URL = 'http://pic.yupoo.com/yige2002/DH3KMocH/11hL8Y.gif';
+exports.PID64_URL = 'http://pic.yupoo.com/yige2002/DO4C3oiU/dCt6s.jpg';
 
 exports.PID64_GALLERY = [
     'http://pic.yupoo.com/yige2002/DHfZoqUX/AStcz.jpg'
@@ -276,7 +279,10 @@ exports.PID73_DETAIL = [
 exports.PID74_URL = 'http://pic.yupoo.com/yige2002/DH3K9TxX/3vnEj.jpg';
 
 exports.PID74_GALLERY = [
-    null
+    'http://pic.yupoo.com/yige2002/DHkWoOAI/9aH8l.jpg'
+    ,'http://pic.yupoo.com/yige2002/DHkWpdlW/mVIzy.jpg'
+    ,'http://pic.yupoo.com/yige2002/DHkWpIcb/LJ9dL.png'
+    ,null
 ];
 
 exports.PID74_DETAIL = [
@@ -331,6 +337,9 @@ exports.PID77_URL = 'http://pic.yupoo.com/yige2002/DH3KNe4h/vTCEH.jpg';
 exports.PID77_GALLERY = [
     'http://pic.yupoo.com/yige2002/DHkYriGY/eetng.jpg'
     ,'http://pic.yupoo.com/yige2002/DHkXNp7P/ijCln.jpg'
+    ,'http://pic.yupoo.com/yige2002/DNtbsnKA/F3Kzt.jpg'
+    ,'http://pic.yupoo.com/yige2002/DNtbM572/U6KIa.jpg'
+    ,'http://pic.yupoo.com/yige2002/DNtbJiCf/YbI7q.jpg'
     ,null
 ];
 
@@ -368,17 +377,19 @@ exports.PID78_DETAIL = [
     ,null
 ];
 
-exports.PID79_URL = 'http://pic.yupoo.com/yige2002/DH3KavzP/ikwZF.jpg';
+exports.PID79_URL = 'http://pic.yupoo.com/yige2002/DOgPtZqR/vnE1e.jpg';
 
 exports.PID79_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DHl0cuAp/qG1mY.jpg'
+    'http://pic.yupoo.com/yige2002/DOgPOJj9/pPCnz.jpg'
     ,'http://pic.yupoo.com/yige2002/DHl0QqwO/mUxCz.jpg'
     ,null
 ];
 
 exports.PID79_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DIKu7oeC/13LFoK.jpg'
-    ,'http://pic.yupoo.com/yige2002/DIKtmAas/6d6UK.jpg'
+    'http://pic.yupoo.com/yige2002/DOgPPTo6/Yufa.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOgPPruR/4OLYS.jpg'
+    ,'http://pic.yupoo.com/yige2002/DOgPQb9X/Dagte.gif'
+    ,'http://pic.yupoo.com/yige2002/DOgPT3Tz/1jAeE.jpg'
     ,null
 ];
 

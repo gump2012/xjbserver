@@ -229,7 +229,7 @@ newCategory.save( function( err, silence ) {
 
 newCategory = new todayCategory({pid:12
     ,cid:1
-    ,title:'百花天使 赛车啦啦队服学生装水手服 角色扮演'
+    ,title:'百花天使 紫色三件套诱惑情趣内衣性感透明制服情趣套装'
     ,volume:315145
     ,recentvolume:121
     ,org_price:65.00
@@ -249,7 +249,7 @@ newCategory.save( function( err, silence ) {
 
 newCategory = new todayCategory({pid:13
     ,cid:1
-    ,title:'百花天使印花蕾丝比基尼性感套装'
+    ,title:'百花天使桃色诱惑连体内衣'
     ,volume:315145
     ,recentvolume:121
     ,org_price:36.00
@@ -289,7 +289,7 @@ newCategory.save( function( err, silence ) {
 
 newCategory = new todayCategory({pid:15
     ,cid:1
-    ,title:'百花天使性感薄纱蕾丝透明公主性感睡衣睡裙'
+    ,title:'百花天使黑红透明比基尼三点式'
     ,volume:315145
     ,recentvolume:121
     ,org_price:36.00
@@ -349,7 +349,7 @@ newCategory.save( function( err, silence ) {
 
 newCategory = new todayCategory({pid:18
     ,cid:1
-    ,title:'百花天使胸前镂空四面开裆网眼连体衣'
+    ,title:'百花天使日式印花和服女式系带情趣内衣'
     ,volume:315145
     ,recentvolume:121
     ,org_price:56.00
@@ -389,11 +389,11 @@ newCategory.save( function( err, silence ) {
 
 newCategory = new todayCategory({pid:20
     ,cid:1
-    ,title:'百花天使高贵紫色 女神来袭 吊带睡裙'
+    ,title:'百花天使 抹胸T裤性感连体衣'
     ,volume:315145
     ,recentvolume:121
-    ,org_price:80.00
-    ,price:35.00
+    ,org_price:40.00
+    ,price:25.00
     ,state:1
     ,stamper:''
     ,pic_url:macroproduct.PID20_URL
