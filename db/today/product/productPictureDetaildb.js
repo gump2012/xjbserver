@@ -10,6 +10,7 @@ var detail6 = require("./productPictureDetaildb6");
 var detail7 = require("./productPictureDetaildb7");
 var detail4_600_620 = require("./productPictureDetaildb4_600_620");
 var detail1_200_220 = require("./productPictureDetaildb_cid1_pid200_220");
+var detail2_351_370 = require("./productPictureDetaildb_cid2_pid351_370");
 
 function creatdb(mongoose){
     var proSchema = new mongoose.Schema({
@@ -36,6 +37,7 @@ function creatdb(mongoose){
     detail7.createdb(mongoose);
     detail4_600_620.createdb(mongoose);
     detail1_200_220.createdb(mongoose);
+    detail2_351_370.createdb(mongoose);
 }
 
 exports.createdb = creatdb;
