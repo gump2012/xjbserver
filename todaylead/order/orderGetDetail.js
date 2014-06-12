@@ -59,7 +59,7 @@ function processOrderData(response,request,doc){
                 order_id:doc.order_id
                 ,status:doc.order_states
                 ,payment_status:doc.payment_states
-                ,shipping_status:doc.shipping_states
+                ,transport_status:doc.shipping_states
                 ,consignee:doc.consignee
                 ,address:doc.address
                 ,city_code:doc.city
@@ -69,7 +69,7 @@ function processOrderData(response,request,doc){
                 ,product_total_price:doc.promotion_totalprice
                 ,payment_way_id:doc.payment_way_id
                 ,create_time:doc.creat_time
-                ,count:doc.goods_number
+                ,product_count:doc.goods_number
                 ,transport_price:doc.shipping_fee
                 ,memo:doc.memo
                 ,payment_name:''

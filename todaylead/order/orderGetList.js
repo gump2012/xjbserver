@@ -86,11 +86,11 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         ,price:docs[i].promotion_totalprice + docs[i].shipping_fee
                         ,create_time:docs[i].creat_time
                         ,status:docs[i].order_states
-                        ,pay_status:docs[i].payment_states
-                        ,shipping_status:docs[i].shipping_states
+                        ,payment_status:docs[i].payment_states
+                        ,transport_status:docs[i].shipping_states
                         ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
-                        ,count:docs[i].goods_number
+                        ,product_count:docs[i].goods_number
                         ,pic_url:''
                     }
 
