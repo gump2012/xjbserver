@@ -10,10 +10,10 @@ var orderGetList = require("./orderGetList");
 var orderDel = require("./orderDelete");
 
 var orderHandle = {};
-orderHandle["neworder"] = newOrder.newOrder;
-orderHandle["getMyOrderDetail"] = orderGetDetail.getMyOrderDetail;
-orderHandle["getMyOrderList"] = orderGetList.getMyOrderList;
-orderHandle["delMyOrder"] = orderDel.deleteorder;
+orderHandle["createOrder"] = newOrder.newOrder;
+orderHandle["getOrderDetail"] = orderGetDetail.getMyOrderDetail;
+orderHandle["getOrderList"] = orderGetList.getMyOrderList;
+orderHandle["delOrder"] = orderDel.deleteorder;
 
 function order(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

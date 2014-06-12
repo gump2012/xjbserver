@@ -7,7 +7,7 @@ var route = require("../../router");
 var getInfo = require("./accountGetInfoByUser");
 
 var accountHandle = {}
-accountHandle["getAccountInfoByUser"] = getInfo.getInfoByUser;
+accountHandle["getUserInfo"] = getInfo.getInfoByUser;
 
 function account(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

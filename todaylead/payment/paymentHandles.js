@@ -13,7 +13,7 @@ var paymentHandle = {}
 paymentHandle["getPaymentList"] = paymentGetList.getList;
 paymentHandle["getPaymentConsignee"] = paymentGetConsigneeInfo.getInfo;
 paymentHandle["getPromotionDetail"] = paymentGetPromotion.getPromotionDetail;
-paymentHandle["getProductsDetail"] = paymentGetProductsDetail.getProductsDetail;
+paymentHandle["getProductList"] = paymentGetProductsDetail.getProductsDetail;
 
 function payment(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

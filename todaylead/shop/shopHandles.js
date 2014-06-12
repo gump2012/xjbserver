@@ -11,10 +11,10 @@ var shopGetTopPro = require("./shopGetTopicProducts");
 var shopGetPromotionList = require("./shopPromotionList");
 
 var adHandle = {}
-adHandle["getAdList"] = shopGetAdList.getAdList;
-adHandle["keywordSearch"] = shopKeywordSearch.getProducts;
+adHandle["getAdvertList"] = shopGetAdList.getAdList;
+adHandle["getSearchProductList"] = shopKeywordSearch.getProducts;
 adHandle["getTopicList"] = shopGetTopic.getTopic;
-adHandle["getTopicProducts"] = shopGetTopPro.getTopicPro;
+adHandle["getTopicProductList"] = shopGetTopPro.getTopicPro;
 adHandle["getPromotionList"] = shopGetPromotionList.getPromotionList;
 
 function ad(response,request){

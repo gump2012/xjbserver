@@ -7,7 +7,7 @@ var route = require("../../router");
 var alipayto = require("./alipayto");
 
 var alipayHandle = {}
-alipayHandle["alipayto"] = alipayto.alipayto;
+alipayHandle["payOrder"] = alipayto.alipayto;
 
 exports.toalipay = function(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

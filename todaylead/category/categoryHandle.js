@@ -7,8 +7,8 @@ var categoryGetClist = require("./categoryGetCList");
 var categoryGetPList = require("./categoryGetPList");
 
 var categoryHandle = {}
-categoryHandle["getCategories"] = categoryGetClist.getCategoryList;
-categoryHandle["getProductsByCategory"] = categoryGetPList.getCategoryProducts;
+categoryHandle["getCategoryList"] = categoryGetClist.getCategoryList;
+categoryHandle["getCategoryProductList"] = categoryGetPList.getCategoryProducts;
 
 function category(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

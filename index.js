@@ -29,11 +29,11 @@ handle["/payment"] = paymentHandles.payment;
 handle["/order"] = orderHandles.order;
 handle["/shop"] = adHandles.ad;
 
-handle["/reg"] = regHandles.register;
+handle["/register"] = regHandles.register;
 handle["/login"] = loginHandles.login;
-handle["/account"] = accountHandles.account;
+handle["/user"] = accountHandles.account;
 handle["/alipay"] = alipayHandles.alipay;
-handle["/ali"] = alipayhand.toalipay;
+handle["/clientAlipay"] = alipayhand.toalipay;
 handle["/help"] = help.help;
 
 db.start();
