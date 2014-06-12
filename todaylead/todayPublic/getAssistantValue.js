@@ -7,8 +7,14 @@ var crypto = require('crypto');
 
 function getAssistantValue(request){
     var arg = url.parse(request.url).query;
-    var assistant = querystring.parse(arg).assistant;
+    var assistant = querystring.parse(arg).a;
     return assistant;
+}
+
+function getMainValue(request){
+    var arg = url.parse(request.url).query;
+    var main = querystring.parse(arg).m;
+    return main;
 }
 
 
@@ -85,6 +91,7 @@ function MD5(str, encoding) {
     return crypto.createHash('md5').update(str).digest(encoding || 'hex');
 }
 
+exports.getMainValue = getMainValue;
 exports.getAssistantValue = getAssistantValue;
 exports.returnErr = returnErr;
 exports.returnValue = returnValue;

@@ -4,6 +4,7 @@
 var http = require("http");
 var url = require("url");
 var visitRes = require("./visitRes/visitRes");
+var getAssistantValue = require("./todaylead/todayPublic/getAssistantValue");
 
 function start(route,handle){
     function onRequest(request,response){
@@ -12,7 +13,8 @@ function start(route,handle){
             visitRes.visitRes(request,response);
         }
         else{
-            route(handle,pathname,response,request);
+            var main = getAssistantValue.getMainValue(request);
+            route(handle,main,response,request);
         }
     }
 

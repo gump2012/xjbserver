@@ -22,19 +22,19 @@ var handle = {};
 handle["/"] = requestHandlers.start;
 handle["/start"] = requestHandlers.start;
 
-handle["/category"] = categoryHandle.category;
-handle["/product"] = productHandles.product;
+handle["category"] = categoryHandle.category;
+handle["product"] = productHandles.product;
 
-handle["/payment"] = paymentHandles.payment;
-handle["/order"] = orderHandles.order;
-handle["/shop"] = adHandles.ad;
+handle["payment"] = paymentHandles.payment;
+handle["order"] = orderHandles.order;
+handle["shop"] = adHandles.ad;
 
-handle["/register"] = regHandles.register;
-handle["/login"] = loginHandles.login;
-handle["/user"] = accountHandles.account;
+handle["register"] = regHandles.register;
+handle["login"] = loginHandles.login;
+handle["user"] = accountHandles.account;
 handle["/alipay"] = alipayHandles.alipay;
-handle["/clientAlipay"] = alipayhand.toalipay;
-handle["/help"] = help.help;
+handle["clientAlipay"] = alipayhand.toalipay;
+handle["help"] = help.help;
 
 db.start();
 server.start(router.route,handle);
