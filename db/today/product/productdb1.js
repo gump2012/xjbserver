@@ -7,9 +7,9 @@ var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_p
 function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProduct');
 
-var newCategory = new todayCategory({
-    pid:macroproduct.PID1_info
-    });
+var newCategory = new todayCategory(
+    macroproduct.PID1_info
+    );
 newCategory.save( function( err, silence ) {
     if( err )
     {
@@ -17,19 +17,9 @@ newCategory.save( function( err, silence ) {
     }
 });
 
-newCategory = new todayCategory({pid:macroproduct.PID2_info.pid
-    ,cid:macroproduct.PID2_info.cid
-    ,title:macroproduct.PID2_info.title
-    ,volume:macroproduct.PID2_info.volume
-    ,recentvolume:macroproduct.PID2_info.recentvolume
-    ,org_price:macroproduct.PID2_info.org_price
-    ,price:macroproduct.PID2_info.price
-    ,state:macroproduct.PID2_info.state
-    ,stamper:macroproduct.PID2_info.stamper
-    ,pic_url:macroproduct.PID2_info.pic_url
-    ,time:macroproduct.PID2_info.time
-    ,gallery:macroproduct.PID2_info.gallery
-    });
+newCategory = new todayCategory(
+    macroproduct.PID2_info
+);
 newCategory.save( function( err, silence ) {
     if( err )
     {
