@@ -82,7 +82,7 @@ function processOrderData(response,request,doc){
         ,response_status:'true'
         ,msg:''
     }
-
+    console.log(doc.promotion_totalprice);
     if(doc.productlist){
         getGoodsList(response,request,responseValue,doc.productlist,0);
     }
@@ -106,7 +106,7 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
                 ,attr:''
                 ,pic_url:''
             }
-
+            console.log(gooditem.price);
             var productmodle = mongoose.model('todayProduct');
             productmodle.findOne({pid:pid},'pic_url',function(err,doc){
                 if(doc)
@@ -134,7 +134,7 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
 }
 
 function getGoodsAttr(response,request,responseValue,productarr,iindex,attrarr,gooditem){
-    gooditem.price = new Number(gooditem.goods_price) + new Number(attrarr[0].attr_price);
+    gooditem.price = new Number(gooditem.price) + new Number(attrarr[0].attr_price);
     var attrmodel = mongoose.model('todayProductAttr');
     attrmodel.findOne({goods_attr_id:attrarr[0].goods_attr_id},'attr_value',function(err,doc){
         if(doc){

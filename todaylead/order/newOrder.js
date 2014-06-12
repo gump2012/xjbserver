@@ -34,7 +34,7 @@ function newOrder(response,request){
                         ,token:device_id
                         ,address:datajson.address
                         ,shipping_fee:datajson.transport_price
-                        ,product_total_price:datajson.product_total_price
+                        ,promotion_totalprice:datajson.product_total_price
                         ,payment_way_id:datajson.payment_way_id
                         ,order_id:''
                         ,creat_time:Date.now().toString()
@@ -58,7 +58,7 @@ function newOrder(response,request){
                                 ,pic_url:''
                                 ,attr_list:[]
                             }
-
+                            console.log(productitem.price);
                             item.goods_number += new Number(productitem.quantity);
 
                             if(datajson.product_list[i].attr_list)
@@ -148,7 +148,7 @@ function comparePrice(item,response){
         totalprice += (new Number(item.productlist[i].price) + attrprice) * item.productlist[i].quantity;
     }
 
-    if(totalprice != item.product_total_price){
+    if(totalprice != item.promotion_totalprice){
         publictool.returnErr(response,'商品总价不对');
     }
     else{
@@ -220,7 +220,7 @@ function findPaymentName(response,item){
                 }
             });
 
-            var orderprice = new Number(item.shipping_fee) + new Number(item.product_total_price);
+            var orderprice = new Number(item.shipping_fee) + new Number(item.promotion_totalprice);
             var responsevalue = {
                 info:{
                     extra:'',
