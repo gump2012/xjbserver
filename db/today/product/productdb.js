@@ -30,6 +30,7 @@ function creatdb(mongoose){
         ,pic_url            :String
         ,time               :Number
         ,gallery            :[String]
+        ,detailpics         :[String]
     });
 
     mongoose.model('todayProduct',proSchema);

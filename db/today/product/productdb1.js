@@ -7,18 +7,8 @@ var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_p
 function creatdb(mongoose){
     var todayCategory = mongoose.model('todayProduct');
 
-var newCategory = new todayCategory({pid:1
-    ,cid:1
-    ,title:'白色性感漏乳挂脖开怀性感连体情趣内衣'
-    ,volume:0
-    ,recentvolume:0
-    ,org_price:36.00
-    ,price:0.01
-    ,state:1
-    ,stamper:''
-    ,pic_url:macroproduct.PID1_URL
-    ,time:0
-    ,gallery:macroproduct.PID1_GALLERY
+var newCategory = new todayCategory({
+    pid:macroproduct.PID1_info
     });
 newCategory.save( function( err, silence ) {
     if( err )
@@ -27,18 +17,18 @@ newCategory.save( function( err, silence ) {
     }
 });
 
-newCategory = new todayCategory({pid:2
-    ,cid:1
-    ,title:'百花天使 公主透明纱网抹胸短裙 刺激你的眼球'
-    ,volume:0
-    ,recentvolume:0
-    ,org_price:30.00
-    ,price:15.00
-    ,state:1
-    ,stamper:''
-    ,pic_url:macroproduct.PID2_URL
-    ,time:0
-    ,gallery:macroproduct.PID2_GALLERY
+newCategory = new todayCategory({pid:macroproduct.PID2_info.pid
+    ,cid:macroproduct.PID2_info.cid
+    ,title:macroproduct.PID2_info.title
+    ,volume:macroproduct.PID2_info.volume
+    ,recentvolume:macroproduct.PID2_info.recentvolume
+    ,org_price:macroproduct.PID2_info.org_price
+    ,price:macroproduct.PID2_info.price
+    ,state:macroproduct.PID2_info.state
+    ,stamper:macroproduct.PID2_info.stamper
+    ,pic_url:macroproduct.PID2_info.pic_url
+    ,time:macroproduct.PID2_info.time
+    ,gallery:macroproduct.PID2_info.gallery
     });
 newCategory.save( function( err, silence ) {
     if( err )
