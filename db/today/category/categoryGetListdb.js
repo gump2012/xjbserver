@@ -76,7 +76,7 @@ function createdb(mongoose){
 
     newCategory = new todayCategory({cid:6
         , cname:'两性游戏'
-        ,info:'花前月下，你侬我侬'
+        ,info:'花前月下，你侬我侬，假山后边来一发'
         ,pic_url:'http://pic.yupoo.com/yige2002/DOQngy1N/1ZRx9.png'});
     newCategory.save( function( err, silence ) {
         if( err )
