@@ -8,8 +8,8 @@ var url  = require("url"),
 
 function visitRes(resquest,response){
 
-    var pathname=__dirname+url.parse(resquest.url).pathname;
-
+    var pathname=__dirname+'/res'+url.parse(resquest.url).pathname;
+    console.log(pathname);
     if(url.parse(resquest.url).pathname.indexOf("/apk/today_lead.apk") != -1)
     {
         pathname = '/root/apk/today_lead.apk';

@@ -60,9 +60,25 @@ function createdb(mongoose){
         adid:3
         ,img_url:macroproduct.AD_3
         ,type:2
-        ,linkto:'http://115.28.225.137:10080/res/html/baoyou.html'
+        ,linkto:'http://115.28.225.137:10080/html/baoyou.html'
         ,param:{
             name:'包邮活动'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newAd = new todayAd({
+        adid:4
+        ,img_url:macroproduct.AD_4
+        ,type:2
+        ,linkto:'http://115.28.225.137:10080/html/manezengsong.html'
+        ,param:{
+            name:'满额赠送'
         }
     });
     newAd.save( function( err, silence ) {
