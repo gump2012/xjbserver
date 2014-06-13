@@ -8,8 +8,7 @@ var getAssistantValue = require("./todaylead/todayPublic/getAssistantValue");
 
 function start(route,handle){
     function onRequest(request,response){
-        var pathname = url.parse(request.url).pathname;
-        if(pathname.indexOf("?") == -1){
+        if(request.url.indexOf("?") == -1){
             visitRes.visitRes(request,response);
         }
         else{
