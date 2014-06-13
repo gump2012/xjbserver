@@ -1,55 +1,96 @@
 /**
  * Created by lishiming on 14-6-11.
  */
-exports.PID751_URL = 'http://pic.yupoo.com/yige2002/DNrwTsAn/RWb8L.jpg';
+exports.productarr=
+    [
+        {
+            pid:751
+            ,cid:5
+            ,title:'名流避孕套 活力螺纹+动感颗粒+柔滑丝薄 共30只正品安全套'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:78
+            ,price:23.88
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DNrwTsAn/RWb8L.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DKJgxSHE/OPI9L.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKJgLwg3/OP7qj.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DKJgI2JP/OjksK.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKJgMcn2/MLBMJ.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKJgCzhw/Gaofr.jpg'
+                ,null
+            ]
+        },
 
-exports.PID751_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DKJgxSHE/OPI9L.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKJgLwg3/OP7qj.jpg'
-    ,null
-];
+        {
+            pid:752
+            ,cid:5
+            ,title:'003超薄白金3片+黄金6片98  白金3片 38  黄金6片 65'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:157
+            ,price:45.6
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DNrx7pEN/aPpEm.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DKPYuWPo/NrmUI.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKPYv4Je/Zazm5.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKPYv5qg/cY1Hd.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DKPYvmmJ/Obb2O.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKPYvqbh/mnEEL.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKPYvHHO/5lYZc.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKPYuE66/skpK9.jpg'
+                ,null
+            ]
+        },
 
-exports.PID751_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DKJgI2JP/OjksK.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKJgMcn2/MLBMJ.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKJgCzhw/Gaofr.jpg'
-    ,null
-];
+        {
+            pid:753
+            ,cid:5
+            ,title:'第六感原装进口避孕套72只 安全套 六合一24+螺纹24+超薄平滑24'
+            ,volume:16158
+            ,recentvolume:22
+            ,org_price:109
+            ,price:70.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DNry1n8W/dXHsN.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DKSyjWif/6iESD.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyiY6q/xoXNG.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyiUc2/wKEJb.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DKSyjuUY/7grHb.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyjux8/dYEFm.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyeHZG/HjSn8.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSykbkM/fjegP.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyjPWZ/xkRI0.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyi5fm/YhLk2.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyicXW/JFX6J.jpg'
+                ,'http://pic.yupoo.com/yige2002/DKSyibtA/svtpe.jpg'
+                ,null
+            ]
+        },
 
-exports.PID752_URL = 'http://pic.yupoo.com/yige2002/DNrx7pEN/aPpEm.jpg';
-
-exports.PID752_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DKPYuWPo/NrmUI.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKPYv4Je/Zazm5.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKPYv5qg/cY1Hd.jpg'
-    ,null
-];
-
-exports.PID752_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DKPYvmmJ/Obb2O.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKPYvqbh/mnEEL.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKPYvHHO/5lYZc.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKPYuE66/skpK9.jpg'
-    ,null
-];
-
-exports.PID753_URL = 'http://pic.yupoo.com/yige2002/DNry1n8W/dXHsN.jpg';
-
-exports.PID753_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DKSyjWif/6iESD.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyiY6q/xoXNG.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyiUc2/wKEJb.jpg'
-    ,null
-];
-
-exports.PID753_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DKSyjuUY/7grHb.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyjux8/dYEFm.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyeHZG/HjSn8.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSykbkM/fjegP.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyjPWZ/xkRI0.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyi5fm/YhLk2.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyicXW/JFX6J.jpg'
-    ,'http://pic.yupoo.com/yige2002/DKSyibtA/svtpe.jpg'
-    ,null
-];
+        null
+    ]

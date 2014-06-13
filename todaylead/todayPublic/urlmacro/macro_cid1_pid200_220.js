@@ -1,80 +1,157 @@
 /**
  * Created by lishiming on 14-6-11.
  */
-exports.PID200_URL = 'http://pic.yupoo.com/yige2002/DOkKLyHT/2XInj.jpg';
+exports.productarr=
+    [
+        {
+            pid:200
+            ,cid:1
+            ,title:'情趣内衣pid200媚火情趣内衣 无袖拼接网纱露背夜店服装 PU亮面性感睡裙'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:98
+            ,price:43.199999999999996
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkKLyHT/2XInj.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkKLMu1/CFN4.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkKLRTN/OTDzD.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkKq1TD/n18bL.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID200_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkKLMu1/CFN4.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkKLRTN/OTDzD.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkKq1TD/n18bL.jpg'
-    ,null
-];
+        {
+            pid:201
+            ,cid:1
+            ,title:'媚火情趣内衣 诱惑夜店装 性感睡衣超短裙紧身透明制服'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:102
+            ,price:58.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkLdDwZ/7zBIU.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkLdJ7M/iccUn.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkLe96b/EsIwW.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkLdYow/seDhm.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID200_DETAIL = [
-    null
-];
+        {
+            pid:202
+            ,cid:1
+            ,title:'媚火情趣内衣 夜店装惹火豹纹吊带制服套装 性感睡衣睡裙'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:100
+            ,price:46.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkLgeFY/P9AXD.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkLgmOJ/1279BD.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkLCec4/sY9vU.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkLCnD2/jm19I.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID201_URL = 'http://pic.yupoo.com/yige2002/DOkLdDwZ/7zBIU.jpg';
+        {
+            pid:203
+            ,cid:1
+            ,title:'媚火情趣内衣女诱惑夜店套装 性感睡衣短裙紧身钢管舞制服'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:100
+            ,price:44.4
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkLYQ0E/k3NrT.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkLZ5R9/mKbqq.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkLZbQF/yNe4J.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkLDDuH/orXXH.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID201_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkLdJ7M/iccUn.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkLe96b/EsIwW.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkLdYow/seDhm.jpg'
-    ,null
-];
+        {
+            pid:204
+            ,cid:1
+            ,title:'媚火情趣内衣 夜店装惹火豹纹吊带制服套装 性感睡衣睡裙'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:110
+            ,price:57.599999999999994
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkMjq1H/Kvdcv.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkMjq4u/7qC17.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkMjw8d/KCAwh.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkMjSpp/ZsC4n.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID201_DETAIL = [
-    null
-];
+        {
+            pid:205
+            ,cid:1
+            ,title:'媚火情趣内衣 亮片吊带时尚夜店服 性感火辣束身睡衣超短裙'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:105
+            ,price:51.6
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkMlXga/Bg1ht.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkMHxnr/FI2Pk.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkMHxWV/i6QFM.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkMHKae/BkKHx.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID202_URL = 'http://pic.yupoo.com/yige2002/DOkLgeFY/P9AXD.jpg';
-
-exports.PID202_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkLgmOJ/1279BD.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkLCec4/sY9vU.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkLCnD2/jm19I.jpg'
-    ,null
-];
-
-exports.PID202_DETAIL = [
-    null
-];
-
-exports.PID203_URL = 'http://pic.yupoo.com/yige2002/DOkLYQ0E/k3NrT.jpg';
-
-exports.PID203_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkLZ5R9/mKbqq.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkLZbQF/yNe4J.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkLDDuH/orXXH.jpg'
-    ,null
-];
-
-exports.PID203_DETAIL = [
-    null
-];
-
-exports.PID204_URL = 'http://pic.yupoo.com/yige2002/DOkMjq1H/Kvdcv.jpg';
-
-exports.PID204_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkMjq4u/7qC17.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkMjw8d/KCAwh.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkMjSpp/ZsC4n.jpg'
-    ,null
-];
-
-exports.PID204_DETAIL = [
-    null
-];
-
-exports.PID205_URL = 'http://pic.yupoo.com/yige2002/DOkMlXga/Bg1ht.jpg';
-
-exports.PID205_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkMHxnr/FI2Pk.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkMHxWV/i6QFM.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkMHKae/BkKHx.jpg'
-    ,null
-];
-
-exports.PID205_DETAIL = [
-    null
-];
+        null
+    ]

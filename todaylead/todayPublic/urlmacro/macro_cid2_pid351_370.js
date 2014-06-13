@@ -1,106 +1,207 @@
 /**
  * Created by lishiming on 14-6-11.
  */
-exports.PID351_URL = 'http://pic.yupoo.com/yige2002/DOkNACYy/rpEgT.jpg';
+exports.productarr=
+    [
+        {
+            pid:351
+            ,cid:2
+            ,title:'延时喷剂SK战马白金版 男士用持久防早泄 情趣性爱成人用品'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:80
+            ,price:30
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkNACYy/rpEgT.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkNAOFO/10ijJX.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkNfrqr/qNoGs.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkNAVh5/14HAO8.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID351_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkNAOFO/10ijJX.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkNfrqr/qNoGs.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkNAVh5/14HAO8.jpg'
-    ,null
-];
+        {
+            pid:352
+            ,cid:2
+            ,title:'日本2H2D延时喷剂 男性防早泄持久非伟哥万艾可进口原液'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:360
+            ,price:162
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkRE6Pj/f5jKx.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkRDY47/JKP2o.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkREbbK/DiyO3.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkREF8A/guoH1.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID351_DETAIL = [
-    null
-];
+        {
+            pid:353
+            ,cid:2
+            ,title:'人初油 男性外用延时喷剂 持久神油 防早泄延长时间 15ml 成人用品人体润滑'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:78
+            ,price:28.799999999999997
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkS4wvv/eqU3Y.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkS4ODR/13xjOk.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkS4WGg/qenqq.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkS4Tum/orc8j.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID352_URL = 'http://pic.yupoo.com/yige2002/DOkRE6Pj/f5jKx.jpg';
+        {
+            pid:354
+            ,cid:2
+            ,title:'美国KEY O女性快感增强液'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:182
+            ,price:129.6
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkSy9mn/5XGeS.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkSxZCs/lIER6.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkSyfdN/ZyBR8.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkSymjS/kAwti.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID352_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkRDY47/JKP2o.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkREbbK/DiyO3.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkREF8A/guoH1.jpg'
-    ,null
-];
+        {
+            pid:355
+            ,cid:2
+            ,title:'雅润男用成人情趣性用品润滑剂润滑液润滑油 肛交'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:20
+            ,price:2.4
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkSXd5q/UApJ0.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkSXfxP/ZZUPN.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkSXHIH/pDPUb.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkSXWJl/11zlq.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID352_DETAIL = [
-    null
-];
+        {
+            pid:356
+            ,cid:2
+            ,title:'男露888男用中药延时喷剂非进口印度神油伟哥'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:169
+            ,price:55.199999999999996
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkT5QEz/Ley58.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkT5WLc/JrpAj.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkTrKrJ/7rnk8.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkTrXAy/14hhqI.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID353_URL = 'http://pic.yupoo.com/yige2002/DOkS4wvv/eqU3Y.jpg';
+        {
+            pid:357
+            ,cid:2
+            ,title:'本草堂喷剂外用持久防早泄不麻木保健用品滑 本草堂喷剂15ML'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:100
+            ,price:16.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkTPkUA/R1RUs.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkTPD0B/raZBq.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkTPKIz/jZvpS.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkTPRW8/2QtuM.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID353_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkS4ODR/13xjOk.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkS4WGg/qenqq.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkS4Tum/orc8j.jpg'
-    ,null
-];
+        {
+            pid:358
+            ,cid:2
+            ,title:'倍力乐 人体润滑剂 房事润滑剂 性爱润滑剂 成人情趣用品'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:56
+            ,price:10.799999999999999
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkUcjmO/lAMXS.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkV592j/1YalX.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkUc3bY/E5dtm.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkUcshm/RZ4VZ.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID353_DETAIL = [
-    null
-];
-
-exports.PID354_URL = 'http://pic.yupoo.com/yige2002/DOkSy9mn/5XGeS.jpg';
-
-exports.PID354_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkSxZCs/lIER6.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkSyfdN/ZyBR8.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkSymjS/kAwti.jpg'
-    ,null
-];
-
-exports.PID354_DETAIL = [
-    null
-];
-
-exports.PID355_URL = 'http://pic.yupoo.com/yige2002/DOkSXd5q/UApJ0.jpg';
-
-exports.PID355_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkSXfxP/ZZUPN.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkSXHIH/pDPUb.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkSXWJl/11zlq.jpg'
-    ,null
-];
-
-exports.PID355_DETAIL = [
-    null
-];
-
-exports.PID356_URL = 'http://pic.yupoo.com/yige2002/DOkT5QEz/Ley58.jpg';
-
-exports.PID356_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkT5WLc/JrpAj.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkTrKrJ/7rnk8.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkTrXAy/14hhqI.jpg'
-    ,null
-];
-
-exports.PID356_DETAIL = [
-    null
-];
-
-exports.PID357_URL = 'http://pic.yupoo.com/yige2002/DOkTPkUA/R1RUs.jpg';
-
-exports.PID357_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkTPD0B/raZBq.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkTPKIz/jZvpS.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkTPRW8/2QtuM.jpg'
-    ,null
-];
-
-exports.PID357_DETAIL = [
-    null
-];
-
-exports.PID358_URL = 'http://pic.yupoo.com/yige2002/DOkUcjmO/lAMXS.jpg';
-
-exports.PID358_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkV592j/1YalX.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkUc3bY/E5dtm.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkUcshm/RZ4VZ.jpg'
-    ,null
-];
-
-exports.PID358_DETAIL = [
-    null
-];
+        null
+    ]

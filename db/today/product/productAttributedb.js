@@ -2,19 +2,19 @@
  * Created by gump on 3/17/14.
  */
 
-var a1 = require('./productAttributedb1');
-var a2 = require('./productAttributedb2');
-var a3 = require('./productAttributedb3');
-var a4 = require('./productAttributedb4');
-var a5 = require('./productAttributedb5');
-var a6 = require('./productAttributedb6');
-var a7 = require('./productAttributedb7');
-var a8 = require('./productAttributedb8');
-var a9 = require('./productAttributedb9');
-var a10 = require('./productAttributedb10');
-var a11 = require('./productAttributedb11');
-var a12 = require('./productAttributedb12');
-var a13 = require('./productAttributedb13');
+var a1 = require('./productAttributedb_1_10');
+var a2 = require('./productAttributedb_11_20');
+var a3 = require('./productAttributedb_21_30');
+var a4 = require('./productAttributedb_31_40');
+var a5 = require('./productAttributedb_41_50');
+var a6 = require('./productAttributedb_51_60');
+var a7 = require('./productAttributedb_61_70');
+var a8 = require('./productAttributedb_71_80');
+var a9 = require('./productAttributedb_81_90');
+var a10 = require('./productAttributedb_91_100');
+var a11 = require('./productAttributedb_101_110');
+var a12 = require('./productAttributedb_111_120');
+var a13 = require('./productAttributedb_751_770');
 var a600_620 = require('./productAttributedb600_620');
 var a200_220 = require('./productAttributedb_cid1_pid200_220');
 var a351_370 = require('./productAttributedb_cid2_pid351_370');

@@ -1,145 +1,258 @@
 /**
  * Created by lishiming on 14-6-11.
  */
-exports.PID600_URL = 'http://pic.yupoo.com/yige2002/DO6hmjUb/LADt7.jpg';
+exports.productarr=
+    [
+        {
+            pid:600
+            ,cid:4
+            ,title:'阴道哑铃'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:299
+            ,price:225.6
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DO6hmjUb/LADt7.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DO6hmbYG/TOPvf.jpg'
+                ,'http://pic.yupoo.com/yige2002/DO6hlRs4/RBT2A.jpg'
+                ,'http://pic.yupoo.com/yige2002/DO6hmprO/IrcG0.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID600_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DO6hmbYG/TOPvf.jpg'
-    ,'http://pic.yupoo.com/yige2002/DO6hlRs4/RBT2A.jpg'
-    ,'http://pic.yupoo.com/yige2002/DO6hmprO/IrcG0.jpg'
-    ,null
-];
+        {
+            pid:601
+            ,cid:4
+            ,title:'诺兰音乐人'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:998
+            ,price:478.79999999999995
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DO6iocFf/f6G0y.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DO6ino2O/121ieL.jpg'
+                ,'http://pic.yupoo.com/yige2002/DO6i3Msk/uowfl.jpg'
+                ,'http://pic.yupoo.com/yige2002/DO6inW9R/j7o26.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID600_DETAIL = [
-    null
-];
+        {
+            pid:602
+            ,cid:4
+            ,title:'香港诺兰ELYI艾怡 金属迷你av震动按摩棒 '
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:678
+            ,price:331.2
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkyV3ch/7ByQB.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkyVsJn/wkEs.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyzVuN/HBwhB.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyVwDV/qTrcb.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DOkyAapq/ZLmDc.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyAhDK/IP3S9.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyVU5U/Id4tk.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyAy6L/kbRW5.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyW9y6/xJxvc.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyWxJ6/ZNk7Y.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyWkUr/eYUdI.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkyWyOW/15bqWZ.jpg'
+                ,null
+            ]
+        },
 
-exports.PID601_URL = 'http://pic.yupoo.com/yige2002/DO6iocFf/f6G0y.jpg';
+        {
+            pid:603
+            ,cid:4
+            ,title:'诺兰蓝蝶充电震动按摩棒'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:998
+            ,price:358.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkGKGVd/tJjuk.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkGpcz9/kPxxj.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkGL0FH/Xx2Ni.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkGLcqM/NKxKg.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DOkGqbgF/w6SxG.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkGMobQ/bCSdd.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkGMjAH/Gnw6u.gif'
+                ,'http://pic.yupoo.com/yige2002/DOkGMv9i/UYh6b.gif'
+                ,'http://pic.yupoo.com/yige2002/DOkGrrIY/g6AeB.gif'
+                ,'http://pic.yupoo.com/yige2002/DOkGrLBM/Xhlkq.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkGOT7s/aqDxv.jpg'
+                ,null
+            ]
+        },
 
-exports.PID601_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DO6ino2O/121ieL.jpg'
-    ,'http://pic.yupoo.com/yige2002/DO6i3Msk/uowfl.jpg'
-    ,'http://pic.yupoo.com/yige2002/DO6inW9R/j7o26.jpg'
-    ,null
-];
+        {
+            pid:604
+            ,cid:4
+            ,title:'香港诺兰伊杜 纯金属按摩棒'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:998
+            ,price:238.79999999999998
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkHPY6N/Tjeyx.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkHQ5FR/Rugy1.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHQqTL/sMRVN.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHQlyf/ZBDzy.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DOkHQJ4h/uvccf.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHQxWL/DhiGy.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHQNPg/xGVv5.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHvf2a/HylIR.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHQJlc/vH3Tw.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHvtDl/rkF6u.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHRjQP/HUa0Y.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHRecL/D8CCK.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHRiRS/bi8iB.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHRz6n/ATwbI.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHRKNe/pvOtz.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHRTgg/JyOFU.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkHPWi6/325zn.jpg'
+                ,null
+            ]
+        },
 
-exports.PID601_DETAIL = [
-    null
-];
+        {
+            pid:605
+            ,cid:4
+            ,title:'香港诺兰月牙弯全球首创无线触感按摩棒手指触控智能按摩器'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:998
+            ,price:358.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkIFHxO/13jJEd.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkIG1Jo/QP2Nh.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkIl0vF/fDZQS.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkIlfOp/d7ZrY.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID602_URL = 'http://pic.yupoo.com/yige2002/DOkyV3ch/7ByQB.jpg';
+        {
+            pid:606
+            ,cid:4
+            ,title:'诺兰AV棒震动按摩棒悦魅女用自慰器具成人用品 樱桃红'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:998
+            ,price:598.8
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkJ2RVm/PSNLz.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkJ2T47/13PLUx.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkJ3iYo/LvrJc.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkJ3x6V/LrsV.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID602_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkyVsJn/wkEs.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyzVuN/HBwhB.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyVwDV/qTrcb.jpg'
-    ,null
-];
+        {
+            pid:607
+            ,cid:4
+            ,title:'积之美 成人情趣用品 孔雀开屏前后通用多点刺激棒'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:218
+            ,price:93.6
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkJ5TIS/oBXtQ.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkJ65xM/u4XyT.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkJrHcC/K8cQS.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOkJrR72/15uMdu.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID602_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DOkyAapq/ZLmDc.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyAhDK/IP3S9.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyVU5U/Id4tk.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyAy6L/kbRW5.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyW9y6/xJxvc.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyWxJ6/ZNk7Y.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyWkUr/eYUdI.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkyWyOW/15bqWZ.jpg'
-    ,null
-];
+        {
+            pid:608
+            ,cid:4
+            ,title:'成人用品 4U 淫纹G皇 女用自慰器'
+            ,volume:0
+            ,recentvolume:0
+            ,org_price:298
+            ,price:237.6
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DOkJtBZF/r6vQ1.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DOkJPhmU/100Rkz.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                null
+            ]
+        },
 
-exports.PID603_URL = 'http://pic.yupoo.com/yige2002/DOkGKGVd/tJjuk.jpg';
-
-exports.PID603_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkGpcz9/kPxxj.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkGL0FH/Xx2Ni.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkGLcqM/NKxKg.jpg'
-    ,null
-];
-
-exports.PID603_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DOkGqbgF/w6SxG.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkGMobQ/bCSdd.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkGMjAH/Gnw6u.gif'
-    ,'http://pic.yupoo.com/yige2002/DOkGMv9i/UYh6b.gif'
-    ,'http://pic.yupoo.com/yige2002/DOkGrrIY/g6AeB.gif'
-    ,'http://pic.yupoo.com/yige2002/DOkGrLBM/Xhlkq.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkGOT7s/aqDxv.jpg'
-    ,null
-];
-
-exports.PID604_URL = 'http://pic.yupoo.com/yige2002/DOkHPY6N/Tjeyx.jpg';
-
-exports.PID604_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkHQ5FR/Rugy1.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHQqTL/sMRVN.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHQlyf/ZBDzy.jpg'
-    ,null
-];
-
-exports.PID604_DETAIL = [
-    'http://pic.yupoo.com/yige2002/DOkHQJ4h/uvccf.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHQxWL/DhiGy.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHQNPg/xGVv5.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHvf2a/HylIR.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHQJlc/vH3Tw.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHvtDl/rkF6u.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHRjQP/HUa0Y.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHRecL/D8CCK.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHRiRS/bi8iB.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHRz6n/ATwbI.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHRKNe/pvOtz.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHRTgg/JyOFU.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkHPWi6/325zn.jpg'
-    ,null
-];
-
-exports.PID605_URL = 'http://pic.yupoo.com/yige2002/DOkIFHxO/13jJEd.jpg';
-
-exports.PID605_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkIG1Jo/QP2Nh.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkIl0vF/fDZQS.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkIlfOp/d7ZrY.jpg'
-    ,null
-];
-
-exports.PID605_DETAIL = [
-    null
-];
-
-exports.PID606_URL = 'http://pic.yupoo.com/yige2002/DOkJ2RVm/PSNLz.jpg';
-
-exports.PID606_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkJ2T47/13PLUx.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkJ3iYo/LvrJc.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkJ3x6V/LrsV.jpg'
-    ,null
-];
-
-exports.PID606_DETAIL = [
-    null
-];
-
-exports.PID607_URL = 'http://pic.yupoo.com/yige2002/DOkJ5TIS/oBXtQ.jpg';
-
-exports.PID607_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkJ65xM/u4XyT.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkJrHcC/K8cQS.jpg'
-    ,'http://pic.yupoo.com/yige2002/DOkJrR72/15uMdu.jpg'
-    ,null
-];
-
-exports.PID607_DETAIL = [
-    null
-];
-
-exports.PID608_URL = 'http://pic.yupoo.com/yige2002/DOkJtBZF/r6vQ1.jpg';
-
-exports.PID608_GALLERY = [
-    'http://pic.yupoo.com/yige2002/DOkJPhmU/100Rkz.jpg'
-    ,null
-];
-
-exports.PID608_DETAIL = [
-    null
-];
+        null
+    ]

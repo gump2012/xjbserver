@@ -35,12 +35,12 @@ function start(){
 
         mongoose.model('todayProduct',proSchema);
         var todayCategory = mongoose.model('todayProduct');
-        todayCategory.find({cid:1},{},{sort: {pid:'asc'}},function(err,docs){
+        todayCategory.find({cid:6},{},{sort: {pid:'asc'}},function(err,docs){
            console.log(docs.length);
 
-            var str = '';
+            var str = 'exports.productarr=\n[\n';
             for(i in docs){
-                str += 'exports.PID' + docs[i].pid + '_info = {' +'\n';
+                str += '{' +'\n';
                 str += 'pid:'+docs[i].pid + '\n';
                 str += ','+'cid:'+docs[i].cid + '\n';
                 str += ','+'title:\''+docs[i].title +'\'\n';
@@ -69,11 +69,11 @@ function start(){
                 }
 
                 str += ']\n';
-                str += ',detailpics:\n' +'[\n'+',null\n'+']\n'+'}\n';
-
+                str += ',detailpics:\n' +'[\n'+'null\n'+']\n'+'},\n';
                 str += '\n';
-
             }
+            str +='null\n';
+            str +=']\n';
 
             console.log(str);
         });

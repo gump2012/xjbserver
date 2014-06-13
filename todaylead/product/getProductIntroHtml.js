@@ -8,7 +8,7 @@ function getIntroHtml(response,request){
 
     var pid = publictool.getpid(request);
 
-    var detailmodel = mongoose.model('todayProductPicDetail');
+    var detailmodel = mongoose.model('todayProduct');
     detailmodel.findOne({pid:pid},function(err,doc){
         if(doc){
             var strhtml = '<meta name=\'viewport\' content=\'width=device-width\'/>' +
@@ -25,8 +25,8 @@ function getIntroHtml(response,request){
             'image.style[\'height\'] =document.body.clientWidth/(2*oldwidth)*oldheight + \'px\';}}</script>' +
             '<div style="text-align:center;">\\r\\n\\t';
 
-            for(var i = 0; i < doc.picarr.length - 1;++i){
-                var strimgae = '<img src=\"' + doc.picarr[i] + '\" onload=\"resize(this);\" />';
+            for(var i = 0; i < doc.detailpics.length - 1;++i){
+                var strimgae = '<img src=\"' + doc.detailpics[i] + '\" onload=\"resize(this);\" />';
                 strhtml += strimgae;
             }
 
