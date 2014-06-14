@@ -6,10 +6,12 @@ var route = require("../../router");
 
 var productGetDetail = require("./productGetDetail");
 var productGetIntroHtml = require("./getProductIntroHtml");
+var paymentGetProductsDetail = require("./paymentGetProductsDetail");
 
 var productHandle = {}
 productHandle["getProductDetail"] = productGetDetail.getDetail;
 productHandle["getProductIntroHtml"] = productGetIntroHtml.getIntroHtml;
+paymentHandle["getShopCartProductList"] = paymentGetProductsDetail.getProductsDetail;
 
 function product(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);

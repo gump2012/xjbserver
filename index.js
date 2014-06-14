@@ -15,7 +15,7 @@ var regHandles = require("./todaylead/register/regHandles");
 var loginHandles = require("./todaylead/login/loginHandles");
 var accountHandles = require("./todaylead/account/accountHandles");
 var alipayHandles = require("./todaylead/alipay/alipayHandles");
-var alipayhand = require("./todaylead/alipay/alipayhand");
+//var alipayhand = require("./todaylead/alipay/alipayhand");
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -32,7 +32,7 @@ handle["register"] = regHandles.register;
 handle["login"] = loginHandles.login;
 handle["user"] = accountHandles.account;
 handle["/alipay"] = alipayHandles.alipay;
-handle["clientAlipay"] = alipayhand.toalipay;
+//handle["clientAlipay"] = alipayhand.toalipay;
 
 db.start();
 server.start(router.route,handle);
