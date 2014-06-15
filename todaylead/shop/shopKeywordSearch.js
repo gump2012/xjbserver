@@ -39,8 +39,8 @@ function getProducts(response,request){
                         ,origin_price:docs[i].org_price
                         ,price:docs[i].price
                         ,volume:docs[i].volume
-                        ,recentvolume:docs[i].recentvolume
-                        ,pic_url:docs[i].pic_url
+                        ,recent_volume:docs[i].recentvolume
+                        ,picture:docs[i].pic_url
                     }
                     tempdata.push(item);
                 }

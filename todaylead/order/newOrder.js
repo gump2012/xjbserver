@@ -55,7 +55,7 @@ function newOrder(response,request){
                                 ,price:datajson.product_list[i].price
                                 ,pid:datajson.product_list[i].product_id
                                 ,quantity:datajson.product_list[i].count
-                                ,pic_url:''
+                                ,picture:''
                                 ,attr_list:[]
                             }
                             console.log(productitem.price);
@@ -113,7 +113,7 @@ function findPid(item,response,pidnumber){
         productmodle.findOne({pid:pid},'price pic_url',function(err,doc){
             if(doc)
             {
-                item.productlist[pidnumber - 1].pic_url = doc.pic_url;
+                item.productlist[pidnumber - 1].picture = doc.pic_url;
                 if(item.productlist[pidnumber - 1].price == doc.price){
                     pidnumber--;
                     var attrnumber = item.productlist[pidnumber].attr_list.length;

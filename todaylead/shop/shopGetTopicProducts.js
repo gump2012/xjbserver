@@ -83,7 +83,7 @@ function findProduct(gooosarr,iindex,response,responsevalue){
         {
             var item = {
                 product_id:doc.pid
-                ,pic_url:doc.pic_url
+                ,picture:doc.pic_url
                 ,name:doc.title
                 ,origin_price:doc.org_price
                 ,price:doc.price

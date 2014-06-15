@@ -51,7 +51,7 @@ function findProduct(pidarr,iindex,response,responsevalue){
                 ,status:doc.state
                 ,category_id:doc.cid
                 ,attr_list:[]
-                ,pic_url:doc.pic_url
+                ,picture:doc.pic_url
             };
 
             responsevalue.info.data.push(productitem);

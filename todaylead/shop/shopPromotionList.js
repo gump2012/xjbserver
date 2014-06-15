@@ -9,11 +9,11 @@ exports.getPromotionList = function(response,request){
         "extra": null,
             "data": [
 				{
-					"pic_url": "http://xingjiabi.b0.upaiyun.com/ico/service7.png",
+					"picture": "http://xingjiabi.b0.upaiyun.com/ico/service7.png",
 					"name": "7天无理由退换货"
 				},
 				{
-					"pic_url": "http://xingjiabi.b0.upaiyun.com/ico/promotion.png",
+					"picture": "http://xingjiabi.b0.upaiyun.com/ico/promotion.png",
 					"name": "银行汇款满168包邮 支付宝满100包邮 货到付款满168包邮"
 				}
 			]

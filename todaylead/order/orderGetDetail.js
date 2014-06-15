@@ -104,14 +104,14 @@ function getGoodsList(response,request,responseValue,productarr,iindex){
                 ,count:productarr[iindex].quantity
                 ,price:productarr[iindex].price
                 ,attr:''
-                ,pic_url:''
+                ,picture:''
             }
             console.log(gooditem.price);
             var productmodle = mongoose.model('todayProduct');
             productmodle.findOne({pid:pid},'pic_url',function(err,doc){
                 if(doc)
                 {
-                    gooditem.pic_url = doc.pic_url;
+                    gooditem.picture = doc.pic_url;
                     if(productarr[iindex].attr_list && productarr[iindex].attr_list.length > 0){
                         getGoodsAttr(response,request,responseValue,productarr,iindex,productarr[iindex].attr_list,gooditem);
                     }

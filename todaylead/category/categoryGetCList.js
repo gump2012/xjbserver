@@ -25,7 +25,7 @@ function getCategoryList(response,request){
                 category_id : doc[i].cid,
                 name : doc[i].cname,
                 desc :doc[i].info,
-                pic_url: doc[i].pic_url
+                picture: doc[i].pic_url
             }
 
             responsevalue.info.data.push(item);

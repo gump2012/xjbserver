@@ -27,7 +27,7 @@ function getTopic(response,request){
         for(var i in doc){
             var item = {
                 topic_id           :doc[i].topicid
-                ,pic_url          :doc[i].pic_url
+                ,picture          :doc[i].pic_url
                 ,name            :doc[i].title
                 ,product_list            :[]
             }
@@ -68,7 +68,7 @@ function getRecommend(response,responsevalue){
         for(var i in docs){
             if(docs[i].title.indexOf(strkw) != -1){
                 var item = {
-                    pic_url:docs[i].pic_url
+                    picture:docs[i].pic_url
                     ,product_id:docs[i].pid
                 }
                 gettext.push(item);

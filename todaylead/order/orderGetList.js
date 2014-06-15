@@ -91,11 +91,11 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
                         ,product_count:docs[i].goods_number
-                        ,pic_url:''
+                        ,picture:''
                     }
 
                     if(docs[i].productlist.length > 0){
-                        item.pic_url = docs[i].productlist[0].pic_url;
+                        item.picture = docs[i].productlist[0].pic_url;
                     }
 
                     responsevalue.info.data.push(item);
@@ -113,11 +113,11 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                         ,payment_way_id:docs[i].payment_way_id
                         ,payment_name:docs[i].payment_name
                         ,count:docs[i].goods_number
-                        ,pic_url:''
+                        ,picture:''
                     }
 
                     if(docs[i].productlist.length > 0){
-                        item.pic_url = docs[i].productlist[0].pic_url;
+                        item.picture = docs[i].productlist[0].pic_url;
                     }
 
                     responsevalue.info.data.push(item);

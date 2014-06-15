@@ -20,7 +20,7 @@ function getAdList(response,request){
         for(var i in doc){
             var item = {
                 advert_id              :doc[i].adid
-                ,pic_url          :doc[i].img_url
+                ,picture          :doc[i].img_url
                 ,type             :doc[i].type
                 ,link             :doc[i].linkto
                 ,param            :{
