@@ -37,13 +37,21 @@ function getTopic(response,request){
             {
                 for(var j = 0; j < iTop; ++j)
                 {
-                    item.product_list.push(doc[i].goods[j]);
+					var topicProductItem = {
+						picture          :doc[i].goods[j].pic_url
+						,product_id            :doc[i].goods[j].product_id
+					}
+                    item.product_list.push(topicProductItem);
                 }
             }
             else{
                 for(var j = 0; j < doc[i].goods.length - 1; ++j)
                 {
-                    item.product_list.push(doc[i].goods[j]);
+					var topicProductItem = {
+						picture          :doc[i].goods[j].pic_url
+						,product_id            :doc[i].goods[j].product_id
+					}
+                    item.product_list.push(topicProductItem);
                 }
             }
 
