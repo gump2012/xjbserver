@@ -10,7 +10,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:199
-            ,price:118.8
+            ,price:118.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3GlZxr/9inI6.jpg'
@@ -41,7 +41,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:88
-            ,price:57.599999999999994
+            ,price:57.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3GneDF/ovzpz.jpg'
@@ -73,7 +73,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:49
-            ,price:34.8
+            ,price:34.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gmo0z/14VcyU.jpg'
@@ -109,7 +109,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:55
-            ,price:31.2
+            ,price:31.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3GmSuI/gQAg3.jpg'
@@ -140,7 +140,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:88
-            ,price:57.599999999999994
+            ,price:57.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3GnOKe/WohVT.jpg'
@@ -166,7 +166,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:440
-            ,price:189.6
+            ,price:189.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DOgvCMj3/SRc5M.jpg'
@@ -231,7 +231,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:30
-            ,price:14.399999999999999
+            ,price:14.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gn0PY/F8iuf.jpg'
@@ -299,7 +299,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:169
-            ,price:86.39999999999999
+            ,price:86.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3GoIJl/ELk7x.jpg'
@@ -339,7 +339,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:69
-            ,price:33.6
+            ,price:33.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3GnMXN/1tGBR.jpg'
@@ -501,7 +501,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:299
-            ,price:187.2
+            ,price:187.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DOgG8uW5/RmvAo.jpg'
@@ -543,7 +543,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:56
-            ,price:43.199999999999996
+            ,price:43.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3Go9IJ/CuTtL.jpg'
@@ -643,7 +643,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:388
-            ,price:238.79999999999998
+            ,price:238.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3Gq5u6/awu48.jpg'
