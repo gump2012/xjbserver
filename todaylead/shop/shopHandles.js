@@ -9,6 +9,8 @@ var shopKeywordSearch = require("./shopKeywordSearch");
 var shopGetTopic = require("./shopGetTopic");
 var shopGetTopPro = require("./shopGetTopicProducts");
 var shopGetPromotionList = require("./shopPromotionList");
+var shopGetProductDetail = require("./productGetDetail");
+var shopGetProductsDetail = require("./paymentGetProductsDetail");
 
 var adHandle = {}
 adHandle["getAdvertList"] = shopGetAdList.getAdList;
@@ -16,6 +18,8 @@ adHandle["getSearchProductList"] = shopKeywordSearch.getProducts;
 adHandle["getTopicList"] = shopGetTopic.getTopic;
 adHandle["getTopicProductList"] = shopGetTopPro.getTopicPro;
 adHandle["getPromotionList"] = shopGetPromotionList.getPromotionList;
+adHandle["getProductDetail"] = shopGetProductDetail.getDetail;
+adHandle["getShopCartProductList"] = shopGetProductsDetail.getProductsDetail;
 
 function ad(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
