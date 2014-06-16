@@ -256,7 +256,7 @@ exports.productarr=
             ,volume:0
             ,recentvolume:0
             ,org_price:48
-            ,price:31.2
+            ,price:31.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DNlMhxkn/1485rg.jpg'
