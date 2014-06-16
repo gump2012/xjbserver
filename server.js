@@ -9,7 +9,12 @@ var getAssistantValue = require("./todaylead/todayPublic/getAssistantValue");
 function start(route,handle){
     function onRequest(request,response){
         if(request.url.indexOf("?") == -1){
-            visitRes.visitRes(request,response);
+            if(request.url.indexOf('alipay') != -1){
+                route(handle,'/alipay',response,request);
+            }
+            else{
+                visitRes.visitRes(request,response);
+            }
         }
         else{
             var main = getAssistantValue.getMainValue(request);
