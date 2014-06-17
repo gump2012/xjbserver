@@ -14,7 +14,7 @@ exports.getExpress = function (response,request){
 
     if(order_id){
         var ordermodle = mongoose.model('todayOrder');
-        ordermodle.findOne({order_id:order_id,ticket_id:ticketid},function(err,doc){
+        ordermodle.findOne({order_id:order_id},function(err,doc){
             if(doc){
                 if(doc.express_name && doc.express_number){
                     var strurl = 'http://m.kuaidi100.com/index_all.html?type='+doc.express_name+'&postid='+doc.express_number;
