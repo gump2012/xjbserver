@@ -103,3 +103,6 @@ exports.getLimit = getLimit;
 exports.getPage = getPage;
 exports.getpid = getpid;
 
+exports.releaseip = '115.28.225.137';
+exports.testip = '182.92.80.203';
+

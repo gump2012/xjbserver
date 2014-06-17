@@ -11,9 +11,11 @@ var addb = require("./today/shop/shopAddb");
 var shoptopicdb = require("./today/shop/shopTopicdb");
 var accountdb = require("./today/account/accountdb");
 
+var publictool = require("../todaylead/todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
 function start(){
-    var mongodb = mongoose.connect('mongodb://localhost:27017/todaylead');
+    var strurl = 'mongodb://' + publictool.testip + ':27017/todaylead';
+    var mongodb = mongoose.connect(strurl);
 
     var db = mongodb.connection;
 
