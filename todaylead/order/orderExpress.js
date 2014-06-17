@@ -29,7 +29,7 @@ exports.getExpress = function (response,request){
                         ,response_status:'true'
                         ,msg:''
                     }
-                    publictool.returnValue(response,responsevalue);
+                    publictool.returnValue(response,responseValue);
                 }else{
                     publictool.returnErr(response,'无快递信息');
                 }
