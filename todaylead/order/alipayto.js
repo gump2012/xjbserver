@@ -17,29 +17,43 @@ exports.alipayto = function (response,request){
         var orderid = querystring.parse(requestData).order_id;
         var total_fee = querystring.parse(requestData).price;
         if(orderid && total_fee){
-            var responsevalue = {
-                info:{
-                    extra:'',
-                    data:{
-                        alipay_submit_data:''
+            var ordermodel = mongoose.model('todayOrder');
+            ordermodel.findOne({order_id:orderid},function(err,doc){
+                if(doc){
+                    var dbtotalprice = new Number(doc.shipping_fee) + new Number(doc.promotion_totalprice);
+                    var sendtotalprice = new Number(total_fee);
+                    if(Math.abs(dbtotalprice - sendtotalprice) < 0.01){
+                        var responsevalue = {
+                            info:{
+                                extra:'',
+                                data:{
+                                    alipay_submit_data:''
+                                }
+                            },
+                            response_status:'true',
+                            msg:''
+                        }
+
+                        var orderstr = '_input_charset="utf-8"' +
+                            '&body="一笔来自今日头牌的订单"' +
+                            '&notify_url="http://115.28.225.137:10080/alipay"' +
+                            '&out_trade_no="' + orderid + '"' +
+                            '&partner="2088411489511305"' +
+                            '&payment_type="1"' +
+                            '&seller_id="toupai@3pshow.com"' +
+                            '&service="mobile.securitypay.pay"' +
+                            '&subject="今日头牌订单"' +
+                            '&total_fee="' + total_fee + '"';
+
+                        makeRsa(orderstr,responsevalue,response);
                     }
-                },
-                response_status:'true',
-                msg:''
-            }
-
-            var orderstr = '_input_charset="utf-8"' +
-                '&body="一笔来自今日头牌的订单"' +
-                '&notify_url="http://115.28.225.137:10080/alipay"' +
-                '&out_trade_no="' + orderid + '"' +
-                '&partner="2088411489511305"' +
-                '&payment_type="1"' +
-                '&seller_id="toupai@3pshow.com"' +
-                '&service="mobile.securitypay.pay"' +
-                '&subject="今日头牌订单"' +
-                '&total_fee="' + total_fee + '"';
-
-            makeRsa(orderstr,responsevalue,response);
+                    else{
+                        publictool.returnErr(response,'价格不符');
+                    }
+                }else{
+                    publictool.returnErr(response,'无此订单');
+                }
+            });
         }
         else{
             publictool.returnErr(response,'参数不全');
