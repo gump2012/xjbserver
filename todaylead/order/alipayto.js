@@ -34,9 +34,10 @@ exports.alipayto = function (response,request){
                             msg:''
                         }
 
+                        var strurl ='http://'+publictool.testip+':10080/alipay';
                         var orderstr = '_input_charset="utf-8"' +
                             '&body="一笔来自今日头牌的订单"' +
-                            '&notify_url="http://115.28.225.137:10080/alipay"' +
+                            '&notify_url="'+strurl+'"' +
                             '&out_trade_no="' + orderid + '"' +
                             '&partner="2088411489511305"' +
                             '&payment_type="1"' +
