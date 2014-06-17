@@ -43,6 +43,8 @@ function newOrder(response,request){
                         ,shipping_states:0
                         ,goods_number:0
                         ,payment_name:''
+                        ,express_number:''
+                        ,express_name:''
                         ,productlist:[]
                     }
 
