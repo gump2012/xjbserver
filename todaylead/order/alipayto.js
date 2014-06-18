@@ -34,7 +34,7 @@ exports.alipayto = function (response,request){
                             msg:''
                         }
 
-                        var strurl ='http://'+publictool.testip+':10080/alipay';
+                        var strurl ='http://'+publictool.releaseip+':10080/alipay';
                         var orderstr = '_input_charset="utf-8"' +
                             '&body="一笔来自今日头牌的订单"' +
                             '&notify_url="'+strurl+'"' +
