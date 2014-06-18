@@ -11,7 +11,8 @@
 @implementation orderlist
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"order?assistant=getMyOrderList&device_id=1&count=2&page=1"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=order&a=getOrderList&device_id=863092020357250&count=10&page=1"];
     [self testGet:strurl];
 }
 

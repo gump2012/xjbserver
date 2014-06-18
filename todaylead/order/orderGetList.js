@@ -95,7 +95,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                     }
 
                     if(docs[i].productlist.length > 0){
-                        item.picture = docs[i].productlist[0].pic_url;
+                        item.picture = docs[i].productlist[0].picture;
                     }
 
                     responsevalue.info.data.push(item);
@@ -117,7 +117,7 @@ function getReturnValue(docs,limit,page,response,responsevalue){
                     }
 
                     if(docs[i].productlist.length > 0){
-                        item.picture = docs[i].productlist[0].pic_url;
+                        item.picture = docs[i].productlist[0].picture;
                     }
 
                     responsevalue.info.data.push(item);
