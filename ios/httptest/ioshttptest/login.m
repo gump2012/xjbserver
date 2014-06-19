@@ -12,7 +12,7 @@
 
 -(void)request{
     NSString *strcontent = @"phone=13646426253&password=dajiji";
-    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"login?assistant=login"];
+    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?m=login&a=login"];
     [self testPost:strcontent withURL:strhttp];
 }
 

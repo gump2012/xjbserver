@@ -11,7 +11,8 @@
 @implementation paymentList
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"payment?assistant=getPaymentList"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=payment&a=getPaymentList"];
     [self testGet:strurl];
 }
 

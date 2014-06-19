@@ -11,7 +11,8 @@
 @implementation deleteOrder
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"order?assistant=delMyOrder&order_id=0509161307146970"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=order&a=delOrder&order_id=0519102824424699"];
     [self testGet:strurl];
 }
 

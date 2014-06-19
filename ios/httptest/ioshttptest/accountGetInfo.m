@@ -11,8 +11,8 @@
 @implementation accountGetInfo
 
 -(void)request{
-    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"account?\
-assistant=getAccountInfoByUser&user_id=d9de20976437207d1275c6f2dcf7c13e"];
+    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=user&a=getUserInfo&user_id=d9de20976437207d1275c6f2dcf7c13e"];
     [self testGet:strhttp];
 }
 

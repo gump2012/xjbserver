@@ -11,7 +11,8 @@
 @implementation paymentConsigneeInfo
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"payment?assistant=getPaymentConsignee&device_id=1"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=payment&a=getPaymentConsignee&device_id=863092020357250"];
     [self testGet:strurl];
 }
 

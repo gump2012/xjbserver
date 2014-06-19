@@ -20,7 +20,7 @@ function createdb(mongoose){
 
     var newCategory = new todayCategory({payment_way_id:1
         ,payment_way_name:'货到付款'
-        ,payment_way_desp:'满1000包邮'});
+        ,payment_way_desp:'满168包邮'});
     newCategory.save( function( err, silence ) {
         if( err )
         {
@@ -30,7 +30,7 @@ function createdb(mongoose){
 
     newCategory = new todayCategory({payment_way_id:2
         ,payment_way_name:'支付宝'
-        ,payment_way_desp:'满1000包邮'});
+        ,payment_way_desp:'满100包邮'});
     newCategory.save( function( err, silence ) {
         if( err )
         {

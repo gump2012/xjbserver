@@ -11,7 +11,7 @@
 @implementation alipayreturn
 
 -(void)request{
-    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"alipay"];
+    NSString *strhttp = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"alipay"];
     [self testGet:strhttp];
 }
 

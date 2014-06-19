@@ -20,20 +20,20 @@ json=\
 ,\"province_code\":\"1234\"\
 ,\"address\":\"jinsongsanlu\"\
 ,\"transport_price\":0.0\
-,\"product_total_price\":0.012\
+,\"product_total_price\":0.01\
 ,\"area_code\":\"1234\"\
 ,\"payment_way_id\":2\
 ,\"product_list\":\
 [{\"title\":\"shasha\"\
-,\"price\":0.012\
+,\"price\":0.01\
 ,\"product_id\":1\
 ,\"count\":1\
 ,\"attr_list\":\
 [{\"product_attr_id\":\"100001\"\
 ,\"price\":0.0\
 }]}]}";
-    NSString *urlstr = [NSString stringWithFormat:@"%@%@",LOCAL_URL,
-                        @"order?assistant=neworder&device_id=1"];
+    NSString *urlstr = [NSString stringWithFormat:@"%@%@",MAIN_URL,
+                        @"?m=order&a=createOrder&device_id=9527"];
     [self testPost:contentser withURL:urlstr];
 }
 
