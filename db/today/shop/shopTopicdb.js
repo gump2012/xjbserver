@@ -82,7 +82,7 @@ function createdb(mongoose){
     newtopic = new todaytopic({
         topicid:4
         ,pic_url:'http://pic.yupoo.com/yige2002/DJo4PeFr/FNA3t.jpg'
-        ,title:'痴求欲女'
+        ,title:'痴球欲女'
         ,goods:[
             {product_id:66,pic_url:'http://pic.yupoo.com/yige2002/DNrzi6J8/DWy0.jpg'}
             ,{product_id:65,pic_url:'http://pic.yupoo.com/yige2002/DNryNX09/4TBpm.jpg'}
