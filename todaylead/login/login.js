@@ -15,7 +15,7 @@ function login(response,request){
     });
 
     request.addListener('end', function() {
-        var phone = querystring.parse(requestData).phone;
+        var phone = querystring.parse(requestData).phone_number;
         var password = querystring.parse(requestData).password;
         if(phone && password)
         {
@@ -34,7 +34,7 @@ function login(response,request){
                                     ,nickname:doc.nickname
                                     ,sex_type:doc.sex_type
                                     ,account_coin:doc.account_coin
-                                    ,phone:phone
+                                    ,phone_number:phone
                                 }
                             },
                             response_status: "true",

@@ -28,7 +28,7 @@ function newOrder(response,request){
                         ,province:datajson.province_code
                         ,area:datajson.area_code
                         ,consignee:datajson.consignee
-                        ,mobile:datajson.phone
+                        ,mobile:datajson.phone_number
                         ,memo:datajson.memo
                         ,ticket_id:regist_id
                         ,token:device_id

@@ -65,7 +65,7 @@ function processOrderData(response,request,doc){
                 ,city_code:doc.city
                 ,province_code:doc.province
                 ,area_code:doc.area
-                ,phone:doc.mobile
+                ,phone_number:doc.mobile
                 ,product_total_price:doc.promotion_totalprice
                 ,payment_way_id:doc.payment_way_id
                 ,create_time:doc.creat_time

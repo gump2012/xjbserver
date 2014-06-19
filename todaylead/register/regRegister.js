@@ -18,7 +18,7 @@ function register(response,request){
 
     request.addListener('end', function() {
         var nickname = querystring.parse(requestData).nickname;
-        var phone = querystring.parse(requestData).phone;
+        var phone = querystring.parse(requestData).phone_number;
         var password = querystring.parse(requestData).password;
         var token = publictool.getDeviceID(request);
         console.log(nickname)
