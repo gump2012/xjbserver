@@ -32,7 +32,7 @@ function newOrder(response,request){
                         ,memo:datajson.memo
                         ,ticket_id:regist_id
                         ,token:device_id
-                        ,address:datajson.address
+                        ,address:datajson.specific_address
                         ,shipping_fee:datajson.transport_price
                         ,promotion_totalprice:datajson.product_total_price
                         ,payment_way_id:datajson.payment_way_id

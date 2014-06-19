@@ -61,7 +61,7 @@ function processOrderData(response,request,doc){
                 ,payment_status:doc.payment_states
                 ,transport_status:doc.shipping_states
                 ,consignee:doc.consignee
-                ,address:doc.address
+                ,specific_address:doc.address
                 ,city_code:doc.city
                 ,province_code:doc.province
                 ,area_code:doc.area
