@@ -12,7 +12,8 @@
 
 -(void)request{
     NSString *contantstr = @"order_id=1&price=0.01";
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"ali?assistant=alipayto"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=order&a=alipayPay"];
     [self testPost:contantstr withURL:strurl];
 }
 

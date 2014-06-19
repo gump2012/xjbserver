@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3353CCE01939B874008B28ED /* alipayto.m in Sources */ = {isa = PBXBuildFile; fileRef = 3353CCDF1939B874008B28ED /* alipayto.m */; };
+		357185F81952BEC1005BE489 /* orderExpress.m in Sources */ = {isa = PBXBuildFile; fileRef = 357185F71952BEC1005BE489 /* orderExpress.m */; };
 		35A421B81924ACFD00DBF5D8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A421B71924ACFD00DBF5D8 /* CoreData.framework */; };
 		35A421BA1924ACFD00DBF5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A421B91924ACFD00DBF5D8 /* Foundation.framework */; };
 		35A421BD1924ACFD00DBF5D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A421BC1924ACFD00DBF5D8 /* main.m */; };
@@ -50,6 +51,8 @@
 /* Begin PBXFileReference section */
 		3353CCDE1939B874008B28ED /* alipayto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alipayto.h; sourceTree = "<group>"; };
 		3353CCDF1939B874008B28ED /* alipayto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alipayto.m; sourceTree = "<group>"; };
+		357185F61952BEC1005BE489 /* orderExpress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderExpress.h; sourceTree = "<group>"; };
+		357185F71952BEC1005BE489 /* orderExpress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderExpress.m; sourceTree = "<group>"; };
 		35A421B41924ACFD00DBF5D8 /* ioshttptest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ioshttptest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A421B71924ACFD00DBF5D8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		35A421B91924ACFD00DBF5D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -146,6 +149,8 @@
 				35A421BC1924ACFD00DBF5D8 /* main.m */,
 				35A421BE1924ACFD00DBF5D8 /* Supporting Files */,
 				35A421CA1924AE9800DBF5D8 /* BaseHttpRequest.h */,
+				357185F61952BEC1005BE489 /* orderExpress.h */,
+				357185F71952BEC1005BE489 /* orderExpress.m */,
 				35A421CB1924AE9800DBF5D8 /* BaseHttpRequest.m */,
 				35A421CD1924B11B00DBF5D8 /* categoryList.h */,
 				35A421CE1924B11B00DBF5D8 /* categoryList.m */,
@@ -267,6 +272,7 @@
 				35A4220F1925F65000DBF5D8 /* shopRecommend.m in Sources */,
 				35A421EA1925A8A300DBF5D8 /* newOrder.m in Sources */,
 				35A422121925F72800DBF5D8 /* shopkeywordSearch.m in Sources */,
+				357185F81952BEC1005BE489 /* orderExpress.m in Sources */,
 				35A4220C1925F57D00DBF5D8 /* shopAdList.m in Sources */,
 				35A421FD1925ECE700DBF5D8 /* paymentProductsDetail.m in Sources */,
 				35A422181926086600DBF5D8 /* shopTopicProducts.m in Sources */,

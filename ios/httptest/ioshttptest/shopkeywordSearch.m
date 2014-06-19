@@ -23,8 +23,9 @@
 
 
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@shop?assistant=keywordSearch&keyword=%@&count=10&page=1",
-                        MAIN_SECOND_URL,
+    NSString *strurl = [NSString stringWithFormat:@"%@?\
+m=shop&a=getSearchProductList&keyword=%@&count=10&page=1",
+                        MAIN_URL,
                         [@"娃娃" URLEncodingUTF8String]];
     [self testGet:strurl];
 }

@@ -10,7 +10,8 @@
 
 @implementation shopAdList
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"shop?assistant=getAdList"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=shop&a=getAdvertList"];
     [self testGet:strurl];
 }
 @end

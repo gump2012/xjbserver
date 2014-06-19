@@ -10,7 +10,8 @@
 
 @implementation shopTopicProducts
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"shop?assistant=getTopicProducts&count=10&page=1&topic_id=1"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=shop&a=getTopicProductList&count=10&page=1&topic_id=1"];
     [self testGet:strurl];
 }
 @end

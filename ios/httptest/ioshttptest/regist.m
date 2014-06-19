@@ -11,7 +11,8 @@
 @implementation regist
 -(void)request{
     NSString *contantstr = @"nickname=jj&phone=13646426253&password=dajiji";
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"reg?assistant=register&device_id=a"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=register&a=register&device_id=9527"];
     [self testPost:contantstr withURL:strurl];
 }
 @end
