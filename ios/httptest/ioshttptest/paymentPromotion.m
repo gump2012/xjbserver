@@ -12,7 +12,7 @@
 
 -(void)request{
     NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
-m=payment&a=getPaymentDetail&price=100.00"];
+m=payment&a=getPaymentDetail&price=100.00&province_code=21"];
     [self testGet:strurl];
 }
 

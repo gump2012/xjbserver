@@ -32,7 +32,7 @@
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[orderExpress alloc] init];
+        BaseHttpRequest *testres = [[paymentPromotion alloc] init];
         [testres request];
     }
     return 0;

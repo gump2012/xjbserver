@@ -9,13 +9,15 @@ var publictool = require("../todayPublic/getAssistantValue");
 function getPromotionDetail(response,request){
 
     var arg = url.parse(request.url).query;
-    var totalprice = new Number(querystring.parse(arg).price);
-    var payment_way_id = new Number(querystring.parse(arg).payment_way_id);
+    var strtotalprice = querystring.parse(arg).price;
+    var strpayment_way_id = querystring.parse(arg).payment_way_id;
     var provice = querystring.parse(arg).province_code;
 
     var shoping_fee = 16.0;
 
-    if(provice&&payment_way_id&&totalprice){
+    if(provice&&strpayment_way_id&&strtotalprice){
+        var payment_way_id = new Number(strpayment_way_id);
+        var totalprice = new Number(strtotalprice);
         if(payment_way_id == 1 && totalprice - 20.0 < 0.01){
             publictool.returnErr(response,'低于20元不可以货到付款哦');
         }
