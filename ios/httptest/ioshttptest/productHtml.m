@@ -10,7 +10,8 @@
 
 @implementation productHtml
 -(void)request{
-    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_SECOND_URL,@"product?assistant=getProductIntroHtml&product_id=12"];
+    NSString *strurl = [NSString stringWithFormat:@"%@%@",MAIN_URL,@"?\
+m=product&a=getProductIntroHtml&product_id=12"];
     [self testGet:strurl];
 }
 @end

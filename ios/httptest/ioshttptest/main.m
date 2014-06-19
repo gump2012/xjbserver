@@ -31,7 +31,7 @@
 int main(int argc, const char * argv[])
 {
     @autoreleasepool {
-        BaseHttpRequest *testres = [[paymentList alloc] init];
+        BaseHttpRequest *testres = [[productHtml alloc] init];
         [testres request];
     }
     return 0;
