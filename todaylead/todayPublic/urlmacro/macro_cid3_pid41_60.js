@@ -295,7 +295,7 @@ exports.productarr=
         {
             pid:50
             ,cid:3
-            ,title:'玩爆潮品MFONES取悦电动震动飞机杯'
+            ,title:'玩爆潮品MFONES取悦电动震动飞机杯 头牌推荐'
             ,volume:0
             ,recentvolume:0
             ,org_price:169
@@ -597,7 +597,7 @@ exports.productarr=
         {
             pid:59
             ,cid:3
-            ,title:'香港邦爱电动震动处女阴交口娇肛交飞机杯'
+            ,title:'香港邦爱电动震动处女阴交口娇肛交飞机杯 头牌推荐'
             ,volume:0
             ,recentvolume:0
             ,org_price:199

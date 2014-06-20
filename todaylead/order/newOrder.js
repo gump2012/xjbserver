@@ -7,6 +7,7 @@ var crypto = require('crypto');
 var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
 var accountFunc = require("../account/accountFunction");
+var shopingFee = require("../payment/paymentgetPromotion");
 
 function newOrder(response,request){
 
@@ -154,17 +155,7 @@ function comparePrice(item,response){
         publictool.returnErr(response,'商品总价不对');
     }
     else{
-        var shipfee = 0.00;
-        if(item.payment_way_id == 1){
-            if(totalprice < 1000.00){
-                shipfee = 0.00;
-            }
-        }
-        else if(item.payment_way_id == 2){
-            if(totalprice < 1000.00){
-                shipfee = 0.00;
-            }
-        }
+        var shipfee = shopingFee.getShopingFee(item.payment_way_id,totalprice,item.province);
 
         if(shipfee != item.shipping_fee)
         {

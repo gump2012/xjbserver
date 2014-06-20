@@ -293,7 +293,7 @@ exports.productarr=
         {
             pid:70
             ,cid:4
-            ,title:'潮吹之王 仙女棒 醉生梦死的感觉'
+            ,title:'潮吹之王 仙女棒 醉生梦死的感觉 特惠'
             ,volume:0
             ,recentvolume:0
             ,org_price:159
@@ -393,7 +393,7 @@ exports.productarr=
         {
             pid:73
             ,cid:4
-            ,title:'百乐派蒂拉 G点阴蒂双震30频振动棒 头牌推荐'
+            ,title:'百乐派蒂拉 G点阴蒂双震30频振动棒 头牌推荐 特惠'
             ,volume:0
             ,recentvolume:0
             ,org_price:160
@@ -471,7 +471,7 @@ exports.productarr=
         {
             pid:75
             ,cid:4
-            ,title:'蒂贝正品 惊蛇之草轻触防水20频震动棒'
+            ,title:'蒂贝正品 惊蛇之草轻触防水20频震动棒 特惠'
             ,volume:0
             ,recentvolume:0
             ,org_price:320
@@ -498,7 +498,7 @@ exports.productarr=
         {
             pid:76
             ,cid:4
-            ,title:'蒂贝正品双马达震动LED夜灯按键隐形穿戴蝴蝶'
+            ,title:'蒂贝正品双马达震动LED夜灯按键隐形穿戴蝴蝶 特惠'
             ,volume:0
             ,recentvolume:0
             ,org_price:210
@@ -529,7 +529,7 @@ exports.productarr=
         {
             pid:77
             ,cid:4
-            ,title:'邦爱正品7频美国大兵仿真阳具'
+            ,title:'邦爱正品7频美国大兵仿真阳具 特惠'
             ,volume:0
             ,recentvolume:0
             ,org_price:356

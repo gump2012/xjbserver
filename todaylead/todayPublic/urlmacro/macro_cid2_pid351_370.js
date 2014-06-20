@@ -6,7 +6,7 @@ exports.productarr=
         {
             pid:351
             ,cid:2
-            ,title:'延时喷剂SK战马白金版 男士用持久防早泄 情趣性爱成人用品'
+            ,title:'延时喷剂SK战马白金版 男士用持久防早泄 情趣性爱成人用品 头牌推荐'
             ,volume:0
             ,recentvolume:0
             ,org_price:80

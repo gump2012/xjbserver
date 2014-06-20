@@ -29,7 +29,7 @@ function createdb(mongoose){
         ,linkto:''
         ,param:{
             app_ad_in_subtype:1
-            ,keyword:'百花'
+            ,keyword:'特惠'
         }
     });
     newAd.save( function( err, silence ) {
@@ -45,8 +45,8 @@ function createdb(mongoose){
         ,type:1
         ,linkto:''
         ,param:{
-            app_ad_in_subtype:2
-            ,pid:1
+            app_ad_in_subtype:1
+            ,keyword:'魅力惠'
         }
     });
     newAd.save( function( err, silence ) {
