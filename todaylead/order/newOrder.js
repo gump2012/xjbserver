@@ -155,7 +155,8 @@ function comparePrice(item,response){
         publictool.returnErr(response,'商品总价不对');
     }
     else{
-        var shipfee = shopingFee.getShopingFee(new Number(item.payment_way_id),totalprice,item.province);
+        var paymentid = new Number(item.payment_way_id);
+        var shipfee = shopingFee.getShopingFee(paymentid,totalprice,item.province);
         console.log(shipfee);
         console.log(item.shipping_fee);
         if(shipfee != item.shipping_fee)
