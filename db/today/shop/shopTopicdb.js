@@ -80,19 +80,19 @@ function createdb(mongoose){
             ,{product_id:61,pic_url:'http://pic.yupoo.com/yige2002/DNrq76Cq/cuJtx.jpg'}
             ,{product_id:105,pic_url:'http://pic.yupoo.com/yige2002/DNrrigN8/6n6OI.jpg'}
             ,{product_id:107,pic_url:'http://pic.yupoo.com/yige2002/DNrs2Lci/TSA81.jpg'}
-            ,{product_id:453,pic_url:'http://pic.yupoo.com/yige2002/DNrs2Lci/TSA81.jpg'}
+            ,{product_id:453,pic_url:'http://pic.yupoo.com/yige2002/DQnTyewy/fnr8B.jpg'}
             ,{product_id:83,pic_url:'http://pic.yupoo.com/yige2002/DH3SPPlf/DVXy0.jpg'}
             ,{product_id:106,pic_url:'http://pic.yupoo.com/yige2002/DH3VOv2A/GFBuE.jpg'}
             ,{product_id:355,pic_url:'http://pic.yupoo.com/yige2002/DOkSXd5q/UApJ0.jpg'}
-            ,{product_id:451,pic_url:'http://pic.yupoo.com/yige2002/DNrs2Lci/TSA81.jpg'}
+            ,{product_id:451,pic_url:'http://pic.yupoo.com/yige2002/DQnSg5yh/Ng3ln.jpg'}
             ,{product_id:85,pic_url:'http://pic.yupoo.com/yige2002/DH3SR8mu/BxDzU.jpg'}
-            ,{product_id:454,pic_url:'http://pic.yupoo.com/yige2002/DNrs2Lci/TSA81.jpg'}
+            ,{product_id:454,pic_url:'http://pic.yupoo.com/yige2002/DQnU2teU/11UcTK.jpg'}
             ,{product_id:356,pic_url:'http://pic.yupoo.com/yige2002/DOkT5QEz/Ley58.jpg'}
             ,{product_id:204,pic_url:'http://pic.yupoo.com/yige2002/DOkMjq1H/Kvdcv.jpg'}
             ,{product_id:357,pic_url:'http://pic.yupoo.com/yige2002/DOkTPkUA/R1RUs.jpg'}
             ,{product_id:203,pic_url:'http://pic.yupoo.com/yige2002/DOkLYQ0E/k3NrT.jpg'}
             ,{product_id:358,pic_url:'http://pic.yupoo.com/yige2002/DOkUcjmO/lAMXS.jpg'}
-            ,{product_id:452,pic_url:'http://pic.yupoo.com/yige2002/DNrs2Lci/TSA81.jpg'}
+            ,{product_id:452,pic_url:'http://pic.yupoo.com/yige2002/DQnSPu71/bDEPB.jpg'}
             ,null
         ]
     });
