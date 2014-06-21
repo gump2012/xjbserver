@@ -155,15 +155,15 @@ function comparePrice(item,response){
         publictool.returnErr(response,'商品总价不对');
     }
     else{
-        var shipfee = shopingFee.getShopingFee(item.payment_way_id,totalprice,item.province.toString());
-        console.log(shipfee);
-        console.log(item.shipping_fee);
-        if(shipfee != item.shipping_fee)
-        {
-            publictool.returnErr(response,'运费不对');
-        }
-        else{
-            findPaymentName(response,item);
+        var shipfee = shopingFee.getShopingFee(item.payment_way_id,totalprice,item.province.toString(),true,response);
+        if(shipfee != -1.0){
+            if(shipfee != item.shipping_fee)
+            {
+                publictool.returnErr(response,'运费不对');
+            }
+            else{
+                findPaymentName(response,item);
+            }
         }
     }
 }
