@@ -16,13 +16,9 @@ function getPromotionDetail(response,request){
     if(provice&&strpayment_way_id&&strtotalprice){
         var payment_way_id = new Number(strpayment_way_id);
         var totalprice = new Number(strtotalprice);
-        if(payment_way_id == 1 && totalprice - 20.0 < 0.01){
-            publictool.returnErr(response,'低于20元不可以货到付款哦');
-        }
-        else{
 
-            var shoping_fee = checkShopingFee(payment_way_id,totalprice,provice,false,response);
-
+        var shoping_fee = checkShopingFee(payment_way_id,totalprice,provice,false,response);
+        if(shoping_fee != -1.0){
             var orderprice = totalprice + shoping_fee;
             var responsevalue = {
                 info:{
@@ -42,6 +38,8 @@ function getPromotionDetail(response,request){
 
             publictool.returnValue(response,responsevalue);
         }
+
+
     }else{
         publictool.returnErr(response,'参数不全');
     }
