@@ -7,8 +7,8 @@ exports.productarr=
             pid:1
             ,cid:1
             ,title:'白色性感漏乳挂脖开怀性感连体情趣内衣 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:40
+            ,recentvolume:25
             ,org_price:36
             ,price:18.00
             ,state:1
@@ -39,8 +39,8 @@ exports.productarr=
             pid:2
             ,cid:1
             ,title:'百花天使 公主透明纱网抹胸短裙 刺激你的眼球 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:43
+            ,recentvolume:24
             ,org_price:30
             ,price:18
             ,state:1
@@ -69,7 +69,7 @@ exports.productarr=
             pid:3
             ,cid:1
             ,title:'百花天使 性感吊带抹胸系带网纱情趣内衣 魅力惠'
-            ,volume:16158
+            ,volume:33
             ,recentvolume:22
             ,org_price:22
             ,price:22.00
@@ -98,8 +98,8 @@ exports.productarr=
             pid:4
             ,cid:1
             ,title:'百花天使 性感抹胸透视蕾丝诱惑内衣 魅力惠'
-            ,volume:3256
-            ,recentvolume:562
+            ,volume:50
+            ,recentvolume:34
             ,org_price:50
             ,price:26.00
             ,state:1
@@ -127,8 +127,8 @@ exports.productarr=
             pid:5
             ,cid:1
             ,title:'百花天使 性感机车短裙野战必备 魅力惠'
-            ,volume:3154
-            ,recentvolume:144
+            ,volume:60
+            ,recentvolume:24
             ,org_price:46
             ,price:26.00
             ,state:1
@@ -154,8 +154,8 @@ exports.productarr=
             pid:6
             ,cid:1
             ,title:'百花天使 性感蕾丝花边 激情T裤套装 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:32
+            ,recentvolume:14
             ,org_price:35
             ,price:21.00
             ,state:1
@@ -190,8 +190,8 @@ exports.productarr=
             pid:7
             ,cid:1
             ,title:'百花天使 性感蕾丝花边 激情开衫系带连体衣 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:24
+            ,recentvolume:13
             ,org_price:50
             ,price:30
             ,state:1
@@ -221,8 +221,8 @@ exports.productarr=
             pid:8
             ,cid:1
             ,title:'百花天使 打造你的女仆 性感蕾丝吊带女仆装 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:45
+            ,recentvolume:21
             ,org_price:65
             ,price:30
             ,state:1
@@ -249,8 +249,8 @@ exports.productarr=
             pid:9
             ,cid:1
             ,title:'百花天使 激情透视蕾丝花边挂脖吊带性感情趣内衣 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:43
+            ,recentvolume:22
             ,org_price:35
             ,price:21.00
             ,state:1
@@ -279,8 +279,8 @@ exports.productarr=
             pid:10
             ,cid:1
             ,title:'百花天使 致命诱惑 侧开透视蕾丝薄纱睡裙 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:44
+            ,recentvolume:22
             ,org_price:49
             ,price:30
             ,state:1
@@ -309,8 +309,8 @@ exports.productarr=
             pid:11
             ,cid:1
             ,title:'百花天使 蕾丝花边透明性感睡裙诱惑睡衣 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:66
+            ,recentvolume:24
             ,org_price:49
             ,price:30
             ,state:1
@@ -338,8 +338,8 @@ exports.productarr=
             pid:12
             ,cid:1
             ,title:'百花天使 紫色三件套诱惑情趣内衣性感透明制服情趣套装 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:54
+            ,recentvolume:12
             ,org_price:65
             ,price:33.00
             ,state:1
@@ -371,8 +371,8 @@ exports.productarr=
             pid:13
             ,cid:1
             ,title:'百花天使桃色诱惑连体内衣 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:45
+            ,recentvolume:23
             ,org_price:36
             ,price:21.00
             ,state:1
@@ -402,8 +402,8 @@ exports.productarr=
             pid:14
             ,cid:1
             ,title:'百花天使性感抹胸挂脖诱惑开裆T裤激情连体衣 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:43
+            ,recentvolume:21
             ,org_price:32
             ,price:18
             ,state:1
@@ -431,8 +431,8 @@ exports.productarr=
             pid:15
             ,cid:1
             ,title:'百花天使黑红透明比基尼三点式 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:45
+            ,recentvolume:12
             ,org_price:36
             ,price:21.00
             ,state:1
@@ -461,8 +461,8 @@ exports.productarr=
             pid:16
             ,cid:1
             ,title:'百花天使暗夜销魂黑色透明网纱 诱惑你的神经 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:54
+            ,recentvolume:23
             ,org_price:48
             ,price:28.00
             ,state:1
@@ -490,8 +490,8 @@ exports.productarr=
             pid:17
             ,cid:1
             ,title:'百花天使火爆仿皮野性魅力两件式情趣内衣 头牌推荐 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:34
+            ,recentvolume:24
             ,org_price:32
             ,price:18
             ,state:1
@@ -518,8 +518,8 @@ exports.productarr=
             pid:18
             ,cid:1
             ,title:'百花天使日式印花和服女式系带情趣内衣 魅力惠 头牌推荐'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:54
+            ,recentvolume:36
             ,org_price:56
             ,price:33.00
             ,state:1
@@ -548,8 +548,8 @@ exports.productarr=
             pid:19
             ,cid:1
             ,title:'百花天使良家超长性感情趣睡袍 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:63
+            ,recentvolume:41
             ,org_price:40
             ,price:30
             ,state:1
@@ -579,8 +579,8 @@ exports.productarr=
             pid:20
             ,cid:1
             ,title:'百花天使 抹胸T裤性感连体衣 魅力惠'
-            ,volume:315145
-            ,recentvolume:121
+            ,volume:61
+            ,recentvolume:23
             ,org_price:40
             ,price:30
             ,state:1

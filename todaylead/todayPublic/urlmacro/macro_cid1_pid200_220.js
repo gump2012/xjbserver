@@ -7,8 +7,8 @@ exports.productarr=
             pid:200
             ,cid:1
             ,title:'情趣内衣pid200媚火情趣内衣 无袖拼接网纱露背夜店服装 PU亮面性感睡裙 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:51
+            ,recentvolume:24
             ,org_price:98
             ,price:43.00
             ,state:1
@@ -32,8 +32,8 @@ exports.productarr=
             pid:201
             ,cid:1
             ,title:'媚火情趣内衣 诱惑夜店装 性感睡衣超短裙紧身透明制服 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:65
+            ,recentvolume:23
             ,org_price:102
             ,price:58.00
             ,state:1
@@ -57,8 +57,8 @@ exports.productarr=
             pid:202
             ,cid:1
             ,title:'媚火情趣内衣 夜店装惹火豹纹吊带制服套装 性感睡衣睡裙 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:65
+            ,recentvolume:32
             ,org_price:100
             ,price:46.00
             ,state:1
@@ -82,8 +82,8 @@ exports.productarr=
             pid:203
             ,cid:1
             ,title:'媚火情趣内衣女诱惑夜店套装 性感睡衣短裙紧身钢管舞制服 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:37
+            ,recentvolume:12
             ,org_price:100
             ,price:44.00
             ,state:1
@@ -107,8 +107,8 @@ exports.productarr=
             pid:204
             ,cid:1
             ,title:'媚火情趣内衣 夜店装惹火豹纹吊带制服套装 性感睡衣睡裙 魅力惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:56
+            ,recentvolume:21
             ,org_price:110
             ,price:57.00
             ,state:1
@@ -132,8 +132,8 @@ exports.productarr=
             pid:205
             ,cid:1
             ,title:'媚火情趣内衣 亮片吊带时尚夜店服 性感火辣束身睡衣超短裙 魅力惠 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:43
+            ,recentvolume:32
             ,org_price:105
             ,price:51.00
             ,state:1

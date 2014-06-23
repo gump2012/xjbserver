@@ -7,8 +7,8 @@ exports.productarr=
             pid:21
             ,cid:2
             ,title:'EVE G爽润滑油 阴交 肛交用润滑油 一滑到底'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:66
+            ,recentvolume:24
             ,org_price:18
             ,price:11.00
             ,state:1
@@ -36,8 +36,8 @@ exports.productarr=
             pid:22
             ,cid:2
             ,title:'JOKER外用延时喷剂日本史上最久 最受欢迎'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:23
+            ,recentvolume:6
             ,org_price:183
             ,price:81.00
             ,state:1
@@ -61,8 +61,8 @@ exports.productarr=
             pid:23
             ,cid:2
             ,title:'MFPONES男用助勃刺激阴蒂震动环 世界好套环'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:45
+            ,recentvolume:23
             ,org_price:32
             ,price:21.00
             ,state:1
@@ -102,8 +102,8 @@ exports.productarr=
             pid:24
             ,cid:2
             ,title:'倍耐力延时喷剂纯植物提取 让男人更从容自信'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:65
+            ,recentvolume:12
             ,org_price:70
             ,price:36
             ,state:1
@@ -133,8 +133,8 @@ exports.productarr=
             pid:25
             ,cid:2
             ,title:'印度神油印度秘方久战不倒杀菌防病延时金刚'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:54
+            ,recentvolume:15
             ,org_price:12
             ,price:6
             ,state:1
@@ -164,8 +164,8 @@ exports.productarr=
             pid:26
             ,cid:2
             ,title:'头牌推荐 百倍安全管理 私密保存'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:54
+            ,recentvolume:21
             ,org_price:10
             ,price:6
             ,state:1
@@ -188,8 +188,8 @@ exports.productarr=
             pid:27
             ,cid:2
             ,title:'头牌推荐 耐氏男用延时喷剂 超久防早泄 正品防伪'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:113
+            ,recentvolume:44
             ,org_price:189
             ,price:118.00
             ,state:1
@@ -213,8 +213,8 @@ exports.productarr=
             pid:28
             ,cid:2
             ,title:'延时必备 三色锁精环 根本射不出来'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:67
+            ,recentvolume:12
             ,org_price:20
             ,price:14.00
             ,state:1
@@ -239,8 +239,8 @@ exports.productarr=
             pid:29
             ,cid:2
             ,title:'杜蕾斯按摩油 润滑油 让爱更浓烈'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:45
+            ,recentvolume:32
             ,org_price:108
             ,price:42
             ,state:1
@@ -267,8 +267,8 @@ exports.productarr=
             pid:30
             ,cid:2
             ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:54
+            ,recentvolume:24
             ,org_price:68
             ,price:48
             ,state:1
@@ -301,8 +301,8 @@ exports.productarr=
             pid:31
             ,cid:2
             ,title:'水晶之恋凤梨套 延时增粗 G点 刺激 宝贝好喜欢'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:15
+            ,recentvolume:3
             ,org_price:10
             ,price:7.00
             ,state:1
@@ -330,8 +330,8 @@ exports.productarr=
             pid:32
             ,cid:2
             ,title:'爱妃液人体爱液润滑油 按摩推油 可用肛交'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:30
+            ,recentvolume:18
             ,org_price:32
             ,price:18
             ,state:1
@@ -356,8 +356,8 @@ exports.productarr=
             pid:33
             ,cid:2
             ,title:'玩爆潮品 12星座延时锁精水晶套 G点阴道刺激异型套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:97
+            ,recentvolume:32
             ,org_price:18
             ,price:11.00
             ,state:1
@@ -390,8 +390,8 @@ exports.productarr=
             pid:34
             ,cid:2
             ,title:'玩爆潮品男用龟头增大增粗延时套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:78
+            ,recentvolume:21
             ,org_price:28
             ,price:19.00
             ,state:1
@@ -419,8 +419,8 @@ exports.productarr=
             pid:35
             ,cid:2
             ,title:'男用阴茎增粗增大增长狼牙套 伴君如伴虎'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:51
+            ,recentvolume:14
             ,org_price:35
             ,price:7.00
             ,state:1
@@ -451,8 +451,8 @@ exports.productarr=
             pid:36
             ,cid:2
             ,title:'百乐男用阴茎增粗增大增长狼牙套 各种刺激伴君左右'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:37
+            ,recentvolume:28
             ,org_price:35
             ,price:10.00
             ,state:1
@@ -484,8 +484,8 @@ exports.productarr=
             pid:37
             ,cid:2
             ,title:'纯天然高级羊眼圈 让您的高潮永驻'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:41
+            ,recentvolume:26
             ,org_price:16
             ,price:7.00
             ,state:1
@@ -514,8 +514,8 @@ exports.productarr=
             pid:38
             ,cid:2
             ,title:'美国Enlarge男士阴茎增粗助大精油 外用防早泄'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:43
+            ,recentvolume:21
             ,org_price:85
             ,price:57.00
             ,state:1
@@ -540,8 +540,8 @@ exports.productarr=
             pid:39
             ,cid:2
             ,title:'耐氏外用延时湿巾 天然最安全（1片12片'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:54
+            ,recentvolume:32
             ,org_price:50
             ,price:3
             ,state:1
@@ -565,8 +565,8 @@ exports.productarr=
             pid:40
             ,cid:2
             ,title:'菲尔普成人用品玩具专用消毒液 深度清洁 私密防护'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:69
+            ,recentvolume:32
             ,org_price:56
             ,price:16.00
             ,state:1

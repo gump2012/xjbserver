@@ -7,8 +7,8 @@ exports.productarr=
             pid:41
             ,cid:3
             ,title:'3D美臀实体逼真 美臀佳穴私密 阴臀倒模'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:84
+            ,recentvolume:31
             ,org_price:199
             ,price:118.00
             ,state:1
@@ -38,8 +38,8 @@ exports.productarr=
             pid:42
             ,cid:3
             ,title:'AV女优青春少女小萝莉双姐妹名器倒模'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:56
+            ,recentvolume:21
             ,org_price:88
             ,price:57.00
             ,state:1
@@ -70,8 +70,8 @@ exports.productarr=
             pid:43
             ,cid:3
             ,title:'FunZone撸管神器 可乐蛋勃乐套自慰鸡蛋'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:26
+            ,recentvolume:14
             ,org_price:49
             ,price:34.00
             ,state:1
@@ -106,8 +106,8 @@ exports.productarr=
             pid:44
             ,cid:3
             ,title:'丰乳妹大波妹男用小实体娃娃'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:21
+            ,recentvolume:3
             ,org_price:55
             ,price:31.00
             ,state:1
@@ -137,8 +137,8 @@ exports.productarr=
             pid:45
             ,cid:3
             ,title:'久兴幻魅真人倒模手动飞机杯'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:45
+            ,recentvolume:16
             ,org_price:88
             ,price:57.00
             ,state:1
@@ -163,8 +163,8 @@ exports.productarr=
             pid:46
             ,cid:3
             ,title:'欲火旋风二代电动飞机杯吞舌尖上的诱惑2代口交杯'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:16
+            ,recentvolume:7
             ,org_price:440
             ,price:189.00
             ,state:1
@@ -200,8 +200,8 @@ exports.productarr=
             pid:47
             ,cid:3
             ,title:'倍儿性桃花岛真人阴臀倒模 飞一样的感觉'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:32
+            ,recentvolume:5
             ,org_price:45
             ,price:30
             ,state:1
@@ -228,8 +228,8 @@ exports.productarr=
             pid:48
             ,cid:3
             ,title:'名器飞机杯真人体温USB加热'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:52
+            ,recentvolume:12
             ,org_price:30
             ,price:14.00
             ,state:1
@@ -253,8 +253,8 @@ exports.productarr=
             pid:49
             ,cid:3
             ,title:'日本男优终极利器 延时训练器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:38
+            ,recentvolume:14
             ,org_price:48
             ,price:31.00
             ,state:1
@@ -296,8 +296,8 @@ exports.productarr=
             pid:50
             ,cid:3
             ,title:'玩爆潮品MFONES取悦电动震动飞机杯 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:46
+            ,recentvolume:17
             ,org_price:169
             ,price:86.00
             ,state:1
@@ -336,8 +336,8 @@ exports.productarr=
             pid:51
             ,cid:3
             ,title:'男女通用强力吸附后庭拉珠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:98
+            ,recentvolume:24
             ,org_price:69
             ,price:33.00
             ,state:1
@@ -381,8 +381,8 @@ exports.productarr=
             pid:52
             ,cid:3
             ,title:'百乐前列腺按摩棒'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:42
+            ,recentvolume:12
             ,org_price:60
             ,price:48
             ,state:1
@@ -409,8 +409,8 @@ exports.productarr=
             pid:53
             ,cid:3
             ,title:'百乐大力神4频电动超爽飞机杯'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:78
+            ,recentvolume:21
             ,org_price:159
             ,price:72
             ,state:1
@@ -439,8 +439,8 @@ exports.productarr=
             pid:54
             ,cid:3
             ,title:'百乐大男人空心阳具男用加长套增长6厘米延时阴茎增大增粗'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:66
+            ,recentvolume:21
             ,org_price:39
             ,price:24
             ,state:1
@@ -466,8 +466,8 @@ exports.productarr=
             pid:55
             ,cid:3
             ,title:'真的好厉害 男性增大脉冲理疗环电机理疗器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:39
+            ,recentvolume:26
             ,org_price:98
             ,price:72
             ,state:1
@@ -498,8 +498,8 @@ exports.productarr=
             pid:56
             ,cid:3
             ,title:'积之美爱之吻极品恋人一口咬定男用电动口交阴交自慰杯器飞机杯'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:81
+            ,recentvolume:17
             ,org_price:299
             ,price:187.00
             ,state:1
@@ -540,8 +540,8 @@ exports.productarr=
             pid:57
             ,cid:3
             ,title:'自慰狼友前列腺按摩棒'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:64
+            ,recentvolume:26
             ,org_price:56
             ,price:43.00
             ,state:1
@@ -566,8 +566,8 @@ exports.productarr=
             pid:58
             ,cid:3
             ,title:'震动版太空杯 特价优惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:65
+            ,recentvolume:31
             ,org_price:80
             ,price:42
             ,state:1
@@ -598,8 +598,8 @@ exports.productarr=
             pid:59
             ,cid:3
             ,title:'香港邦爱电动震动处女阴交口娇肛交飞机杯 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:78
+            ,recentvolume:32
             ,org_price:199
             ,price:156
             ,state:1
@@ -640,8 +640,8 @@ exports.productarr=
             pid:60
             ,cid:3
             ,title:'香港雷霆首款可自动伸缩的飞机杯'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:55
+            ,recentvolume:21
             ,org_price:388
             ,price:238.00
             ,state:1

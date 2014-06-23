@@ -7,8 +7,8 @@ exports.productarr=
             pid:101
             ,cid:6
             ,title:'倍力乐销魂掌 全能调情手套 按摩潮吹 女用助情自慰 前戏情趣用品 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:51
+            ,recentvolume:21
             ,org_price:38
             ,price:23.00
             ,state:1
@@ -47,8 +47,8 @@ exports.productarr=
             pid:102
             ,cid:6
             ,title:'后庭塞 肛塞 肛门塞 拉珠 男用女用肛门自慰g点后庭情趣用品'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:62
+            ,recentvolume:24
             ,org_price:20
             ,price:10.00
             ,state:1
@@ -81,8 +81,8 @@ exports.productarr=
             pid:103
             ,cid:6
             ,title:'女用震动挑逗自慰情趣拉珠调情棒肛塞 G点后庭葫芦钻'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:84
+            ,recentvolume:31
             ,org_price:48
             ,price:23.00
             ,state:1
@@ -112,8 +112,8 @@ exports.productarr=
             pid:104
             ,cid:6
             ,title:'成人情趣用品夫妻前戏调情白色透明夜光骰子筛子色子房事性爱助情'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:45
+            ,recentvolume:16
             ,org_price:9
             ,price:3.00
             ,state:1
@@ -145,8 +145,8 @@ exports.productarr=
             pid:105
             ,cid:6
             ,title:'正品 倍力乐威震天震震嘴 男女共用五种用法口交器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:91
+            ,recentvolume:15
             ,org_price:280
             ,price:198
             ,state:1
@@ -186,8 +186,8 @@ exports.productarr=
             pid:106
             ,cid:6
             ,title:'正品SEMO龙凤拉珠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:43
+            ,recentvolume:20
             ,org_price:38
             ,price:22.00
             ,state:1
@@ -215,8 +215,8 @@ exports.productarr=
             pid:107
             ,cid:6
             ,title:'正品蒂贝DIBE电动舌头口交器 变频震动棒跳蛋 女用自慰器具G点刺激棒'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:87
+            ,recentvolume:31
             ,org_price:158
             ,price:117.00
             ,state:1
@@ -244,8 +244,8 @@ exports.productarr=
             pid:108
             ,cid:6
             ,title:'玩爆潮品 硅胶拉珠女用后庭链肝门塞情趣用品成人玩具G点刺激棒 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:94
+            ,recentvolume:16
             ,org_price:48
             ,price:23.00
             ,state:1
@@ -281,8 +281,8 @@ exports.productarr=
             pid:109
             ,cid:6
             ,title:'百乐正品振翅蝴蝶女用口交器吸水高潮不断情趣用品'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:74
+            ,recentvolume:23
             ,org_price:78
             ,price:43.00
             ,state:1
@@ -309,8 +309,8 @@ exports.productarr=
             pid:110
             ,cid:6
             ,title:'百乐电击器 电动乳房胸部按摩贴 阴贴 情趣多功能电磁脉冲器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:20
+            ,recentvolume:12
             ,org_price:100
             ,price:60
             ,state:1
@@ -333,8 +333,8 @@ exports.productarr=
             pid:111
             ,cid:6
             ,title:'百乐电动假舌头舔吸阴蒂口交 情趣成人女用高潮吹刺激自慰性用器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:74
+            ,recentvolume:30
             ,org_price:120
             ,price:82.00
             ,state:1
@@ -366,8 +366,8 @@ exports.productarr=
             pid:112
             ,cid:6
             ,title:'百乐震动乳夹 前戏必备 男用女用自慰器 乳头刺激 电动乳房按摩器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:41
+            ,recentvolume:31
             ,org_price:80
             ,price:54
             ,state:1
@@ -397,8 +397,8 @@ exports.productarr=
             pid:113
             ,cid:6
             ,title:'震动阴道窥视镜女用阴道内窥镜 窥阴器乐透镜 扩阴器情趣另类玩具'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:51
+            ,recentvolume:25
             ,org_price:138
             ,price:66
             ,state:1
@@ -423,8 +423,8 @@ exports.productarr=
             pid:114
             ,cid:6
             ,title:'香港邦爱另类玩具sm情趣双峰震动乳夹女用品乳房头刺激自慰按摩器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:41
+            ,recentvolume:8
             ,org_price:72
             ,price:58.00
             ,state:1

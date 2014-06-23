@@ -7,8 +7,8 @@ exports.productarr=
             pid:451
             ,cid:3
             ,title:'英国YouCups优客仕突破系列男用自慰杯飞机杯'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:45
+            ,recentvolume:14
             ,org_price:428.00
             ,price:168.00
             ,state:1
@@ -33,8 +33,8 @@ exports.productarr=
             pid:452
             ,cid:3
             ,title:'百乐BAILE 成人用品情趣用品 男用自慰器飞机杯系列推荐 旋转情人'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:62
+            ,recentvolume:9
             ,org_price:899
             ,price:499.00
             ,state:1
@@ -58,8 +58,8 @@ exports.productarr=
             pid:453
             ,cid:3
             ,title:'水晶延时手指扣扣套环 简装软胶狼牙刺套 跳蛋增大套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:83
+            ,recentvolume:31
             ,org_price:28.00
             ,price:9.9
             ,state:1
@@ -83,8 +83,8 @@ exports.productarr=
             pid:454
             ,cid:3
             ,title:'小名器真人阴臀倒模'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:61
+            ,recentvolume:24
             ,org_price:428.00
             ,price:168.00
             ,state:1

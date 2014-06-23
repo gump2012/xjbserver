@@ -7,8 +7,8 @@ exports.productarr=
             pid:600
             ,cid:4
             ,title:'阴道哑铃 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:72
+            ,recentvolume:29
             ,org_price:299
             ,price:225.00
             ,state:1
@@ -32,8 +32,8 @@ exports.productarr=
             pid:601
             ,cid:4
             ,title:'诺兰音乐人 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:67
+            ,recentvolume:18
             ,org_price:998
             ,price:478.00
             ,state:1
@@ -57,8 +57,8 @@ exports.productarr=
             pid:602
             ,cid:4
             ,title:'香港诺兰ELYI艾怡 金属迷你av震动按摩棒 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:63
+            ,recentvolume:24
             ,org_price:678
             ,price:331.00
             ,state:1
@@ -90,8 +90,8 @@ exports.productarr=
             pid:603
             ,cid:4
             ,title:'诺兰蓝蝶充电震动按摩棒 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:83
+            ,recentvolume:34
             ,org_price:998
             ,price:358.00
             ,state:1
@@ -122,8 +122,8 @@ exports.productarr=
             pid:604
             ,cid:4
             ,title:'香港诺兰伊杜 纯金属按摩棒 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:81
+            ,recentvolume:23
             ,org_price:998
             ,price:238.00
             ,state:1
@@ -160,8 +160,8 @@ exports.productarr=
             pid:605
             ,cid:4
             ,title:'香港诺兰月牙弯全球首创无线触感按摩棒手指触控智能按摩器 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:91
+            ,recentvolume:13
             ,org_price:998
             ,price:358.00
             ,state:1
@@ -185,8 +185,8 @@ exports.productarr=
             pid:606
             ,cid:4
             ,title:'诺兰AV棒震动按摩棒悦魅女用自慰器具成人用品 樱桃红 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:68
+            ,recentvolume:24
             ,org_price:998
             ,price:598.00
             ,state:1
@@ -210,8 +210,8 @@ exports.productarr=
             pid:607
             ,cid:4
             ,title:'积之美 成人情趣用品 孔雀开屏前后通用多点刺激棒'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:62
+            ,recentvolume:32
             ,org_price:218
             ,price:93.00
             ,state:1
@@ -235,8 +235,8 @@ exports.productarr=
             pid:608
             ,cid:4
             ,title:'成人用品 4U 淫纹G皇 女用自慰器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:48
+            ,recentvolume:16
             ,org_price:298
             ,price:237.00
             ,state:1

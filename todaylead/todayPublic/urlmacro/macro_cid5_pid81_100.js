@@ -7,8 +7,8 @@ exports.productarr=
             pid:81
             ,cid:5
             ,title:'倍力乐 形形色色安全套 挑逗你的情趣'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:45
+            ,recentvolume:21
             ,org_price:32
             ,price:11.00
             ,state:1
@@ -32,8 +32,8 @@ exports.productarr=
             pid:82
             ,cid:5
             ,title:'倍力乐 手指扣扣套 潮吹入门必备'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:77
+            ,recentvolume:34
             ,org_price:25
             ,price:10.00
             ,state:1
@@ -59,8 +59,8 @@ exports.productarr=
             pid:83
             ,cid:5
             ,title:'倍力乐 紧绷10只装 紧绷的感觉就是好 新潮套套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:81
+            ,recentvolume:24
             ,org_price:25
             ,price:10.00
             ,state:1
@@ -84,8 +84,8 @@ exports.productarr=
             pid:84
             ,cid:5
             ,title:'倍力乐三倍持久超薄避孕套 果冻杯式外装9只 新潮套套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:85
+            ,recentvolume:31
             ,org_price:55
             ,price:26.00
             ,state:1
@@ -109,8 +109,8 @@ exports.productarr=
             pid:85
             ,cid:5
             ,title:'倍力乐口娇多用途套10只装 娇艳美唇 全根含入 你试过吗'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:120
+            ,recentvolume:61
             ,org_price:25
             ,price:10.00
             ,state:1
@@ -134,8 +134,8 @@ exports.productarr=
             pid:86
             ,cid:5
             ,title:'倍力乐女用套超值装 内含2只女用套+4只避孕套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:84
+            ,recentvolume:25
             ,org_price:36
             ,price:12.00
             ,state:1
@@ -159,8 +159,8 @@ exports.productarr=
             pid:87
             ,cid:5
             ,title:'倍力乐新品MINI特小号避孕套 紧绷超薄'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:84
+            ,recentvolume:16
             ,org_price:25
             ,price:11.00
             ,state:1
@@ -191,8 +191,8 @@ exports.productarr=
             pid:88
             ,cid:5
             ,title:'倍力乐极薄10只装 超薄体验 感动非凡'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:38
+            ,recentvolume:6
             ,org_price:36
             ,price:11.00
             ,state:1
@@ -216,8 +216,8 @@ exports.productarr=
             pid:89
             ,cid:5
             ,title:'倍力乐超值豪华套餐 4款4盒40只爆销套装28元'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:57
+            ,recentvolume:31
             ,org_price:96
             ,price:33.00
             ,state:1
@@ -244,8 +244,8 @@ exports.productarr=
             pid:90
             ,cid:5
             ,title:'倍力乐超值豪华套餐 6款6盒60只热销套装 40元'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:94
+            ,recentvolume:35
             ,org_price:126
             ,price:48
             ,state:1
@@ -271,8 +271,8 @@ exports.productarr=
             pid:91
             ,cid:5
             ,title:'倍力乐震动安全套 2只装+震动环'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:83
+            ,recentvolume:15
             ,org_price:25
             ,price:10.00
             ,state:1
@@ -297,7 +297,7 @@ exports.productarr=
             ,cid:5
             ,title:'冈本正品芦荟超薄10只装 全球第一薄'
             ,volume:0
-            ,recentvolume:0
+            ,recentvolume:24
             ,org_price:128
             ,price:86.00
             ,state:0
@@ -321,8 +321,8 @@ exports.productarr=
             pid:93
             ,cid:5
             ,title:'冈本高端超薄冰爽套 畅享冰点刺激'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:81
+            ,recentvolume:16
             ,org_price:89
             ,price:46.00
             ,state:1
@@ -346,8 +346,8 @@ exports.productarr=
             pid:94
             ,cid:5
             ,title:'巅峰一号 360长期战系列 你值得拥有'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:83
+            ,recentvolume:24
             ,org_price:38
             ,price:14.00
             ,state:1
@@ -371,8 +371,8 @@ exports.productarr=
             pid:95
             ,cid:5
             ,title:'新潮套套 倍力乐毛毛虫震动刺激套 震动器毛毛虫'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:91
+            ,recentvolume:26
             ,org_price:30
             ,price:11.00
             ,state:1
@@ -396,8 +396,8 @@ exports.productarr=
             pid:96
             ,cid:5
             ,title:'杜蕾斯大胆爱10片装 给您无限激情 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:83
+            ,recentvolume:36
             ,org_price:39
             ,price:22.00
             ,state:1
@@ -422,8 +422,8 @@ exports.productarr=
             pid:97
             ,cid:5
             ,title:'杜蕾斯活力装 12只安全套 活力四射'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:81
+            ,recentvolume:25
             ,org_price:65
             ,price:39.00
             ,state:1
@@ -447,8 +447,8 @@ exports.productarr=
             pid:98
             ,cid:5
             ,title:'欧米加 夜店果冻装避孕套随机单片 超薄大油量清香怡人'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:75
+            ,recentvolume:16
             ,org_price:76
             ,price:78
             ,state:0
@@ -472,8 +472,8 @@ exports.productarr=
             pid:99
             ,cid:5
             ,title:'正品冈本授权OK系列 10只装'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:74
+            ,recentvolume:16
             ,org_price:45
             ,price:21.00
             ,state:1
@@ -497,8 +497,8 @@ exports.productarr=
             pid:100
             ,cid:5
             ,title:'第六感快乐家族 螺纹 冰火 颗粒 超薄 芦荟 低价疯狂来袭'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:85
+            ,recentvolume:34
             ,org_price:38
             ,price:14.00
             ,state:0

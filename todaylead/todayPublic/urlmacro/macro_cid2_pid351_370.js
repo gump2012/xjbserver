@@ -7,8 +7,8 @@ exports.productarr=
             pid:351
             ,cid:2
             ,title:'延时喷剂SK战马白金版 男士用持久防早泄 情趣性爱成人用品 头牌推荐'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:72
+            ,recentvolume:37
             ,org_price:80
             ,price:30
             ,state:1
@@ -32,8 +32,8 @@ exports.productarr=
             pid:352
             ,cid:2
             ,title:'日本2H2D延时喷剂 男性防早泄持久非伟哥万艾可进口原液'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:62
+            ,recentvolume:25
             ,org_price:360
             ,price:162
             ,state:1
@@ -57,8 +57,8 @@ exports.productarr=
             pid:353
             ,cid:2
             ,title:'人初油 男性外用延时喷剂 持久神油 防早泄延长时间 15ml 成人用品人体润滑'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:80
+            ,recentvolume:37
             ,org_price:78
             ,price:28.00
             ,state:1
@@ -82,8 +82,8 @@ exports.productarr=
             pid:354
             ,cid:2
             ,title:'美国KEY O女性快感增强液'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:51
+            ,recentvolume:22
             ,org_price:182
             ,price:129.00
             ,state:1
@@ -107,8 +107,8 @@ exports.productarr=
             pid:355
             ,cid:2
             ,title:'雅润男用成人情趣性用品润滑剂润滑液润滑油 肛交'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:66
+            ,recentvolume:21
             ,org_price:20
             ,price:2.00
             ,state:1
@@ -132,8 +132,8 @@ exports.productarr=
             pid:356
             ,cid:2
             ,title:'男露888男用中药延时喷剂非进口印度神油伟哥'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:78
+            ,recentvolume:31
             ,org_price:169
             ,price:55.00
             ,state:1
@@ -157,8 +157,8 @@ exports.productarr=
             pid:357
             ,cid:2
             ,title:'本草堂喷剂外用持久防早泄不麻木保健用品滑 本草堂喷剂15ML'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:65
+            ,recentvolume:23
             ,org_price:100
             ,price:16.00
             ,state:1
@@ -182,8 +182,8 @@ exports.productarr=
             pid:358
             ,cid:2
             ,title:'倍力乐 人体润滑剂 房事润滑剂 性爱润滑剂 成人情趣用品'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:72
+            ,recentvolume:27
             ,org_price:56
             ,price:10.00
             ,state:1

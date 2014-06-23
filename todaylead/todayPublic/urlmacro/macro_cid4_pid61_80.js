@@ -7,8 +7,8 @@ exports.productarr=
             pid:61
             ,cid:4
             ,title:'38频无线跳蛋 居家女人的性福选择'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:74
+            ,recentvolume:16
             ,org_price:68
             ,price:26.00
             ,state:0
@@ -41,8 +41,8 @@ exports.productarr=
             pid:62
             ,cid:4
             ,title:'360度全方位震动按摩乳房按摩神器'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:31
+            ,recentvolume:12
             ,org_price:60
             ,price:28.00
             ,state:1
@@ -66,8 +66,8 @@ exports.productarr=
             pid:63
             ,cid:4
             ,title:'360度旋转按摩头充电磨砂AV棒 送女用按摩头套'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:51
+            ,recentvolume:30
             ,org_price:320
             ,price:79.00
             ,state:1
@@ -95,8 +95,8 @@ exports.productarr=
             pid:64
             ,cid:4
             ,title:'便携口袋迷你手机链AV棒 性福无处不在'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:54
+            ,recentvolume:25
             ,org_price:20
             ,price:12
             ,state:1
@@ -124,8 +124,8 @@ exports.productarr=
             pid:65
             ,cid:4
             ,title:'喵星人36变频15震动模式强力马达防水静音有线跳蛋'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:31
+            ,recentvolume:6
             ,org_price:68
             ,price:42
             ,state:1
@@ -169,8 +169,8 @@ exports.productarr=
             pid:66
             ,cid:4
             ,title:'夏奇新品 天使礼物 震动C字裤 7频震动快感无处不在'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:25
+            ,recentvolume:8
             ,org_price:160
             ,price:81.00
             ,state:1
@@ -203,8 +203,8 @@ exports.productarr=
             pid:67
             ,cid:4
             ,title:'夏奇正品 战神海浪震动棒 征服你的情欲快感'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:37
+            ,recentvolume:16
             ,org_price:100
             ,price:59.00
             ,state:1
@@ -231,8 +231,8 @@ exports.productarr=
             pid:68
             ,cid:4
             ,title:'奇宝正品 龙猫遥控变频静音防水震动跳蛋'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:16
+            ,recentvolume:4
             ,org_price:35
             ,price:27.00
             ,state:1
@@ -264,8 +264,8 @@ exports.productarr=
             pid:69
             ,cid:4
             ,title:'性福魔盒18频磨砂防水无线遥控跳蛋'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:38
+            ,recentvolume:32
             ,org_price:68
             ,price:24
             ,state:1
@@ -294,8 +294,8 @@ exports.productarr=
             pid:70
             ,cid:4
             ,title:'潮吹之王 仙女棒 醉生梦死的感觉 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:78
+            ,recentvolume:17
             ,org_price:159
             ,price:63.00
             ,state:1
@@ -323,8 +323,8 @@ exports.productarr=
             pid:71
             ,cid:4
             ,title:'激情劈叉裤穿戴空心阳具 亲密伙伴 女性首选'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:25
+            ,recentvolume:6
             ,org_price:79
             ,price:42
             ,state:1
@@ -358,8 +358,8 @@ exports.productarr=
             pid:72
             ,cid:4
             ,title:'百乐正品电动丰乳器 做坚挺女人，势在必行'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:88
+            ,recentvolume:26
             ,org_price:180
             ,price:108
             ,state:1
@@ -394,8 +394,8 @@ exports.productarr=
             pid:73
             ,cid:4
             ,title:'百乐派蒂拉 G点阴蒂双震30频振动棒 头牌推荐 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:61
+            ,recentvolume:23
             ,org_price:160
             ,price:81.00
             ,state:1
@@ -438,8 +438,8 @@ exports.productarr=
             pid:74
             ,cid:4
             ,title:'百乐真品招蜂引蝶伸缩转珠棒 体验被塞满的感觉'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:64
+            ,recentvolume:15
             ,org_price:199
             ,price:82.00
             ,state:1
@@ -472,8 +472,8 @@ exports.productarr=
             pid:75
             ,cid:4
             ,title:'蒂贝正品 惊蛇之草轻触防水20频震动棒 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:42
+            ,recentvolume:13
             ,org_price:320
             ,price:192
             ,state:1
@@ -499,8 +499,8 @@ exports.productarr=
             pid:76
             ,cid:4
             ,title:'蒂贝正品双马达震动LED夜灯按键隐形穿戴蝴蝶 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:94
+            ,recentvolume:35
             ,org_price:210
             ,price:102
             ,state:1
@@ -530,8 +530,8 @@ exports.productarr=
             pid:77
             ,cid:4
             ,title:'邦爱正品7频美国大兵仿真阳具 特惠'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:87
+            ,recentvolume:45
             ,org_price:356
             ,price:103.00
             ,state:1
@@ -566,8 +566,8 @@ exports.productarr=
             pid:78
             ,cid:4
             ,title:'小老二软蛋'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:21
+            ,recentvolume:6
             ,org_price:55
             ,price:42
             ,state:1
@@ -599,8 +599,8 @@ exports.productarr=
             pid:79
             ,cid:4
             ,title:'蒂贝玉兔旋风女用自慰G点转珠震动按摩棒'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:47
+            ,recentvolume:32
             ,org_price:196
             ,price:110.00
             ,state:1
@@ -627,8 +627,8 @@ exports.productarr=
             pid:80
             ,cid:4
             ,title:'雷霆真品 转珠棒 雷霆之势 高潮已至'
-            ,volume:0
-            ,recentvolume:0
+            ,volume:54
+            ,recentvolume:12
             ,org_price:128
             ,price:81.00
             ,state:1
