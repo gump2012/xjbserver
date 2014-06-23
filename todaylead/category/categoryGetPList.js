@@ -49,7 +49,7 @@ function getCategoryProducts(response,request){
                                 origin_price   :doc[i].org_price,
                                 price       :doc[i].price,
                                 volume      :doc[i].volume,
-                                recentvolume:doc[i].recentvolume
+                                recent_volume:doc[i].recentvolume
                             }
 
                             responsevalue.info.data.push(item);
@@ -65,7 +65,7 @@ function getCategoryProducts(response,request){
                                 origin_price   :doc[i].org_price,
                                 price       :doc[i].price,
                                 volume      :doc[i].volume,
-                                recentvolume:doc[i].recentvolume
+                                recent_volume:doc[i].recentvolume
                             }
 
                             responsevalue.info.data.push(item);
