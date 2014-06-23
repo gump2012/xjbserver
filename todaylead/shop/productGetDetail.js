@@ -16,7 +16,7 @@ function getDetail(response,request){
                 ,category_id            :0
                 ,name                   :''
                 ,volume                 :0
-                ,recentvolume           :0
+                ,recent_volume           :0
                 ,origin_price           :0.00
                 ,price                  :0.00
                 ,status                 :1
@@ -44,7 +44,7 @@ function findBasic(pid,responsevalue,response){
             responsevalue.info.data.origin_price = doc.org_price;
             responsevalue.info.data.price = doc.price;
             responsevalue.info.data.volume = doc.volume;
-            responsevalue.info.data.recentvolume = doc.recentvolume;
+            responsevalue.info.data.recent_volume = doc.recentvolume;
             responsevalue.info.data.picture = doc.pic_url;
 
             for(var i = 0; i < doc.gallery.length - 1; ++i)
