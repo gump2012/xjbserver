@@ -108,7 +108,7 @@ exports.productarr=
             ,price:36
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3AT3Iy/G7k7O.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/DNsaaV1x/corft.jpg'
             ,time:0
             ,gallery:
             [
