@@ -23,14 +23,14 @@ function getIntroHtml(response,request){
             'else if(image.clientWidth<document.body.clientWidth/2)' +
             '{image.style[\'width\'] = document.body.clientWidth/2 + \'px\';' +
             'image.style[\'height\'] =document.body.clientWidth/(2*oldwidth)*oldheight + \'px\';}}</script>' +
-            '<div style="text-align:center;">\\r\\n\\t';
+            '<div style="text-align:center;">\r\n\t';
 
             for(var i = 0; i < doc.detailpics.length - 1;++i){
-                var strimgae = '<img src=\"' + doc.detailpics[i] + '\" onload=\"resize(this);\" />';
+                var strimgae = '<img src="' + doc.detailpics[i] + '" onload="resize(this);" />';
                 strhtml += strimgae;
             }
 
-            strhtml +=' \\r\\n</div>';
+            strhtml +=' \r\n</div>';
             var responsevalue = {
                 info: {
                     extra: null,
