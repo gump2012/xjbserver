@@ -24,7 +24,6 @@ function getDetail(response,request){
                 ,gallery                :[]
                 ,attr_list              :[]
                 ,picture                :''
-                ,express_link           :''
             }
         },
         response_status:'',
@@ -53,7 +52,7 @@ function findBasic(pid,responsevalue,response){
                 responsevalue.info.data.gallery.push(doc.gallery[i]);
             }
 
-            findAttr(pid,responsevalue,response,doc);
+            findAttr(pid,responsevalue,response);
         }
         else
         {
@@ -62,7 +61,7 @@ function findBasic(pid,responsevalue,response){
     });
 }
 
-function findAttr(pid,responsevalue,response,productdoc){
+function findAttr(pid,responsevalue,response){
     var attrmodel = mongoose.model('todayProductAttr');
 
     attrmodel.find({pid:pid},function(err,doc){
@@ -78,10 +77,6 @@ function findAttr(pid,responsevalue,response,productdoc){
 
            responsevalue.info.data.attr_list.push(item);
        }
-
-        if(productdoc.express_name && productdoc.express_number){
-            responsevalue.express_link = 'http://m.kuaidi100.com/index_all.html?type='+productdoc.express_name+'&postid='+productdoc.express_number;
-        }
 
         publictool.returnValue(response,responsevalue);
     });

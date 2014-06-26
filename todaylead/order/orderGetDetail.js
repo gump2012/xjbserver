@@ -77,12 +77,18 @@ function processOrderData(response,request,doc){
                 ,price:new Number(doc.shipping_fee) + new Number(doc.promotion_totalprice)
                 ,product_price_reduce:0.00
                 ,transport_price_reduce:0.00
+                ,express_link:''
             }
         }
         ,response_status:'true'
         ,msg:''
     }
-    console.log(doc.promotion_totalprice);
+
+    if(doc.express_name && doc.express_number){
+        var strurl = 'http://m.kuaidi100.com/index_all.html?type='+doc.express_name+'&postid='+doc.express_number;
+        responseValue.info.data.express_link = strurl;
+    }
+
     if(doc.productlist){
         getGoodsList(response,request,responseValue,doc.productlist,0);
     }

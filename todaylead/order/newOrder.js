@@ -46,6 +46,7 @@ function newOrder(response,request){
                         ,payment_name:''
                         ,express_number:''
                         ,express_name:''
+                        ,express_link:''
                         ,productlist:[]
                     }
 
