@@ -24,7 +24,7 @@ function getDetail(response,request){
                 ,gallery                :[]
                 ,attr_list              :[]
                 ,picture                :''
-                ,express_url            :''
+                ,express_link           :''
             }
         },
         response_status:'',
@@ -80,7 +80,7 @@ function findAttr(pid,responsevalue,response,productdoc){
        }
 
         if(productdoc.express_name && productdoc.express_number){
-            responsevalue.express_url = 'http://m.kuaidi100.com/index_all.html?type='+productdoc.express_name+'&postid='+productdoc.express_number;
+            responsevalue.express_link = 'http://m.kuaidi100.com/index_all.html?type='+productdoc.express_name+'&postid='+productdoc.express_number;
         }
 
         publictool.returnValue(response,responsevalue);
