@@ -104,5 +104,62 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:455
+            ,cid:3
+            ,title:'一体式充气娃娃你心中最美的女神'
+            ,volume:40
+            ,recentvolume:12
+            ,org_price:580.00
+            ,price:230.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DRKOkNzK/de45M.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DRKOkOWd/umu31.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOlupU/wEwTI.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKObZql/OZSko.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DRKOccAW/KdXZu.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOn51C/hXbCx.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOmpWA/K9Ewe.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOnQ5G/h1zRg.jpg'
+                ,null
+            ]
+        },
+
+        {
+            pid:456
+            ,cid:3
+            ,title:'高级半实体充气娃娃女神就在你怀中'
+            ,volume:16
+            ,recentvolume:14
+            ,org_price:380.00
+            ,price:110.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DRKOX4MW/33aze.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DRKOX1KH/QZTsn.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOYanb/ns2B5.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DRKONCXL/10b94n.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKONO9j/ls0S6.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOY0pB/upIJL.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRKOO8Zd/MBcwh.jpg'
+                ,null
+            ]
+        },
+
         null
     ]
