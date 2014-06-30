@@ -24,7 +24,11 @@ exports.productarr=
             ]
             ,detailpics:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DRU9FOuo/15aMy0.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU9Geaw/E2vEG.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU9w4zY/ZWwnp.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU9Igav/6CZUi.jpg'
+                ,null
             ]
         },
 
@@ -49,7 +53,13 @@ exports.productarr=
             ]
             ,detailpics:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DRU8W3zI/ek38h.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU8XFx6/10YukC.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU8YTm7/11KWrl.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU8YelQ/132Jlu.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU907DL/7997J.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU90wdV/v5TCC.jpg'
+                ,null
             ]
         },
 
@@ -74,7 +84,13 @@ exports.productarr=
             ]
             ,detailpics:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DRU84YJO/8r7n6.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU86YIf/11i4wz.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU87Y7g/MX9O7.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU89WtF/X0O32.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU8aVJz/prAsx.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU8cNzK/oL0N0.jpg'
+                ,null
             ]
         },
 
@@ -99,7 +115,14 @@ exports.productarr=
             ]
             ,detailpics:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DRU7wMAv/HbXqd.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU7n0Tb/MH46l.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU7ytRx/O20lI.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU7Ad3n/Po7UQ.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU7BdGY/F5cHG.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU7qpNp/f0WXD.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU7CDZb/16JOj.jpg'
+                ,null
             ]
         },
 
@@ -124,7 +147,11 @@ exports.productarr=
             ]
             ,detailpics:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DRU71SoT/12l7oL.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU6SbVg/RY0MC.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU74BpD/VlL80.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU75sNP/rv9a3.jpg'
+                ,null
             ]
         },
 
@@ -149,7 +176,13 @@ exports.productarr=
             ]
             ,detailpics:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DRU6g73C/3ODm.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU6gx1d/LUCAN.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU6iwpT/tKxHh.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU6iSQz/I37Xz.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU6iT4X/OCVOx.jpg'
+                ,'http://pic.yupoo.com/yige2002/DRU68R6K/2ocEf.jpg'
+                ,null
             ]
         },
 
