@@ -503,7 +503,7 @@ exports.productarr=
             ,recentvolume:35
             ,org_price:210
             ,price:102
-            ,state:1
+            ,state:0
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3KNKvD/hiLqM.jpg'
             ,time:0

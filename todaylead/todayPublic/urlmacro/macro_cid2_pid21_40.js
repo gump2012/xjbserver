@@ -219,7 +219,7 @@ exports.productarr=
             ,price:14.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3AThGw/vEmRa.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/DNs0gFE9/HqNPl.jpg'
             ,time:0
             ,gallery:
             [
