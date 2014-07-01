@@ -15,6 +15,7 @@ var loginHandles = require("./todaylead/login/loginHandles");
 var accountHandles = require("./todaylead/account/accountHandles");
 var alipayHandles = require("./todaylead/alipay/alipayHandles");
 var productHandles = require('./todaylead/product/productHandles');
+var commonHandles = require('./todaylead/common/commonHandles');
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -31,6 +32,7 @@ handle["login"] = loginHandles.login;
 handle["user"] = accountHandles.account;
 handle["/alipay"] = alipayHandles.alipay;
 handle['product'] = productHandles.product;
+handle['common'] = commonHandles.common;
 
 db.start();
 server.start(router.route,handle);

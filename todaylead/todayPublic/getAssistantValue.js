@@ -91,6 +91,12 @@ function MD5(str, encoding) {
     return crypto.createHash('md5').update(str).digest(encoding || 'hex');
 }
 
+exports.getVersion = function(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).vn;
+    return assistant;
+}
+
 exports.getMainValue = getMainValue;
 exports.getAssistantValue = getAssistantValue;
 exports.returnErr = returnErr;
