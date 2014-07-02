@@ -27,6 +27,7 @@ function createdb(mongoose){
         ,payment_name           :String
         ,express_number         :String
         ,express_name           :String
+        ,channel                :String //渠道
         ,productlist            :[mongoose.Schema.Types.Mixed]
     });
 

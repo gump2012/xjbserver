@@ -97,6 +97,12 @@ exports.getVersion = function(request){
     return assistant;
 }
 
+exports.getChannel = function(request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).channel;
+    return assistant;
+}
+
 exports.getMainValue = getMainValue;
 exports.getAssistantValue = getAssistantValue;
 exports.returnErr = returnErr;

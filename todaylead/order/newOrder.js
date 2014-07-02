@@ -23,6 +23,7 @@ function newOrder(response,request){
             if(datajson){
                 var regist_id = publictool.getRegistID(request);
                 var device_id = publictool.getDeviceID(request);
+                var strchannel = publictool.getChannel(request);
                 if(device_id){
                     var item = {
                         city:datajson.city_code
@@ -47,6 +48,7 @@ function newOrder(response,request){
                         ,express_number:''
                         ,express_name:''
                         ,express_link:''
+                        ,channel:strchannel
                         ,productlist:[]
                     }
 
