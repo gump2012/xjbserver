@@ -14,7 +14,7 @@ var accountdb = require("./today/account/accountdb");
 var publictool = require("../todaylead/todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
 function start(){
-    var strurl = 'mongodb://' + publictool.localip + ':27017/todaylead';
+    var strurl = 'mongodb://' + publictool.testip + ':27017/todaylead';
     var mongodb = mongoose.connect(strurl);
 
     var db = mongodb.connection;

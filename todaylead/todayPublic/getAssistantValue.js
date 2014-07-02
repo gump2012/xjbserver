@@ -110,6 +110,6 @@ exports.getPage = getPage;
 exports.getpid = getpid;
 
 exports.releaseip = '115.28.225.137';
-exports.testip = '182.92.80.203';
+exports.testip = '114.215.129.162';
 exports.localip = '127.0.0.1';
 
