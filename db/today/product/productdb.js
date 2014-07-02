@@ -30,6 +30,8 @@ function creatdb(mongoose){
         ,stamper            :String
         ,pic_url            :String
         ,time               :Number
+        ,actualvolume       :Number    //实际销量
+        ,arrivaltime        :String    //上架时间
         ,gallery            :[String]
         ,detailpics         :[String]
     });
