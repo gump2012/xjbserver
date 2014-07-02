@@ -14,6 +14,7 @@ function getCategoryProducts(response,request){
     var cid = querystring.parse(arg).category_id;
     var limit = publictool.getLimit(request);
     var page = publictool.getPage(request);
+    var sortkey = querystring.parse(arg).sort_key;
 
     if(limit && page){
         categorymodle.find({cid:cid},{},{sort: {pid:'desc'}},function(err,doc){
