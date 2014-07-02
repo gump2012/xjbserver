@@ -35,7 +35,6 @@ exports.todayabout = function(response,request){
             'ul{margin-top:5%;margin-left:8%;color:#7A7A7A;}'+
             'li{font-size:1.5em;list-style:none;line-height:1.5em;}'+
             'li span{display:inline-table;vertical-align:top;}'+
-            'li span.qq{width:50%;}'+
             '.footer{margin-top:10%;line-height:1.5em;font-size:1.25em;color:#747474;text-align:center;width:100%;}'+
             '</style>'+
         '</head>'+
@@ -47,9 +46,7 @@ exports.todayabout = function(response,request){
         '<div class="content">'+
         '<div class="title"><span>商务合作方式</span></div>'+
         '<ul>'+
-        '<li><span>QQ：</span><span>2433053069</span></li>'+
-        '<li><span>QQ交流群：</span><span class="qq">243748722<br/>296811558<br/></span></li>'+
-        '<li><span>Email：</span><span>BD@ushengsheng.com</span></li>'+
+        '<li><span>QQ：</span><span>304261359</span></li>'+
         '</ul>'+
         '</div>'+
     '<div class="footer">'+
