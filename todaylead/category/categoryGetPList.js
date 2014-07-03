@@ -17,7 +17,18 @@ function getCategoryProducts(response,request){
     var sortkey = querystring.parse(arg).sort_key;
 
     if(limit && page){
-        categorymodle.find({cid:cid},{},{sort: {pid:'desc'}},function(err,doc){
+        var sortitem = {sort: {pid:'desc'}};
+        if(sortkey){
+            if(sortkey == "volume_desc"){
+                sortitem = {sort: {recentvolume:'desc'}};
+            }else if(sortkey == "price_desc"){
+                sortitem = {sort: {price:'desc'}};
+            }else if(sortkey == "price_asc"){
+                sortitem = {sort: {price:'asc'}};
+            }
+        }
+
+        categorymodle.find({cid:cid},{},sortitem,function(err,doc){
 
             var responsevalue = {
                 info:{
