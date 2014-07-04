@@ -122,8 +122,8 @@ exports.productarr=
             ,title:'小名器真人阴臀倒模'
             ,volume:61
             ,recentvolume:24
-            ,org_price:428.00
-            ,price:168.00
+            ,org_price:36.00
+            ,price:9.90
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DQnU2teU/11UcTK.jpg'
