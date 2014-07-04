@@ -39,6 +39,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUlXrq5/6Wfxe.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -73,6 +77,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUmOxyQ/TnfK5.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -101,6 +109,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUsejVw/IjGuT.jpg'
                 ,'http://pic.yupoo.com/yige2002/DRUsej69/111r0h.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -133,6 +145,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUsReov/KAPbo.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -162,6 +178,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRKOnQ5G/h1zRg.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -189,6 +209,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRKOY0pB/upIJL.jpg'
                 ,'http://pic.yupoo.com/yige2002/DRKOO8Zd/MBcwh.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 

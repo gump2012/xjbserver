@@ -28,6 +28,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DKJgCzhw/Gaofr.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -56,6 +60,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DKPYvHHO/5lYZc.jpg'
                 ,'http://pic.yupoo.com/yige2002/DKPYuE66/skpK9.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -89,6 +97,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DKSyicXW/JFX6J.jpg'
                 ,'http://pic.yupoo.com/yige2002/DKSyibtA/svtpe.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 

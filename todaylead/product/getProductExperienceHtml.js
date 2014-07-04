@@ -24,11 +24,13 @@ exports.getExperienceHtml = function (response,request){
                 '{image.style[\'width\'] = document.body.clientWidth/2 + \'px\';' +
                 'image.style[\'height\'] =document.body.clientWidth/(2*oldwidth)*oldheight + \'px\';}}</script>' +
                 '<div style="text-align:center;">\r\n\t';
-
-            for(var i = 0; i < doc.detailpics.length - 1;++i){
-                var strimgae = '<img src="' + doc.detailpics[i] + '" onload="resize(this);" />';
-                strhtml += strimgae;
+            if(doc.experience){
+                for(var i = 0; i < doc.experience.length - 1;++i){
+                    var strimgae = '<img src="' + doc.experience[i] + '" onload="resize(this);" />';
+                    strhtml += strimgae;
+                }
             }
+
             strhtml += '<img src="http://pic.yupoo.com/yige2002/DRIiuVsf/RIL74.png" onload="resize(this);" />';
             strhtml += '<img src="http://pic.yupoo.com/yige2002/DRIivDlA/Uri17.png" onload="resize(this);" />';
             strhtml += '<img src="http://pic.yupoo.com/yige2002/DRIivOEa/VJPAj.png" onload="resize(this);" />';

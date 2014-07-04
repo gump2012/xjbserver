@@ -27,6 +27,10 @@ exports.productarr=
                 'http://pic.yupoo.com/yige2002/DRUgSJBa/VBdq3.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -54,6 +58,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUhla1h/8xgZS.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -79,6 +87,10 @@ exports.productarr=
             [
                 'http://pic.yupoo.com/yige2002/DRUhJaI4/3XSaX.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -112,6 +124,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUiJi24/JYEMB.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -139,6 +155,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUja27k/13DI7O.jpg'
                 ,'http://pic.yupoo.com/yige2002/DRUjd0cy/UXjZs.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -175,6 +195,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUjE8MJ/V4X4G.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -207,6 +231,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUknuEu/fyjRp.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -234,6 +262,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUkEeVp/hbDha.jpg'
                 ,'http://pic.yupoo.com/yige2002/DRUkRU65/DcUe.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 

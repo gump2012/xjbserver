@@ -34,6 +34,7 @@ function creatdb(mongoose){
         ,arrivaltime        :String    //上架时间
         ,gallery            :[String]
         ,detailpics         :[String]
+        ,experience         :[String]  //体验图片数组
     });
 
     mongoose.model('todayProduct',proSchema);

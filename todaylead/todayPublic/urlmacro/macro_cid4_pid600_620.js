@@ -47,6 +47,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUtYCS4/AVbOh.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -81,6 +85,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUuSUJT/pHLH3.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -114,6 +122,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DOkyWyOW/15bqWZ.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -145,6 +157,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DOkGrLBM/Xhlkq.jpg'
                 ,'http://pic.yupoo.com/yige2002/DOkGOT7s/aqDxv.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -183,6 +199,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DOkHRTgg/JyOFU.jpg'
                 ,'http://pic.yupoo.com/yige2002/DOkHPWi6/325zn.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -223,6 +243,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUvrBiI/T98eT.jpg'
                 ,'http://pic.yupoo.com/yige2002/DRUvb9o9/QkTd2.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
@@ -265,6 +289,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUvYUw4/iXSv1.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -297,6 +325,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUwBjaO/aQ37Y.jpg'
                 ,null
             ]
+            ,experience:
+            [
+                null
+            ]
         },
 
         {
@@ -326,6 +358,10 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/DRUx52vT/9lPJf.jpg'
                 ,'http://pic.yupoo.com/yige2002/DRUx5Qq8/SbFPK.jpg'
                 ,null
+            ]
+            ,experience:
+            [
+                null
             ]
         },
 
