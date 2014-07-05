@@ -437,7 +437,10 @@ exports.productarr=
             ]
             ,experience:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DSGhj1o9/avSEn.png'
+                ,'http://pic.yupoo.com/yige2002/DSGh67Yw/l47ZM.png'
+                ,'http://pic.yupoo.com/yige2002/DSGhlKSQ/la45W.png'
+                ,null
             ]
         },
 
