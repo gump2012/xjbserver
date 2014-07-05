@@ -31,10 +31,6 @@ exports.getExperienceHtml = function (response,request){
                 }
             }
 
-            strhtml += '<img src="http://pic.yupoo.com/yige2002/DRIiuVsf/RIL74.png" onload="resize(this);" />';
-            strhtml += '<img src="http://pic.yupoo.com/yige2002/DRIivDlA/Uri17.png" onload="resize(this);" />';
-            strhtml += '<img src="http://pic.yupoo.com/yige2002/DRIivOEa/VJPAj.png" onload="resize(this);" />';
-
             strhtml +=' \r\n</div>';
             var responsevalue = {
                 info: {
