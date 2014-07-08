@@ -14,7 +14,7 @@ exports.getPromotionList = function(response,request){
 				},
 				{
 					"picture": "http://xingjiabi.b0.upaiyun.com/ico/promotion.png",
-					"name": "银行汇款满168包邮 支付宝满100包邮 货到付款满168包邮"
+					"name": "支付宝满100包邮 货到付款满168包邮"
 				}
 			]
         },
