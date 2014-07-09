@@ -12,7 +12,7 @@ var commenthandle = require("../todaylead/todayPublic/comment/commentcontent");
 //var ddd = new Date(2014,5,30,9,20);
 //console.log('时间变时间戳',ddd,ddd.getTime(),ddd.getMonth());
 
-var arr = commenthandle.commentHandles["109"];
+var arr = commenthandle.commentHandles["41"];
 for(i in arr){
     var timestr = arr[i].create_time;
 
