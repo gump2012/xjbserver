@@ -30,7 +30,10 @@ exports.productarr=
             ]
             ,experience:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
+                ,null
             ]
         },
 
@@ -63,7 +66,10 @@ exports.productarr=
             ]
             ,experience:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
+                ,null
             ]
         },
 
@@ -100,7 +106,10 @@ exports.productarr=
             ]
             ,experience:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
+                ,null
             ]
         },
 
