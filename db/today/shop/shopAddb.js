@@ -22,23 +22,6 @@ function createdb(mongoose){
     todayAd.remove({}, function(err) {
     });
 
-    var newAd = new todayAd({
-        adid:1
-        ,img_url:macroproduct.AD_1
-        ,type:1
-        ,linkto:''
-        ,param:{
-            app_ad_in_subtype:1
-            ,keyword:'特惠'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
     newAd = new todayAd({
         adid:2
         ,img_url:macroproduct.AD_2
