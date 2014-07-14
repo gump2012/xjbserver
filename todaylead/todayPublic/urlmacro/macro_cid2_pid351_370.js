@@ -11,7 +11,7 @@ exports.productarr=
             ,recentvolume:37
             ,org_price:80
             ,price:30
-            ,state:1
+            ,state:0
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DOkNACYy/rpEgT.jpg'
             ,time:0

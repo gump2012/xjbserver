@@ -602,7 +602,7 @@ exports.productarr=
             ,recentvolume:16
             ,org_price:45
             ,price:21.00
-            ,state:1
+            ,state:0
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3STbwE/iDVqu.jpg'
             ,time:0

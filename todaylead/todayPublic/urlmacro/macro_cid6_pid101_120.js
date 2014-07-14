@@ -137,7 +137,7 @@ exports.productarr=
             ,recentvolume:16
             ,org_price:9
             ,price:3.00
-            ,state:1
+            ,state:0
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3VO9PY/XV8fE.jpg'
             ,time:0
