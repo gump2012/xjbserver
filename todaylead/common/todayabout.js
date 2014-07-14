@@ -26,7 +26,7 @@ exports.todayabout = function(response,request){
             '<title>关于我们</title>'+
             '<style>'+
             '*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}'+
-            'body{font-family:微软雅黑;font-size:12px;background:#F0F0F0;}'+
+            'body{font-size:12px;background:#F0F0F0;}'+
             '.logo{text-align:center;padding-left:20%;padding-top:5%;background:#FFFFFF;padding-bottom:10%;position:relative;}'+
             '.ver{position:absolute;left:66%;font-size:1em;color:#FFF;}'+
             '.content{border-top:1px solid #CBCBCB;background:#FFFFFF;padding-bottom:2%;}'+
