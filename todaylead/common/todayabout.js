@@ -47,6 +47,7 @@ exports.todayabout = function(response,request){
         '<div class="title"><span>商务合作方式</span></div>'+
         '<ul>'+
         '<li><span>QQ：</span><span>304261359</span></li>'+
+        '<li><span>Email：</span><span>toupai@3pshow.com</span></li>'+
         '</ul>'+
         '</div>'+
     '<div class="footer">'+
