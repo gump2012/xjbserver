@@ -11,7 +11,7 @@ exports.productarr=
             ,recentvolume:16
             ,org_price:68
             ,price:26.00
-            ,state:0
+            ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DNrubbmF/mLt3k.jpg'
             ,time:0
