@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Created by lishiming on 14-7-1.
  */
 
@@ -23,10 +23,10 @@ exports.todayabout = function(response,request){
         '<head>'+
             '<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'+
             '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />'+
-            '<title>å³äºæä»¬</title>'+
+            '<title>关于我们</title>'+
             '<style>'+
             '*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}'+
-            'body{font-family:å¾®è½¯éé»;font-size:12px;background:#F0F0F0;}'+
+            'body{font-family:微软雅黑;font-size:12px;background:#F0F0F0;}'+
             '.logo{text-align:center;padding-left:20%;padding-top:5%;background:#FFFFFF;padding-bottom:10%;position:relative;}'+
             '.ver{position:absolute;left:66%;font-size:1em;color:#FFF;}'+
             '.content{border-top:1px solid #CBCBCB;background:#FFFFFF;padding-bottom:2%;}'+
@@ -44,15 +44,15 @@ exports.todayabout = function(response,request){
             '<img src="http://pic.yupoo.com/yige2002/DU9WGCQo/dvDui.png" width="64%"/>'+
         '</div>'+
         '<div class="content">'+
-        '<div class="title"><span>åå¡åä½æ¹å¼</span></div>'+
+        '<div class="title"><span>商务合作方式</span></div>'+
         '<ul>'+
-        '<li><span>QQï¼</span><span>304261359</span></li>'+
-        '<li><span>Emailï¼</span><span>toupai@3pshow.com</span></li>'+
+        '<li><span>QQ：</span><span>304261359</span></li>'+
+        '<li><span>Email：</span><span>toupai@3pshow.com</span></li>'+
         '</ul>'+
         '</div>'+
     '<div class="footer">'+
-        '<div>Copyright&copy;2014 ä»æ¥å¤´ç çæææ</div>'+
-        '<div>ä¸äººç§(åäº¬)ç§ææéå¬å¸</div>'+
+        '<div>Copyright&copy;2014 今日头牌 版权所有</div>'+
+        '<div>三人秀(北京)科技有限公司</div>'+
         '</div>'+
         '</body>'+
     '</html>';
