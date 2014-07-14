@@ -193,7 +193,7 @@ exports.productarr=
             ,recentvolume:14
             ,org_price:35
             ,price:21.00
-            ,state:1
+            ,state:0
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3pFTcU/KNG1j.jpg'
             ,time:0
