@@ -13,12 +13,12 @@ exports.getKeywordList = function(response,request){
                 "震动棒",
                 "飞机杯",
                 "跳蛋",
-                "避孕套",
-                "制服诱惑",
-                "新品尝鲜",
-                "LELO",
-                "挑逗必备",
-                "AV棒"
+                "润滑",
+                "杜蕾斯",
+                "倍力乐",
+                "丝袜",
+                "护士服",
+                "名器"
             ]
         },
         "response_status": "success",
