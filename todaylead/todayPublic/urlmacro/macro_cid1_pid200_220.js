@@ -271,7 +271,7 @@ exports.productarr=
         {
             pid:207
             ,cid:1
-            ,title:'DS夜店情趣内衣粉色性感护士装'
+            ,title:'DS夜店情趣内衣粉色性感护士装 护士服'
             ,volume:25
             ,recentvolume:14
             ,org_price:98.00
