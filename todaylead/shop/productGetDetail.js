@@ -46,6 +46,7 @@ function findBasic(pid,responsevalue,response){
             responsevalue.info.data.volume = doc.volume;
             responsevalue.info.data.recent_volume = doc.recentvolume;
             responsevalue.info.data.picture = doc.pic_url;
+            responsevalue.info.data.status = doc.state;
 
             for(var i = 0; i < doc.gallery.length - 1; ++i)
             {
