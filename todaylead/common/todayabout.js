@@ -41,7 +41,7 @@ exports.todayabout = function(response,request){
         '<body>'+
         '<div class="logo">'+
             '<div class="ver">'+strversion+'</div>'+
-            '<img src="http://xingjiabi.b0.upaiyun.com/ico/aboutlogo.png" width="64%"/>'+
+            '<img src="http://pic.yupoo.com/yige2002/DU9QVJvf/AO6Ih.png" width="64%"/>'+
         '</div>'+
         '<div class="content">'+
         '<div class="title"><span>商务合作方式</span></div>'+
