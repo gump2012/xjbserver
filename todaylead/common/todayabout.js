@@ -31,7 +31,7 @@ exports.todayabout = function(response,request){
         'line-height:1.5em;font-size:1.25em;color:#747474;text-align:center;width:100%;}' +
         '</style></head><body><div class="logo"><div class="ver">'+strversion+'</div>' +
         '<img src="http://pic.yupoo.com/yige2002/DU9WGCQo/dvDui.png" width="64%"/></div>' +
-        '<div class="content"><div class="title"><span>'+'商务合作方式'+'</span></div>' +
+        '<div class="content"><div class="title"><span>'+"商务合作方式"+'</span></div>' +
         '<ul><li><span>QQ:</span><span>304261359</span></li><li><span>Email:</span><span>toupai@3pshow.com</span></li></ul></div>' +
         '<div class="footer"><div>Copyright&copy;2014 今日头牌 版权所有</div><div>三人秀(北京)科技有限公司</div></div></body></html>';
 
