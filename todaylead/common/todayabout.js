@@ -24,7 +24,7 @@ exports.todayabout = function(response,request){
         '*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}body{font-size:12px;background:#F0F0F0;}.' +
         'logo{text-align:center;padding-left:20%;padding-top:5%;background:#FFFFFF;padding-bottom:10%;position:relative;}.' +
         'ver{position:absolute;left:66%;font-size:1em;color:#FFF;}.content{border-top:1px solid #CBCBCB;background:#FFFFFF;padding-bottom:2%;}.' +
-        'title{background:url(http://pic.yupoo.com/yige2002/DUc5UulU/poFNr.png) ' +
+        'title{background:url(http://xingjiabi.b0.upaiyun.com/ico/abouticobg.png) ' +
         'no-repeat;height:1.8em;line-height:1.8em;text-align:center;width:40%;background-size:cover;}.title span{margin-left:-10%;color:#FFFFFF;}' +
         'ul{margin-top:5%;margin-left:8%;color:#7A7A7A;}li{font-size:1.5em;list-style:none;line-height:1.5em;}' +
         'li span{display:inline-table;vertical-align:top;}.footer{margin-top:10%;' +
