@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Created by lishiming on 14-7-1.
  */
 
@@ -18,7 +18,7 @@ exports.todayabout = function(response,request){
 
     var strversion = publictool.getVersion(request);
 
-    responsevalue.info.data.content = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />' +
+    responsevalue.info.data.content = '<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=gb2312" />' +
         '<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />' +
         '<title>关于我们</title><style>' +
         '*{margin:0;padding:0;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}body{font-size:12px;background:#F0F0F0;}.' +
