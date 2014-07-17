@@ -22,7 +22,7 @@ function start(route,handle){
         }
     }
 
-    http.createServer(onRequest).listen(10080,'115.28.225.137');
+    http.createServer(onRequest).listen(10080);
     console.log("server has started");
 }
 
