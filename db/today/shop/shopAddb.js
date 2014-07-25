@@ -70,6 +70,22 @@ function createdb(mongoose){
             console.log(err);
         }
     });
+
+    newAd = new todayAd({
+        adid:5
+        ,img_url:macroproduct.AD_5
+        ,type:3
+        ,link:'http://latest.toupai360.com:10080/html/test0yuangou.html'
+        ,param:{
+            name:'爱情加强季'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
 
 exports.createdb = createdb;
