@@ -395,4 +395,298 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:457
+        ,attr_id:11
+        ,goods_attr_id:45700001
+        ,attr_name:'品牌'
+        ,attr_value:'PNG'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:457
+        ,attr_id:12
+        ,goods_attr_id:45700002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:457
+        ,attr_id:13
+        ,goods_attr_id:45700003
+        ,attr_name:'产地'
+        ,attr_value:'日本'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:457
+        ,attr_id:18
+        ,goods_attr_id:45700004
+        ,attr_name:'规格'
+        ,attr_value:'小泽玛利亚名器'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:458
+        ,attr_id:11
+        ,goods_attr_id:45800001
+        ,attr_name:'品牌'
+        ,attr_value:'PNG'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:458
+        ,attr_id:12
+        ,goods_attr_id:45800002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:458
+        ,attr_id:13
+        ,goods_attr_id:45800003
+        ,attr_name:'产地'
+        ,attr_value:'日本'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:458
+        ,attr_id:18
+        ,goods_attr_id:45800004
+        ,attr_name:'规格'
+        ,attr_value:'张筱雨名器'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:459
+        ,attr_id:11
+        ,goods_attr_id:45900001
+        ,attr_name:'品牌'
+        ,attr_value:'PNG'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:459
+        ,attr_id:12
+        ,goods_attr_id:45900002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:459
+        ,attr_id:13
+        ,goods_attr_id:45900003
+        ,attr_name:'产地'
+        ,attr_value:'日本'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:459
+        ,attr_id:18
+        ,goods_attr_id:45900004
+        ,attr_name:'规格'
+        ,attr_value:'颜如忆名器'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:460
+        ,attr_id:11
+        ,goods_attr_id:46000001
+        ,attr_name:'品牌'
+        ,attr_value:'玩爆潮品'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:12
+        ,goods_attr_id:46000002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:13
+        ,goods_attr_id:46000003
+        ,attr_name:'产地'
+        ,attr_value:'日本'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:18
+        ,goods_attr_id:46000004
+        ,attr_name:'规格'
+        ,attr_value:'熟女'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:18
+        ,goods_attr_id:46000005
+        ,attr_name:'规格'
+        ,attr_value:'幼女'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:18
+        ,goods_attr_id:46000006
+        ,attr_name:'规格'
+        ,attr_value:'少女'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:18
+        ,goods_attr_id:46000007
+        ,attr_name:'规格'
+        ,attr_value:'舒适'
+        ,attr_price:9.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:18
+        ,goods_attr_id:46000008
+        ,attr_name:'规格'
+        ,attr_value:'快感'
+        ,attr_price:9.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:460
+        ,attr_id:18
+        ,goods_attr_id:46000009
+        ,attr_name:'规格'
+        ,attr_value:'紧致'
+        ,attr_price:9.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
