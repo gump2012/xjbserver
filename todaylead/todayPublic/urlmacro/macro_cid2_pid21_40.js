@@ -17,8 +17,8 @@ exports.productarr=
             ,time:0
             ,gallery:
             [
-                'http://pic.yupoo.com/yige2002/DHnBdAGF/WLOW1.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHnBdAGF/WLOW1.jpg'
+                'http://pic.yupoo.com/yige2002/DOfm8Wur/iTCdN.jpg'
+                ,'http://pic.yupoo.com/yige2002/DOfm93tK/12EiAu.jpg'
                 ,null
             ]
             ,detailpics:
