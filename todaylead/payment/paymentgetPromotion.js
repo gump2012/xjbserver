@@ -327,7 +327,7 @@ function checkShopingFee(payment_way_id,totalprice,provice,isPrompt,response){
             shopingfee = 0.0;
         }
     }
-
+    console.log(shopingfee);
     return shopingfee;
 }
 
