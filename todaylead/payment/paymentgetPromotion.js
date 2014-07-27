@@ -308,7 +308,7 @@ function checkShopingFee(payment_way_id,totalprice,provice,isPrompt,response){
                     break;
                 case '1989'://内蒙
                 {
-                    shopingfee = 9.0;
+                    shopingfee = 10.0;
                 }
                     break;
                 case '2873'://新疆
