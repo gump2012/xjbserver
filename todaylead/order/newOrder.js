@@ -8,6 +8,7 @@ var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
 var accountFunc = require("../account/accountFunction");
 var shopingFee = require("../payment/paymentgetPromotion");
+var nodemailer = require("nodemailer");
 
 function newOrder(response,request){
 
@@ -257,6 +258,8 @@ function findPaymentName(response,item){
                 saveConsignee(item);
                 publictool.returnValue(response,responsevalue);
             }
+
+            sendmail(item);
         }
         else{
             publictool.returnErr(response,'未找到付款方式');
@@ -401,6 +404,36 @@ function makeOrderID(){
     orderid += number.toString().slice(2,8);
 
     return orderid;
+}
+
+function sendmail(item){
+    var smtpTransport = nodemailer.createTransport("SMTP",{
+        service: "qq",
+        auth: {
+            user: "85150091@qq.com",
+            pass: "1234qaz"
+        }
+    });
+
+// setup e-mail data with unicode symbols
+
+    var strtext = "有新订单"+"<br />" +
+        item.order_id + "<br />";
+
+    var mailOptions = {
+        from: "85150091@qq.com", // sender address
+        to: '304261359@qq.com', // list of receivers
+        subject: "有新订单", // Subject line
+        text: strtext, // plaintext body
+        html: "<b>"+strtext+"</b>" // html body
+    }
+    smtpTransport.sendMail(mailOptions, function(error, response){
+        if(error){
+            console.log(error);
+        }else{
+            console.log("Message sent: " + response.message);
+        }
+    });
 }
 
 exports.newOrder = newOrder;
