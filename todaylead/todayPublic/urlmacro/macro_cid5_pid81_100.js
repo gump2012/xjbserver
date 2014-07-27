@@ -370,38 +370,6 @@ exports.productarr=
         },
 
         {
-            pid:92
-            ,cid:5
-            ,title:'冈本正品芦荟超薄10只装 全球第一薄'
-            ,volume:0
-            ,recentvolume:24
-            ,org_price:128
-            ,price:86.00
-            ,state:0
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3STf0l/m6uoi.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DHE8WnUS/XMtEU.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHE8XrkK/H2Eex.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DHE8WShz/rsgO7.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
-                ,null
-            ]
-        },
-
-        {
             pid:93
             ,cid:5
             ,title:'冈本高端超薄冰爽套 畅享冰点刺激'
@@ -551,70 +519,6 @@ exports.productarr=
             ,detailpics:
             [
                 'http://pic.yupoo.com/yige2002/DHFnVoXH/Pb7YO.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
-                ,null
-            ]
-        },
-
-        {
-            pid:98
-            ,cid:5
-            ,title:'欧米加 夜店果冻装避孕套随机单片 超薄大油量清香怡人'
-            ,volume:75
-            ,recentvolume:16
-            ,org_price:76
-            ,price:78
-            ,state:0
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3STvOi/GGtcv.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DHFpxoB8/o0w2g.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHFpxoB8/o0w2g.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DHFpxEZ0/RTSQJ.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
-                ,null
-            ]
-        },
-
-        {
-            pid:99
-            ,cid:5
-            ,title:'正品冈本授权OK系列 10只装'
-            ,volume:74
-            ,recentvolume:16
-            ,org_price:45
-            ,price:21.00
-            ,state:0
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3STbwE/iDVqu.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DHFsRhcO/C0rXk.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHFscpmX/UcHAn.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DHFsQTkx/13Rxxc.jpg'
                 ,null
             ]
             ,experience:

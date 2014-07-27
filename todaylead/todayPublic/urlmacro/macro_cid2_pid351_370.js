@@ -4,39 +4,6 @@
 exports.productarr=
     [
         {
-            pid:351
-            ,cid:2
-            ,title:'延时喷剂SK战马白金版 男士用持久防早泄 情趣性爱成人用品 头牌推荐'
-            ,volume:72
-            ,recentvolume:37
-            ,org_price:80
-            ,price:30
-            ,state:0
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DOkNACYy/rpEgT.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DOkNAOFO/10ijJX.jpg'
-                ,'http://pic.yupoo.com/yige2002/DOkNfrqr/qNoGs.jpg'
-                ,'http://pic.yupoo.com/yige2002/DOkNAVh5/14HAO8.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DRUgSJBa/VBdq3.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DTFg9Kmf/y0mZ8.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfQbR6/tO8HO.png'
-                ,'http://pic.yupoo.com/yige2002/DTFg9SYn/34gE1.png'
-                ,null
-            ]
-        },
-
-        {
             pid:352
             ,cid:2
             ,title:'日本2H2D延时喷剂 男性防早泄持久非伟哥万艾可进口原液'

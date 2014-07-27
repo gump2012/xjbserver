@@ -130,46 +130,6 @@ exports.productarr=
         },
 
         {
-            pid:104
-            ,cid:6
-            ,title:'成人情趣用品夫妻前戏调情白色透明夜光骰子筛子色子房事性爱助情'
-            ,volume:45
-            ,recentvolume:16
-            ,org_price:9
-            ,price:3.00
-            ,state:0
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3VO9PY/XV8fE.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DH6A4zaN/12ZzZa.jpg'
-                ,'http://pic.yupoo.com/yige2002/DH6AInL9/pAzUZ.jpg'
-                ,'http://pic.yupoo.com/yige2002/DH6AHjCX/ystC.jpg'
-                ,'http://pic.yupoo.com/yige2002/DH6AI8ca/6GYqc.jpg'
-                ,'http://pic.yupoo.com/yige2002/DH6AJd2c/10dayB.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DHWQIp7v/G1yC9.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHWQIoZH/oY6oK.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHWQIETs/gn0ZV.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHWQ1FAn/HNGzi.jpg'
-                ,'http://pic.yupoo.com/yige2002/DHWQI7ck/jCcvs.jpg'
-                ,'http://pic.yupoo.com/yige2002/DH6AInOG/pKO6e.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DSYwnk2D/HPPqz.png'
-                ,'http://pic.yupoo.com/yige2002/DSYwokAZ/10a5j3.png'
-                ,'http://pic.yupoo.com/yige2002/DSYwaT4A/Oc2DE.png'
-                ,null
-            ]
-        },
-
-        {
             pid:105
             ,cid:6
             ,title:'正品 倍力乐威震天震震嘴 男女共用五种用法口交器'
