@@ -360,7 +360,7 @@ function makeOrderID(){
     var now= new Date();
     var orderid = '';
 
-    var number = now.getMonth();
+    var number = now.getMonth() + 1;
     if(number < 10){
         orderid += '0' + number.toString();
     }
