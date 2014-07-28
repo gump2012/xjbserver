@@ -16,6 +16,7 @@ var accountHandles = require("./todaylead/account/accountHandles");
 var alipayHandles = require("./todaylead/alipay/alipayHandles");
 var productHandles = require('./todaylead/product/productHandles');
 var commonHandles = require('./todaylead/common/commonHandles');
+var test = require('./todaylead/todayPublic/testinterface/testhandles');
 
 var handle = {};
 handle["/"] = requestHandlers.start;
@@ -33,6 +34,7 @@ handle["user"] = accountHandles.account;
 handle["/alipay"] = alipayHandles.alipay;
 handle['product'] = productHandles.product;
 handle['common'] = commonHandles.common;
+handle['test'] = test.test;
 
 db.start();
 server.start(router.route,handle);

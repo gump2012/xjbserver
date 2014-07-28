@@ -8,7 +8,6 @@ var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
 var accountFunc = require("../account/accountFunction");
 var shopingFee = require("../payment/paymentgetPromotion");
-var nodemailer = require("nodemailer");
 
 function newOrder(response,request){
 
@@ -407,33 +406,13 @@ function makeOrderID(){
 }
 
 function sendmail(item){
-    var smtpTransport = nodemailer.createTransport("SMTP",{
-        service: "qq",
-        auth: {
-            user: "85150091@qq.com",
-            pass: "1234qaz"
+    var strurl = 'latest.toupai360.com:8888/sendmail?orderid='+item.order_id;
+    var request = require('request');
+    request(strurl, function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            console.log(body); // Print the google web page.
         }
-    });
-
-// setup e-mail data with unicode symbols
-
-    var strtext = "有新订单"+"<br />" +
-        item.order_id + "<br />";
-
-    var mailOptions = {
-        from: "85150091@qq.com", // sender address
-        to: '304261359@qq.com', // list of receivers
-        subject: "有新订单", // Subject line
-        text: strtext, // plaintext body
-        html: "<b>"+strtext+"</b>" // html body
-    }
-    smtpTransport.sendMail(mailOptions, function(error, response){
-        if(error){
-            console.log(error);
-        }else{
-            console.log("Message sent: " + response.message);
-        }
-    });
+    })
 }
 
 exports.newOrder = newOrder;
