@@ -258,7 +258,7 @@ function findPaymentName(response,item){
                 publictool.returnValue(response,responsevalue);
             }
 
-            //sendmail(item);
+            sendmail(item);
         }
         else{
             publictool.returnErr(response,'未找到付款方式');
