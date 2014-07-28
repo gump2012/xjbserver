@@ -406,7 +406,7 @@ function makeOrderID(){
 }
 
 function sendmail(item){
-    var strurl = 'latest.toupai360.com:8888/sendmail?orderid='+item.order_id;
+    var strurl = 'http://latest.toupai360.com:8888/sendmail?orderid='+item.order_id;
     var request = require('request');
     request(strurl, function (error, response, body) {
         if (!error && response.statusCode == 200) {
