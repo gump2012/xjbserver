@@ -26,7 +26,7 @@ function createdb(mongoose){
         adid:6
         ,img_url:macroproduct.AD_6
         ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/test0yuangou.html'
+        ,linkto:'http://latest.toupai360.com:2002/html/baoxiaoqueqiao_android.html'
         ,param:{
             name:'爆笑鹊桥'
         }
