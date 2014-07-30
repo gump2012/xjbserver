@@ -56,7 +56,7 @@ function getProducts(response,request){
             }
             else {
                 var isendcount = ipage * ilimit;
-                if(isendcount - 1 <= tempdata.length){
+                if(isendcount <= tempdata.length){
                     for(var i = (page - 1) * ilimit;i < isendcount;++i){
                         responsevalue.info.data.push(tempdata[i]);
                     }

@@ -115,7 +115,7 @@ exports.getLimit = getLimit;
 exports.getPage = getPage;
 exports.getpid = getpid;
 
-exports.releaseip = '115.28.225.137';
-exports.testip = '114.215.129.162';
+exports.releaseip = 'www.toupai360.com';
+exports.testip = 'latest.toupai360.com';
 exports.localip = '127.0.0.1';
 
