@@ -23,6 +23,22 @@ function createdb(mongoose){
     });
 
     newAd = new todayAd({
+        adid:6
+        ,img_url:macroproduct.AD_6
+        ,type:3
+        ,linkto:'http://latest.toupai360.com:10080/html/test0yuangou.html'
+        ,param:{
+            name:'爆笑鹊桥'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newAd = new todayAd({
         adid:2
         ,img_url:macroproduct.AD_2
         ,type:1
