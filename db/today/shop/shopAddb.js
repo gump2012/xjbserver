@@ -91,7 +91,7 @@ function createdb(mongoose){
         adid:5
         ,img_url:macroproduct.AD_5
         ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/test0yuangou.html'
+        ,linkto:'http://www.toupai360.com:10080/html/test0yuangou.html'
         ,param:{
             name:'爱情加强季'
         }

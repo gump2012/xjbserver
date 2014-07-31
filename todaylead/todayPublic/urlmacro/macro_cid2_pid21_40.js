@@ -232,8 +232,8 @@ exports.productarr=
             ,title:'头牌推荐 耐氏男用延时喷剂 超久防早泄 正品防伪'
             ,volume:113
             ,recentvolume:44
-            ,org_price:189
-            ,price:118.00
+            ,org_price:189.00
+            ,price:62.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DNjrbWcU/oeFh7.jpg'

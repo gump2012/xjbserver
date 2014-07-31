@@ -81,7 +81,7 @@ exports.productarr=
             ,recentvolume:21
             ,org_price:109
             ,price:70.00
-            ,state:0
+            ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DNry1n8W/dXHsN.jpg'
             ,time:0

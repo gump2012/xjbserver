@@ -240,8 +240,8 @@ exports.productarr=
             ,title:'玩爆潮品4D黑腔名器 真人女优处女阴道阴臀倒模飞机杯'
             ,volume:16
             ,recentvolume:14
-            ,org_price:428.00
-            ,price:168.00
+            ,org_price:168.00
+            ,price:40.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DVI8QNPx/kpHlb.jpg'
