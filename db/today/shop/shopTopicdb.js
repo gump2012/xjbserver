@@ -27,7 +27,6 @@ function createdb(mongoose){
             {product_id:25,pic_url:'http://pic.yupoo.com/yige2002/DNlL8kID/HAont.jpg'}
             ,{product_id:49,pic_url:'http://pic.yupoo.com/yige2002/DNlMhxkn/1485rg.jpg'}
             ,{product_id:78,pic_url:'http://pic.yupoo.com/yige2002/DNlMWJeY/kCaW9.jpg'}
-            ,{product_id:2,pic_url:'http://pic.yupoo.com/yige2002/DNlKcSaF/11MNk7.jpg'}
             ,{product_id:84,pic_url:'http://pic.yupoo.com/yige2002/DNlUCOon/XeNIj.jpg'}
             ,{product_id:55,pic_url:'http://pic.yupoo.com/yige2002/DH3GoWqq/EwFNz.jpg'}
             ,{product_id:201,pic_url:'http://pic.yupoo.com/yige2002/DOkLdDwZ/7zBIU.jpg'}
