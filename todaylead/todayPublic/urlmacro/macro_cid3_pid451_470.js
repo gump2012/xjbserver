@@ -82,9 +82,9 @@ exports.productarr=
             ]
             ,experience:
             [
-                'http://pic.yupoo.com/yige2002/DXeqApit/medium.jpg'
-                ,'http://pic.yupoo.com/yige2002/DXerbKBB/medium.jpg'
-                ,'http://pic.yupoo.com/yige2002/DXeraJZ7/medium.jpg'
+                'http://pic.yupoo.com/yige2002/DXeqApit/small.jpg'
+                ,'http://pic.yupoo.com/yige2002/DXerbKBB/small.jpg'
+                ,'http://pic.yupoo.com/yige2002/DXeraJZ7/small.jpg'
                 ,null
             ]
         },
