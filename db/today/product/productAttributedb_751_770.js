@@ -199,4 +199,172 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:754
+        ,attr_id:11
+        ,goods_attr_id:75400001
+        ,attr_name:'品牌'
+        ,attr_value:'杜蕾斯'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:754
+        ,attr_id:12
+        ,goods_attr_id:75400002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:754
+        ,attr_id:13
+        ,goods_attr_id:75400003
+        ,attr_name:'产地'
+        ,attr_value:'中国大陆'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:754
+        ,attr_id:18
+        ,goods_attr_id:75400004
+        ,attr_name:'规格'
+        ,attr_value:'随机'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:755
+        ,attr_id:11
+        ,goods_attr_id:75500001
+        ,attr_name:'品牌'
+        ,attr_value:'杜蕾斯'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:755
+        ,attr_id:12
+        ,goods_attr_id:75500002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:755
+        ,attr_id:13
+        ,goods_attr_id:75500003
+        ,attr_name:'产地'
+        ,attr_value:'中国大陆'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:755
+        ,attr_id:18
+        ,goods_attr_id:75500004
+        ,attr_name:'规格'
+        ,attr_value:'随机'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:756
+        ,attr_id:11
+        ,goods_attr_id:75600001
+        ,attr_name:'品牌'
+        ,attr_value:'杜蕾斯'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:756
+        ,attr_id:12
+        ,goods_attr_id:75600002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:756
+        ,attr_id:13
+        ,goods_attr_id:75600003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:756
+        ,attr_id:18
+        ,goods_attr_id:75600004
+        ,attr_name:'规格'
+        ,attr_value:'6粒杜蕾斯巧克力装'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
