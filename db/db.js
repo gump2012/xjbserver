@@ -10,6 +10,7 @@ var orderdb = require("./today/order/orderdb");
 var addb = require("./today/shop/shopAddb");
 var shoptopicdb = require("./today/shop/shopTopicdb");
 var accountdb = require("./today/account/accountdb");
+var deleteorderdb = require("./today/order/deleteorderdb");
 
 var publictool = require("../todaylead/todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
@@ -32,6 +33,7 @@ function start(){
         consigneeInfodb.createdb(mongoose);
 
         orderdb.createdb(mongoose);
+        deleteorderdb.createdb(mongoose);
 
         addb.createdb(mongoose);
         shoptopicdb.createdb(mongoose);

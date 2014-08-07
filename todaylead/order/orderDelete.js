@@ -35,6 +35,16 @@ function deleteorder(response,request){
                                 }
                             });
 
+                            var deleteordermodle = mongoose.model('todayDeleteOrder');
+                            if(deleteordermodle){
+                                var deleteorder = new deleteordermodle(doc);
+                                deleteorder.save(function(err,silence ) {
+                                    if( err )
+                                    {
+                                        console.log(err);
+                                    }
+                                });
+                            }
                         }
                         else{
                             publictool.returnErr(response,'商品已经发货啦');
