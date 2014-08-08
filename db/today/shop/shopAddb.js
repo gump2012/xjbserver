@@ -102,6 +102,22 @@ function createdb(mongoose){
             console.log(err);
         }
     });
+
+    newAd = new todayAd({
+        adid:6
+        ,img_url:macroproduct.AD_7
+        ,type:3
+        ,linkto:'http://www.toupai360.com:10080/html/test0yuangou.html'
+        ,param:{
+            name:'骚动你的心'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
 
 exports.createdb = createdb;
