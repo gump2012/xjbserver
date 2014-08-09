@@ -107,7 +107,7 @@ function createdb(mongoose){
         adid:6
         ,img_url:macroproduct.AD_7
         ,type:3
-        ,linkto:'http://www.toupai360.com:10080/html/test0yuangou.html'
+        ,linkto:'http://www.toupai360.com:10080/html/saodongnidexin_android.html'
         ,param:{
             name:'骚动你的心'
         }
