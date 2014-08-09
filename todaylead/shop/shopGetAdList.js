@@ -59,6 +59,11 @@ function getAdList(response,request){
                     item.param.name = doc[i].param.name;
                 }
                     break;
+                case 3:
+                {
+                    item.param.name = doc[i].param.name;
+                }
+                    break;
                 default :
                     break;
             }
