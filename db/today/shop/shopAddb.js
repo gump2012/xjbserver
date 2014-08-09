@@ -104,7 +104,7 @@ function createdb(mongoose){
     });
 
     newAd = new todayAd({
-        adid:6
+        adid:7
         ,img_url:macroproduct.AD_7
         ,type:3
         ,linkto:'http://www.toupai360.com:10080/html/saodongnidexin_android.html'
