@@ -753,7 +753,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:3900004
         ,attr_name:'规格'
-        ,attr_value:'单片装 ￥2.50'
+        ,attr_value:'单片装'
         ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
@@ -767,7 +767,7 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:3900005
         ,attr_name:'规格'
-        ,attr_value:'12片盒装 ￥25.00'
+        ,attr_value:'12片盒装'
         ,attr_price:25.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
