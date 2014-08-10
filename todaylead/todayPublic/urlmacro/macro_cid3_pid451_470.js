@@ -82,9 +82,9 @@ exports.productarr=
             ]
             ,experience:
             [
-                'http://pic.yupoo.com/yige2002/DXeqApit/small.jpg'
-                ,'http://pic.yupoo.com/yige2002/DXerbKBB/small.jpg'
-                ,'http://pic.yupoo.com/yige2002/DXeraJZ7/small.jpg'
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
                 ,null
             ]
         },
@@ -118,9 +118,9 @@ exports.productarr=
             ]
             ,experience:
             [
-                'http://pic.yupoo.com/yige2002/DXeraJZ7/Wu8pb.jpg'
-                ,'http://pic.yupoo.com/yige2002/DXerbKBB/z5xbN.jpg'
-                ,'http://pic.yupoo.com/yige2002/DXeqApit/f6Vpc.jpg'
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
                 ,null
             ]
         },
@@ -156,50 +156,9 @@ exports.productarr=
             ]
             ,experience:
             [
-                'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2O6e9XVXXXXXRXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img04.taobaocdn.com/imgextra/i4/468359490/TB2n6oaXVXXXXXZXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2Ytr8XFBXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB28vLgXVXXXXXGXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB23LLgXVXXXXclXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2qDvfXVXXXXaPXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2ILDgXVXXXXcUXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2B7DfXVXXXXcVXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2iZq9XVXXXXXVXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2LqW9XVXXXXbjXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2Era9XVXXXXa_XpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2Hi99XVXXXXXYXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2yMC9XVXXXXa0XXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i4/468359490/TB29Wa9XVXXXXbCXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2va59XVXXXXbdXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i4/468359490/TB260a9XVXXXXXDXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2kEY3XVXXXXXxXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2Dlv3XVXXXXbsXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2sJv7XVXXXXX.XXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2KOn5XVXXXXbOXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2QpH4XVXXXXXYXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB21en4XVXXXXbmXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img04.taobaocdn.com/imgextra/i4/468359490/TB26w25XVXXXXbUXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2Z467XVXXXXXFXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2LYr2XVXXXXaUXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB2ynb3XVXXXXaiXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2WHv5XVXXXXctXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2o3f2XVXXXXbhXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img04.taobaocdn.com/imgextra/i4/468359490/TB2It_5XVXXXXa_XXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2NPr4XVXXXXXZXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img03.taobaocdn.com/imgextra/i3/468359490/TB2wQf3XVXXXXbYXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2joz3XVXXXXb0XXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img04.taobaocdn.com/imgextra/i4/468359490/TB21Xf7XVXXXXafXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/TB20Dr5XVXXXXaxXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2XU26XVXXXXafXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img04.taobaocdn.com/imgextra/i4/468359490/TB2wGj6XVXXXXaRXXXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i4/468359490/T2wZYZXGBaXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/T2pwvZXHlaXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/TB2q.YPXVXXXXXFXpXXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/T2zcL4XP4XXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T2fB6uXFhXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img02.taobaocdn.com/imgextra/i2/468359490/T28w6qXRtXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i1/468359490/T2MPfqXQhXXXXXXXXX-468359490.jpg_620x10000.jpg'
-                ,'http://img01.taobaocdn.com/imgextra/i4/468359490/T2kmvoXGJXXXXXXXXX-468359490.jpg_620x10000.jpg'
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
                 ,null
             ]
         },
@@ -268,9 +227,9 @@ exports.productarr=
             ]
             ,experience:
             [
-                'http://pic.yupoo.com/yige2002/DX5XmGYF/14UU6e.jpg'
-                ,'http://pic.yupoo.com/yige2002/DX5Xn27t/YoZOy.jpg'
-                ,'http://pic.yupoo.com/yige2002/DX5XndVl/6HekC.jpg'
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
                 ,null
             ]
         },
@@ -312,9 +271,9 @@ exports.productarr=
             ]
             ,experience:
             [
-                'http://pic.yupoo.com/yige2002/DX5UqY8h/10x2CI.jpg'
-                ,'http://pic.yupoo.com/yige2002/DX5TRCRb/BBkCV.jpg'
-                ,'http://pic.yupoo.com/yige2002/DX5UrnSO/sqSxx.jpg'
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
                 ,null
             ]
         },
