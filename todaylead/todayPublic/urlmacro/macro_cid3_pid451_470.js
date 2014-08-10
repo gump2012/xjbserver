@@ -440,5 +440,53 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:461
+            ,cid:3
+            ,title:'优客仕浪语吟声电动男士熟女男自慰逼真电动阴道飞机杯'
+            ,volume:16
+            ,recentvolume:14
+            ,org_price:299.00
+            ,price:198.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DYe3uiFU/LJyzw.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DYe3vavr/FBd9e.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3vt0N/14qUrZ.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DYe3vsfF/6CUBc.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3vCjA/tXY7S.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3vIXA/12u9Ht.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3vhDh/9gnak.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3w4qm/7Dia4.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3w8kk/QOOsH.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3wlWC/Qa2cE.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3vKlg/xVPQ5.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3vX8X/BEkQa.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3xwJW/15pinm.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3l3qK/Uu057.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3xGwi/IdDGH.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3xd7d/ysXN9.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3xnkn/azcEM.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3y90Y/91D3b.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3yjIs/TthHL.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYe3uiJZ/tStWV.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
+                ,null
+            ]
+        },
+
         null
     ]

@@ -510,5 +510,43 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:115
+            ,cid:6
+            ,title:'束缚式性爱沙发'
+            ,volume:41
+            ,recentvolume:8
+            ,org_price:449.0
+            ,price:165.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/DYeimyTU/ij6m6.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/DYeilDzy/Y54IY.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYeimujy/R4PdE.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/DYeimH1H/qz2fT.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYeimNX9/LWOU2.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYeimWcx/7CHsJ.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYeimSWQ/68HLl.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYeindDe/y3kKC.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYeimBOt/sLPDv.jpg'
+                ,'http://pic.yupoo.com/yige2002/DYein0Ta/Ye6O.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DSYwnk2D/HPPqz.png'
+                ,'http://pic.yupoo.com/yige2002/DSYwokAZ/10a5j3.png'
+                ,'http://pic.yupoo.com/yige2002/DSYwaT4A/Oc2DE.png'
+                ,null
+            ]
+        },
+
         null
     ]

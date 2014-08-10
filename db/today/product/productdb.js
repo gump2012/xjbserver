@@ -13,6 +13,7 @@ var productdb600_620 = require('./productdb600_620');
 var productdb200_220 = require('./productdb_cid1_pid200_220');
 var productdb351_370 = require('./productdb_cid2_pid351_370');
 var productdb451_470 = require('./productdb_cid3_pid451_470');
+var productdb221_240 = require('./productdb_cid3_pid221_240');
 
 function creatdb(mongoose){
     var proSchema = new mongoose.Schema({
@@ -55,6 +56,7 @@ function creatdb(mongoose){
     productdb200_220.createdb(mongoose);
     productdb351_370.createdb(mongoose);
     productdb451_470.createdb(mongoose);
+    productdb221_240.createdb(mongoose);
 }
 
 exports.createdb = creatdb;
