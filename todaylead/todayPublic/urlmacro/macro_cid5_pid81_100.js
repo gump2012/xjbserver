@@ -271,7 +271,7 @@ exports.productarr=
         {
             pid:89
             ,cid:5
-            ,title:'倍力乐超值豪华套餐 4款4盒40只爆销套装28元'
+            ,title:'倍力乐超值豪华套餐 4款4盒40只爆销套装'
             ,volume:57
             ,recentvolume:31
             ,org_price:96

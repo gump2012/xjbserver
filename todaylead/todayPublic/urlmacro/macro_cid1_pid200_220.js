@@ -229,46 +229,6 @@ exports.productarr=
         },
 
         {
-            pid:206
-            ,cid:1
-            ,title:'新婚之夜女式情趣内衣可爱公主肚兜粉色诱惑性感蕾丝透视透明短裙'
-            ,volume:31
-            ,recentvolume:22
-            ,org_price:48.00
-            ,price:14.00
-            ,state:1
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DRGUZvPb/3ltsZ.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DRGUZoEY/rdHMT.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGUZxLq/RQxBV.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGUZFvl/ck8Mk.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DRGUZGyT/GtvvR.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGUZUkQ/KTYSP.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGV0r2w/ZnlvT.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGV0yjw/kUfR5.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGV0k3w/10qvCt.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGV0O6N/SEhA6.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGV0zmU/vVGGn.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRGV0AB7/JaIYX.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DTFg1SMJ/Sie0J.png'
-                ,'http://pic.yupoo.com/yige2002/DTFfIMaD/ZW8MX.png'
-                ,'http://pic.yupoo.com/yige2002/DTFg2scC/UZE1w.png'
-                ,null
-            ]
-        },
-
-        {
             pid:207
             ,cid:1
             ,title:'DS夜店情趣内衣粉色性感护士装 护士服'

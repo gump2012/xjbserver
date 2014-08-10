@@ -535,4 +535,200 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:359
+        ,attr_id:11
+        ,goods_attr_id:35900001
+        ,attr_name:'品牌'
+        ,attr_value:'的确劲'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:359
+        ,attr_id:12
+        ,goods_attr_id:35900002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:359
+        ,attr_id:13
+        ,goods_attr_id:35900003
+        ,attr_name:'产地'
+        ,attr_value:'法国'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:359
+        ,attr_id:18
+        ,goods_attr_id:35900004
+        ,attr_name:'规格'
+        ,attr_value:'的确劲增大膏'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:360
+        ,attr_id:11
+        ,goods_attr_id:36000001
+        ,attr_name:'品牌'
+        ,attr_value:'印度神油'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:360
+        ,attr_id:12
+        ,goods_attr_id:36000002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:360
+        ,attr_id:13
+        ,goods_attr_id:36000003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:360
+        ,attr_id:18
+        ,goods_attr_id:36000004
+        ,attr_name:'规格'
+        ,attr_value:'印度神油10ml'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:361
+        ,attr_id:11
+        ,goods_attr_id:36100001
+        ,attr_name:'品牌'
+        ,attr_value:'勃金'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:361
+        ,attr_id:12
+        ,goods_attr_id:36100002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:361
+        ,attr_id:13
+        ,goods_attr_id:36100003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:361
+        ,attr_id:18
+        ,goods_attr_id:36100004
+        ,attr_name:'规格'
+        ,attr_value:'女用湿巾'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:361
+        ,attr_id:18
+        ,goods_attr_id:36100005
+        ,attr_name:'规格'
+        ,attr_value:'男用湿巾'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:361
+        ,attr_id:18
+        ,goods_attr_id:36100006
+        ,attr_name:'规格'
+        ,attr_value:'延时喷剂 10ml'
+        ,attr_price:94.50
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }

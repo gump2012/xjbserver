@@ -941,4 +941,410 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:613
+        ,attr_id:11
+        ,goods_attr_id:61300001
+        ,attr_name:'品牌'
+        ,attr_value:'蒂贝'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:12
+        ,goods_attr_id:61300002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:13
+        ,goods_attr_id:61300003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300004
+        ,attr_name:'规格'
+        ,attr_value:'灵动随跳白色'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300005
+        ,attr_name:'规格'
+        ,attr_value:'灵动随跳紫色'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300006
+        ,attr_name:'规格'
+        ,attr_value:'遥色心跳紫色'
+        ,attr_price:53.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300007
+        ,attr_name:'规格'
+        ,attr_value:'遥色心跳粉色'
+        ,attr_price:53.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300008
+        ,attr_name:'规格'
+        ,attr_value:'EGG TOUCH紫色'
+        ,attr_price:74.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300009
+        ,attr_name:'规格'
+        ,attr_value:'EGG TOUCH粉色'
+        ,attr_price:74.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300010
+        ,attr_name:'规格'
+        ,attr_value:'一触即发紫色'
+        ,attr_price:94.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:613
+        ,attr_id:18
+        ,goods_attr_id:61300011
+        ,attr_name:'规格'
+        ,attr_value:'一触即发粉色'
+        ,attr_price:94.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:614
+        ,attr_id:11
+        ,goods_attr_id:61400001
+        ,attr_name:'品牌'
+        ,attr_value:'爱侣'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:614
+        ,attr_id:12
+        ,goods_attr_id:61400002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:614
+        ,attr_id:13
+        ,goods_attr_id:61400003
+        ,attr_name:'产地'
+        ,attr_value:'香港'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:614
+        ,attr_id:18
+        ,goods_attr_id:61400004
+        ,attr_name:'规格'
+        ,attr_value:'爱情教练缩阴器'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:615
+        ,attr_id:11
+        ,goods_attr_id:61500001
+        ,attr_name:'品牌'
+        ,attr_value:'闺趣'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:615
+        ,attr_id:12
+        ,goods_attr_id:61500002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:615
+        ,attr_id:13
+        ,goods_attr_id:61500003
+        ,attr_name:'产地'
+        ,attr_value:'香港'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:615
+        ,attr_id:18
+        ,goods_attr_id:61500004
+        ,attr_name:'规格'
+        ,attr_value:'AV棒'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:616
+        ,attr_id:11
+        ,goods_attr_id:61600001
+        ,attr_name:'品牌'
+        ,attr_value:'其它'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:616
+        ,attr_id:12
+        ,goods_attr_id:61600002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:616
+        ,attr_id:13
+        ,goods_attr_id:61600003
+        ,attr_name:'产地'
+        ,attr_value:'香港'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:616
+        ,attr_id:18
+        ,goods_attr_id:61600004
+        ,attr_name:'规格'
+        ,attr_value:'A罩杯'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:616
+        ,attr_id:18
+        ,goods_attr_id:61600005
+        ,attr_name:'规格'
+        ,attr_value:'C罩杯'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:617
+        ,attr_id:11
+        ,goods_attr_id:61700001
+        ,attr_name:'品牌'
+        ,attr_value:'百乐'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:617
+        ,attr_id:12
+        ,goods_attr_id:61700002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:617
+        ,attr_id:13
+        ,goods_attr_id:61700003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:617
+        ,attr_id:18
+        ,goods_attr_id:61700004
+        ,attr_name:'规格'
+        ,attr_value:'绿色'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:617
+        ,attr_id:18
+        ,goods_attr_id:61700005
+        ,attr_name:'规格'
+        ,attr_value:'紫色'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }

@@ -636,53 +636,6 @@ exports.productarr=
         },
 
         {
-            pid:614
-            ,cid:4
-            ,title:'爱情教练缩阴器 阴道收缩缩阴棒缩阴栓缩阴丹美容性用品'
-            ,volume:48
-            ,recentvolume:16
-            ,org_price:268.00
-            ,price:100.00
-            ,state:1
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DYeacH7o/bK3y0.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DYea0EL4/H29Yg.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeadaSc/2RtHV.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DYeadrBn/VpHY9.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeadKRh/inXTM.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeae0S8/7K5s5.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeaeNQW/KgbnP.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeaf6H4/epOSp.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeagcv4/4VvwM.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeagrVr/97W2p.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeaj7Vj/G1N2t.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeagaOx/tvyvl.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYea4ptt/hx7A4.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeah3pu/nGEVv.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeagAY1/409bC.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeahqBq/SRclm.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeahLJd/3B9P5.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeakmIW/YiJMJ.jpg'
-                ,'http://pic.yupoo.com/yige2002/DYeactvP/HA3kS.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DVYBUlm8/c4Pvc.png'
-                ,'http://pic.yupoo.com/yige2002/DVYBUJMc/Gk7l7.png'
-                ,'http://pic.yupoo.com/yige2002/DVYBVKON/pdnE0.png'
-                ,null
-            ]
-        },
-
-        {
             pid:615
             ,cid:4
             ,title:'闺趣AV棒 女用器具自慰按摩棒'

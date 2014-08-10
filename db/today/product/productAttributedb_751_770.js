@@ -367,4 +367,326 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:757
+        ,attr_id:11
+        ,goods_attr_id:75700001
+        ,attr_name:'品牌'
+        ,attr_value:'杰士邦'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:12
+        ,goods_attr_id:75700002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:13
+        ,goods_attr_id:75700003
+        ,attr_name:'产地'
+        ,attr_value:'泰国'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:18
+        ,goods_attr_id:75700004
+        ,attr_name:'规格'
+        ,attr_value:'动感薄12片'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:18
+        ,goods_attr_id:75700005
+        ,attr_name:'规格'
+        ,attr_value:'优质超薄12片'
+        ,attr_price:7.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:18
+        ,goods_attr_id:75700006
+        ,attr_name:'规格'
+        ,attr_value:'有型超薄12片'
+        ,attr_price:16.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:18
+        ,goods_attr_id:75700007
+        ,attr_name:'规格'
+        ,attr_value:'优质超薄18片'
+        ,attr_price:17.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:18
+        ,goods_attr_id:75700008
+        ,attr_name:'规格'
+        ,attr_value:'精选超薄三合一'
+        ,attr_price:17.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:757
+        ,attr_id:18
+        ,goods_attr_id:75700009
+        ,attr_name:'规格'
+        ,attr_value:'极限超薄'
+        ,attr_price:28.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:758
+        ,attr_id:11
+        ,goods_attr_id:75800001
+        ,attr_name:'品牌'
+        ,attr_value:'EVE'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:758
+        ,attr_id:12
+        ,goods_attr_id:75800002
+        ,attr_name:'材质'
+        ,attr_value:'其它'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:758
+        ,attr_id:13
+        ,goods_attr_id:75800003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:758
+        ,attr_id:18
+        ,goods_attr_id:75800004
+        ,attr_name:'规格'
+        ,attr_value:'白盒 3支'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:758
+        ,attr_id:18
+        ,goods_attr_id:75800005
+        ,attr_name:'规格'
+        ,attr_value:'白盒 6支'
+        ,attr_price:5.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:758
+        ,attr_id:18
+        ,goods_attr_id:75800006
+        ,attr_name:'规格'
+        ,attr_value:'红盒'
+        ,attr_price:2.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:759
+        ,attr_id:11
+        ,goods_attr_id:75900001
+        ,attr_name:'品牌'
+        ,attr_value:'斯香妮'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:12
+        ,goods_attr_id:75900002
+        ,attr_name:'材质'
+        ,attr_value:'乳胶'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:13
+        ,goods_attr_id:75900003
+        ,attr_name:'产地'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:18
+        ,goods_attr_id:75900004
+        ,attr_name:'规格'
+        ,attr_value:'虎牙套'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:18
+        ,goods_attr_id:75900005
+        ,attr_name:'规格'
+        ,attr_value:'狼牙套冰感'
+        ,attr_price:2.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:18
+        ,goods_attr_id:75900006
+        ,attr_name:'规格'
+        ,attr_value:'狼牙套热感'
+        ,attr_price:2.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:18
+        ,goods_attr_id:75900007
+        ,attr_name:'规格'
+        ,attr_value:'狼牙套冰热'
+        ,attr_price:2.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:759
+        ,attr_id:18
+        ,goods_attr_id:75900008
+        ,attr_name:'规格'
+        ,attr_value:'变形金刚'
+        ,attr_price:10.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }
