@@ -88,7 +88,7 @@ function findProduct(gooosarr,iindex,response,responsevalue){
                 ,origin_price:doc.org_price
                 ,price:doc.price
                 ,volume:doc.volume
-                ,recentvolume:doc.recentvolume
+                ,recent_volume:doc.recentvolume
             }
 
             responsevalue.info.data.push(item);
