@@ -367,7 +367,9 @@ exports.productarr=
             ,time:0
             ,gallery:
             [
-                null
+                'http://pic.yupoo.com/yige2002/DIKlQKcP/v48ZF.jpg'
+                ,'http://pic.yupoo.com/yige2002/DHgc9dBI/12pYzu.jpg'
+                ,null
             ]
             ,detailpics:
             [
