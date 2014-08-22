@@ -28,6 +28,7 @@ function createdb(mongoose){
         ,express_number         :String
         ,express_name           :String
         ,channel                :String //渠道
+        ,isdelete               :Number //是否删除
         ,productlist            :[mongoose.Schema.Types.Mixed]
     });
 

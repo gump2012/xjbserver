@@ -17,8 +17,15 @@ function deleteorder(response,request){
                 if(doc.order_states == 0){
                     if(doc.payment_states == 0){
                         if(doc.shipping_states == 0){
-                            ordermodle.remove({ order_id:order_id }, function(err) {
-                                if (!err) {
+                            doc.isdelete = 1;
+
+                            doc.save(function(err,silence){
+                                if(err)
+                                {
+                                    console.log(err);
+                                    publictool.returnErr(response,'删除出现错误');
+                                }
+                                else{
                                     var responsevalue = {
                                         info: {
                                             extra: null,
@@ -29,9 +36,6 @@ function deleteorder(response,request){
                                     };
 
                                     publictool.returnValue(response,responsevalue);
-                                }
-                                else {
-                                    publictool.returnErr(response,'删除出现错误');
                                 }
                             });
 

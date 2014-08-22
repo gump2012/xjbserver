@@ -49,6 +49,7 @@ function newOrder(response,request){
                         ,express_name:''
                         ,express_link:''
                         ,channel:strchannel
+                        ,isdelete:0
                         ,productlist:[]
                     }
 
