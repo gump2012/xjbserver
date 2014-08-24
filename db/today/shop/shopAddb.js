@@ -26,7 +26,7 @@ function createdb(mongoose){
         adid:8
         ,img_url:macroproduct.AD_8
         ,type:3
-        ,linkto:'http://www.toupai360.com/html/buaishuozhiaizuo_android.html'
+        ,linkto:'http://latest.toupai360.com:10080/html/buaishuozhiaizuo_android.html'
         ,param:{
             name:'不爱说只爱做'
         }
