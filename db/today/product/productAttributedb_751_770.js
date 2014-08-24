@@ -695,7 +695,7 @@ exports.createdb = function (mongoose){
         ,goods_attr_id:75900009
         ,attr_name:'规格'
         ,attr_value:'狼牙套冰感+狼牙套热感+狼牙套冰热'
-        ,attr_price:25.00
+        ,attr_price:19.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )

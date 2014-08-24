@@ -356,43 +356,6 @@ exports.productarr=
         },
 
         {
-            pid:608
-            ,cid:4
-            ,title:'成人用品 4U 淫纹G皇 女用自慰器'
-            ,volume:48
-            ,recentvolume:16
-            ,org_price:298
-            ,price:198.00
-            ,state:1
-            ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DOkJtBZF/r6vQ1.jpg'
-            ,time:0
-            ,gallery:
-            [
-                'http://pic.yupoo.com/yige2002/DOkJPhmU/100Rkz.jpg'
-                ,null
-            ]
-            ,detailpics:
-            [
-                'http://pic.yupoo.com/yige2002/DRUx07cN/dACUd.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRUx0p90/xYt5a.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRUwQGl1/tHEK5.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRUwRps7/DCJL0.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRUx3u3S/f1JvU.gif'
-                ,'http://pic.yupoo.com/yige2002/DRUx52vT/9lPJf.jpg'
-                ,'http://pic.yupoo.com/yige2002/DRUx5Qq8/SbFPK.jpg'
-                ,null
-            ]
-            ,experience:
-            [
-                'http://pic.yupoo.com/yige2002/DVYBUlm8/c4Pvc.png'
-                ,'http://pic.yupoo.com/yige2002/DVYBUJMc/Gk7l7.png'
-                ,'http://pic.yupoo.com/yige2002/DVYBVKON/pdnE0.png'
-                ,null
-            ]
-        },
-
-        {
             pid:609
             ,cid:4
             ,title:'雷霆炫动充电AV棒女用阴蒂刺激乳头震动按摩棒'
