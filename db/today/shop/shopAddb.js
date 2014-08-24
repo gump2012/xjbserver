@@ -22,6 +22,22 @@ function createdb(mongoose){
     todayAd.remove({}, function(err) {
     });
 
+    var newAd = new todayAd({
+        adid:8
+        ,img_url:macroproduct.AD_8
+        ,type:3
+        ,linkto:'http://www.toupai360.com/html/buaishuozhiaizuo_android.html'
+        ,param:{
+            name:'不爱说只爱做'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
     newAd = new todayAd({
         adid:6
         ,img_url:macroproduct.AD_6
