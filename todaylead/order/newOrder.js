@@ -8,6 +8,7 @@ var publictool = require("../todayPublic/getAssistantValue");
 var querystring = require("querystring");
 var accountFunc = require("../account/accountFunction");
 var shopingFee = require("../payment/paymentgetPromotion");
+var version = require("../todayPublic/version");
 
 function newOrder(response,request){
 
@@ -407,6 +408,11 @@ function makeOrderID(){
 }
 
 function sendmail(item){
+
+    if(version.isAlpha){
+        return;
+    }
+
     var strurl = 'http://latest.toupai360.com:8888/sendmail?orderid='+item.order_id;
     var request = require('request');
     request(strurl, function (error, response, body) {
