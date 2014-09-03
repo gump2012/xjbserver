@@ -563,7 +563,7 @@ exports.productarr=
         {
             pid:55
             ,cid:3
-            ,title:'真的好厉害 男性增大脉冲理疗环电机理疗器'
+            ,title:'真的好厉害 男性增大脉冲理疗环电机理疗器 中秋特惠'
             ,volume:39
             ,recentvolume:26
             ,org_price:98

@@ -23,6 +23,23 @@ function createdb(mongoose){
     });
 
     var newAd = new todayAd({
+        adid:9
+        ,img_url:macroproduct.AD_2
+        ,type:1
+        ,linkto:''
+        ,param:{
+            app_ad_in_subtype:1
+            ,keyword:'中秋特惠'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newAd = new todayAd({
         adid:8
         ,img_url:macroproduct.AD_8
         ,type:3
@@ -61,23 +78,6 @@ function createdb(mongoose){
         ,linkto:'http://latest.toupai360.com:10080/html/saodongnidexin_android.html'
         ,param:{
             name:'骚动你的心'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newAd = new todayAd({
-        adid:2
-        ,img_url:macroproduct.AD_2
-        ,type:1
-        ,linkto:''
-        ,param:{
-            app_ad_in_subtype:1
-            ,keyword:'魅力惠'
         }
     });
     newAd.save( function( err, silence ) {

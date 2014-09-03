@@ -300,7 +300,7 @@ exports.productarr=
         {
             pid:361
             ,cid:2
-            ,title:'正品勃金V8延时男用喷剂 男用湿巾 女用湿巾'
+            ,title:'正品勃金V8延时男用喷剂 男用湿巾 女用湿巾 中秋特惠'
             ,volume:72
             ,recentvolume:27
             ,org_price:499.00

@@ -530,7 +530,7 @@ exports.productarr=
         {
             pid:215
             ,cid:1
-            ,title:'开裆免脱吊带连体网衣情趣网衣制服诱惑'
+            ,title:'开裆免脱吊带连体网衣情趣网衣制服诱惑 中秋特惠'
             ,volume:50
             ,recentvolume:23
             ,org_price:39.00

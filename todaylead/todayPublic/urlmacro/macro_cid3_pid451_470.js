@@ -166,7 +166,7 @@ exports.productarr=
         {
             pid:455
             ,cid:3
-            ,title:'一体式充气娃娃你心中最美的女神'
+            ,title:'一体式充气娃娃你心中最美的女神 中秋特惠'
             ,volume:40
             ,recentvolume:12
             ,org_price:580.00
@@ -318,7 +318,7 @@ exports.productarr=
         {
             pid:458
             ,cid:3
-            ,title:'中国第一裸 张筱雨名器'
+            ,title:'中国第一裸 张筱雨名器 中秋特惠'
             ,volume:16
             ,recentvolume:14
             ,org_price:300.00
