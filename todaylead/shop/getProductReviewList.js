@@ -19,9 +19,7 @@ exports.getProductReviewList = function(response,request){
             ,msg:''
         };
         if(typeof commentHandles.commentHandles[productid] === 'object'){
-            for(i in commentHandles.commentHandles[productid]){
-                responsevalue.info.data.push(commentHandles.commentHandles[productid][i]);
-            }
+            responsevalue.info.data = commentHandles.commentHandles[productid];
         }
         publicfun.returnValue(response,responsevalue);
     }

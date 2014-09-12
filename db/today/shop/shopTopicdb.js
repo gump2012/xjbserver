@@ -21,14 +21,14 @@ function createdb(mongoose){
 
     var newtopic = new todaytopic({
         topicid:1
-        ,pic_url:'http://pic.yupoo.com/yige2002/DOwAoVce/NyfKY.jpg'
-        ,title:'TOP20疯抢宝贝'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3ewm85u/zK5a2.jpg'
+        ,title:'TOP疯抢'
         ,goods:[
-            {product_id:25,pic_url:'http://pic.yupoo.com/yige2002/DNlL8kID/HAont.jpg'}
-            ,{product_id:49,pic_url:'http://pic.yupoo.com/yige2002/DNlMhxkn/1485rg.jpg'}
-            ,{product_id:78,pic_url:'http://pic.yupoo.com/yige2002/DNlMWJeY/kCaW9.jpg'}
-            ,{product_id:84,pic_url:'http://pic.yupoo.com/yige2002/DNlUCOon/XeNIj.jpg'}
-            ,{product_id:55,pic_url:'http://pic.yupoo.com/yige2002/DH3GoWqq/EwFNz.jpg'}
+            {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E3ewL0um/HIHdx.jpg'}
+            ,{product_id:617,pic_url:'http://pic.yupoo.com/yige2002/E3ewL6NI/9qnj.jpg'}
+            ,{product_id:461,pic_url:'http://pic.yupoo.com/yige2002/E3ewL10D/rslyW.jpg'}
+            ,{product_id:212,pic_url:'http://pic.yupoo.com/yige2002/E3ewKPv7/NA0qK.jpg'}
+            ,{product_id:30,pic_url:'http://pic.yupoo.com/yige2002/E3ewKKe1/QPuRm.jpg'}
             ,{product_id:201,pic_url:'http://pic.yupoo.com/yige2002/DOkLdDwZ/7zBIU.jpg'}
             ,{product_id:352,pic_url:'http://pic.yupoo.com/yige2002/DOkRE6Pj/f5jKx.jpg'}
             ,{product_id:112,pic_url:'http://pic.yupoo.com/yige2002/DH3VPuKW/1EAPA.jpg'}
@@ -51,14 +51,14 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:2
-        ,pic_url:'http://pic.yupoo.com/yige2002/DOwAdF35/NTojE.jpg'
-        ,title:'安全套餐'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3eyFln9/YciOB.jpg'
+        ,title:'一套放纵'
         ,goods:[
-            {product_id:753,pic_url:'http://pic.yupoo.com/yige2002/DNrkW15S/z6VcE.jpg'}
-            ,{product_id:752,pic_url:'http://pic.yupoo.com/yige2002/DNrjIGgi/vMWra.jpg'}
-            ,{product_id:751,pic_url:'http://pic.yupoo.com/yige2002/DNriZ9GD/9ebIv.jpg'}
-            ,{product_id:89,pic_url:'http://pic.yupoo.com/yige2002/DNqwOxWu/b36HX.jpg'}
-            ,{product_id:90,pic_url:'http://pic.yupoo.com/yige2002/DNqxcFrz/tIPa3.jpg'}
+            {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E3ez01EE/k9R5k.jpg'}
+            ,{product_id:90,pic_url:'http://pic.yupoo.com/yige2002/E3eyZXJf/Vsga7.jpg'}
+            ,{product_id:752,pic_url:'http://pic.yupoo.com/yige2002/E3eyZMZC/MM3ky.jpg'}
+            ,{product_id:753,pic_url:'http://pic.yupoo.com/yige2002/E3eyZTgL/EA31J.jpg'}
+            ,{product_id:89,pic_url:'http://pic.yupoo.com/yige2002/E3eyZO5H/CnULs.jpg'}
             ,null
         ]
     });
@@ -71,14 +71,14 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:3
-        ,pic_url:'http://pic.yupoo.com/yige2002/DOwACWbg/X9vAf.jpg'
-        ,title:'性福必备'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3eAKxtf/vE158.jpg'
+        ,title:'随行随爱'
         ,goods:[
-            {product_id:22,pic_url:'http://pic.yupoo.com/yige2002/DNrpGred/c1JSp.jpg'}
-            ,{product_id:82,pic_url:'http://pic.yupoo.com/yige2002/DNrqw0Dg/12CWkn.jpg'}
-            ,{product_id:61,pic_url:'http://pic.yupoo.com/yige2002/DNrq76Cq/cuJtx.jpg'}
-            ,{product_id:105,pic_url:'http://pic.yupoo.com/yige2002/DNrrigN8/6n6OI.jpg'}
-            ,{product_id:107,pic_url:'http://pic.yupoo.com/yige2002/DNrs2Lci/TSA81.jpg'}
+            {product_id:61,pic_url:'http://pic.yupoo.com/yige2002/E3eBcMtC/TpE5J.jpg'}
+            ,{product_id:22,pic_url:'http://pic.yupoo.com/yige2002/E3eBcCom/uHjjJ.jpg'}
+            ,{product_id:82,pic_url:'http://pic.yupoo.com/yige2002/E3eBcgDf/pjiWH.jpg'}
+            ,{product_id:354,pic_url:'http://pic.yupoo.com/yige2002/E3eBbMuz/lBqsy.jpg'}
+            ,{product_id:115,pic_url:'http://pic.yupoo.com/yige2002/E3eBbuKq/13XtMD.jpg'}
             ,{product_id:453,pic_url:'http://pic.yupoo.com/yige2002/DQnTyewy/fnr8B.jpg'}
             ,{product_id:83,pic_url:'http://pic.yupoo.com/yige2002/DH3SPPlf/DVXy0.jpg'}
             ,{product_id:106,pic_url:'http://pic.yupoo.com/yige2002/DH3VOv2A/GFBuE.jpg'}
@@ -104,14 +104,14 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:4
-        ,pic_url:'http://pic.yupoo.com/yige2002/DJo4PeFr/FNA3t.jpg'
-        ,title:'痴球欲女'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3eD8iC3/UtqQ3.jpg'
+        ,title:'久到离谱'
         ,goods:[
-            {product_id:66,pic_url:'http://pic.yupoo.com/yige2002/DNrzi6J8/DWy0.jpg'}
-            ,{product_id:65,pic_url:'http://pic.yupoo.com/yige2002/DNryNX09/4TBpm.jpg'}
-            ,{product_id:80,pic_url:'http://pic.yupoo.com/yige2002/DNrC77fG/EwkTR.jpg'}
-            ,{product_id:75,pic_url:'http://pic.yupoo.com/yige2002/DNrBMBVC/bXxL2.jpg'}
-            ,{product_id:72,pic_url:'http://pic.yupoo.com/yige2002/DNrBo6OL/7Bns2.jpg'}
+            {product_id:66,pic_url:'http://pic.yupoo.com/yige2002/E3eDxi6p/1Hmbr.jpg'}
+            ,{product_id:65,pic_url:'http://pic.yupoo.com/yige2002/E3eDx7wJ/SIM2A.jpg'}
+            ,{product_id:72,pic_url:'http://pic.yupoo.com/yige2002/E3eDx0ru/MNFLZ.jpg'}
+            ,{product_id:75,pic_url:'http://pic.yupoo.com/yige2002/E3eDx1hz/u39ew.jpg'}
+            ,{product_id:615,pic_url:'http://pic.yupoo.com/yige2002/E3eDx8nt/ltF65.jpg'}
             ,{product_id:74,pic_url:'http://pic.yupoo.com/yige2002/DH3K9TxX/3vnEj.jpg'}
             ,{product_id:69,pic_url:'http://pic.yupoo.com/yige2002/DH3KMk6o/CyzBc.jpg'}
             ,{product_id:68,pic_url:'http://pic.yupoo.com/yige2002/DH3KNfuh/zUqY8.jpg'}
