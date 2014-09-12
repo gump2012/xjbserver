@@ -294,14 +294,14 @@ exports.productarr=
         {
             pid:29
             ,cid:2
-            ,title:'杜蕾斯按摩油 润滑油 让爱更浓烈'
+            ,title:'杜蕾斯按摩油 润滑油 让爱更浓烈 头牌推荐'
             ,volume:45
             ,recentvolume:32
             ,org_price:108
             ,price:42
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3AThGw/vEmRa.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg'
             ,time:0
             ,gallery:
             [

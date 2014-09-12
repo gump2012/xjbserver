@@ -309,14 +309,14 @@ exports.productarr=
         {
             pid:759
             ,cid:5
-            ,title:'斯香妮狼牙套变形金刚虎牙套'
+            ,title:'斯香妮狼牙套变形金刚虎牙套 头牌推荐'
             ,volume:58
             ,recentvolume:21
             ,org_price:56.00
             ,price:9.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DYehjAZo/P9dEV.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg'
             ,time:0
             ,gallery:
             [

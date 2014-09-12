@@ -6,7 +6,7 @@ exports.productarr=
         {
             pid:101
             ,cid:6
-            ,title:'倍力乐销魂掌 全能调情手套 按摩潮吹 女用助情自慰 前戏情趣用品 头牌推荐'
+            ,title:'倍力乐销魂掌 全能调情手套 按摩潮吹 女用助情自慰 前戏情趣用品'
             ,volume:51
             ,recentvolume:21
             ,org_price:38
@@ -252,7 +252,7 @@ exports.productarr=
         {
             pid:108
             ,cid:6
-            ,title:'玩爆潮品 硅胶拉珠女用后庭链肝门塞情趣用品成人玩具G点刺激棒 头牌推荐'
+            ,title:'玩爆潮品 硅胶拉珠女用后庭链肝门塞情趣用品成人玩具G点刺激棒'
             ,volume:94
             ,recentvolume:16
             ,org_price:48

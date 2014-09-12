@@ -46,14 +46,14 @@ exports.productarr=
         {
             pid:222
             ,cid:1
-            ,title:'蕾丝日本和服睡裙日系印花性感和服套装'
+            ,title:'蕾丝日本和服睡裙日系印花性感和服套装 头牌推荐'
             ,volume:65
             ,recentvolume:23
             ,org_price:150
             ,price:45.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DYdYfg4v/IQyYs.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E3eunBkx/bSO2V.jpg'
             ,time:0
             ,gallery:
             [

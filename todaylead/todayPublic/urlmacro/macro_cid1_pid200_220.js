@@ -193,7 +193,7 @@ exports.productarr=
         {
             pid:205
             ,cid:1
-            ,title:'媚火情趣内衣 亮片吊带时尚夜店服 性感火辣束身睡衣超短裙 魅力惠 头牌推荐'
+            ,title:'媚火情趣内衣 亮片吊带时尚夜店服 性感火辣束身睡衣超短裙 魅力惠'
             ,volume:43
             ,recentvolume:32
             ,org_price:105
