@@ -105,12 +105,16 @@ function getRecommend(response,responsevalue){
                     ,product_id:222
                }
     responsevalue.info.data.recommend.product_list.push(item);
-    item.picture = 'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg';
-    item.product_id = 759;
-    responsevalue.info.data.recommend.product_list.push(item);
-    item.picture = 'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg';
-    item.product_id = 29;
-    responsevalue.info.data.recommend.product_list.push(item);
+    var item1 = {
+        picture:'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg'
+        ,product_id:759
+    }
+    responsevalue.info.data.recommend.product_list.push(item1);
+    var item2 = {
+        picture:'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg'
+        ,product_id:29
+    }
+    responsevalue.info.data.recommend.product_list.push(item2);
 
     publictool.returnValue(response,responsevalue);
 }
