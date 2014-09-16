@@ -71,35 +71,48 @@ function getRecommend(response,responsevalue){
     responsevalue.info.data.recommend.name = strRecommend;
     responsevalue.info.data.recommend.keyword = strkw;
 
-    productmodle.find({},'title pid pic_url',{sort: {pid:'desc'}}, function (err, docs) {
-        var gettext=[];
-        for(var i in docs){
-            if(docs[i].title.indexOf(strkw) != -1){
-                var item = {
-                    picture:docs[i].pic_url
-                    ,product_id:docs[i].pid
-                }
-                gettext.push(item);
-            }
-        }
+//    productmodle.find({},'title pid pic_url',{sort: {pid:'desc'}}, function (err, docs) {
+//        var gettext=[];
+//        for(var i in docs){
+//            if(docs[i].title.indexOf(strkw) != -1){
+//                var item = {
+//                    picture:docs[i].pic_url
+//                    ,product_id:docs[i].pid
+//                }
+//                gettext.push(item);
+//            }
+//        }
+//
+//        if(gettext.length > 2)
+//        {
+//            for(var i = 0; i < 3; ++i)
+//            {
+//                responsevalue.info.data.recommend.product_list.push(gettext[i]);
+//            }
+//        }
+//        else
+//        {
+//            for(i in gettext)
+//            {
+//                responsevalue.info.data.recommend.product_list.push(gettext[i]);
+//            }
+//        }
+//
+//        publictool.returnValue(response,responsevalue);
+//    });
+    var item = {
+                   picture:'http://pic.yupoo.com/yige2002/E3eunBkx/bSO2V.jpg'
+                    ,product_id:222
+               }
+    responsevalue.info.data.recommend.product_list.push(item);
+    item.picture = 'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg';
+    item.product_id = 759;
+    responsevalue.info.data.recommend.product_list.push(item);
+    item.picture = 'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg';
+    item.product_id = 29;
+    responsevalue.info.data.recommend.product_list.push(item);
 
-        if(gettext.length > 2)
-        {
-            for(var i = 0; i < 3; ++i)
-            {
-                responsevalue.info.data.recommend.product_list.push(gettext[i]);
-            }
-        }
-        else
-        {
-            for(i in gettext)
-            {
-                responsevalue.info.data.recommend.product_list.push(gettext[i]);
-            }
-        }
-
-        publictool.returnValue(response,responsevalue);
-    });
+    publictool.returnValue(response,responsevalue);
 }
 
 exports.getTopic = getTopic;

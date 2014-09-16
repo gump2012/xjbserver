@@ -301,7 +301,7 @@ exports.productarr=
             ,price:42
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1zzrHfz/lNAJE.jpg'
             ,time:0
             ,gallery:
             [

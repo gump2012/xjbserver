@@ -316,7 +316,7 @@ exports.productarr=
             ,price:9.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/DYehjAZo/P9dEV.jpg'
             ,time:0
             ,gallery:
             [
