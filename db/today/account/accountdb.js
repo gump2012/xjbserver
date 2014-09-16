@@ -2,8 +2,6 @@
  * Created by lishiming on 14-4-29.
  */
 
-var mongoose = require('mongoose');
-
 exports.createdb = function (mongoose){
     var userSchema = new mongoose.Schema({
         ticket_id     :{
