@@ -103,16 +103,19 @@ function getRecommend(response,responsevalue){
     var item = {
                    picture:'http://pic.yupoo.com/yige2002/E3eunBkx/bSO2V.jpg'
                     ,product_id:222
+                    ,name:'日系浪漫'
                }
     responsevalue.info.data.recommend.product_list.push(item);
     var item1 = {
         picture:'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg'
         ,product_id:759
+        ,name:'冰火狼牙'
     }
     responsevalue.info.data.recommend.product_list.push(item1);
     var item2 = {
         picture:'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg'
         ,product_id:29
+        ,name:'变大男人'
     }
     responsevalue.info.data.recommend.product_list.push(item2);
 

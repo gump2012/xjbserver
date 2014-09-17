@@ -210,7 +210,7 @@ exports.productarr=
             ,price:81.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DH3KLB1e/1tbcq.gif'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1HWNCIF/cRbHr.gif'
             ,time:0
             ,gallery:
             [
@@ -486,7 +486,7 @@ exports.productarr=
             ,price:81.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DNjrAdnm/7JAIl.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1I2p17e/tvgZ.jpg'
             ,time:0
             ,gallery:
             [
@@ -693,7 +693,7 @@ exports.productarr=
             ,price:42
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DNlMWJeY/kCaW9.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1I46BvX/69wxe.jpg'
             ,time:0
             ,gallery:
             [

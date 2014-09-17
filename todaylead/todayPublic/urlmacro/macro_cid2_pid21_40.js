@@ -167,7 +167,7 @@ exports.productarr=
             ,price:6
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DNlL8kID/HAont.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1zwyd6w/r8W1p.jpg'
             ,time:0
             ,gallery:
             [

@@ -45,7 +45,7 @@ exports.productarr=
             ,price:10.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DNrqw0Dg/12CWkn.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1Ib7C1V/oMKW8.jpg'
             ,time:0
             ,gallery:
             [
@@ -111,7 +111,7 @@ exports.productarr=
             ,price:26.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DNlUCOon/XeNIj.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/E1IbSZeT/7Xi2c.jpg'
             ,time:0
             ,gallery:
             [
