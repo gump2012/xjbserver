@@ -40,6 +40,7 @@ function getTopic(response,request){
 					var topicProductItem = {
 						picture          :doc[i].goods[j].pic_url
 						,product_id            :doc[i].goods[j].product_id
+                        ,name :doc[i].goods[j].name
 					}
                     item.product_list.push(topicProductItem);
                 }
@@ -50,6 +51,7 @@ function getTopic(response,request){
 					var topicProductItem = {
 						picture          :doc[i].goods[j].pic_url
 						,product_id            :doc[i].goods[j].product_id
+                        ,name :doc[i].goods[j].name
 					}
                     item.product_list.push(topicProductItem);
                 }
