@@ -21,7 +21,7 @@ function createdb(mongoose){
 
     var newtopic = new todaytopic({
         topicid:1
-        ,pic_url:'http://pic.yupoo.com/yige2002/E3ewm85u/zK5a2.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRLhNn/aOwaX.jpg'
         ,title:'TOP疯抢'
         ,goods:[
             {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E3ewL0um/HIHdx.jpg',name:'一套天亮'}
@@ -51,7 +51,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:2
-        ,pic_url:'http://pic.yupoo.com/yige2002/E3eyFln9/YciOB.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRM2VT/QPxvx.jpg'
         ,title:'一套放纵'
         ,goods:[
             {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E3ez01EE/k9R5k.jpg',name:'名流套餐'}
@@ -71,7 +71,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:3
-        ,pic_url:'http://pic.yupoo.com/yige2002/E3eAKxtf/vE158.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRKOR9/tKURR.jpg'
         ,title:'随行随爱'
         ,goods:[
             {product_id:61,pic_url:'http://pic.yupoo.com/yige2002/E3eBcMtC/TpE5J.jpg',name:'居家必备'}
@@ -104,7 +104,7 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:4
-        ,pic_url:'http://pic.yupoo.com/yige2002/E3eD8iC3/UtqQ3.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRL6Yb/14KiYo.jpg'
         ,title:'久到离谱'
         ,goods:[
             {product_id:66,pic_url:'http://pic.yupoo.com/yige2002/E3eDxi6p/1Hmbr.jpg',name:'天使礼物'}
