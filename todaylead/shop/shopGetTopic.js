@@ -103,7 +103,7 @@ function getRecommend(response,responsevalue){
 //        publictool.returnValue(response,responsevalue);
 //    });
     var item = {
-                   picture:'http://pic.yupoo.com/yige2002/E3eunBkx/bSO2V.jpg'
+                   picture:'http://pic.yupoo.com/yige2002/E4QRM2VT/QPxvx.jpg'
                     ,product_id:222
                     ,name:'日系浪漫'
                }

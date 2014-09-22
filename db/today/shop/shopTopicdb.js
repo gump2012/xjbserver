@@ -21,10 +21,10 @@ function createdb(mongoose){
 
     var newtopic = new todaytopic({
         topicid:1
-        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRLhNn/aOwaX.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3ewm85u/zK5a2.jpg'
         ,title:'TOP疯抢'
         ,goods:[
-            {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E3ewL0um/HIHdx.jpg',name:'一套天亮'}
+            {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E4QRKyWv/BitYr.jpg',name:'一套天亮'}
             ,{product_id:617,pic_url:'http://pic.yupoo.com/yige2002/E3ewL6NI/9qnj.jpg',name:'旷野极乐'}
             ,{product_id:461,pic_url:'http://pic.yupoo.com/yige2002/E3ewL10D/rslyW.jpg',name:'浪语吟声'}
             ,{product_id:212,pic_url:'http://pic.yupoo.com/yige2002/E3ewKPv7/NA0qK.jpg',name:'出水芙蓉'}
@@ -51,10 +51,10 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:2
-        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRM2VT/QPxvx.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3eyFln9/YciOB.jpg'
         ,title:'一套放纵'
         ,goods:[
-            {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E3ez01EE/k9R5k.jpg',name:'名流套餐'}
+            {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E4QRL6Yb/14KiYo.jpg',name:'名流套餐'}
             ,{product_id:90,pic_url:'http://pic.yupoo.com/yige2002/E3eyZXJf/Vsga7.jpg',name:'果然快乐'}
             ,{product_id:752,pic_url:'http://pic.yupoo.com/yige2002/E3eyZMZC/MM3ky.jpg',name:'冈本003'}
             ,{product_id:753,pic_url:'http://pic.yupoo.com/yige2002/E3eyZTgL/EA31J.jpg',name:'第六感套餐'}
@@ -71,10 +71,10 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:3
-        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRKOR9/tKURR.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3eAKxtf/vE158.jpg'
         ,title:'随行随爱'
         ,goods:[
-            {product_id:61,pic_url:'http://pic.yupoo.com/yige2002/E3eBcMtC/TpE5J.jpg',name:'居家必备'}
+            {product_id:61,pic_url:'http://pic.yupoo.com/yige2002/E4QRLhNn/aOwaX.jpg',name:'居家必备'}
             ,{product_id:22,pic_url:'http://pic.yupoo.com/yige2002/E3eBcCom/uHjjJ.jpg',name:'延时传奇'}
             ,{product_id:82,pic_url:'http://pic.yupoo.com/yige2002/E3eBcgDf/pjiWH.jpg',name:'潮吹利器'}
             ,{product_id:354,pic_url:'http://pic.yupoo.com/yige2002/E3eBbMuz/lBqsy.jpg',name:'飙升快感'}
@@ -104,10 +104,10 @@ function createdb(mongoose){
 
     newtopic = new todaytopic({
         topicid:4
-        ,pic_url:'http://pic.yupoo.com/yige2002/E4QRL6Yb/14KiYo.jpg'
+        ,pic_url:'http://pic.yupoo.com/yige2002/E3eD8iC3/UtqQ3.jpg'
         ,title:'久到离谱'
         ,goods:[
-            {product_id:66,pic_url:'http://pic.yupoo.com/yige2002/E3eDxi6p/1Hmbr.jpg',name:'天使礼物'}
+            {product_id:66,pic_url:'http://pic.yupoo.com/yige2002/E4QRKOR9/tKURR.jpg',name:'天使礼物'}
             ,{product_id:65,pic_url:'http://pic.yupoo.com/yige2002/E3eDx7wJ/SIM2A.jpg',name:'YD甩震'}
             ,{product_id:72,pic_url:'http://pic.yupoo.com/yige2002/E3eDx0ru/MNFLZ.jpg',name:'巨乳来袭'}
             ,{product_id:75,pic_url:'http://pic.yupoo.com/yige2002/E3eDx1hz/u39ew.jpg',name:'惊蛇之草'}
