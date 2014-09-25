@@ -103,21 +103,21 @@ function getRecommend(response,responsevalue){
 //        publictool.returnValue(response,responsevalue);
 //    });
     var item = {
-                   picture:'http://pic.yupoo.com/yige2002/E4QRM2VT/QPxvx.jpg'
-                    ,product_id:222
-                    ,name:'日系浪漫'
+                   picture:'http://pic.yupoo.com/yige2002/E59Br3dh/PK6pd.jpg'
+                    ,product_id:600
+                    ,name:'做紧致女人'
                }
     responsevalue.info.data.recommend.product_list.push(item);
     var item1 = {
-        picture:'http://pic.yupoo.com/yige2002/E3eunBxk/F9ASj.jpg'
-        ,product_id:759
-        ,name:'冰火狼牙'
+        picture:'http://pic.yupoo.com/yige2002/E59BqQiu/13wXc.jpg'
+        ,product_id:455
+        ,name:'海关小靓妹'
     }
     responsevalue.info.data.recommend.product_list.push(item1);
     var item2 = {
-        picture:'http://pic.yupoo.com/yige2002/E3etYwFd/Ly30t.jpg'
-        ,product_id:29
-        ,name:'变大男人'
+        picture:'http://pic.yupoo.com/yige2002/E59Br5xF/jAdvH.jpg'
+        ,product_id:223
+        ,name:'刺绣旗袍技师服'
     }
     responsevalue.info.data.recommend.product_list.push(item2);
 
