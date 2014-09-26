@@ -58,7 +58,7 @@ function createdb(mongoose){
         ,title:'TOP疯抢'
         ,goods:[
             {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E59BQ8ca/YBbgk.jpg',name:'倍力乐三倍持久'}
-            ,{product_id:307,pic_url:'http://pic.yupoo.com/yige2002/E59BQ38F/cNme8.jpg',name:'分钟罪爱'}
+            ,{product_id:307,pic_url:'http://pic.yupoo.com/yige2002/E59BQ38F/cNme8.jpg',name:'7分钟罪爱'}
             ,{product_id:212,pic_url:'http://pic.yupoo.com/yige2002/E59BPX6I/BYLqu.jpg',name:'日本娘子装'}
             ,{product_id:80,pic_url:'http://pic.yupoo.com/yige2002/E59BPa3O/FL6af.jpg',name:'时尚丽人必备'}
             ,{product_id:45,pic_url:'http://pic.yupoo.com/yige2002/E59BPj0S/6aZpC.jpg',name:'樱桃小嘴嘘嘘'}
@@ -115,9 +115,9 @@ function createdb(mongoose){
         ,goods:[
             {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E59BQSJN/Cbqb7.jpg',name:'名流系列'}
             ,{product_id:756,pic_url:'http://pic.yupoo.com/yige2002/E59CnKvE/Mb9Hc.jpg',name:'巧克力安全套'}
-            ,{product_id:609,pic_url:'http://pic.yupoo.com/yige2002/E59Co7Pu/11HwcZ.jpg',name:'女神专用**棒'}
+            ,{product_id:609,pic_url:'http://pic.yupoo.com/yige2002/E59Co7Pu/11HwcZ.jpg',name:'女神专用AV棒'}
             ,{product_id:753,pic_url:'http://pic.yupoo.com/yige2002/E59CobUE/obUZK.jpg',name:'第六感系列'}
-            ,{product_id:85,pic_url:'http://pic.yupoo.com/yige2002/E59CoJoa/dgzJh.jpg',name:'倍力乐**套'}
+            ,{product_id:85,pic_url:'http://pic.yupoo.com/yige2002/E59CoJoa/dgzJh.jpg',name:'倍力乐扣扣套'}
             ,null
         ]
     });
