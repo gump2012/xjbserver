@@ -685,8 +685,8 @@ exports.productarr=
             ,title:'百乐正品原野派极乐棒 30频震动 防水 高品质静音马达'
             ,volume:48
             ,recentvolume:16
-            ,org_price:128.00
-            ,price:68.00
+            ,org_price:260.00
+            ,price:99.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DYed8ZYI/AS8qf.jpg'

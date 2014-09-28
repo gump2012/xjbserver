@@ -203,10 +203,10 @@ exports.productarr=
         {
             pid:66
             ,cid:4
-            ,title:'夏奇新品 天使礼物 震动C字裤 7频震动快感无处不在'
+            ,title:'百乐新品 天使礼物 震动C字裤 7频震动快感无处不在'
             ,volume:25
             ,recentvolume:8
-            ,org_price:160
+            ,org_price:320.00
             ,price:81.00
             ,state:1
             ,stamper:''
@@ -764,7 +764,7 @@ exports.productarr=
             ,title:'雷霆真品 转珠棒 雷霆之势 高潮已至'
             ,volume:54
             ,recentvolume:12
-            ,org_price:128
+            ,org_price:320
             ,price:81.00
             ,state:1
             ,stamper:''
