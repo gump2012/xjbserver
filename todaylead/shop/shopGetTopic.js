@@ -75,11 +75,11 @@ function getTopic(response,request){
             responsevalue.info.data.topic_list.push(item);
         }
 
-        getRecommend(response,responsevalue);
+        getRecommend(request,response,responsevalue);
     });
 }
 
-function getRecommend(response,responsevalue){
+function getRecommend(request,response,responsevalue){
     var productmodle = mongoose.model('todayProduct');
 
     var strRecommend = '头牌推荐';
