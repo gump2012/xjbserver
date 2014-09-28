@@ -428,8 +428,8 @@ function creatdb(mongoose){
         ,attr_id:18
         ,goods_attr_id:6600004
         ,attr_name:'规格'
-        ,attr_value:'两个普通'
-        ,attr_price:58.00
+        ,attr_value:'普通'
+        ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -443,7 +443,7 @@ function creatdb(mongoose){
         ,goods_attr_id:6600005
         ,attr_name:'规格'
         ,attr_value:'液晶'
-        ,attr_price:132.00
+        ,attr_price:74.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )

@@ -207,7 +207,7 @@ exports.productarr=
             ,volume:25
             ,recentvolume:8
             ,org_price:320.00
-            ,price:81.00
+            ,price:58.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/E1HWNCIF/cRbHr.gif'
@@ -765,7 +765,7 @@ exports.productarr=
             ,volume:54
             ,recentvolume:12
             ,org_price:320
-            ,price:81.00
+            ,price:88.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/DH3KOoM7/jsxEM.jpg'

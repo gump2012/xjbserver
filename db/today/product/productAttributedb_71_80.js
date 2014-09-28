@@ -709,7 +709,7 @@ function creatdb(mongoose){
         ,goods_attr_id:8000004
         ,attr_name:'规格'
         ,attr_value:'非充电式'
-        ,attr_price:88.00
+        ,attr_price:0.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
@@ -723,7 +723,7 @@ function creatdb(mongoose){
         ,goods_attr_id:8000005
         ,attr_name:'规格'
         ,attr_value:'充电式'
-        ,attr_price:108.00
+        ,attr_price:40.00
         ,attr_type:1});
     newCategory.save( function( err, silence ) {
         if( err )
