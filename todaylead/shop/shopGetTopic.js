@@ -22,7 +22,22 @@ function getTopic(response,request){
         msg:''
     }
 
-    var topicmodle = mongoose.model('todayshoptopic');
+
+    var topicmodle;
+    if(publictool.getSelfPlatform(request) == "android"){
+        var vc = publictool.getSelfVersionCount(request);
+        var ivc = new Number(vc);
+        if(ivc > 3){
+            topicmodle = mongoose.model('todayshoptopic');
+        }
+        else{
+            topicmodle = mongoose.model('todayshoptopicold');
+        }
+    }
+    else{
+        topicmodle = mongoose.model('todayshoptopic');
+    }
+
     topicmodle.find({},function(err,doc){
         for(var i in doc){
             var item = {
@@ -102,24 +117,56 @@ function getRecommend(response,responsevalue){
 //
 //        publictool.returnValue(response,responsevalue);
 //    });
-    var item = {
-                   picture:'http://pic.yupoo.com/yige2002/E59Br3dh/PK6pd.jpg'
-                    ,product_id:600
-                    ,name:'做紧致女人'
-               }
-    responsevalue.info.data.recommend.product_list.push(item);
-    var item1 = {
-        picture:'http://pic.yupoo.com/yige2002/E59BqQiu/13wXc.jpg'
-        ,product_id:455
-        ,name:'海关小靓妹'
+
+    if(publictool.getSelfPlatform(request) == "android"){
+        var vc = publictool.getSelfVersionCount(request);
+        var ivc = new Number(vc);
+        if(ivc > 3){
+            var item = {
+                picture:'http://pic.yupoo.com/yige2002/E59Br3dh/PK6pd.jpg'
+                ,product_id:600
+                ,name:'做紧致女人'
+            }
+            responsevalue.info.data.recommend.product_list.push(item);
+            var item1 = {
+                picture:'http://pic.yupoo.com/yige2002/E59BqQiu/13wXc.jpg'
+                ,product_id:455
+                ,name:'海关小靓妹'
+            }
+            responsevalue.info.data.recommend.product_list.push(item1);
+            var item2 = {
+                picture:'http://pic.yupoo.com/yige2002/E59Br5xF/jAdvH.jpg'
+                ,product_id:223
+                ,name:'刺绣旗袍技师服'
+            }
+            responsevalue.info.data.recommend.product_list.push(item2);
+        }
+        else{
+            topicmodle = mongoose.model('todayshoptopicold');
+        }
     }
-    responsevalue.info.data.recommend.product_list.push(item1);
-    var item2 = {
-        picture:'http://pic.yupoo.com/yige2002/E59Br5xF/jAdvH.jpg'
-        ,product_id:223
-        ,name:'刺绣旗袍技师服'
+    else{
+        var item = {
+            picture:'http://pic.yupoo.com/yige2002/E59Br3dh/PK6pd.jpg'
+            ,product_id:600
+            ,name:'做紧致女人'
+        }
+        responsevalue.info.data.recommend.product_list.push(item);
+        var item1 = {
+            picture:'http://pic.yupoo.com/yige2002/E59BqQiu/13wXc.jpg'
+            ,product_id:455
+            ,name:'海关小靓妹'
+        }
+        responsevalue.info.data.recommend.product_list.push(item1);
+        var item2 = {
+            picture:'http://pic.yupoo.com/yige2002/E59Br5xF/jAdvH.jpg'
+            ,product_id:223
+            ,name:'刺绣旗袍技师服'
+        }
+        responsevalue.info.data.recommend.product_list.push(item2);
     }
-    responsevalue.info.data.recommend.product_list.push(item2);
+
+
 
     publictool.returnValue(response,responsevalue);
 }

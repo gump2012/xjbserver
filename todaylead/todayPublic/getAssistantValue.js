@@ -48,6 +48,18 @@ function getpid(request){
     return assistant;
 }
 
+exports.getSelfPlatform = function (request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).platform;
+    return assistant;
+}
+
+exports.getSelfVersionCount = function (request){
+    var arg = url.parse(request.url).query;
+    var assistant = querystring.parse(arg).vc;
+    return assistant;
+}
+
 function returnErr(response,errstr){
     var responsevalue = {
         info:{

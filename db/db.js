@@ -11,6 +11,7 @@ var addb = require("./today/shop/shopAddb");
 var shoptopicdb = require("./today/shop/shopTopicdb");
 var accountdb = require("./today/account/accountdb");
 var deleteorderdb = require("./today/order/deleteorderdb");
+var shoptopicdbold = require("./today/shop/shopTopicdbOld");
 
 var publictool = require("../todaylead/todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
@@ -37,6 +38,7 @@ function start(){
 
         addb.createdb(mongoose);
         shoptopicdb.createdb(mongoose);
+        shoptopicdbold.createdb(mongoose);
 
         accountdb.createdb(mongoose);
     });
