@@ -329,7 +329,7 @@ exports.productarr=
         {
             pid:30
             ,cid:2
-            ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价 中秋特惠'
+            ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价 国庆特惠'
             ,volume:54
             ,recentvolume:24
             ,org_price:68
@@ -406,7 +406,7 @@ exports.productarr=
         {
             pid:32
             ,cid:2
-            ,title:'爱妃液人体爱液润滑油 按摩推油 可用肛交 中秋特惠'
+            ,title:'爱妃液人体爱液润滑油 按摩推油 可用肛交 国庆特惠'
             ,volume:30
             ,recentvolume:18
             ,org_price:32
@@ -595,7 +595,7 @@ exports.productarr=
         {
             pid:37
             ,cid:2
-            ,title:'纯天然高级羊眼圈 让您的高潮永驻 中秋特惠'
+            ,title:'纯天然高级羊眼圈 让您的高潮永驻 国庆特惠'
             ,volume:41
             ,recentvolume:26
             ,org_price:16

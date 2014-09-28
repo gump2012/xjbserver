@@ -79,7 +79,7 @@ exports.productarr=
         {
             pid:63
             ,cid:4
-            ,title:'360度旋转按摩头充电磨砂AV棒 送女用按摩头套 中秋特惠'
+            ,title:'360度旋转按摩头充电磨砂AV棒 送女用按摩头套 国庆特惠'
             ,volume:51
             ,recentvolume:30
             ,org_price:320
@@ -571,7 +571,7 @@ exports.productarr=
         {
             pid:75
             ,cid:4
-            ,title:'蒂贝正品 惊蛇之草轻触防水20频震动棒 中秋特惠'
+            ,title:'蒂贝正品 惊蛇之草轻触防水20频震动棒 国庆特惠'
             ,volume:42
             ,recentvolume:13
             ,org_price:320

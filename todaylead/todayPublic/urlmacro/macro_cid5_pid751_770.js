@@ -6,7 +6,7 @@ exports.productarr=
         {
             pid:751
             ,cid:5
-            ,title:'名流避孕套 活力螺纹+动感颗粒+柔滑丝薄 共30只正品安全套 中秋特惠'
+            ,title:'名流避孕套 活力螺纹+动感颗粒+柔滑丝薄 共30只正品安全套 国庆特惠'
             ,volume:30
             ,recentvolume:10
             ,org_price:78

@@ -436,7 +436,7 @@ exports.productarr=
         {
             pid:95
             ,cid:5
-            ,title:'新潮套套 倍力乐毛毛虫震动刺激套 震动器毛毛虫 中秋特惠'
+            ,title:'新潮套套 倍力乐毛毛虫震动刺激套 震动器毛毛虫 国庆特惠'
             ,volume:91
             ,recentvolume:26
             ,org_price:30
