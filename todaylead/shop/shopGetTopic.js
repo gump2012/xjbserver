@@ -142,7 +142,24 @@ function getRecommend(request,response,responsevalue){
             responsevalue.info.data.recommend.product_list.push(item2);
         }
         else{
-            topicmodle = mongoose.model('todayshoptopicold');
+            var item = {
+                picture:'http://pic.yupoo.com/yige2002/E5KX0oNi/x9ka3.jpg'
+                ,product_id:600
+                ,name:'做紧致女人'
+            }
+            responsevalue.info.data.recommend.product_list.push(item);
+            var item1 = {
+                picture:'http://pic.yupoo.com/yige2002/E5KWpdGA/aGgST.jpg'
+                ,product_id:455
+                ,name:'海关小靓妹'
+            }
+            responsevalue.info.data.recommend.product_list.push(item1);
+            var item2 = {
+                picture:'http://pic.yupoo.com/yige2002/E5KX09Hy/dKen5.jpg'
+                ,product_id:223
+                ,name:'刺绣旗袍技师服'
+            }
+            responsevalue.info.data.recommend.product_list.push(item2);
         }
     }
     else{

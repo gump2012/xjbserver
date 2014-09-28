@@ -24,11 +24,11 @@ function createdb(mongoose){
         ,pic_url:'http://pic.yupoo.com/yige2002/E3eAKxtf/vE158.jpg'
         ,title:'随行随爱'
         ,goods:[
-            {product_id:61,pic_url:'http://pic.yupoo.com/yige2002/E59CCRPT/oV0Av.jpg',name:'前戏扣扣套'}
-            ,{product_id:354,pic_url:'http://pic.yupoo.com/yige2002/E59CClvH/1iObp.jpg',name:'快感增强香水'}
-            ,{product_id:115,pic_url:'http://pic.yupoo.com/yige2002/E59CBVDW/ikdLK.jpg',name:'激情合欢椅'}
-            ,{product_id:22,pic_url:'http://pic.yupoo.com/yige2002/E59CByKA/HL7kt.jpg',name:'日本销量第一'}
-            ,{product_id:10,pic_url:'http://pic.yupoo.com/yige2002/E59CBKD7/buOdB.jpg',name:'娇羞的情人'}
+            {product_id:61,pic_url:'http://pic.yupoo.com/yige2002/E5KWDJl5/yN8JB.jpg',name:'前戏扣扣套'}
+            ,{product_id:354,pic_url:'http://pic.yupoo.com/yige2002/E5KWDxsk/sYB1v.jpg',name:'快感增强香水'}
+            ,{product_id:115,pic_url:'http://pic.yupoo.com/yige2002/E5KWEdKn/6VBo3.jpg',name:'激情合欢椅'}
+            ,{product_id:22,pic_url:'http://pic.yupoo.com/yige2002/E5KWDlxi/VRjtR.jpg',name:'日本销量第一'}
+            ,{product_id:10,pic_url:'http://pic.yupoo.com/yige2002/E5KWCTrw/N3oHL.jpg',name:'娇羞的情人'}
             ,{product_id:453,pic_url:'http://pic.yupoo.com/yige2002/DQnTyewy/fnr8B.jpg'}
             ,{product_id:83,pic_url:'http://pic.yupoo.com/yige2002/DH3SPPlf/DVXy0.jpg'}
             ,{product_id:106,pic_url:'http://pic.yupoo.com/yige2002/DH3VOv2A/GFBuE.jpg'}
@@ -57,11 +57,11 @@ function createdb(mongoose){
         ,pic_url:'http://pic.yupoo.com/yige2002/E3ewm85u/zK5a2.jpg'
         ,title:'TOP疯抢'
         ,goods:[
-            {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E59BQ8ca/YBbgk.jpg',name:'倍力乐三倍持久'}
-            ,{product_id:307,pic_url:'http://pic.yupoo.com/yige2002/E59BQ38F/cNme8.jpg',name:'7分钟罪爱'}
-            ,{product_id:212,pic_url:'http://pic.yupoo.com/yige2002/E59BPX6I/BYLqu.jpg',name:'日本娘子装'}
-            ,{product_id:80,pic_url:'http://pic.yupoo.com/yige2002/E59BPa3O/FL6af.jpg',name:'时尚丽人必备'}
-            ,{product_id:45,pic_url:'http://pic.yupoo.com/yige2002/E59BPj0S/6aZpC.jpg',name:'樱桃小嘴嘘嘘'}
+            {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E5KVCjes/GmQTv.jpg',name:'倍力乐三倍持久'}
+            ,{product_id:307,pic_url:'http://pic.yupoo.com/yige2002/E5KVB5vp/FTDsZ.jpg',name:'7分钟罪爱'}
+            ,{product_id:212,pic_url:'http://pic.yupoo.com/yige2002/E5KVBAyZ/2alv8.jpg',name:'日本娘子装'}
+            ,{product_id:80,pic_url:'http://pic.yupoo.com/yige2002/E5KVBaCd/QmB4o.jpg',name:'时尚丽人必备'}
+            ,{product_id:45,pic_url:'http://pic.yupoo.com/yige2002/E5KVBPSK/UmJCV.jpg',name:'樱桃小嘴嘘嘘'}
             ,{product_id:201,pic_url:'http://pic.yupoo.com/yige2002/DOkLdDwZ/7zBIU.jpg'}
             ,{product_id:352,pic_url:'http://pic.yupoo.com/yige2002/DOkRE6Pj/f5jKx.jpg'}
             ,{product_id:112,pic_url:'http://pic.yupoo.com/yige2002/DH3VPuKW/1EAPA.jpg'}
@@ -113,11 +113,11 @@ function createdb(mongoose){
         ,pic_url:'http://pic.yupoo.com/yige2002/E59CaIlI/12uskm.jpg'
         ,title:'高潮密码'
         ,goods:[
-            {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E59BQSJN/Cbqb7.jpg',name:'名流系列'}
-            ,{product_id:756,pic_url:'http://pic.yupoo.com/yige2002/E59CnKvE/Mb9Hc.jpg',name:'巧克力安全套'}
-            ,{product_id:609,pic_url:'http://pic.yupoo.com/yige2002/E59Co7Pu/11HwcZ.jpg',name:'女神专用AV棒'}
-            ,{product_id:753,pic_url:'http://pic.yupoo.com/yige2002/E59CobUE/obUZK.jpg',name:'第六感系列'}
-            ,{product_id:85,pic_url:'http://pic.yupoo.com/yige2002/E59CoJoa/dgzJh.jpg',name:'倍力乐扣扣套'}
+            {product_id:751,pic_url:'http://pic.yupoo.com/yige2002/E5KW4T4f/kzyeL.jpg',name:'名流系列'}
+            ,{product_id:756,pic_url:'http://pic.yupoo.com/yige2002/E5KW4XXQ/KZxVE.jpg',name:'巧克力安全套'}
+            ,{product_id:609,pic_url:'http://pic.yupoo.com/yige2002/E5KW5CYe/14tFg0.jpg',name:'女神专用AV棒'}
+            ,{product_id:753,pic_url:'http://pic.yupoo.com/yige2002/E5KW5dKt/6OtUj.jpg',name:'第六感系列'}
+            ,{product_id:85,pic_url:'http://pic.yupoo.com/yige2002/E5KW4pwU/2w2WQ.jpg',name:'倍力乐扣扣套'}
             ,null
         ]
     });
