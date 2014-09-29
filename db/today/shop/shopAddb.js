@@ -26,7 +26,7 @@ function createdb(mongoose){
         adid:10
         ,img_url:macroproduct.AD_1
         ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/chuyouji.html'
+        ,linkto:'http://www.toupai360.com:10080/html/chuyouji.html'
         ,param:{
             name:'出游记'
         }
@@ -59,7 +59,7 @@ function createdb(mongoose){
         adid:12
         ,img_url:macroproduct.AD_3
         ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/lvxingbibei.html'
+        ,linkto:'http://www.toupai360.com:10080/html/lvxingbibei.html'
         ,param:{
             name:'旅行必备'
         }
