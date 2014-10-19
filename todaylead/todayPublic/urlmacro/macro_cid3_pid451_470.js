@@ -447,5 +447,46 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:462
+            ,cid:3
+            ,title:'吸附式飞机杯 边看边玩3D国模通道飞机杯'
+            ,volume:16
+            ,recentvolume:14
+            ,org_price:599.00
+            ,price:199.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/E8EuOD7W/IPkPa.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/E8EuPrYO/9qXNs.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuQ4GA/JVPz6.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuQcKs/SOXFA.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/E8EuPvFe/Ta19f.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuPhPq/zbhE0.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuPNas/64z5G.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuPzVN/uSg7Z.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuQ48z/K1c1k.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuQnmj/3uEjA.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuQq9x/DuZiM.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuRopT/VOHiH.jpg'
+                ,'http://pic.yupoo.com/yige2002/E8EuONmA/LOX3W.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
+                ,null
+            ]
+        },
+
         null
     ]

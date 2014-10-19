@@ -12,11 +12,12 @@ var shoptopicdb = require("./today/shop/shopTopicdb");
 var accountdb = require("./today/account/accountdb");
 var deleteorderdb = require("./today/order/deleteorderdb");
 var shoptopicdbold = require("./today/shop/shopTopicdbOld");
+var cartlist = require("./today/payment/cartListdb");
 
 var publictool = require("../todaylead/todayPublic/getAssistantValue");
 var mongoose = require('mongoose');
 function start(){
-    var strurl = 'mongodb://' + publictool.localip + ':27017/todaylead';
+    var strurl = 'mongodb://' + publictool.testip + ':27017/todaylead';
     var mongodb = mongoose.connect(strurl);
 
     var db = mongodb.connection;
@@ -32,6 +33,7 @@ function start(){
 
         paymentListdb.createdb(mongoose);
         consigneeInfodb.createdb(mongoose);
+        cartlist.createdb(mongoose);
 
         orderdb.createdb(mongoose);
         deleteorderdb.createdb(mongoose);

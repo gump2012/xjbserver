@@ -23,6 +23,22 @@ function createdb(mongoose){
     });
 
     newAd = new todayAd({
+        adid:13
+        ,img_url:macroproduct.AD_4
+        ,type:3
+        ,linkto:'http://latest.toupai360.com:10080/html/cupstory.html'
+        ,param:{
+            name:'飞机杯的故事'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newAd = new todayAd({
         adid:10
         ,img_url:macroproduct.AD_1
         ,type:3
