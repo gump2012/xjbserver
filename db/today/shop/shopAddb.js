@@ -26,7 +26,7 @@ function createdb(mongoose){
         adid:13
         ,img_url:macroproduct.AD_4
         ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/cupstory.html'
+        ,linkto:'http://www.toupai360.com:10080/html/cupstory.html'
         ,param:{
             name:'飞机杯的故事'
         }
