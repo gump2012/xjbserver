@@ -58,7 +58,7 @@ function createdb(mongoose){
         ,title:'TOP疯抢'
         ,goods:[
             {product_id:84,pic_url:'http://pic.yupoo.com/yige2002/E59BQ8ca/YBbgk.jpg',name:'倍力乐三倍持久'}
-            ,{product_id:307,pic_url:'http://pic.yupoo.com/yige2002/E59BQ38F/cNme8.jpg',name:'7分钟罪爱'}
+            ,{product_id:30,pic_url:'http://pic.yupoo.com/yige2002/E59BQ38F/cNme8.jpg',name:'7分钟罪爱'}
             ,{product_id:212,pic_url:'http://pic.yupoo.com/yige2002/E59BPX6I/BYLqu.jpg',name:'日本娘子装'}
             ,{product_id:80,pic_url:'http://pic.yupoo.com/yige2002/E59BPa3O/FL6af.jpg',name:'时尚丽人必备'}
             ,{product_id:45,pic_url:'http://pic.yupoo.com/yige2002/E59BPj0S/6aZpC.jpg',name:'樱桃小嘴嘘嘘'}
