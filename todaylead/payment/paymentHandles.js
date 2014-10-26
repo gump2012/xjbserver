@@ -8,12 +8,14 @@ var paymentGetList = require("./paymentGetList");
 var paymentGetConsigneeInfo = require("./paymentGetConsigneeInfo");
 var paymentGetPromotion = require("./paymentgetPromotion");
 var paymentCartUpdate = require("./pamentCartUpdate");
+var paymentGetCartList = require("./pamentGetCartList");
 
 var paymentHandle = {}
 paymentHandle["getPaymentList"] = paymentGetList.getList;
 paymentHandle["getPaymentConsignee"] = paymentGetConsigneeInfo.getInfo;
 paymentHandle["getPaymentDetail"] = paymentGetPromotion.getPromotionDetail;
 paymentHandle["cartUpdate"] = paymentCartUpdate.update;
+paymentHandle["getCartGoodsList"] = paymentGetCartList.getCartList;
 
 function payment(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
