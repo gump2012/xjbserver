@@ -147,7 +147,7 @@ exports.productarr=
         {
             pid:356
             ,cid:2
-            ,title:'男露888男用中药延时喷剂非进口印度神油伟哥'
+            ,title:'男露888男用中药延时喷剂非进口印度神油伟哥 双11特惠'
             ,volume:78
             ,recentvolume:31
             ,org_price:169
@@ -263,7 +263,7 @@ exports.productarr=
         {
             pid:359
             ,cid:2
-            ,title:'原装法国进口 男用 的确劲增大增粗增长软膏'
+            ,title:'原装法国进口 男用 的确劲增大增粗增长软膏 双11特惠'
             ,volume:72
             ,recentvolume:27
             ,org_price:118
@@ -344,7 +344,7 @@ exports.productarr=
         {
             pid:360
             ,cid:2
-            ,title:'正品印度神油三代男用喷剂男性外用延时持久不麻木'
+            ,title:'正品印度神油三代男用喷剂男性外用延时持久不麻木 双11特惠'
             ,volume:72
             ,recentvolume:27
             ,org_price:266.00

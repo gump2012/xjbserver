@@ -436,7 +436,7 @@ exports.productarr=
         {
             pid:72
             ,cid:4
-            ,title:'百乐正品电动丰乳器 做坚挺女人，势在必行'
+            ,title:'百乐正品电动丰乳器 做坚挺女人，势在必行 双11特惠'
             ,volume:88
             ,recentvolume:26
             ,org_price:180

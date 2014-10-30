@@ -329,7 +329,7 @@ exports.productarr=
         {
             pid:30
             ,cid:2
-            ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价 国庆特惠'
+            ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价 双11特惠 国庆特惠'
             ,volume:54
             ,recentvolume:24
             ,org_price:68
@@ -632,7 +632,7 @@ exports.productarr=
         {
             pid:38
             ,cid:2
-            ,title:'美国Enlarge男士阴茎增粗助大精油 外用防早泄'
+            ,title:'美国Enlarge男士阴茎增粗助大精油 外用防早泄 双11特惠'
             ,volume:43
             ,recentvolume:21
             ,org_price:85

@@ -554,7 +554,7 @@ exports.productarr=
         {
             pid:614
             ,cid:4
-            ,title:'爱情教练缩阴器 阴道收缩缩阴棒缩阴栓缩阴丹美容性用品'
+            ,title:'爱情教练缩阴器 阴道收缩缩阴棒缩阴栓缩阴丹美容性用品 双11特惠'
             ,volume:48
             ,recentvolume:16
             ,org_price:268.00
@@ -639,7 +639,7 @@ exports.productarr=
         {
             pid:616
             ,cid:4
-            ,title:'硅胶隐形文胸聚拢婚纱礼服游泳小胸加厚无痕拍照乳贴'
+            ,title:'硅胶隐形文胸聚拢婚纱礼服游泳小胸加厚无痕拍照乳贴 双11特惠'
             ,volume:48
             ,recentvolume:16
             ,org_price:258.00
