@@ -71,38 +71,6 @@ function createdb(mongoose){
             console.log(err);
         }
     });
-
-    newAd = new todayAd({
-        adid:10
-        ,img_url:macroproduct.AD_1
-        ,type:3
-        ,linkto:'http://www.toupai360.com:10080/html/chuyouji.html'
-        ,param:{
-            name:'出游记'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    var newAd = new todayAd({
-        adid:12
-        ,img_url:macroproduct.AD_3
-        ,type:3
-        ,linkto:'http://www.toupai360.com:10080/html/lvxingbibei.html'
-        ,param:{
-            name:'旅行必备'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
 }
 
 exports.createdb = createdb;
