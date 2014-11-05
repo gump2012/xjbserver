@@ -829,4 +829,60 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:463
+        ,attr_id:11
+        ,goods_attr_id:46300001
+        ,attr_name:'品牌'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:463
+        ,attr_id:12
+        ,goods_attr_id:46300002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:463
+        ,attr_id:13
+        ,goods_attr_id:46300003
+        ,attr_name:'产地'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:463
+        ,attr_id:18
+        ,goods_attr_id:46300004
+        ,attr_name:'规格'
+        ,attr_value:'脸谱娃娃'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }

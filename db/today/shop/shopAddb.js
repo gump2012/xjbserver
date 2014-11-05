@@ -23,6 +23,23 @@ function createdb(mongoose){
     });
 
     var newAd = new todayAd({
+        adid:15
+        ,img_url:macroproduct.AD_6
+        ,type:1
+        ,linkto:''
+        ,param:{
+            app_ad_in_subtype:1
+            ,keyword:'光棍节'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newAd = new todayAd({
         adid:14
         ,img_url:macroproduct.AD_5
         ,type:1
@@ -62,23 +79,6 @@ function createdb(mongoose){
         ,linkto:'http://www.toupai360.com:10080/html/chuyouji.html'
         ,param:{
             name:'出游记'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    var newAd = new todayAd({
-        adid:11
-        ,img_url:macroproduct.AD_2
-        ,type:1
-        ,linkto:''
-        ,param:{
-            app_ad_in_subtype:1
-            ,keyword:'国庆特惠'
         }
     });
     newAd.save( function( err, silence ) {

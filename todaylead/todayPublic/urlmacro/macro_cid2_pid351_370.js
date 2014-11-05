@@ -384,5 +384,43 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:362
+            ,cid:2
+            ,title:'浓情蜜液 女用外用喷剂调情助情 缩阴润滑 麻辣妹子 情趣用品 二代 头牌推荐'
+            ,volume:72
+            ,recentvolume:27
+            ,org_price:168.00
+            ,price:36.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EbdAhjtQ/akwqJ.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EbdAgJ36/Cuvh9.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdzgENQ/uashg.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EbdAfMBw/mm32P.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdAfAxd/FmTAe.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdAgAnr/15a710.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdAfQBZ/g1aZz.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdAghyl/VOK8s.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdAg8nx/c0Zuf.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbdAgA40/14LsgO.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg9Kmf/y0mZ8.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfQbR6/tO8HO.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg9SYn/34gE1.png'
+                ,null
+            ]
+        },
+
         null
     ]

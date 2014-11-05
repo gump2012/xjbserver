@@ -123,62 +123,62 @@ function getRecommend(request,response,responsevalue){
         var ivc = new Number(vc);
         if(ivc > 3){
             var item = {
-                picture:'http://pic.yupoo.com/yige2002/E59Br3dh/PK6pd.jpg'
-                ,product_id:600
-                ,name:'做紧致女人'
+                picture:'http://pic.yupoo.com/yige2002/EbdBXacQ/fdu78.jpg'
+                ,product_id:224
+                ,name:'一抹娇羞'
             }
             responsevalue.info.data.recommend.product_list.push(item);
             var item1 = {
-                picture:'http://pic.yupoo.com/yige2002/E59BqQiu/13wXc.jpg'
-                ,product_id:455
-                ,name:'海关小靓妹'
+                picture:'http://pic.yupoo.com/yige2002/EbdBWt5w/wTPZ4.jpg'
+                ,product_id:362
+                ,name:'浓情蜜液'
             }
             responsevalue.info.data.recommend.product_list.push(item1);
             var item2 = {
-                picture:'http://pic.yupoo.com/yige2002/E59Br5xF/jAdvH.jpg'
-                ,product_id:223
-                ,name:'刺绣旗袍技师服'
+                picture:'http://pic.yupoo.com/yige2002/EbdBW6Yd/bhbGI.jpg'
+                ,product_id:455
+                ,name:'等君还家来'
             }
             responsevalue.info.data.recommend.product_list.push(item2);
         }
         else{
             var item = {
-                picture:'http://pic.yupoo.com/yige2002/E5KX0oNi/x9ka3.jpg'
-                ,product_id:600
-                ,name:'做紧致女人'
+                picture:'http://pic.yupoo.com/yige2002/EbeRRfyG/4kIOF.jpg'
+                ,product_id:224
+                ,name:'一抹娇羞'
             }
             responsevalue.info.data.recommend.product_list.push(item);
             var item1 = {
-                picture:'http://pic.yupoo.com/yige2002/E5KWpdGA/aGgST.jpg'
-                ,product_id:455
-                ,name:'海关小靓妹'
+                picture:'http://pic.yupoo.com/yige2002/EbeRQRkU/5WsQA.jpg'
+                ,product_id:362
+                ,name:'浓情蜜液'
             }
             responsevalue.info.data.recommend.product_list.push(item1);
             var item2 = {
-                picture:'http://pic.yupoo.com/yige2002/E5KX09Hy/dKen5.jpg'
-                ,product_id:223
-                ,name:'刺绣旗袍技师服'
+                picture:'http://pic.yupoo.com/yige2002/EbeQQSAM/mgjhB.jpg'
+                ,product_id:455
+                ,name:'等君还家来'
             }
             responsevalue.info.data.recommend.product_list.push(item2);
         }
     }
     else{
         var item = {
-            picture:'http://pic.yupoo.com/yige2002/E59Br3dh/PK6pd.jpg'
-            ,product_id:600
-            ,name:'做紧致女人'
+            picture:'http://pic.yupoo.com/yige2002/EbdBXacQ/fdu78.jpg'
+            ,product_id:224
+            ,name:'一抹娇羞'
         }
         responsevalue.info.data.recommend.product_list.push(item);
         var item1 = {
-            picture:'http://pic.yupoo.com/yige2002/E59BqQiu/13wXc.jpg'
-            ,product_id:455
-            ,name:'海关小靓妹'
+            picture:'http://pic.yupoo.com/yige2002/EbdBWt5w/wTPZ4.jpg'
+            ,product_id:362
+            ,name:'浓情蜜液'
         }
         responsevalue.info.data.recommend.product_list.push(item1);
         var item2 = {
-            picture:'http://pic.yupoo.com/yige2002/E59Br5xF/jAdvH.jpg'
-            ,product_id:223
-            ,name:'刺绣旗袍技师服'
+            picture:'http://pic.yupoo.com/yige2002/EbdBW6Yd/bhbGI.jpg'
+            ,product_id:455
+            ,name:'等君还家来'
         }
         responsevalue.info.data.recommend.product_list.push(item2);
     }

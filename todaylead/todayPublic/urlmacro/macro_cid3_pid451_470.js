@@ -166,7 +166,7 @@ exports.productarr=
         {
             pid:455
             ,cid:3
-            ,title:'一体式充气娃娃你心中最美的女神 国庆特惠'
+            ,title:'一体式充气娃娃你心中最美的女神 国庆特惠 头牌推荐 光棍节'
             ,volume:40
             ,recentvolume:12
             ,org_price:580.00
@@ -202,7 +202,7 @@ exports.productarr=
         {
             pid:456
             ,cid:3
-            ,title:'高级半实体充气娃娃女神就在你怀中'
+            ,title:'高级半实体充气娃娃女神就在你怀中 光棍节'
             ,volume:16
             ,recentvolume:14
             ,org_price:380.00
@@ -281,7 +281,7 @@ exports.productarr=
         {
             pid:457
             ,cid:3
-            ,title:'日本NPG名器证明001小泽玛利亚真人阴臀倒模男用自慰器'
+            ,title:'日本NPG名器证明001小泽玛利亚真人阴臀倒模男用自慰器 光棍节'
             ,volume:16
             ,recentvolume:14
             ,org_price:300.00
@@ -318,7 +318,7 @@ exports.productarr=
         {
             pid:458
             ,cid:3
-            ,title:'中国第一裸 张筱雨名器 国庆特惠'
+            ,title:'中国第一裸 张筱雨名器 光棍节'
             ,volume:16
             ,recentvolume:14
             ,org_price:300.00
@@ -355,7 +355,7 @@ exports.productarr=
         {
             pid:459
             ,cid:3
-            ,title:'日本NPG名器证明006颜如忆 阴部倒模'
+            ,title:'日本NPG名器证明006颜如忆 阴部倒模 光棍节'
             ,volume:16
             ,recentvolume:14
             ,org_price:300.00
@@ -402,7 +402,7 @@ exports.productarr=
         {
             pid:461
             ,cid:3
-            ,title:'优客仕浪语吟声电动男士熟女男自慰逼真电动阴道飞机杯'
+            ,title:'优客仕浪语吟声电动男士熟女男自慰逼真电动阴道飞机杯 光棍节'
             ,volume:16
             ,recentvolume:14
             ,org_price:299.00
@@ -450,7 +450,7 @@ exports.productarr=
         {
             pid:462
             ,cid:3
-            ,title:'吸附式飞机杯 边看边玩3D国模通道飞机杯'
+            ,title:'吸附式飞机杯 边看边玩3D国模通道飞机杯 光棍节'
             ,volume:16
             ,recentvolume:14
             ,org_price:599.00
@@ -477,6 +477,44 @@ exports.productarr=
                 ,'http://pic.yupoo.com/yige2002/E8EuQq9x/DuZiM.jpg'
                 ,'http://pic.yupoo.com/yige2002/E8EuRopT/VOHiH.jpg'
                 ,'http://pic.yupoo.com/yige2002/E8EuONmA/LOX3W.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
+                ,null
+            ]
+        },
+
+        {
+            pid:463
+            ,cid:3
+            ,title:'充气娃娃非实体娃娃男性自慰器 东方脸谱充气玩偶特价 光棍节'
+            ,volume:16
+            ,recentvolume:14
+            ,org_price:180.00
+            ,price:70.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EbeOI64h/kcg3w.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EbePIoIe/ICADW.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePIdhl/NaSOG.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EbePIOq5/5nEd7.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePIXzA/8oCPp.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePJf3M/vEUQI.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePJgxB/uumLF.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePKeUi/14kGDT.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePJAem/pjJbH.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbePJpXJ/UFbRj.jpg'
                 ,null
             ]
             ,experience:

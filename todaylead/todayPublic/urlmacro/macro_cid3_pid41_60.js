@@ -126,7 +126,7 @@ exports.productarr=
         {
             pid:44
             ,cid:3
-            ,title:'丰乳妹大波妹男用小实体娃娃'
+            ,title:'丰乳妹大波妹男用小实体娃娃 光棍节'
             ,volume:21
             ,recentvolume:3
             ,org_price:55

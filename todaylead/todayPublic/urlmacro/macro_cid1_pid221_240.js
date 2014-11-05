@@ -115,5 +115,45 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:224
+            ,cid:1
+            ,title:'媚火正品 媚火夜店服 性感情趣内衣双层吊带蕾丝半透明睡衣 头牌推荐'
+            ,volume:64
+            ,recentvolume:31
+            ,org_price:218.00
+            ,price:80.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EbeQSIw9/xoCIP.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EbePSE59/9fHyo.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQSVVc/5EMbk.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EbePPWRk/KUsNw.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQQ1nh/uMotE.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQR5Dq/bqzLD.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQRHdv/YipRd.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQRVSF/An6zB.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQRKJU/MoEOo.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQRY7O/fePTc.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQSrPV/6NTPL.jpg'
+                ,'http://pic.yupoo.com/yige2002/EbeQTqJi/8Vmes.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg1SMJ/Sie0J.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfIMaD/ZW8MX.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg2scC/UZE1w.png'
+                ,null
+            ]
+        },
+
         null
     ]
