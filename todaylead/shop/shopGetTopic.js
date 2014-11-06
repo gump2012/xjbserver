@@ -123,19 +123,19 @@ function getRecommend(request,response,responsevalue){
         var ivc = new Number(vc);
         if(ivc > 3){
             var item = {
-                picture:'http://pic.yupoo.com/yige2002/EbdBXacQ/fdu78.jpg'
+                picture:'http://pic.yupoo.com/yige2002/Eby7linn/6lqgM.jpg'
                 ,product_id:224
                 ,name:'一抹娇羞'
             }
             responsevalue.info.data.recommend.product_list.push(item);
             var item1 = {
-                picture:'http://pic.yupoo.com/yige2002/EbdBWt5w/wTPZ4.jpg'
+                picture:'http://pic.yupoo.com/yige2002/Eby7l6BZ/LeMjH.jpg'
                 ,product_id:362
                 ,name:'浓情蜜液'
             }
             responsevalue.info.data.recommend.product_list.push(item1);
             var item2 = {
-                picture:'http://pic.yupoo.com/yige2002/EbdBW6Yd/bhbGI.jpg'
+                picture:'http://pic.yupoo.com/yige2002/Eby7kYh0/1pKF9.jpg'
                 ,product_id:455
                 ,name:'等君还家来'
             }
@@ -143,19 +143,19 @@ function getRecommend(request,response,responsevalue){
         }
         else{
             var item = {
-                picture:'http://pic.yupoo.com/yige2002/EbeRRfyG/4kIOF.jpg'
+                picture:'http://pic.yupoo.com/yige2002/Eby6MvXz/uMrsH.jpg'
                 ,product_id:224
                 ,name:'一抹娇羞'
             }
             responsevalue.info.data.recommend.product_list.push(item);
             var item1 = {
-                picture:'http://pic.yupoo.com/yige2002/EbeRQRkU/5WsQA.jpg'
+                picture:'http://pic.yupoo.com/yige2002/Eby6LF4o/HcSTI.jpg'
                 ,product_id:362
                 ,name:'浓情蜜液'
             }
             responsevalue.info.data.recommend.product_list.push(item1);
             var item2 = {
-                picture:'http://pic.yupoo.com/yige2002/EbeQQSAM/mgjhB.jpg'
+                picture:'http://pic.yupoo.com/yige2002/Eby6LlNH/TujFH.jpg'
                 ,product_id:455
                 ,name:'等君还家来'
             }
@@ -164,19 +164,19 @@ function getRecommend(request,response,responsevalue){
     }
     else{
         var item = {
-            picture:'http://pic.yupoo.com/yige2002/EbdBXacQ/fdu78.jpg'
+            picture:'http://pic.yupoo.com/yige2002/Eby7linn/6lqgM.jpg'
             ,product_id:224
             ,name:'一抹娇羞'
         }
         responsevalue.info.data.recommend.product_list.push(item);
         var item1 = {
-            picture:'http://pic.yupoo.com/yige2002/EbdBWt5w/wTPZ4.jpg'
+            picture:'http://pic.yupoo.com/yige2002/Eby7l6BZ/LeMjH.jpg'
             ,product_id:362
             ,name:'浓情蜜液'
         }
         responsevalue.info.data.recommend.product_list.push(item1);
         var item2 = {
-            picture:'http://pic.yupoo.com/yige2002/EbdBW6Yd/bhbGI.jpg'
+            picture:'http://pic.yupoo.com/yige2002/Eby7kYh0/1pKF9.jpg'
             ,product_id:455
             ,name:'等君还家来'
         }

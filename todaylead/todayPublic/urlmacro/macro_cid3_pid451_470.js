@@ -244,7 +244,7 @@ exports.productarr=
             ,price:40.00
             ,state:1
             ,stamper:''
-            ,pic_url:'http://pic.yupoo.com/yige2002/DVI8QNPx/kpHlb.jpg'
+            ,pic_url:'http://pic.yupoo.com/yige2002/EbytSH8k/HIaOZ.jpg'
             ,time:0
             ,gallery:
             [
