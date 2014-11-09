@@ -202,7 +202,7 @@ exports.productarr=
         {
             pid:456
             ,cid:3
-            ,title:'高级半实体充气娃娃女神就在你怀中 光棍节'
+            ,title:'高级半实体充气娃娃女神就在你怀中 光棍节 全年最低'
             ,volume:16
             ,recentvolume:14
             ,org_price:380.00
@@ -402,7 +402,7 @@ exports.productarr=
         {
             pid:461
             ,cid:3
-            ,title:'优客仕浪语吟声电动男士熟女男自慰逼真电动阴道飞机杯 光棍节'
+            ,title:'优客仕浪语吟声电动男士熟女男自慰逼真电动阴道飞机杯 光棍节 全年最低'
             ,volume:16
             ,recentvolume:14
             ,org_price:299.00
@@ -450,7 +450,7 @@ exports.productarr=
         {
             pid:462
             ,cid:3
-            ,title:'吸附式飞机杯 边看边玩3D国模通道飞机杯 光棍节'
+            ,title:'吸附式飞机杯 边看边玩3D国模通道飞机杯 光棍节 全年最低'
             ,volume:16
             ,recentvolume:14
             ,org_price:599.00

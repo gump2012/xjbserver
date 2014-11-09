@@ -40,7 +40,7 @@ exports.productarr=
         {
             pid:752
             ,cid:5
-            ,title:'003超薄白金3片+黄金6片98  白金3片 38  黄金6片 65'
+            ,title:'003超薄白金3片+黄金6片98  白金3片 38  黄金6片 65 全年最低'
             ,volume:51
             ,recentvolume:21
             ,org_price:157
@@ -309,7 +309,7 @@ exports.productarr=
         {
             pid:759
             ,cid:5
-            ,title:'斯香妮狼牙套变形金刚虎牙套 头牌推荐'
+            ,title:'斯香妮狼牙套变形金刚虎牙套 头牌推荐 全年最低'
             ,volume:58
             ,recentvolume:21
             ,org_price:56.00

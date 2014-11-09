@@ -682,7 +682,7 @@ exports.productarr=
         {
             pid:617
             ,cid:4
-            ,title:'百乐正品原野派极乐棒 30频震动 防水 高品质静音马达'
+            ,title:'百乐正品原野派极乐棒 30频震动 防水 高品质静音马达 全年最低'
             ,volume:48
             ,recentvolume:16
             ,org_price:260.00

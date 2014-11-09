@@ -104,7 +104,7 @@ exports.productarr=
         {
             pid:84
             ,cid:5
-            ,title:'倍力乐三倍持久超薄避孕套 果冻杯式外装9只 新潮套套'
+            ,title:'倍力乐三倍持久超薄避孕套 果冻杯式外装9只 新潮套套 全年最低'
             ,volume:85
             ,recentvolume:31
             ,org_price:55
@@ -271,7 +271,7 @@ exports.productarr=
         {
             pid:89
             ,cid:5
-            ,title:'倍力乐超值豪华套餐 4款4盒40只爆销套装'
+            ,title:'倍力乐超值豪华套餐 4款4盒40只爆销套装 全年最低'
             ,volume:57
             ,recentvolume:31
             ,org_price:96

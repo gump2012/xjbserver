@@ -23,6 +23,23 @@ function createdb(mongoose){
     });
 
     var newAd = new todayAd({
+        adid:16
+        ,img_url:macroproduct.AD_3
+        ,type:1
+        ,linkto:''
+        ,param:{
+            app_ad_in_subtype:1
+            ,keyword:'全年最低'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newAd = new todayAd({
         adid:15
         ,img_url:macroproduct.AD_6
         ,type:1
@@ -38,6 +55,7 @@ function createdb(mongoose){
             console.log(err);
         }
     });
+
 
     var newAd = new todayAd({
         adid:14

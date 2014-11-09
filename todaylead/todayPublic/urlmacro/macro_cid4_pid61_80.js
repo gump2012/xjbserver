@@ -6,7 +6,7 @@ exports.productarr=
         {
             pid:61
             ,cid:4
-            ,title:'38频无线跳蛋 居家女人的性福选择'
+            ,title:'38频无线跳蛋 居家女人的性福选择 全年最低'
             ,volume:74
             ,recentvolume:16
             ,org_price:68
@@ -436,7 +436,7 @@ exports.productarr=
         {
             pid:72
             ,cid:4
-            ,title:'百乐正品电动丰乳器 做坚挺女人，势在必行 双11特惠'
+            ,title:'百乐正品电动丰乳器 做坚挺女人，势在必行 双11特惠 全年最低'
             ,volume:88
             ,recentvolume:26
             ,org_price:180
@@ -761,7 +761,7 @@ exports.productarr=
         {
             pid:80
             ,cid:4
-            ,title:'雷霆真品 转珠棒 雷霆之势 高潮已至'
+            ,title:'雷霆真品 转珠棒 雷霆之势 高潮已至 全年最低'
             ,volume:54
             ,recentvolume:12
             ,org_price:320

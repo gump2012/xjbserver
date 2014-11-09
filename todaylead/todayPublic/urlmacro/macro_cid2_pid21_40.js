@@ -294,7 +294,7 @@ exports.productarr=
         {
             pid:29
             ,cid:2
-            ,title:'杜蕾斯按摩油 润滑油 让爱更浓烈 头牌推荐'
+            ,title:'杜蕾斯按摩油 润滑油 让爱更浓烈 头牌推荐 全年最低'
             ,volume:45
             ,recentvolume:32
             ,org_price:108
@@ -329,7 +329,7 @@ exports.productarr=
         {
             pid:30
             ,cid:2
-            ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价 双11特惠 国庆特惠'
+            ,title:'正品罪爱费洛蒙香水佛罗蒙调助情兴奋男用女用迷人强效催性欲特价 双11特惠 全年最低'
             ,volume:54
             ,recentvolume:24
             ,org_price:68
@@ -406,7 +406,7 @@ exports.productarr=
         {
             pid:32
             ,cid:2
-            ,title:'爱妃液人体爱液润滑油 按摩推油 可用肛交 国庆特惠'
+            ,title:'爱妃液人体爱液润滑油 按摩推油 可用肛交 全年最低'
             ,volume:30
             ,recentvolume:18
             ,org_price:32

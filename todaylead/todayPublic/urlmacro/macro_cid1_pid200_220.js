@@ -118,7 +118,7 @@ exports.productarr=
         {
             pid:203
             ,cid:1
-            ,title:'媚火情趣内衣女诱惑夜店套装 性感睡衣短裙紧身钢管舞制服 魅力惠'
+            ,title:'媚火情趣内衣女诱惑夜店套装 性感睡衣短裙紧身钢管舞制服 魅力惠 全年最低'
             ,volume:37
             ,recentvolume:12
             ,org_price:100
@@ -530,7 +530,7 @@ exports.productarr=
         {
             pid:215
             ,cid:1
-            ,title:'开裆免脱吊带连体网衣情趣网衣制服诱惑 国庆特惠'
+            ,title:'开裆免脱吊带连体网衣情趣网衣制服诱惑 全年最低'
             ,volume:50
             ,recentvolume:23
             ,org_price:39.00
@@ -678,7 +678,7 @@ exports.productarr=
         {
             pid:219
             ,cid:1
-            ,title:'性感透明蕾丝 女士露乳开档 三点式女式情趣内衣'
+            ,title:'性感透明蕾丝 女士露乳开档 三点式女式情趣内衣 全年最低'
             ,volume:50
             ,recentvolume:23
             ,org_price:39.00

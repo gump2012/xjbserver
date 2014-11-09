@@ -263,7 +263,7 @@ exports.productarr=
         {
             pid:359
             ,cid:2
-            ,title:'原装法国进口 男用 的确劲增大增粗增长软膏 双11特惠'
+            ,title:'原装法国进口 男用 的确劲增大增粗增长软膏 双11特惠 全年最低'
             ,volume:72
             ,recentvolume:27
             ,org_price:118

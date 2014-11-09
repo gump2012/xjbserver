@@ -126,7 +126,7 @@ exports.productarr=
         {
             pid:44
             ,cid:3
-            ,title:'丰乳妹大波妹男用小实体娃娃 光棍节'
+            ,title:'丰乳妹大波妹男用小实体娃娃 光棍节 全年最低'
             ,volume:21
             ,recentvolume:3
             ,org_price:55
@@ -563,7 +563,7 @@ exports.productarr=
         {
             pid:55
             ,cid:3
-            ,title:'真的好厉害 男性增大脉冲理疗环电机理疗器 国庆特惠'
+            ,title:'真的好厉害 男性增大脉冲理疗环电机理疗器 全年最低'
             ,volume:39
             ,recentvolume:26
             ,org_price:98
