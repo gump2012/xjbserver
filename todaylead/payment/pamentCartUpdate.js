@@ -18,10 +18,10 @@ exports.update = function(response,request){
 
         if(strjson&&type&&device_id){
             if(type == "del"){
-                deletecart();
+                deletecart(device_id,strjson,response);
             }
             else if(type == "merge"){
-                mergecart();
+                mergecart(device_id,strjson,response);
             }
             else if(type == "add"){
                 addcart(device_id,strjson,response);
@@ -34,6 +34,30 @@ function addcart(device_id,strjson,response){
     var datajson = JSON.parse(strjson);
 
     addOneCart(device_id,datajson,response,0);
+
+
+}
+
+function deletecart(device_id,strjson,response){
+    var datajson = JSON.parse(strjson);
+
+    var responsevalue = {
+        "info":{"extra":null,"data":null},"response_status":"true","msg":null
+    }
+    console.log(responsevalue);
+    publictool.returnValue(response,responsevalue);
+
+
+}
+
+function mergecart(device_id,strjson,response){
+    var datajson = JSON.parse(strjson);
+
+    var responsevalue = {
+        "info":{"extra":null,"data":null},"response_status":"true","msg":null
+    }
+    console.log(responsevalue);
+    publictool.returnValue(response,responsevalue);
 
 
 }
