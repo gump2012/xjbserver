@@ -34,32 +34,16 @@ function addcart(device_id,strjson,response){
     var datajson = JSON.parse(strjson);
 
     addOneCart(device_id,datajson,response,0);
-
-
 }
 
 function deletecart(device_id,strjson,response){
     var datajson = JSON.parse(strjson);
-
-    var responsevalue = {
-        "info":{"extra":null,"data":null},"response_status":"true","msg":null
-    }
-    console.log(responsevalue);
-    publictool.returnValue(response,responsevalue);
-
-
+    deleteOneCart(datajson,0,device_id,response);
 }
 
 function mergecart(device_id,strjson,response){
     var datajson = JSON.parse(strjson);
-
-    var responsevalue = {
-        "info":{"extra":null,"data":null},"response_status":"true","msg":null
-    }
-    console.log(responsevalue);
-    publictool.returnValue(response,responsevalue);
-
-
+    mergeOneCart(datajson,0,device_id,response);
 }
 
 function addOneCart(device_id,datajson,response,index){
@@ -72,9 +56,9 @@ function addOneCart(device_id,datajson,response,index){
         var cartmodel = mongoose.model('cartList');
         cartmodel.find({token:device_id,product_id:pid},function(err,docs){
             if(docs.length > 0){
+                var bfind = false;
                 for(var i = 0; i < docs.length;++i){
                     var onecart = docs[i];
-                    var bfind = false;
                     for(var j = 0; j < onecart.attr_list.length;++j){
                         for(var k = 0; k < cart.attr_list.length;++k){
                             if(onecart.attr_list[j].goods_attr_id == cart.attr_list[k].goods_attr_id){
@@ -88,11 +72,11 @@ function addOneCart(device_id,datajson,response,index){
                             }
                         }
                     }
-                    if(!bfind){
-                        saveNewCart(pid,device_id,datajson,response,index,response,quantity,cart);
-                    }else{
-                        addOneCart(device_id,datajson,response,index + 1);
-                    }
+                }
+                if(!bfind){
+                    saveNewCart(pid,device_id,datajson,response,index,response,quantity,cart);
+                }else{
+                    addOneCart(device_id,datajson,response,index + 1);
                 }
             }
             else{
@@ -188,4 +172,64 @@ function findAttrList(device_id,datajson,response,index,attrlist,newcart,attrind
         addOneCart(device_id,datajson,response,index + 1);
     }
 
+}
+
+function deleteOneCart(datajson,iindex,device_id,response){
+    if(iindex >= datajson.length){
+        var responsevalue = {
+            "info":{"extra":null,"data":null},"response_status":"true","msg":null
+        }
+        console.log(responsevalue);
+        publictool.returnValue(response,responsevalue);
+    }else{
+        var cartmodel = mongoose.model('cartList');
+        var cart = datajson[iindex];
+        cartmodel.find({token:device_id,product_id:cart.product_id},function(err,docs){
+                for(var i = 0; i < docs.length;++i){
+                    var onecart = docs[i];
+                    for(var j = 0; j < onecart.attr_list.length;++j){
+                        for(var k = 0; k < cart.attr_list.length;++k){
+                            if(onecart.attr_list[j].goods_attr_id == cart.attr_list[k].goods_attr_id){
+                                cartmodel.remove({_id:docs[i]._id},function(err){
+                                    if(err){
+                                        console.log("remove err  " + err);
+                                    }
+                                });
+                            }
+                        }
+                    }
+                }
+                deleteOneCart(datajson,iindex+1,device_id,response);
+        });
+    }
+}
+
+function mergeOneCart(datajson,iindex,device_id,response){
+    if(iindex >= datajson.length){
+        var responsevalue = {
+            "info":{"extra":null,"data":null},"response_status":"true","msg":null
+        }
+        console.log(responsevalue);
+        publictool.returnValue(response,responsevalue);
+    }else{
+        var cartmodel = mongoose.model('cartList');
+        var cart = datajson[iindex];
+        cartmodel.find({token:device_id,product_id:cart.product_id},function(err,docs){
+            for(var i = 0; i < docs.length;++i){
+                var onecart = docs[i];
+                for(var j = 0; j < onecart.attr_list.length;++j){
+                    for(var k = 0; k < cart.attr_list.length;++k){
+                        if(onecart.attr_list[j].goods_attr_id == cart.attr_list[k].goods_attr_id){
+                            cartmodel.update({_id:docs[i]._id},{$set:{quantity:cart.quantity}},function(err,num){
+                                if(err){
+                                    console.log("update err  " + err);
+                                }
+                            });
+                        }
+                    }
+                }
+            }
+            mergeOneCart(datajson,iindex+1,device_id,response);
+        });
+    }
 }
