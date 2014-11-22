@@ -28,7 +28,7 @@ function createdb(mongoose){
         ,type:3
         ,linkto:'http://latest.toupai360.com:10080/html/chaochui.html'
         ,param:{
-            name:'潮吹活动'
+            name:'做个潮吹女'
         }
     });
     newAd.save( function( err, silence ) {
