@@ -22,6 +22,22 @@ function createdb(mongoose){
     todayAd.remove({}, function(err) {
     });
 
+    newAd = new todayAd({
+        adid:17
+        ,img_url:macroproduct.AD_2
+        ,type:3
+        ,linkto:'http://latest.toupai360.com:10080/html/chaochui.html'
+        ,param:{
+            name:'潮吹活动'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
     var newAd = new todayAd({
         adid:16
         ,img_url:macroproduct.AD_3
