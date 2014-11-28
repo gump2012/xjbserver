@@ -188,4 +188,368 @@ function getRecommend(request,response,responsevalue){
     publictool.returnValue(response,responsevalue);
 }
 
+
+
+
+
+
+function getTopic_2(response,request){
+
+    var responsevalue = {
+        info:{
+            extra:{},
+            data:{
+                topic_list:[]
+                ,recommend:{
+                    name:''
+                    ,keyword:''
+                    ,product_list:[]
+                }
+            }
+        },
+        response_status:'true',
+        msg:''
+    }
+	
+	
+	{
+		var item = {
+		    type: 5
+		    ,name: "放纵放心"
+		    ,data_list: []
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			var dataProduct = {
+				type: 1
+				,id: 224
+				,picture: "http://pic.yupoo.com/yige2002/EeuDvlYy/uXmaW.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		{
+			var dataProduct = {
+				type: 1
+				,id: 362
+				,name: "浓情蜜液"
+				,picture: "http://pic.yupoo.com/yige2002/EeuDwD1p/14RgsO.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 84
+				,name: "三倍持久"
+				,picture: "http://pic.yupoo.com/yige2002/EeuDykQm/S7LhW.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 79
+				,name: "玉兔旋风"
+				,picture: "http://pic.yupoo.com/yige2002/EeuDxZIn/10RjoU.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 66
+				,name: "震动C字裤"
+				,picture: "http://pic.yupoo.com/yige2002/EeuDycYX/aopdA.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	{
+		var item = {
+		    type: 3
+		    ,name: "樱桃果味"
+		    ,data_list: []
+			,rate: 500.0 / 145.0
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			var dataProduct = {
+				type: 3
+				,keyword: "套"
+				,picture: "http://pic.yupoo.com/yige2002/EeuM3Xwe/medium.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	{
+		var item = {
+		    type: 5
+		    ,name: "TOP热卖"
+		    ,data_list: []
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			// wait
+			var dataProduct = {
+				type: 2
+				,id: 224
+				,picture: "http://pic.yupoo.com/yige2002/EeqRoTPK/ClEgg.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		{
+			var dataProduct = {
+				type: 1
+				,id: 307
+				,name: "7分钟罪爱"
+				,picture: "http://pic.yupoo.com/yige2002/EeqTa1di/SvCHK.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 100
+				,name: "第六感组合"
+				,picture: "http://pic.yupoo.com/yige2002/EeqT2rKM/xZsSx.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 456
+				,name: "我在这里等你"
+				,picture: "http://pic.yupoo.com/yige2002/EeqTYNZ1/PhW3c.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 212
+				,name: "和服风情"
+				,picture: "http://pic.yupoo.com/yige2002/Eeuyrbxl/KkQAD.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	{
+		var item = {
+		    type: 3
+		    ,name: "鏖战通宵"
+		    ,data_list: []
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			var dataProduct = {
+				type: 1
+				,id: 225
+				,picture: "http://pic.yupoo.com/yige2002/Eeqflttv/Kcn91.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	{
+		var item = {
+		    type: 5
+		    ,name: "性福之家"
+		    ,data_list: []
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			// wait
+			var dataProduct = {
+				type: 2
+				,id: 224
+				,picture: "http://pic.yupoo.com/yige2002/EeqRoTPK/ClEgg.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		{
+			var dataProduct = {
+				type: 1
+				,id: 758
+				,name: "极爽女用套"
+				,picture: "http://pic.yupoo.com/yige2002/Eeqw3A2E/KviFF.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 354
+				,name: "快感增强香水"
+				,picture: "http://pic.yupoo.com/yige2002/EeqwsZm8/b2axQ.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 22
+				,name: "日本销量第一"
+				,picture: "http://pic.yupoo.com/yige2002/Eeqy5EIG/rscgG.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			var dataProduct = {
+				type: 1
+				,id: 609
+				,name: "女神专用AV棒"
+				,picture: "http://pic.yupoo.com/yige2002/EeqxFJQk/ta5jc.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	{
+		var item = {
+		    type: 3
+		    ,name: "旋转魔舌"
+		    ,data_list: []
+			,rate: 500.0 / 145.0
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			var dataProduct = {
+				type: 1
+				,id: 111
+				,picture: "http://pic.yupoo.com/yige2002/EeuGfHAc/Mi5Zj.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	{
+		var item = {
+		    type: 5
+		    ,name: "特惠来袭"
+		    ,data_list: []
+		}
+		
+		item.more_info = {
+			type: 3
+			,keyword: "套"
+		};
+		
+		{
+			// wait
+			var dataProduct = {
+				type: 2
+				,id: 224
+				,picture: "http://pic.yupoo.com/yige2002/EeqRoTPK/ClEgg.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		{
+			//wait
+			var dataProduct = {
+				type: 1
+				,id: 758
+				,name: "超低价疯抢区"
+				,picture: "http://pic.yupoo.com/yige2002/EeuEVWTT/3s3Ss.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			//wait
+			var dataProduct = {
+				type: 1
+				,id: 354
+				,name: "精选不到12元"
+				,picture: "http://pic.yupoo.com/yige2002/EeuF4RHg/fJUPP.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			//wait
+			var dataProduct = {
+				type: 1
+				,id: 22
+				,name: "延时润滑5折起"
+				,picture: "http://pic.yupoo.com/yige2002/EeuF6i9r/tNz9L.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		{
+			//wait
+			var dataProduct = {
+				type: 1
+				,id: 609
+				,name: "内衣12元起"
+				,picture: "http://pic.yupoo.com/yige2002/EeuF62iH/mRDD6.jpg"
+			}
+			item.data_list.push(dataProduct);
+		}
+		
+		responsevalue.info.data.topic_list.push(item);
+	}
+	
+	
+	
+	
+	
+    publictool.returnValue(response,responsevalue);
+}
+
+
+
+
+
+
+
+
 exports.getTopic = getTopic;
+exports.getTopic_2 = getTopic_2;

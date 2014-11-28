@@ -19,6 +19,7 @@ var adHandle = {}
 adHandle["getAdvertList"] = shopGetAdList.getAdList;
 adHandle["getSearchProductList"] = shopKeywordSearch.getProducts;
 adHandle["getTopicList"] = shopGetTopic.getTopic;
+adHandle["getTopicList_2"] = shopGetTopic.getTopic_2;
 adHandle["getTopicProductList"] = shopGetTopPro.getTopicPro;
 adHandle["getPromotionList"] = shopGetPromotionList.getPromotionList;
 adHandle["getProductDetail"] = shopGetProductDetail.getDetail;
