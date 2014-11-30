@@ -8,6 +8,7 @@ var categoryGetPList = require("./categoryGetPList");
 
 var categoryHandle = {}
 categoryHandle["getCategoryList"] = categoryGetClist.getCategoryList;
+categoryHandle["getCategoryList_2"] = categoryGetClist.getCategoryList_2;
 categoryHandle["getCategoryProductList"] = categoryGetPList.getCategoryProducts;
 
 function category(response,request){
