@@ -713,5 +713,46 @@ exports.productarr=
             ]
         },
 
+
+        {
+            pid:618
+            ,cid:4
+            ,title:'天降神器50频奶瓶av棒 女性用高潮自慰器震动棒'
+            ,volume:48
+            ,recentvolume:16
+            ,org_price:299.00
+            ,price:89.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfDPY3zF/15tETS.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfDPYBjh/6cCll.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPKUBl/uZfUr.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPYIhg/szIoG.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfDPZs88/8ykGq.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPZK98/kWsiF.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPYMIX/gXNrS.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPLyj5/by6wP.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPZmNu/r6NGQ.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDQ04Do/8FQx0.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDPZfhM/M83OI.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDQ0tju/8Zchs.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DVYBUlm8/c4Pvc.png'
+                ,'http://pic.yupoo.com/yige2002/DVYBUJMc/Gk7l7.png'
+                ,'http://pic.yupoo.com/yige2002/DVYBVKON/pdnE0.png'
+                ,null
+            ]
+        },
+
         null
     ]

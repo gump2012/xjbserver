@@ -297,4 +297,116 @@ newCategory.save( function( err, silence ) {
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:225
+        ,attr_id:11
+        ,goods_attr_id:22500001
+        ,attr_name:'品牌'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:225
+        ,attr_id:12
+        ,goods_attr_id:22500002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:225
+        ,attr_id:13
+        ,goods_attr_id:22500003
+        ,attr_name:'产地'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:225
+        ,attr_id:18
+        ,goods_attr_id:22500004
+        ,attr_name:'规格'
+        ,attr_value:'野性潮吹套餐'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    var newCategory = new todayCategory({pid:226
+        ,attr_id:11
+        ,goods_attr_id:22600001
+        ,attr_name:'品牌'
+        ,attr_value:'国产'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:226
+        ,attr_id:12
+        ,goods_attr_id:22600002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:226
+        ,attr_id:13
+        ,goods_attr_id:22600003
+        ,attr_name:'产地'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:226
+        ,attr_id:18
+        ,goods_attr_id:22600004
+        ,attr_name:'规格'
+        ,attr_value:'猫女装'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }

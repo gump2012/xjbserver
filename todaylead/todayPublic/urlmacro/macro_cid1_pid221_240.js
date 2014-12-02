@@ -155,5 +155,86 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:225
+            ,cid:1
+            ,title:'[野性潮吹套餐]野性猫女装+奶瓶AV棒+倍力乐三倍持久+印度神油+雅润润滑剂'
+            ,volume:64
+            ,recentvolume:31
+            ,org_price:599.00
+            ,price:148.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfDRqjSQ/ToAr8.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfDRpJau/1TZGs.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDRc5Gj/qzvm6.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDRpDZr/gjXHO.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDRq0pf/NUIIQ.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDRqWUY/M3jgW.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfDRphVZ/JQGLB.png'
+                ,'http://pic.yupoo.com/yige2002/EfDRptVx/ye0UZ.png'
+                ,'http://pic.yupoo.com/yige2002/EfDRoFom/OnP0I.png'
+                ,'http://pic.yupoo.com/yige2002/EfDRoSC8/BdSLv.png'
+                ,'http://pic.yupoo.com/yige2002/EfDRoW5x/tIXyr.png'
+                ,'http://pic.yupoo.com/yige2002/EfDRpbba/eScZU.png'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg1SMJ/Sie0J.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfIMaD/ZW8MX.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg2scC/UZE1w.png'
+                ,null
+            ]
+        },
+
+        {
+            pid:226
+            ,cid:1
+            ,title:'三点式情趣内衣猫女装制服诱惑'
+            ,volume:64
+            ,recentvolume:31
+            ,org_price:89.00
+            ,price:25.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfDSZ5o0/XG9B8.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfDT03SG/14QwTv.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDSZdkd/OKFwX.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDSZLOh/AqnQh.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDSZwrd/YEhu1.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfDT0I34/Fuqvd.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDT09x5/62OLh.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDSZWGG/dGILc.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDT0kLB/5MVLJ.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDT13QE/GnyDq.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfDT0jo8/na2ra.gif'
+                ,'http://pic.yupoo.com/yige2002/EfDSNbNc/11iCld.gif'
+                ,'http://pic.yupoo.com/yige2002/EfDT14hR/iMn6O.gif'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg1SMJ/Sie0J.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfIMaD/ZW8MX.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg2scC/UZE1w.png'
+                ,null
+            ]
+        },
+
         null
     ]
