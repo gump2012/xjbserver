@@ -279,7 +279,7 @@ function getTopic_2(response,request){
 		{
 			var dataProduct = {
 				type: 1
-				,id: 0
+				,id: 29
 				,picture: "http://pic.yupoo.com/yige2002/EeuM3Xwe/medium.jpg"
 			}
 			item.data_list.push(dataProduct);
@@ -312,7 +312,7 @@ function getTopic_2(response,request){
 		{
 			var dataProduct = {
 				type: 1
-				,id: 307
+				,id: 30
 				,name: "7分钟罪爱"
 				,picture: "http://pic.yupoo.com/yige2002/EeqTa1di/SvCHK.jpg"
 			}
