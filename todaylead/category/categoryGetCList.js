@@ -52,6 +52,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 1,
 	        name: "情趣内衣",
+			picture: "http://pic.yupoo.com/yige2002/EfDJJGlu/gowds.png",
 			data_list: []
 	    }
 		
@@ -130,6 +131,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 2,
 	        name: "套套世界",
+			picture: "http://pic.yupoo.com/yige2002/EfDJYhgD/jFZpX.png",
 			data_list: []
 	    }
 		
@@ -222,6 +224,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 3,
 	        name: "男用玩具",
+			picture: "http://pic.yupoo.com/yige2002/EfDJXh3n/95GWI.png",
 			data_list: []
 	    }
 		
@@ -283,6 +286,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 4,
 	        name: "女用玩具",
+			picture: "http://pic.yupoo.com/yige2002/EfDJJAAl/pu3VR.png",
 			data_list: []
 	    }
 		
@@ -367,6 +371,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 5,
 	        name: "延时助勃",
+			picture: "http://pic.yupoo.com/yige2002/EfDJXqAE/KrKKk.png",
 			data_list: []
 	    }
 		
@@ -417,6 +422,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 6,
 	        name: "润滑清洁",
+			picture: "http://pic.yupoo.com/yige2002/EfDJXu9D/At1kX.png",
 			data_list: []
 	    }
 		
@@ -470,6 +476,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 7,
 	        name: "催情助兴",
+			picture: "http://pic.yupoo.com/yige2002/EfDJK9qp/WjNfX.png",
 			data_list: []
 	    }
 		
@@ -505,6 +512,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 8,
 	        name: "双人游戏",
+			picture: "http://pic.yupoo.com/yige2002/EfDJYbMj/TIOa9.png",
 			data_list: []
 	    }
 		
