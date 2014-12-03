@@ -72,7 +72,7 @@ function getTopic(response,request){
                 }
             }
 
-            responsevalue.info.data.topic_list.push(item);
+            responsevalue.info.data.data_list.push(item);
         }
 
         getRecommend(request,response,responsevalue);
@@ -199,12 +199,7 @@ function getTopic_2(response,request){
         info:{
             extra:{},
             data:{
-                topic_list:[]
-                ,recommend:{
-                    name:''
-                    ,keyword:''
-                    ,product_list:[]
-                }
+                data_list:[]
             }
         },
         response_status:'true',
@@ -220,8 +215,8 @@ function getTopic_2(response,request){
 		}
 		
 		item.more_info = {
-			type: 3
-			,keyword: "套"
+			type: 2
+			,id: 107
 		};
 		
 		{
@@ -270,7 +265,7 @@ function getTopic_2(response,request){
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -281,21 +276,16 @@ function getTopic_2(response,request){
 			,rate: 500.0 / 145.0
 		}
 		
-		item.more_info = {
-			type: 3
-			,keyword: "套"
-		};
-		
 		{
 			var dataProduct = {
-				type: 3
-				,keyword: "套"
+				type: 1
+				,id: 0
 				,picture: "http://pic.yupoo.com/yige2002/EeuM3Xwe/medium.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -306,15 +296,14 @@ function getTopic_2(response,request){
 		}
 		
 		item.more_info = {
-			type: 3
-			,keyword: "套"
+			type: 2
+			,id: 110
 		};
 		
 		{
-			// wait
 			var dataProduct = {
 				type: 2
-				,id: 224
+				,id: 106
 				,picture: "http://pic.yupoo.com/yige2002/EeqRoTPK/ClEgg.jpg"
 			}
 			item.data_list.push(dataProduct);
@@ -357,7 +346,7 @@ function getTopic_2(response,request){
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -367,10 +356,10 @@ function getTopic_2(response,request){
 		    ,data_list: []
 		}
 		
-		item.more_info = {
-			type: 3
-			,keyword: "套"
-		};
+		// item.more_info = {
+		// 	type: 2
+		// 	,id: 108
+		// };
 		
 		{
 			var dataProduct = {
@@ -381,7 +370,7 @@ function getTopic_2(response,request){
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -392,16 +381,15 @@ function getTopic_2(response,request){
 		}
 		
 		item.more_info = {
-			type: 3
-			,keyword: "套"
+			type: 2
+			,id: 109
 		};
 		
 		{
-			// wait
 			var dataProduct = {
 				type: 2
-				,id: 224
-				,picture: "http://pic.yupoo.com/yige2002/EeqRoTPK/ClEgg.jpg"
+				,id: 100
+				,picture: "http://pic.yupoo.com/yige2002/EeqvDxPN/xLzXO.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
@@ -443,7 +431,7 @@ function getTopic_2(response,request){
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -454,11 +442,6 @@ function getTopic_2(response,request){
 			,rate: 500.0 / 145.0
 		}
 		
-		item.more_info = {
-			type: 3
-			,keyword: "套"
-		};
-		
 		{
 			var dataProduct = {
 				type: 1
@@ -468,7 +451,7 @@ function getTopic_2(response,request){
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -479,62 +462,57 @@ function getTopic_2(response,request){
 		}
 		
 		item.more_info = {
-			type: 3
-			,keyword: "套"
+			type: 2
+			,id: 111
 		};
 		
 		{
-			// wait
 			var dataProduct = {
 				type: 2
-				,id: 224
-				,picture: "http://pic.yupoo.com/yige2002/EeqRoTPK/ClEgg.jpg"
+				,id: 101
+				,picture: "http://pic.yupoo.com/yige2002/EeuEUBhs/3PgKp.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
 		
 		{
-			//wait
 			var dataProduct = {
-				type: 1
-				,id: 758
+				type: 2
+				,id: 102
 				,name: "超低价疯抢区"
 				,picture: "http://pic.yupoo.com/yige2002/EeuEVWTT/3s3Ss.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
 		{
-			//wait
 			var dataProduct = {
-				type: 1
-				,id: 354
+				type: 2
+				,id: 103
 				,name: "精选不到12元"
 				,picture: "http://pic.yupoo.com/yige2002/EeuF4RHg/fJUPP.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
 		{
-			//wait
 			var dataProduct = {
-				type: 1
-				,id: 22
+				type: 2
+				,id: 104
 				,name: "延时润滑5折起"
 				,picture: "http://pic.yupoo.com/yige2002/EeuF6i9r/tNz9L.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
 		{
-			//wait
 			var dataProduct = {
-				type: 1
-				,id: 609
+				type: 2
+				,id: 105
 				,name: "内衣12元起"
 				,picture: "http://pic.yupoo.com/yige2002/EeuF62iH/mRDD6.jpg"
 			}
 			item.data_list.push(dataProduct);
 		}
 		
-		responsevalue.info.data.topic_list.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	

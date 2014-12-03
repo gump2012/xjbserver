@@ -40,7 +40,9 @@ function getCategoryList_2(response,request){
     var responsevalue = {
         info:{
             extra:{},
-            data:[]
+            data:{
+            	data_list: []
+            }
         },
         response_status:'true',
         msg:''
@@ -119,7 +121,7 @@ function getCategoryList_2(response,request){
 		}
 		
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	
@@ -212,7 +214,7 @@ function getCategoryList_2(response,request){
 			item.data_list.push(subItem);
 		}
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	
@@ -273,7 +275,7 @@ function getCategoryList_2(response,request){
 		}
 		
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	
@@ -357,7 +359,7 @@ function getCategoryList_2(response,request){
 			item.data_list.push(subItem);
 		}
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	
@@ -401,7 +403,7 @@ function getCategoryList_2(response,request){
 			item.data_list.push(subItem);
 		}
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	
@@ -460,7 +462,7 @@ function getCategoryList_2(response,request){
 		}
 		
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	
@@ -496,7 +498,7 @@ function getCategoryList_2(response,request){
 			item.data_list.push(subItem);
 		}
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 	
 	{
@@ -555,7 +557,7 @@ function getCategoryList_2(response,request){
 			item.data_list.push(subItem);
 		}
 		
-		responsevalue.info.data.push(item);
+		responsevalue.info.data.data_list.push(item);
 	}
 
     publictool.returnValue(response,responsevalue);
