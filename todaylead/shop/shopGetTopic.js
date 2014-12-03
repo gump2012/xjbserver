@@ -72,7 +72,7 @@ function getTopic(response,request){
                 }
             }
 
-            responsevalue.info.data.data_list.push(item);
+            responsevalue.info.data.topic_list.push(item);
         }
 
         getRecommend(request,response,responsevalue);
