@@ -52,7 +52,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 1,
 	        name: "情趣内衣",
-			picture: "http://pic.yupoo.com/yige2002/EfDJJGlu/gowds.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdlQeO/XeCDt.png",
 			data_list: []
 	    }
 		
@@ -131,7 +131,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 2,
 	        name: "套套世界",
-			picture: "http://pic.yupoo.com/yige2002/EfDJYhgD/jFZpX.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdlpT0/tTdjF.png",
 			data_list: []
 	    }
 		
@@ -224,7 +224,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 3,
 	        name: "男用玩具",
-			picture: "http://pic.yupoo.com/yige2002/EfDJXh3n/95GWI.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdkHJm/17LV5.png",
 			data_list: []
 	    }
 		
@@ -286,7 +286,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 4,
 	        name: "女用玩具",
-			picture: "http://pic.yupoo.com/yige2002/EfDJJAAl/pu3VR.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdl2CO/xToe2.png",
 			data_list: []
 	    }
 		
@@ -371,7 +371,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 5,
 	        name: "延时助勃",
-			picture: "http://pic.yupoo.com/yige2002/EfDJXqAE/KrKKk.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdm0Hg/1eeuD.png",
 			data_list: []
 	    }
 		
@@ -422,7 +422,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 6,
 	        name: "润滑清洁",
-			picture: "http://pic.yupoo.com/yige2002/EfDJXu9D/At1kX.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdkSJz/fbijT.png",
 			data_list: []
 	    }
 		
@@ -476,7 +476,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 7,
 	        name: "催情助兴",
-			picture: "http://pic.yupoo.com/yige2002/EfDJK9qp/WjNfX.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDd78zB/JgKyX.png",
 			data_list: []
 	    }
 		
@@ -512,7 +512,7 @@ function getCategoryList_2(response,request){
 	    var item = {
 	        category_id: 8,
 	        name: "双人游戏",
-			picture: "http://pic.yupoo.com/yige2002/EfDJYbMj/TIOa9.png",
+			picture: "http://pic.yupoo.com/yige2002/EfDdlpKk/ZP5Ya.png",
 			data_list: []
 	    }
 		
