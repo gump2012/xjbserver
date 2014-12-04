@@ -10,6 +10,7 @@ var categoryHandle = {}
 categoryHandle["getCategoryList"] = categoryGetClist.getCategoryList;
 categoryHandle["getCategoryList_2"] = categoryGetClist.getCategoryList_2;
 categoryHandle["getCategoryProductList"] = categoryGetPList.getCategoryProducts;
+categoryHandle["getCategoryProductList_2"] = categoryGetPList.getCategoryProducts_2;
 
 function category(response,request){
     var assistant = getAssistantValue.getAssistantValue(request);
