@@ -340,5 +340,48 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:760
+            ,cid:5
+            ,title:'尚牌持久八合一超薄颗粒冰爽果味尖 超薄004单罐装'
+            ,volume:58
+            ,recentvolume:21
+            ,org_price:89.00
+            ,price:39.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfRAyv2X/vXh7d.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfRAySr9/gJTnW.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAyYQz/14Tbmc.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAyWMH/GcWHd.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfRAz0JI/WmO2M.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAzbPr/bvWdU.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAz0Zx/VKSiA.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAzvdx/h4xk5.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAzBYJ/Ui7mh.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAkxwX/15Dp5j.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAAd0C/Dxmc8.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAAj6d/MfwmA.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAA4s0/5KwYp.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAA9BN/X1AB5.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRAAgmy/ZpqjP.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFfn4OH/anaLj.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGCyv/WQZbB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfGVwj/BaWlq.png'
+                ,null
+            ]
+        },
+
         null
     ]

@@ -422,5 +422,37 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:363
+            ,cid:2
+            ,title:'日本进口精液油'
+            ,volume:72
+            ,recentvolume:27
+            ,org_price:156.00
+            ,price:18.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfRDfi0I/rnaR2.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfRDfKl3/Yho7y.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRDgBt0/fQrXX.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfRDgVlT/6JfAC.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg9Kmf/y0mZ8.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfQbR6/tO8HO.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg9SYn/34gE1.png'
+                ,null
+            ]
+        },
+
         null
     ]

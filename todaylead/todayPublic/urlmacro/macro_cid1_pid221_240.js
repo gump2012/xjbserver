@@ -236,5 +236,76 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:227
+            ,cid:1
+            ,title:'蕾丝诱惑丁字裤'
+            ,volume:64
+            ,recentvolume:31
+            ,org_price:35.00
+            ,price:9.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfRz91Cc/zDR6X.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfRz9ovI/Cou5V.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRz9AyW/LJgIH.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfRyUCdk/ZGDpA.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRza44V/JJhJP.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzakwJ/606bg.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzabkZ/yS3uJ.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzaxVs/8RWVG.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg1SMJ/Sie0J.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfIMaD/ZW8MX.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg2scC/UZE1w.png'
+                ,null
+            ]
+        },
+
+        {
+            pid:228
+            ,cid:1
+            ,title:'性感蕾丝透明丁字裤T字裤 情趣开裆诱惑女士内裤'
+            ,volume:64
+            ,recentvolume:31
+            ,org_price:35.00
+            ,price:9.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfRzOt1C/zb2Ps.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfRzOGeX/DOSfL.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzOTfI/eOdmX.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfRzzPho/Tij9G.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzA1TP/iKfER.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzPIJt/jwEaq.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRzPDG1/6Hnym.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFg1SMJ/Sie0J.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfIMaD/ZW8MX.png'
+                ,'http://pic.yupoo.com/yige2002/DTFg2scC/UZE1w.png'
+                ,null
+            ]
+        },
+
         null
     ]

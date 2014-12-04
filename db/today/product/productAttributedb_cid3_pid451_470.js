@@ -885,4 +885,88 @@ exports.createdb = function (mongoose){
             console.log(err);
         }
     });
+
+    var newCategory = new todayCategory({pid:464
+        ,attr_id:11
+        ,goods_attr_id:46400001
+        ,attr_name:'品牌'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:464
+        ,attr_id:12
+        ,goods_attr_id:46400002
+        ,attr_name:'材质'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:464
+        ,attr_id:13
+        ,goods_attr_id:46400003
+        ,attr_name:'产地'
+        ,attr_value:'其他'
+        ,attr_price:0.00
+        ,attr_type:0});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:464
+        ,attr_id:18
+        ,goods_attr_id:46400004
+        ,attr_name:'规格'
+        ,attr_value:'晚安型'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:464
+        ,attr_id:18
+        ,goods_attr_id:46400005
+        ,attr_name:'规格'
+        ,attr_value:'标准型'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
+
+    newCategory = new todayCategory({pid:464
+        ,attr_id:18
+        ,goods_attr_id:46400006
+        ,attr_name:'规格'
+        ,attr_value:'套餐'
+        ,attr_price:0.00
+        ,attr_type:1});
+    newCategory.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 }

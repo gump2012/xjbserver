@@ -526,5 +526,48 @@ exports.productarr=
             ]
         },
 
+        {
+            pid:464
+            ,cid:3
+            ,title:'JOKERC型包皮阻复环矫正器假性包茎包皮过长阻复环切器延时男用'
+            ,volume:16
+            ,recentvolume:14
+            ,org_price:428.00
+            ,price:168.00
+            ,state:1
+            ,stamper:''
+            ,pic_url:'http://pic.yupoo.com/yige2002/EfRBwgZF/WsBhB.jpg'
+            ,time:0
+            ,gallery:
+            [
+                'http://pic.yupoo.com/yige2002/EfRBwcNe/UyWBT.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBwnEP/gk1o3.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBwGzT/ducxb.jpg'
+                ,null
+            ]
+            ,detailpics:
+            [
+                'http://pic.yupoo.com/yige2002/EfRBhxws/pWkwi.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBwXDL/10SVhI.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBwTH3/7ccqN.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBx5Gr/owyMc.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBxzAM/zQ7vZ.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBxdXU/3WsBc.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBxwxC/XjWL3.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBioTB/VPGpB.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBiv7E/112Edj.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBxX4u/BI4xp.jpg'
+                ,'http://pic.yupoo.com/yige2002/EfRBxYg6/1nXqX.jpg'
+                ,null
+            ]
+            ,experience:
+            [
+                'http://pic.yupoo.com/yige2002/DTFfVwjL/RrOEB.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVqvk/C6MY0.png'
+                ,'http://pic.yupoo.com/yige2002/DTFfVCgS/Tts2U.png'
+                ,null
+            ]
+        },
+
         null
     ]
