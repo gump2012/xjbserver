@@ -532,8 +532,8 @@ exports.productarr=
             ,title:'JOKERC型包皮阻复环矫正器假性包茎包皮过长阻复环切器延时男用'
             ,volume:16
             ,recentvolume:14
-            ,org_price:428.00
-            ,price:168.00
+            ,org_price:198.00
+            ,price:32.00
             ,state:1
             ,stamper:''
             ,pic_url:'http://pic.yupoo.com/yige2002/EfRBwgZF/WsBhB.jpg'
