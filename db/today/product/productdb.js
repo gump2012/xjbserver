@@ -2,8 +2,10 @@
  * Created by gump on 3/17/14.
  */
 
-var productdb2 = require('./productdb2');
+var create_db_product_common = require('./create_db_product_common');
+
 var productdb1 = require('./productdb1');
+var productdb2 = require('./productdb2');
 var productdb3 = require('./productdb3');
 var productdb4 = require('./productdb4');
 var productdb5 = require('./productdb5');
@@ -22,6 +24,7 @@ function creatdb(mongoose){
             unique: true
         }
         ,cid                :Number
+		,new_category_id    :Number
         ,title              :String
         ,volume             :Number
         ,recentvolume       :Number
@@ -45,18 +48,43 @@ function creatdb(mongoose){
     todayCategory.remove({}, function(err) {
     });
 
-    productdb1.createdb(mongoose);
-    productdb2.createdb(mongoose);
-    productdb3.createdb(mongoose);
-    productdb4.createdb(mongoose);
-    productdb5.createdb(mongoose);
-    productdb6.createdb(mongoose);
-    productdb7.createdb(mongoose);
-    productdb600_620.createdb(mongoose);
-    productdb200_220.createdb(mongoose);
-    productdb351_370.createdb(mongoose);
-    productdb451_470.createdb(mongoose);
-    productdb221_240.createdb(mongoose);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_pid1_20");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid2_pid21_40");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid3_pid41_60");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid4_pid61_80");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid5_pid81_100");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid6_pid101_120");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid5_pid751_770");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_pid200_220");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid1_pid221_240");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid2_pid351_370");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid3_pid451_470");	
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	var macroproduct = require("../../../todaylead/todayPublic/urlmacro/macro_cid4_pid600_620");
+	create_db_product_common.create_product_db(mongoose, macroproduct);
+	
+    // productdb1.createdb(mongoose);
+    // productdb2.createdb(mongoose);
+    // productdb3.createdb(mongoose);
+    // productdb4.createdb(mongoose);
+    // productdb5.createdb(mongoose);
+    // productdb6.createdb(mongoose);
+    // productdb7.createdb(mongoose);
+    // productdb600_620.createdb(mongoose);
+    // productdb200_220.createdb(mongoose);
+    // productdb351_370.createdb(mongoose);
+    // productdb451_470.createdb(mongoose);
+    // productdb221_240.createdb(mongoose);
 }
 
 exports.createdb = creatdb;
