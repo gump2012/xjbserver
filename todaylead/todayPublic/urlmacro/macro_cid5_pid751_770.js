@@ -6,7 +6,7 @@ exports.productarr=
         {
             pid:751
             ,cid:5
-            ,title:'名流避孕套 活力螺纹+动感颗粒+柔滑丝薄 共30只正品安全套 国庆特惠'
+            ,title:'名流避孕套 活力螺纹+动感颗粒+柔滑丝薄 共30只正品安全套 震撼来临'
             ,volume:30
             ,recentvolume:10
             ,org_price:78
@@ -76,7 +76,7 @@ exports.productarr=
         {
             pid:753
             ,cid:5
-            ,title:'第六感原装进口避孕套72只 安全套 六合一24+螺纹24+超薄平滑24'
+            ,title:'第六感原装进口避孕套72只 安全套 六合一24+螺纹24+超薄平滑24 震撼来临'
             ,volume:58
             ,recentvolume:21
             ,org_price:109
@@ -231,7 +231,7 @@ exports.productarr=
         {
             pid:757
             ,cid:5
-            ,title:'杰士邦超薄家族'
+            ,title:'杰士邦超薄家族 震撼来临'
             ,volume:58
             ,recentvolume:21
             ,org_price:77.00
@@ -270,7 +270,7 @@ exports.productarr=
         {
             pid:758
             ,cid:5
-            ,title:'EVE避轻松液体安全套'
+            ,title:'EVE避轻松液体安全套 震撼来临'
             ,volume:58
             ,recentvolume:21
             ,org_price:35.00
@@ -309,7 +309,7 @@ exports.productarr=
         {
             pid:759
             ,cid:5
-            ,title:'斯香妮狼牙套变形金刚虎牙套 头牌推荐 全年最低'
+            ,title:'斯香妮狼牙套变形金刚虎牙套 头牌推荐 全年最低 震撼来临'
             ,volume:58
             ,recentvolume:21
             ,org_price:56.00

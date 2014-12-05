@@ -38,7 +38,7 @@ exports.productarr=
         {
             pid:82
             ,cid:5
-            ,title:'倍力乐 手指扣扣套 潮吹入门必备'
+            ,title:'倍力乐 手指扣扣套 潮吹入门必备 震撼来临'
             ,volume:77
             ,recentvolume:34
             ,org_price:25
@@ -136,7 +136,7 @@ exports.productarr=
         {
             pid:85
             ,cid:5
-            ,title:'倍力乐口娇多用途套10只装 娇艳美唇 全根含入 你试过吗'
+            ,title:'倍力乐口娇多用途套10只装 娇艳美唇 全根含入 你试过吗 震撼来临'
             ,volume:120
             ,recentvolume:61
             ,org_price:25
@@ -168,7 +168,7 @@ exports.productarr=
         {
             pid:86
             ,cid:5
-            ,title:'倍力乐女用套超值装 内含2只女用套+4只避孕套'
+            ,title:'倍力乐女用套超值装 内含2只女用套+4只避孕套 震撼来临'
             ,volume:84
             ,recentvolume:25
             ,org_price:36
@@ -239,7 +239,7 @@ exports.productarr=
         {
             pid:88
             ,cid:5
-            ,title:'倍力乐极薄10只装 超薄体验 感动非凡'
+            ,title:'倍力乐极薄10只装 超薄体验 感动非凡 震撼来临'
             ,volume:38
             ,recentvolume:6
             ,org_price:36
@@ -306,7 +306,7 @@ exports.productarr=
         {
             pid:90
             ,cid:5
-            ,title:'倍力乐超值豪华套餐 6款6盒60只热销套装 40元'
+            ,title:'倍力乐超值豪华套餐 6款6盒60只热销套装 40元 震撼来临'
             ,volume:94
             ,recentvolume:35
             ,org_price:126
@@ -404,7 +404,7 @@ exports.productarr=
         {
             pid:94
             ,cid:5
-            ,title:'巅峰一号 360长期战系列 你值得拥有'
+            ,title:'巅峰一号 360长期战系列 你值得拥有 震撼来临'
             ,volume:83
             ,recentvolume:24
             ,org_price:38
@@ -436,7 +436,7 @@ exports.productarr=
         {
             pid:95
             ,cid:5
-            ,title:'新潮套套 倍力乐毛毛虫震动刺激套 震动器毛毛虫 国庆特惠'
+            ,title:'新潮套套 倍力乐毛毛虫震动刺激套 震动器毛毛虫 震撼来临'
             ,volume:91
             ,recentvolume:26
             ,org_price:30
@@ -468,7 +468,7 @@ exports.productarr=
         {
             pid:96
             ,cid:5
-            ,title:'杜蕾斯大胆爱10片装 给您无限激情 头牌推荐'
+            ,title:'杜蕾斯大胆爱10片装 给您无限激情 头牌推荐 全年最低'
             ,volume:83
             ,recentvolume:36
             ,org_price:39
@@ -501,7 +501,7 @@ exports.productarr=
         {
             pid:97
             ,cid:5
-            ,title:'杜蕾斯活力装 12只安全套 活力四射'
+            ,title:'杜蕾斯活力装 12只安全套 活力四射 全年最低'
             ,volume:81
             ,recentvolume:25
             ,org_price:65
@@ -533,7 +533,7 @@ exports.productarr=
         {
             pid:100
             ,cid:5
-            ,title:'第六感快乐家族 螺纹 冰火 颗粒 超薄 芦荟 低价疯狂来袭'
+            ,title:'第六感快乐家族 螺纹 冰火 颗粒 超薄 芦荟 低价疯狂来袭 震撼来临'
             ,volume:85
             ,recentvolume:34
             ,org_price:38

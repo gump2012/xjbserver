@@ -22,22 +22,6 @@ function createdb(mongoose){
     todayAd.remove({}, function(err) {
     });
 
-    newAd = new todayAd({
-        adid:17
-        ,img_url:macroproduct.AD_2
-        ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/chaochui.html'
-        ,param:{
-            name:'做个潮吹女'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
     var newAd = new todayAd({
         adid:16
         ,img_url:macroproduct.AD_3
@@ -56,31 +40,13 @@ function createdb(mongoose){
     });
 
     var newAd = new todayAd({
-        adid:15
-        ,img_url:macroproduct.AD_6
+        adid:18
+        ,img_url:macroproduct.AD_1
         ,type:1
         ,linkto:''
         ,param:{
             app_ad_in_subtype:1
-            ,keyword:'光棍节'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-
-    var newAd = new todayAd({
-        adid:14
-        ,img_url:macroproduct.AD_5
-        ,type:1
-        ,linkto:''
-        ,param:{
-            app_ad_in_subtype:1
-            ,keyword:'双11特惠'
+            ,keyword:'震撼来临'
         }
     });
     newAd.save( function( err, silence ) {
@@ -91,12 +57,12 @@ function createdb(mongoose){
     });
 
     newAd = new todayAd({
-        adid:13
-        ,img_url:macroproduct.AD_4
+        adid:17
+        ,img_url:macroproduct.AD_2
         ,type:3
-        ,linkto:'http://www.toupai360.com:10080/html/cupstory.html'
+        ,linkto:'http://latest.toupai360.com:10080/html/chaochui.html'
         ,param:{
-            name:'飞机杯的故事'
+            name:'做个潮吹女'
         }
     });
     newAd.save( function( err, silence ) {

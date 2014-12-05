@@ -6,7 +6,7 @@ exports.productarr=
         {
             pid:600
             ,cid:4
-            ,title:'阴道哑铃 特惠'
+            ,title:'阴道哑铃 特惠 全年最低'
             ,volume:72
             ,recentvolume:29
             ,org_price:299
