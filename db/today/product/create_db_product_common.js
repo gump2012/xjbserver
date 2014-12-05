@@ -29,8 +29,10 @@ exports.create_product_db = function(mongoose, macroproduct){
 		
 		var newCategoryId = findCategoryId(pid);
 		product.new_category_id = newCategoryId;
-		
-		//console.log(newCategoryId + " " + pid);
+		if(newCategoryId == 0)
+		{
+			console.log("category error:" + newCategoryId + " " + pid);
+		}
 		
         var newCategory = new todayCategory(
             macroproduct.productarr[i]
