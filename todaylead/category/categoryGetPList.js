@@ -133,42 +133,29 @@ function getCategoryProducts_2(response,request){
             }
             else{
                 var istartcount = (ipage - 1) * ilimit;
-                if(istartcount >= doc.length){
-                    publictool.returnErr(response,'数据超出');
-                }
-                else{
+                // if(istartcount >= doc.length){
+                //     publictool.returnErr(response,'数据超出');
+                // }
+                // else
+				{
                     var iendcount = ipage * ilimit;
                     if(iendcount > doc.length){
-                        for(var i = istartcount; i < doc.length;++i){
-                            var item = {
-                                category_id         :doc[i].new_category_id,
-                                product_id         :doc[i].pid,
-                                name       :doc[i].title,
-                                picture     :doc[i].pic_url,
-                                origin_price   :doc[i].org_price,
-                                price       :doc[i].price,
-                                volume      :doc[i].volume,
-                                recent_volume:doc[i].recentvolume
-                            }
-
-                            responsevalue.info.data.push(item);
-                        }
+                        iendcount = doc.length
                     }
-                    else{
-                        for(var i = istartcount; i < iendcount;++i){
-                            var item = {
-                                category_id         :doc[i].new_category_id,
-                                product_id         :doc[i].pid,
-                                name       :doc[i].title,
-                                picture     :doc[i].pic_url,
-                                origin_price   :doc[i].org_price,
-                                price       :doc[i].price,
-                                volume      :doc[i].volume,
-                                recent_volume:doc[i].recentvolume
-                            }
-
-                            responsevalue.info.data.push(item);
+					
+                    for(var i = istartcount; i < iendcount;++i){
+                        var item = {
+                            category_id         :doc[i].new_category_id,
+                            product_id         :doc[i].pid,
+                            name       :doc[i].title,
+                            picture     :doc[i].pic_url,
+                            origin_price   :doc[i].org_price,
+                            price       :doc[i].price,
+                            volume      :doc[i].volume,
+                            recent_volume:doc[i].recentvolume
                         }
+
+                        responsevalue.info.data.push(item);
                     }
 
                     publictool.returnValue(response,responsevalue);
