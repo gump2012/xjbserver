@@ -164,7 +164,7 @@ exports.productarr=
         {
             pid:45
             ,cid:3
-            ,title:'久兴幻魅真人倒模手动飞机杯'
+            ,title:'久兴幻魅真人倒模手动飞机杯 全年最低'
             ,volume:45
             ,recentvolume:16
             ,org_price:88
