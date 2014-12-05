@@ -56,7 +56,8 @@ exports.new_category =
 	{
 		id:1006,
 		product_list:
-			[]
+			[{product_id:227},
+			{product_id:228}]
 	},
 	{
 		id:1007,
@@ -137,6 +138,7 @@ exports.new_category =
 			[{product_id:759},
 			{product_id:753},
 			{product_id:90},
+			{product_id:225},
 			{product_id:89}]
 	},
 	{
@@ -144,6 +146,7 @@ exports.new_category =
 		product_list:
 			[{product_id:758},
 			{product_id:752},
+			{product_id:760},
 			{product_id:88}]
 	},
 	{
@@ -211,7 +214,8 @@ exports.new_category =
 	{
 		id:3006,
 		product_list:
-			[{product_id:34}]
+			[{product_id:34},
+			{product_id:464}]
 	},
 
 
@@ -230,6 +234,7 @@ exports.new_category =
 			{product_id:70},
 			{product_id:67},
 			{product_id:64},
+			{product_id:618},
 			{product_id:63}]
 	},
 	{
@@ -367,7 +372,7 @@ exports.new_category =
 	{
 		id:6005,
 		product_list:
-			[]
+			[{product_id:363}]
 	},
 
 

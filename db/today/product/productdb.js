@@ -24,7 +24,7 @@ function creatdb(mongoose){
             unique: true
         }
         ,cid                :Number
-		,new_category_id    :Number
+		,category_id_list   :[Number]
         ,title              :String
         ,volume             :Number
         ,recentvolume       :Number

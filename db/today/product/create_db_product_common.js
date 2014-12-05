@@ -6,6 +6,7 @@ var category = require("./db_new_category.js");
 
 function findCategoryId(productId)
 {
+	var idList = [];
 	for(var j = 0; j < category.new_category.length;++j)
 	{
 		var cateInfo = category.new_category[j];
@@ -14,11 +15,11 @@ function findCategoryId(productId)
 			var productInfo = cateInfo.product_list[k];
 			if(productInfo.product_id == productId)
 			{
-				return cateInfo.id;
+				idList.push(cateInfo.id);
 			}
 		}
 	}
-	return 0;
+	return idList;
 }
 
 exports.create_product_db = function(mongoose, macroproduct){
@@ -27,11 +28,11 @@ exports.create_product_db = function(mongoose, macroproduct){
 		var product = macroproduct.productarr[i];
 		var pid = product.pid;
 		
-		var newCategoryId = findCategoryId(pid);
-		product.new_category_id = newCategoryId;
-		if(newCategoryId == 0)
+		var newCategoryIdList = findCategoryId(pid);
+		product.category_id_list = newCategoryIdList;
+		if(newCategoryIdList.length == 0)
 		{
-			console.log("category error:" + newCategoryId + " " + pid);
+			console.log("category error:" + newCategoryIdList.length + " " + pid);
 		}
 		
         var newCategory = new todayCategory(

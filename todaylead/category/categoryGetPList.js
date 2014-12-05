@@ -115,7 +115,7 @@ function getCategoryProducts_2(response,request){
             }
         }
 
-        categorymodle.find({new_category_id:cid},{},sortitem,function(err,doc){
+        categorymodle.find({category_id_list:{$all:[cid]}},{},sortitem,function(err,doc){
 
             var responsevalue = {
                 info:{
@@ -145,7 +145,7 @@ function getCategoryProducts_2(response,request){
 					
                     for(var i = istartcount; i < iendcount;++i){
                         var item = {
-                            category_id         :doc[i].new_category_id,
+                            category_id         :cid,
                             product_id         :doc[i].pid,
                             name       :doc[i].title,
                             picture     :doc[i].pic_url,
