@@ -127,6 +127,7 @@ exports.new_category =
 			{product_id:94},
 			{product_id:453},
 			{product_id:54},
+			{product_id:36},
 			{product_id:35},
 			{product_id:33},
 			{product_id:31},
