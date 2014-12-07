@@ -38,7 +38,7 @@ function getTopic(response,request){
         topicmodle = mongoose.model('todayshoptopic');
     }
 
-    topicmodle.find({},function(err,doc){
+    topicmodle.find({topicid:{$lt:100}},function(err,doc){
         for(var i in doc){
             var item = {
                 topic_id           :doc[i].topicid
