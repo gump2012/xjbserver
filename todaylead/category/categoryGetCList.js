@@ -395,7 +395,7 @@ function getCategoryList_2(response,request){
 			var subItem = {
 				category_id: 5003,
 				name: "延时湿巾",
-				picture: "http://pic.yupoo.com/yige2002/EfNIryyY/3rgmL.jpg"
+				picture: "http://pic.yupoo.com/yige2002/EiV4edUq/8lxyz.jpg"
 			}
 			item.data_list.push(subItem);
 		}
@@ -520,7 +520,7 @@ function getCategoryList_2(response,request){
 			var subItem = {
 				category_id: 8001,
 				name: "乳头刺激",
-				picture: "http://pic.yupoo.com/yige2002/EfNJQ3uC/13d3wV.jpg"
+				picture: "http://pic.yupoo.com/yige2002/EiV3J3sd/aOMNs.jpg"
 			}
 			item.data_list.push(subItem);
 		}
