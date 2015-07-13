@@ -21,6 +21,22 @@ function createdb(mongoose){
 
     todayAd.remove({}, function(err) {
     });
+    
+    newAd = new todayAd({
+        adid:19
+        ,img_url:macroproduct.AD_2
+        ,type:3
+        ,linkto:'http://test.xiaoxiao361.com:10080/html/chaochui.html'
+        ,param:{
+            name:'1分钟G点高潮攻略'
+        }
+    });
+    newAd.save( function( err, silence ) {
+        if( err )
+        {
+            console.log(err);
+        }
+    });
 
     var newAd = new todayAd({
         adid:16
@@ -47,22 +63,6 @@ function createdb(mongoose){
         ,param:{
             app_ad_in_subtype:1
             ,keyword:'震撼来临'
-        }
-    });
-    newAd.save( function( err, silence ) {
-        if( err )
-        {
-            console.log(err);
-        }
-    });
-
-    newAd = new todayAd({
-        adid:17
-        ,img_url:macroproduct.AD_2
-        ,type:3
-        ,linkto:'http://latest.toupai360.com:10080/html/chaochui.html'
-        ,param:{
-            name:'做个潮吹女'
         }
     });
     newAd.save( function( err, silence ) {
